@@ -81,6 +81,6 @@ p2 = ggplot(countyMN, aes(x= reorder(county, value), value10KPerCapita, color = 
 plot(p2)
 
 #grid.arrange(p1,p2, nrow = 1)
-ggarrange(p1,p2, common.legend = T)
+#ggarrange(p1,p2, common.legend = T)
 ggsave("county.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
 
