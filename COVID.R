@@ -120,7 +120,7 @@ p3 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>%
 
 #grid.arrange(p1, p2,p3, nrow = 3)
 ## Save 3 plots as a png file ##
-ggsave(paste0("MN-COVID-19", Sys.Date(), ".png"), grid.arrange(p1,p2,p3, nrow = 3), height = 12, width = 8)
+ggsave(paste0("MN-COVID-19_", Sys.Date(), ".png"), grid.arrange(p1,p2,p3, nrow = 3), height = 12, width = 8)
 
 #### other exploratory plots ####
 # ggplot(dataWide,aes(x = Date))+
