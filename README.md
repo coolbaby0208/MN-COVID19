@@ -13,3 +13,7 @@ Note:
   - Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
   - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
+
+**Example output**
+
+![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
