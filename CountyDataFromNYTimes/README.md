@@ -1,4 +1,4 @@
-# MN-COVID-19
+# MN-COVID-19 by county
 This r script was setup for my personal use to look at COVID-19 data in Minnesota (not a lot of comments: added later if I have time). 
 
 1. Please download both files to the same directory
