@@ -1,4 +1,4 @@
-# MN-COVID
+# MN-COVID-19
 This r markdown file was setup for my personal use t olook at COVID-19 data in Minnesota (not a lot of comments: added later if I have time). It outputs a pdf file named "COVID_markdown.pdf".
 
 1. Please download all files to the same directory and run "COVID.Rproj"
