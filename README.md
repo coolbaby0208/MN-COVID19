@@ -13,6 +13,8 @@ Note:
   - Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
   - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
+  
+  - If you are interested in COVID-19 data by county, take a look in /CountyDataFromNYTimes. 
 
 **Example output**
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
