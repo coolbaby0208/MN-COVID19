@@ -79,7 +79,6 @@ p2 = ggplot(countyMN, aes(x= reorder(county, value), value10KPerCapita, color = 
   theme(plot.margin = unit(c(.75, 1, .15, -.5), "cm"))
 plot(p2)
 
-#grid.arrange(p1,p2, nrow = 1)
-#ggarrange(p1,p2, common.legend = T)
+# Output plots
 ggsave("MNcounty_COVID-19.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
 
