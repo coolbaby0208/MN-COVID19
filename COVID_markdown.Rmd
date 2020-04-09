@@ -1,0 +1,84 @@
+---
+# title: "MN COVID-19 update: `r format(Sys.time(), '%Y-%m-%d')`  by r/coolbaby0208"
+output: 
+  pdf_document:
+    fig_height: 5.5
+    fig_width: 6
+geometry: margin = 0.5in
+spacing: single
+papersize: letter
+subparagraph: yes
+
+editor_options: 
+  chunk_output_type: console
+classoption: twocolumn
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(kableExtra)
+## call "COVID.R"
+source('COVID.R')
+
+## get data for most recent date 
+dataWidePlain = dataWide %>% 
+  filter(Date == last(Date))
+```
+
+## MN COVID-19 Summary (`r format(Sys.time(), '%Y-%m-%d')`)
+* Testing
+  + Total number of completed tests: **`r (dataWidePlain$Total.tested)`** (up `r (dataWidePlain$Daily.tests)`)
+  + Total positive: **`r (dataWidePlain$Total.cases)`** (up `r (dataWidePlain$New.cases)`)
+* Case info   
+  + Patients who are currently sick: **`r (dataWidePlain$Currently.sick)`** (`r (ifelse(dataWidePlain$New.sick <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.sick)))`
+  + Total deaths: **`r (dataWidePlain$Total.deaths)`** (up `r (dataWidePlain$New.deaths)`)
+ - Hospitalization   
+   - Hospitalized as of today: **`r (dataWidePlain$Currently.hospitalized)`** (up `r (dataWidePlain$New.hospitalized)`)
+     - Hospitalized in ICU as of today: **`r (dataWidePlain$ICU)`** (up `r (dataWidePlain$New.ICU)`)
+
+
+
+```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
+## plots from COVID.R
+p1
+```
+
+
+```{r plot2, echo=FALSE, warning = FALSE, message=FALSE}
+## plots from COVID.R
+p2
+```
+
+   
+```{r plot3, echo=FALSE, warning = FALSE, message=FALSE}
+## plots from COVID.R
+p3
+```
+
+
+```{r table1, echo=FALSE, warning= FALSE}
+ dataWide %>%
+   filter(Date %in% tail(Date, 10)) %>%
+   select(Date, starts_with("Total")) %>%
+   rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
+   kable(digits = 3,booktabs = T, caption = "Total numbers for last 10 days",align = "c") %>%
+   kable_styling(latex_options = c("scale_down", "hold_position"), font_size = 8) %>% 
+   row_spec(10, color = "white", background = "#FF33CC")
+```
+
+```{r table2, echo=FALSE, warning= FALSE}
+ dataWide %>%
+   filter(Date %in% tail(Date, 10)) %>%
+   #mutate(HospitalizedPercent = HospitalizedPercent*100, ICUPercent = ICUPercent*100) %>%
+   select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests) %>% 
+   rename(`Hospitalized case` = Currently.hospitalized, `Active case` = Currently.sick, `ICU case` = ICU, `Daily tests` = Daily.tests) %>%
+   select(Date, ends_with("case"), everything()) %>% 
+   kable(digits = 2, booktabs = T, caption = "Current numbers for last 10 days", align = "c") %>%
+   kable_styling(latex_options = c("scale_down","hold_position"), font_size = 8) %>% 
+   row_spec(10, color = "white", background = "#FF33CC")
+```
+
+Data source: 
+
+ - https://www.health.state.mn.us/diseases/coronavirus/situation.html    
+
