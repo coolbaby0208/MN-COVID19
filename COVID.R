@@ -74,7 +74,7 @@ dataLongDailyTests = dataWide %>%
 p1 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>% 
               filter(Variable %in% c("New.deaths","New.cases")), 
             aes(Date, Value, fill = Variable, label = Value))+
-  geom_col()+
+  geom_col(position = "identity")+
   geom_text(data=dataLongDailyTests %>% drop_na(Daily.tests) %>% 
               filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 1)+
   theme(legend.position = "bottom", axis.text.x = element_text(size=11, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))+
