@@ -1,5 +1,4 @@
 library(tidyverse)
-library(gridExtra)
 library(ggpubr)
 
 ## Source: https://github.com/nytimes/covid-19-data
@@ -82,5 +81,5 @@ plot(p2)
 
 #grid.arrange(p1,p2, nrow = 1)
 #ggarrange(p1,p2, common.legend = T)
-ggsave("county.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
+ggsave("MNcounty_COVID-19.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
 
