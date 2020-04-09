@@ -14,7 +14,7 @@ Note:
   
   - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
   
-  - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../blob/master/CountyDataFromNYTimes). 
+  - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
 **Example output**
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
