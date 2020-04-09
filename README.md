@@ -15,5 +15,4 @@ Note:
   - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
 
 **Example output**
-
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
