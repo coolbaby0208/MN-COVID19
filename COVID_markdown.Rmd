@@ -78,7 +78,8 @@ p3
    row_spec(10, color = "white", background = "#FF33CC")
 ```
 
-Data source: 
+Data & source code:
 
- - https://www.health.state.mn.us/diseases/coronavirus/situation.html    
+* *https://www.health.state.mn.us/diseases/coronavirus/situation.html*
+* *https://github.com/coolbaby0208/MN-COVID19*    
 
