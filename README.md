@@ -6,8 +6,8 @@ This r markdown file was setup for my personal use t olook at COVID-19 data in M
 2. Open "COVID_markdown.Rmd" and knit the pdf. This file will call "COVID.R", which will preprocess "MNCovidData.csv" and generate plots and save a png file as "MN-COVID-19_2020-0x-0x.png".
 
 Note: 
-  1. The csv data (current version: 2020-04-08) may not be updated regularly, but you can find the most recent data in the following link. 
+  - The csv data (current version: 2020-04-08) may not be updated regularly, but you can find the most recent data in the following link. 
   
-  2. Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
+  - Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
-  3. library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
+  - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra  
