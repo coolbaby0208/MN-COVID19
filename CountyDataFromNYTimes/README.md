@@ -3,7 +3,7 @@ This r script was setup for my personal use to look at COVID-19 data in Minnesot
 
 1. Please download both files "COVID-NYTImeData.R" & "MNCountyPopulation.csv" to the same directory
 
-2. Run "COVID-NYTImeData.R", which will grab county data from NYtimes github repo and generate plots and save png files as "MNcounty_COVID-19_Lollipop.png" and "MNcounty_COVID-19_Map.png".
+2. Run "COVID-NYTImeData.R", which will grab county data from NYtimes github repo and generate plots and save png files as "MNcounty_COVID-19_Lollipop.png", "MNcounty_COVID-19_Map.png" and MNcounty_COVID-19_Combined.png.
 
 
 Note: 
@@ -12,7 +12,7 @@ Note:
   
   - Population data source: https://www.minnesota-demographics.com/counties_by_population
   
-  - Library needed for this R markdown: tidyverse, ggpubr, usmap 
+  - Library needed for this R markdown: tidyverse, ggpubr, usmap, gridExtra 
 
 **Example output**
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/CountyDataFromNYTimes/MNcounty_COVID-19_Lollipop.png)
