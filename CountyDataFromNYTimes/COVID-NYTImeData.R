@@ -47,11 +47,11 @@ p1 = ggplot(countyMN, aes(x= reorder(county, value), value,  color = name, fill 
   geom_point(data=countyMN %>% filter(value != 0), aes(x= reorder(county, value)), size=3, shape=21, stroke=2)+
   geom_text(data=countyMN %>% filter(value > 0), aes(x= reorder(county, value)), nudge_y = 15, color = "gray20")+
   ## death number today
-  geom_text(data=countyMN %>% filter(value < 0) %>% mutate(valueLabel = abs(value)), aes(x= reorder(county, value), label = valueLabel), nudge_y = -12, color = "gray20")+
+  geom_text(data=countyMN %>% filter(value < 0) %>% mutate(valueLabel = abs(value)), aes(x= reorder(county, value), label = valueLabel), nudge_y = .75*min(countyMN %>% filter(name == "deaths") %>% pull(value)), color = "gray20")+
   ## increase case from previous day
   geom_text(data=countyMN %>% filter(diff > 0, name == "cases") %>% mutate(valueLabel = paste0("(+", as.character(diff),")")), aes(x= reorder(county, value), label = valueLabel), nudge_y = .12*max(countyMN %>% filter(name == "cases") %>% pull(value)), color = "gray20")+
   ## increase death from previous day
-  geom_text(data=countyMN %>% filter(diff > 0, name == "deaths") %>% mutate(valueLabel = paste0("(+", as.character(diff),")")), aes(x= reorder(county, value), label = valueLabel), nudge_y = -30, color = "gray20")+
+  geom_text(data=countyMN %>% filter(diff > 0, name == "deaths") %>% mutate(valueLabel = paste0("(+", as.character(diff),")")), aes(x= reorder(county, value), label = valueLabel), nudge_y = 1.65*min(countyMN %>% filter(name == "deaths") %>% pull(value)), color = "gray20")+
   labs(x = "", y = "Number of cases", fill = "", color = "")+
   coord_flip()+
   theme_minimal()+
@@ -82,10 +82,10 @@ p2 = ggplot(countyMN, aes(x= reorder(county, value), value10KPerCapita, color = 
   scale_fill_manual(name="", values = alpha(c("#F8766D","#00BFC4"),.5))+
   theme(plot.margin = unit(c(.75, 1.5, .1, -.5), "cm"))
 #plot(p2)
-
+fig1 = ggarrange(p1,p2, common.legend = T, legend = ("bottom"))
 #grid.arrange(p1,p2, nrow = 1)
 #ggarrange(p1,p2, common.legend = T)
-ggsave("MNcounty_COVID-19_Lollipop.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
+ggsave("MNcounty_COVID-19_Lollipop.png",fig1, width = 14, height = 8)
 
 
 ## Add county map
@@ -113,7 +113,10 @@ p6 = plot_usmap(data = countyMN %>%
   scale_fill_continuous(low = "snow2", high = "black", name = "Deaths 10K per capita", na.value = 'white')+
   #labs(title = "COVID-19 deaths per 10k capita by county", subtitle = last(countyMN$date)) +
   theme(legend.position = "right", plot.margin = unit(c(.5, 1.5, 1, -.5), "cm"))
-fig = ggarrange(p3,p4,p5,p6, nrow = 2, ncol = 2)
+fig2 = ggarrange(p3,p4,p5,p6, nrow = 2, ncol = 2)
 
 ggsave("MNcounty_COVID-19_Map.png", 
-       annotate_figure(fig, fig.lab = paste("COVID-19 by MN county:", last(countyMN$date))), width = 10, height = 6)
+       annotate_figure(fig2, fig.lab = paste("COVID-19 by MN county:", last(countyMN$date))), width = 10, height = 6)
+
+## Combine both figures
+ggsave("MNcounty_COVID-19_Combined.png", gridExtra::grid.arrange(fig1, fig2, nrow = 2 , ncol = 1, heights = c(1.5,1)), width = 12, height = 14)
