@@ -8,7 +8,9 @@ This r script was setup for my personal use to look at COVID-19 data in Minnesot
 
 Note: 
   
-  - Data source: https://github.com/nytimes/covid-19-data
+  - COVID-19 data source: https://github.com/nytimes/covid-19-data
+  
+  - Population data source: https://www.minnesota-demographics.com/counties_by_population
   
   - Library needed for this R markdown: tidyverse, ggpubr, usmap 
 
