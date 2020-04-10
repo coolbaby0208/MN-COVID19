@@ -1,9 +1,13 @@
 library(tidyverse)
 library(ggpubr)
+library(usmap)
 
 ## Source: https://github.com/nytimes/covid-19-data
 ## Pull data for NY-TImes github 
-counties = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
+counties = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv") %>% 
+  filter(state == "Minnesota") %>% 
+  distinct(county)
+
 states = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 countyMNPopulation = read_csv("MNCountyPopulation.csv") %>% 
   mutate(county = str_remove(County," County")) %>% 
@@ -51,7 +55,7 @@ p1 = ggplot(countyMN, aes(x= reorder(county, value), value,  color = name, fill 
   labs(x = "", y = "Number of cases", fill = "", color = "")+
   coord_flip()+
   theme_minimal()+
-  theme(axis.text.y=element_blank(), plot.margin = unit(c(.75,0,.15,.5), "cm"))+
+  theme(axis.text.y=element_blank(), plot.margin = unit(c(.75,0,.1, 1), "cm"))+
   ggtitle(paste(last(countyMN$date), ":", "Cases by MN county"))+
   scale_fill_manual(name="", values = alpha(c("#F8766D","#00BFC4"),.5))
 
@@ -76,9 +80,40 @@ p2 = ggplot(countyMN, aes(x= reorder(county, value), value10KPerCapita, color = 
   theme_minimal()+
   ggtitle("source: https://github.com/nytimes/covid-19-data")+
   scale_fill_manual(name="", values = alpha(c("#F8766D","#00BFC4"),.5))+
-  theme(plot.margin = unit(c(.75, 1, .15, -.5), "cm"))
-plot(p2)
+  theme(plot.margin = unit(c(.75, 1.5, .1, -.5), "cm"))
+#plot(p2)
 
-# Output plots
-ggsave("MNcounty_COVID-19.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
+#grid.arrange(p1,p2, nrow = 1)
+#ggarrange(p1,p2, common.legend = T)
+ggsave("MNcounty_COVID-19_Lollipop.png",ggarrange(p1,p2, common.legend = T, legend = ("bottom")), width = 14, height = 8)
 
+
+## Add county map
+
+p3 = plot_usmap(data = countyMN %>% filter(name == "cases"), values = "value", include = c("MN"), color = "black")+ 
+  scale_fill_continuous(low = "peachpuff", high = "red", name = "Total cases", na.value = 'white')+ 
+  #labs(title = "COVID-19 data by county", subtitle = last(countyMN$date)) +
+  theme(legend.position = "right", plot.margin = unit(c(1, 0.5, .1, 1), "cm"))
+
+p4 = plot_usmap("counties",data = countyMN %>% filter(name == "cases"), values = "value10KPerCapita", include = c("MN"), color = "black")+ 
+  scale_fill_continuous(low = "peachpuff", high = "red", name = "Cases 10K per capita", na.value = 'white')+
+  #labs(title = "COVID-19 cases per 10k capita by county", subtitle = last(countyMN$date)) +
+  theme(legend.position = "right", plot.margin = unit(c(1, 1, .1, -.5), "cm"))
+
+p5 = plot_usmap(data = countyMN %>% 
+                  filter(name == "deaths") %>% 
+                  mutate(value = abs(value)), values = "value", include = c("MN"), color = "black")+ 
+  scale_fill_continuous(low = "snow2", high = "black", name = "Total deaths", na.value = 'white')+ 
+  #labs(title = "COVID-19 data by county", subtitle = last(countyMN$date)) +
+  theme(legend.position = "right", plot.margin = unit(c(.5, .5, 1, 1), "cm"))
+
+p6 = plot_usmap(data = countyMN %>% 
+                  filter(name == "deaths") %>% 
+                  mutate(value10KPerCapita = abs(value10KPerCapita)), values = "value10KPerCapita", include = c("MN"), color = "black")+ 
+  scale_fill_continuous(low = "snow2", high = "black", name = "Deaths 10K per capita", na.value = 'white')+
+  #labs(title = "COVID-19 deaths per 10k capita by county", subtitle = last(countyMN$date)) +
+  theme(legend.position = "right", plot.margin = unit(c(.5, 1.5, 1, -.5), "cm"))
+fig = ggarrange(p3,p4,p5,p6, nrow = 2, ncol = 2)
+
+ggsave("MNcounty_COVID-19_Map.png", 
+       annotate_figure(fig, fig.lab = paste("COVID-19 by MN county:", last(countyMN$date))), width = 10, height = 6)
