@@ -4,9 +4,7 @@ library(usmap)
 
 ## Source: https://github.com/nytimes/covid-19-data
 ## Pull data for NY-TImes github 
-counties = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv") %>% 
-  filter(state == "Minnesota") %>% 
-  distinct(county)
+counties = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
 
 states = read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 countyMNPopulation = read_csv("MNCountyPopulation.csv") %>% 
