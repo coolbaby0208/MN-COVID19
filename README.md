@@ -3,7 +3,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
 
 1. Please download all files to the same directory and run "COVID.Rproj"
 
-2. Open "COVID_markdown.Rmd" and knit the pdf. This file will first call "mdhCovidWebScrape.R" to merge current data (from MDH website) to "MNCovidData.csv", "COVID.R", which will preprocess "MNCovidData.csv" and generate plots and save a png file as "MN-COVID-19_2020-0x-0x.png".
+2. Open "COVID_markdown.Rmd" and knit the pdf. This file will call "mdhCovidWebScrape.R" to merge current data (from MDH website) to "MNCovidData.csv", and "COVID.R", which will preprocess "MNCovidData.csv" and generate plots and save a png file as "MN-COVID-19_2020-0x-0x.png".
 
 3. Outputs a pdf file named "COVID_markdown.pdf".
 
