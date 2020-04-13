@@ -17,6 +17,8 @@ classoption: twocolumn
 knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(kableExtra)
+## Call 'mdhCovidWebScrape.R' 
+source('mdhCovidWebScrape.R')
 ## call "COVID.R"
 source('COVID.R')
 
