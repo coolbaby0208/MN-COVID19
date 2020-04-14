@@ -113,7 +113,10 @@ p2 = ggplot(dataWide %>% drop_na(Daily.tests))+
 ## plot Hospitalized, ICU, total Death, Hospitalized percentage and ICU percentage
 p3 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>% 
               filter(Variable %in% c("ICU", "Currently.hospitalized", "ICUPercent", "Total.deaths", "HospitalizedPercent"), as.numeric(Date)>18) %>% 
-              mutate(Value = ifelse(str_detect(Variable, "Percent"), Value*100, Value), Variable = factor(Variable, levels = c("Currently.hospitalized", "ICU", "Total.deaths", "HospitalizedPercent","ICUPercent"))), 
+              mutate(Value = ifelse(str_detect(Variable, "Percent"), Value*max(dataLongDailyTests %>%
+                                                                                     drop_na(Daily.tests) %>% 		
+                                                                                     filter(Variable %in% c("Date", "Currently.hospitalized"), as.numeric(Date)>18) %>% 		
+                                                                                     pull(Value)), Value), Variable = factor(Variable, levels = c("Currently.hospitalized", "ICU", "Total.deaths", "HospitalizedPercent","ICUPercent"))), 
             aes(Date, Value, color = Variable))+
   geom_line(aes(group = Variable, lty = Variable), size = 1.2)+
   geom_point(aes(size = Daily.tests, fill = Variable),shape = 21, stroke = 1.2)+
@@ -128,14 +131,18 @@ p3 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>%
                pull(Loc), lty = 2)+
   annotate("label", x = c("03-28","04-12"), y = c(100,120), label = c("StayHomeOrder","8pm data"))+
   #scale_alpha_manual(values = c(1,1,1,.75,.75), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
-  scale_color_brewer(palette = "Dark2", name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"), 30))+
-  scale_fill_manual(values = c("white","white", "white", alpha(c("#E7298A", "#66A61E"), .5)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
-  scale_y_continuous(sec.axis = dup_axis(), limits = c(0,100), name = "Percentage (%)")+
-  scale_linetype_manual(values= c(1,1,1,3,3), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
+  scale_color_brewer(palette = "Dark2", name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"), 30))+
+  scale_fill_manual(values = c("white","white", "white", alpha(c("#E7298A", "#66A61E"), .5)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"),30))+
+  #scale_y_continuous(sec.axis = dup_axis(name = "Percentage (%)", breaks = c(0,20,40,60,80,100)))+
+  scale_y_continuous(sec.axis = sec_axis(~ ./max(dataLongDailyTests %>%
+                                                   drop_na(Daily.tests) %>% 		
+                                                   filter(Variable %in% c("Date", "Currently.hospitalized"), as.numeric(Date)>18) %>% 		
+                                                   pull(Value))*100, 		
+                                         name = "Percentage (%)"))+
+  scale_linetype_manual(values= c(1,1,1,3,3), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"),30))+
   theme(axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))+
   guides(color=guide_legend(nrow=2,byrow=TRUE))
-plot(p3)
 #grid.arrange(p1, p2,p3, nrow = 3)
 ## Save 3 plots as a png file ##
 ggsave(paste0("MN-COVID-19_", Sys.Date(), ".png"), grid.arrange(p1,p2,p3, nrow = 3), height = 12, width = 8)
