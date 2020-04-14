@@ -85,8 +85,8 @@ p1 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
                mutate(Loc = as.integer(factor(Date))) %>% 
-               filter(Date %in% c("03-17","03-18","03-28")) %>% 
-               pull(Loc), lty = 2)+annotate("label", x = c("03-16","03-20","03-29") ,y = c(70, 75, 80), label = c("Bar close","School close","StayHomeOrder"))+
+               filter(Date %in% c("03-17","03-18","03-28","04-12")) %>% 
+               pull(Loc), lty = 2)+annotate("label", x = c("03-16","03-20","03-29","04-12") ,y = c(70, 75, 80, 150), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))
 
 plot(p1)
@@ -103,9 +103,9 @@ p2 = ggplot(dataWide %>% drop_na(Daily.tests))+
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
                mutate(Loc = as.integer(factor(Date))) %>% 
-               filter(Date %in% c("03-17","03-18","03-28")) %>% 
+               filter(Date %in% c("03-17","03-18","03-28","04-12")) %>% 
                pull(Loc), lty = 2)+
-  annotate("label", x = c("03-16","03-20","03-29") ,y = c(12, 15, 15), label = c("Bar close","School close","StayHomeOrder"))+
+  annotate("label", x = c("03-16","03-20","03-29","04-12") ,y = c(12, 15, 15, 15), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   guides(fill = guide_legend(), size = guide_legend()) +
   scale_fill_gradient(low = "yellow", high = "red", na.value = NA)+
   guides(fill=guide_legend(nrow=2,byrow=TRUE))
@@ -124,9 +124,9 @@ p3 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
                mutate(Loc = as.integer(factor(Date))) %>% 
-               filter(Date %in% c("03-28")) %>% 
+               filter(Date %in% c("03-28","04-12")) %>% 
                pull(Loc), lty = 2)+
-  annotate("label", x = c("03-28"), y = 100, label = c("StayHomeOrder"))+
+  annotate("label", x = c("03-28","04-12"), y = c(100,120), label = c("StayHomeOrder","8pm data"))+
   #scale_alpha_manual(values = c(1,1,1,.75,.75), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
   scale_color_brewer(palette = "Dark2", name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"), 30))+
   scale_fill_manual(values = c("white","white", "white", alpha(c("#E7298A", "#66A61E"), .5)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
