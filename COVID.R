@@ -131,15 +131,15 @@ p3 = ggplot(dataLongDailyTests %>% drop_na(Daily.tests) %>%
                pull(Loc), lty = 2)+
   annotate("label", x = c("03-28","04-12"), y = c(100,120), label = c("StayHomeOrder","8pm data"))+
   #scale_alpha_manual(values = c(1,1,1,.75,.75), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
-  scale_color_brewer(palette = "Dark2", name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"), 30))+
-  scale_fill_manual(values = c("white","white", "white", alpha(c("#E7298A", "#66A61E"), .5)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"),30))+
+  scale_color_brewer(palette = "Dark2", name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"), 30))+
+  scale_fill_manual(values = c("white","white", "white", alpha(c("#E7298A", "#66A61E"), .5)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
   #scale_y_continuous(sec.axis = dup_axis(name = "Percentage (%)", breaks = c(0,20,40,60,80,100)))+
   scale_y_continuous(sec.axis = sec_axis(~ ./max(dataLongDailyTests %>%
                                                    drop_na(Daily.tests) %>% 		
                                                    filter(Variable %in% c("Date", "Currently.hospitalized"), as.numeric(Date)>18) %>% 		
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
-  scale_linetype_manual(values= c(1,1,1,3,3), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current active cases)"),30))+
+  scale_linetype_manual(values= c(1,1,1,3,3), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
   theme(axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))+
   guides(color=guide_legend(nrow=2,byrow=TRUE))
