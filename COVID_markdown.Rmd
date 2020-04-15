@@ -55,31 +55,33 @@ p2
 p3
 ```
 
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3}
+## plots from COVID.R
+p4
+```
 
 ```{r table1, echo=FALSE, warning= FALSE}
  dataWide %>%
-   filter(Date %in% tail(Date, 10)) %>%
+   filter(Date %in% tail(Date, 5)) %>%
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
-   kable(digits = 3,booktabs = T, caption = "Total numbers for last 10 days",align = "c") %>%
-   kable_styling(latex_options = c("scale_down", "hold_position"), font_size = 8) %>% 
-   row_spec(10, color = "white", background = "#FF33CC")
+   kable(digits = 3,booktabs = T, caption = "Total numbers for last 5 days",align = "c") %>%
+   kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 9) %>% 
+   row_spec(5, color = "white", background = "#FF33CC")
 ```
 
 ```{r table2, echo=FALSE, warning= FALSE}
  dataWide %>%
-   filter(Date %in% tail(Date, 10)) %>%
+   filter(Date %in% tail(Date, 5)) %>%
    #mutate(HospitalizedPercent = HospitalizedPercent*100, ICUPercent = ICUPercent*100) %>%
    select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests) %>% 
    rename(`Hospitalized case` = Currently.hospitalized, `Active case` = Currently.sick, `ICU case` = ICU, `Daily tests` = Daily.tests) %>%
    select(Date, ends_with("case"), everything()) %>% 
-   kable(digits = 2, booktabs = T, caption = "Current numbers for last 10 days", align = "c") %>%
-   kable_styling(latex_options = c("scale_down","hold_position"), font_size = 8) %>% 
-   row_spec(10, color = "white", background = "#FF33CC")
+   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
+   kable_styling(latex_options = c("hold_position"), font_size = 9) %>% 
+   row_spec(5, color = "white", background = "#FF33CC")
 ```
-
 Data & source code:
 
 * *https://www.health.state.mn.us/diseases/coronavirus/situation.html*
-* *https://github.com/coolbaby0208/MN-COVID19*    
-
+* *https://github.com/coolbaby0208/MN-COVID19*
