@@ -41,3 +41,22 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   full_join(mdhData) %>% 
   write.csv("MNCovidData.csv", row.names = F)
   
+## Read in response data from MN response dashboard
+responseUrl = "https://mn.gov/covid19/data/response.jsp"
+responseData = read_html(responseUrl) %>% 
+  html_nodes("a") %>% 
+  html_attr("href") %>% 
+  as_tibble() %>% 
+  filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
+  mutate(value = paste0("https://mn.gov", value)) %>% 
+  pull(value) %>% 
+  read.csv(na.strings = c("NA","")) %>% 
+  select_if(~!all(is.na(.))) %>% 
+  mutate(Date = format(mdy(Data.Date..MM.DD.YYYY.), "%m/%d/%y"),Value = as.integer(as.character(Value_NUMBER))) %>% 
+  select(-starts_with("Geographic"), -URLLINK, -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
+  filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
+  mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
+         Detail1 = factor(Detail1, levels = c("Surge - 72 hour", "Surge - 24 hour", "On back order", "Surge", "Current")))
+
+
+
