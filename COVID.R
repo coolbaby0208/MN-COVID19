@@ -6,7 +6,7 @@ library(tidyverse)
 library(gridExtra)
 
 ## Remove existing variables ####
-rm(list=ls(all=TRUE))
+#rm(list=ls(all=TRUE))
 
 ## data preprocessing
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
