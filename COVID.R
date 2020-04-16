@@ -107,7 +107,7 @@ p4 = ggplot(responseData)+
   geom_bar(position = "stack", stat = "identity", width = .8) + 
   geom_text(position = "stack", vjust = 2)+
   facet_wrap(~Metric)+
-  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%Y-%m-%d")))+
+  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%Y-%m-%d")), caption = "Data source: https://mn.gov/covid19/data/response")+
   scale_fill_brewer(palette ="Set2")+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
