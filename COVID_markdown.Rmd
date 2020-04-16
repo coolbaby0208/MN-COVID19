@@ -83,7 +83,6 @@ p4
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
    row_spec(5, color = "white", background = "#FF33CC")
 ```
-Data & source code:
+For source code and data source please see 
 
-* *https://www.health.state.mn.us/diseases/coronavirus/situation.html*
 * *https://github.com/coolbaby0208/MN-COVID19*
