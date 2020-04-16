@@ -61,6 +61,7 @@ p4
 ```
 
 ```{r table1, echo=FALSE, warning= FALSE}
+## table 1
  dataWide %>%
    filter(Date %in% tail(Date, 5)) %>%
    select(Date, starts_with("Total")) %>%
@@ -71,14 +72,15 @@ p4
 ```
 
 ```{r table2, echo=FALSE, warning= FALSE}
+## table 2
  dataWide %>%
    filter(Date %in% tail(Date, 5)) %>%
    #mutate(HospitalizedPercent = HospitalizedPercent*100, ICUPercent = ICUPercent*100) %>%
    select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests) %>% 
-   rename(`Hospitalized case` = Currently.hospitalized, `Active case` = Currently.sick, `ICU case` = ICU, `Daily tests` = Daily.tests) %>%
-   select(Date, ends_with("case"), everything()) %>% 
+   rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `ICU` = ICU, `Tests` = Daily.tests) %>%
+   select(Date, Hospitalized, ICU, Active, Tests) %>% 
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
-   kable_styling(latex_options = c("hold_position"), font_size = 9) %>% 
+   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
    row_spec(5, color = "white", background = "#FF33CC")
 ```
 Data & source code:
