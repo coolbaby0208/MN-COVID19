@@ -51,20 +51,22 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   full_join(mdhData) %>% 
   write.csv("MNCovidData.csv", row.names = F)
   
-## Read in MN response data for hospital capacity 
-responseUrl = "https://mn.gov/covid19/data/response.jsp"
-responseData = read_html(responseUrl) %>% 
+## Read in MN response data for hospital capacity
+## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
+responseUrl = "https://mn.gov/covid19/data/response-prep"
+responseData = read_html(responseUrl) %>%
   ## use CSS tools to find nodes
-  html_nodes("a") %>% 
-  ## find attributes we need 
-  html_attr("href") %>% 
-  as_tibble() %>% 
+  html_nodes("a") %>%
+  ## find attributes we need
+  html_attr("href") %>%
+  as_tibble() %>%
   ## extract part of csv data url
   filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
   ## complete the csv data url
-  mutate(value = paste0("https://mn.gov", value)) %>% 
+  mutate(value = paste0("https://mn.gov", value)) %>%
   pull(value) %>% 
   ## read in data
+# responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>% 
   read.csv(na.strings = c("NA","")) %>% 
   ## remove columns with All NAs
   select_if(~!all(is.na(.))) %>%
