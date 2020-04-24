@@ -61,13 +61,13 @@ p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.case
   annotate("label", x = c("03-16","03-20","03-29","04-12"), y = c(70, 90, 110, 150), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), labels = c("New case", "New death"))
-plot(p1)
+#plot(p1)
 
 ## plot daily positive percentage with data point size indicating number of daily tests
 p2 = ggplot(dataWide)+
-  aes(Date, PositivePercent*100, size = Daily.tests, label = Date, fill = Daily.tests)+
+  aes(Date, PositivePercent*100, size = Daily.tests, label = Date)+
   geom_line(aes(group=1), size = 1, color = "gray20")+
-  geom_point(shape = 21, stroke = 1.5)+
+  geom_point(shape = 21, stroke = 1.5, fill = RColorBrewer::brewer.pal(3,"Set2")[1])+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
@@ -76,7 +76,7 @@ p2 = ggplot(dataWide)+
                pull(Loc), lty = 2)+
   # n day moving average
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercent")), aes(Date, movAvgValue*100, color = Variable, group = Variable), size = 1.8, alpha = .4)+
-  scale_fill_gradient(low = "yellow", high = "red", na.value = NA)+
+  #scale_fill_gradient(low = "yellow", high = "red", na.value = NA)+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), label = "Positive case percentage")+
   annotate("label", x = c("03-16","03-20","03-29","04-12"), y = c(12, 15, 15, 15), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   guides(fill = guide_legend(nrow=1,byrow=TRUE), size = guide_legend())+
