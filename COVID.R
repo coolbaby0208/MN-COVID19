@@ -15,7 +15,7 @@ library(tidyverse)
 ## tidy up code on 2020-04-17
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   # format date string and compute values for plotting 
-  mutate(Date = Date %>% as.Date(format = "%m/%d/%y") %>% str_remove("2020-") %>% factor(), 
+  mutate(Date = Date %>% as.Date(format = "%m/%d/%y"), 
          Daily.tests = Total.tested - lag(Total.tested), 
          New.cases = Total.cases - lag(Total.cases), 
          Currently.sick = Total.cases - Total.deaths - Total.recovered,
@@ -46,77 +46,80 @@ dataLongAvg = dataLongDailyTests %>%
 ## plot daily new cases and deaths
 p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.cases")))+
   aes(Date, Value, fill = Variable, label = Value)+
-  geom_col(position = "identity")+
-  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
-  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 1, size = 2.5)+
+  geom_col(position = "identity", alpha = .7)+
+  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 4, size = 2.5)+
+  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
   # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.deaths","New.cases")), aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.4, alpha = .5)+
-  theme(legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=8, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))+
-  labs(y = "Number of new cases", title = "MN COVID-19: daily new cases and deaths", fill = "")+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.deaths","New.cases")), aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.4, alpha = .9)+
+  labs(x = "", y = "Number of new cases", title = "MN COVID-19: daily new cases and deaths", fill = "")+
   geom_vline(xintercept = dataLongDailyTests %>%
                distinct(Date) %>% 
-               mutate(Loc = as.integer(factor(Date))) %>% 
-               filter(Date %in% c("03-17","03-18","03-28","04-12")) %>% 
-               pull(Loc), lty = 2)+
-  annotate("label", x = c("03-16","03-20","03-29","04-12"), y = c(70, 90, 110, 150), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
+               filter(Date %in% as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-04-12"))) %>% 
+               pull(Date), lty = 2, alpha = .5)+
+  annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(100, 150, 200, 250), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
-  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), labels = c("New case", "New death"))
-#plot(p1)
+  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), labels = c("New case", "New death"))+
+  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  theme_minimal()+
+  theme(panel.grid.major.x = element_blank(), legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))
+plot(p1)
 
 ## plot daily positive percentage with data point size indicating number of daily tests
 p2 = ggplot(dataWide)+
   aes(Date, PositivePercent*100, size = Daily.tests, label = Date)+
-  geom_line(aes(group=1), size = 1, color = "gray20")+
-  geom_point(shape = 21, stroke = 1.5, fill = RColorBrewer::brewer.pal(3,"Set2")[1])+
+  geom_line(aes(group=1), size = 1, color = "gray40")+
+  geom_point(shape = 21, stroke = 1.5, fill = scales::alpha(RColorBrewer::brewer.pal(3,"Set2")[1], 0.7), color = "gray40")+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
-               mutate(Loc = Date %>% factor() %>% as.integer()) %>% 
-               filter(Date %in% c("03-17","03-18","03-28","04-12")) %>% 
-               pull(Loc), lty = 2)+
+               filter(Date %in% as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-04-12"))) %>% 
+               pull(Date), lty = 2, alpha = .5)+
   # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercent")), aes(Date, movAvgValue*100, color = Variable, group = Variable), size = 1.8, alpha = .4)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercent")), aes(Date, movAvgValue*100, color = Variable, group = Variable), size = 1.8, alpha = .8)+
   #scale_fill_gradient(low = "yellow", high = "red", na.value = NA)+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), label = "Positive case percentage")+
-  annotate("label", x = c("03-16","03-20","03-29","04-12"), y = c(12, 15, 15, 15), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
+  annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(11, 16, 13, 15), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   guides(fill = guide_legend(nrow=1,byrow=TRUE), size = guide_legend())+
-  labs(x = "Date", y = "Percentage (%)", title = "MN COVID-19: daily positive case percentage", 
+  labs(x = "", y = "Percentage (%)", title = "MN COVID-19: daily positive case percentage", 
        size = "Daily tests", fill = "Daily tests")+
-  theme(legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=8, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
-
+  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  theme_minimal()+
+  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
+#plot(p2)
 ## plot Hospitalized, ICU, total Death, Hospitalized percentage and ICU percentage
 p3 = ggplot(dataLongDailyTests %>% 
-              filter(Variable %in% c("ICU", "Currently.hospitalized", "ICUPercent", "Total.deaths", "HospitalizedPercent"), as.numeric(Date)>18) %>% 
+              filter(Variable %in% c("ICU", "Currently.hospitalized", "ICUPercent", "Total.deaths", "HospitalizedPercent"), Date > as.Date("2020-03-23")) %>% 
               ## this value transformation is for plotting on the secondary y-axis (right) for ICU percentage of current hospitalized cases
               mutate(Value = ifelse(str_detect(Variable, "Percent"), 
                                     Value*max(dataLongDailyTests %>% 
-                                                filter(Variable %in% c("Date", "Currently.hospitalized"), as.numeric(Date)>18) %>%
+                                                filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>%
                                                 pull(Value)), 
                                     Value), 
                      Variable = factor(Variable, levels = c("Currently.hospitalized", "ICU", "Total.deaths", "HospitalizedPercent","ICUPercent"))))+ 
   aes(Date, Value, color = Variable)+
   geom_line(aes(group = Variable, lty = Variable, alpha = Variable))+
-  geom_point(aes(fill = Variable), shape = 21, stroke = 1.2)+
-  geom_vline(xintercept = dataLongDailyTests %>% filter(as.numeric(Date)>18) %>% 
+  geom_point(aes(fill = Variable), shape = 21, stroke = 1.2, size = 2.5)+
+  geom_vline(xintercept = dataLongDailyTests %>% filter(Date > as.Date("2020-03-23")) %>% 
                distinct(Date) %>% 
-               mutate(Loc = Date %>% factor() %>% as.integer()) %>% 
-               filter(Date %in% c("03-28","04-12")) %>% 
-               pull(Loc), lty = 2)+
-  geom_point(inherit.aes = F, data = dataWide %>% filter(as.numeric(Date)>18), aes(x = Date, y = -15, size = Daily.tests), shape = 21, stroke = 1.2, fill = "white", alpha = .8)+
-  labs(y = "Number of cases", size = "Daily tests", fill = "", title = str_wrap("Hospitalized, ICU, Death, Hospitalized percentage and ICU percentage",38))+
+               filter(Date %in% as.Date(c("2020-03-28","2020-04-12"))) %>% 
+               pull(Date), lty = 2, alpha = .5)+
+  geom_point(inherit.aes = F, data = dataWide %>% filter(Date > as.Date("2020-03-23")), aes(x = Date, y = -15, size = Daily.tests), shape = 21, stroke = 1.2, fill = "white", alpha = .8)+
+  labs(x = "", y = "Number of cases", size = "Daily tests", fill = "", title = str_wrap("Hospitalized, ICU, Death, Hospitalized percentage and ICU percentage",38))+
   guides(color=guide_legend(nrow=2,byrow=TRUE))+
   scale_color_manual(values = c(RColorBrewer::brewer.pal(3, "Dark2"), RColorBrewer::brewer.pal(3, "Dark2")), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"), 30))+
   scale_fill_manual(values = c("white","white", "white", alpha(RColorBrewer::brewer.pal(3, "Dark2"), .6)), labels  = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
   scale_y_continuous(sec.axis = sec_axis(~ ./max(dataLongDailyTests %>%
-                                                   filter(Variable %in% c("Date", "Currently.hospitalized"), as.numeric(Date)>18) %>% 		
+                                                   filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>% 		
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
   scale_linetype_manual(values= c(1,1,1,3,3), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
   scale_alpha_manual(values= c(.6,.6,.6,.6,1), name = "", labels = str_wrap(c("Current hospitalized", "Current ICU","Total deaths", "Hospitalized percentage (of current active cases)","ICU percentage (of current hospitalized cases)"),30))+
-  annotate("label", x = c("03-28","04-12"), y = c(180,180), label = c("StayHomeOrder","8pm data"))+
-  theme(axis.text.x = element_text(size=9, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
+  annotate("label", x = as.Date(c("2020-03-28","2020-04-12")), y = c(250,250), label = c("StayHomeOrder","8pm data"))+
+  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  theme_minimal()+
+  theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
-#plot(p3)
+plot(p3)
 ## plot hospital surge capacity
 p4 = ggplot(responseData)+
   aes(x = interaction(Detail3), y = Value, fill = Detail1, label = Value)+

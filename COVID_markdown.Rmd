@@ -4,25 +4,24 @@ output:
   pdf_document:
     fig_height: 5.5
     fig_width: 6
-geometry: margin = 0.5in
-spacing: single
+geometry: margin = 0.25in
 papersize: letter
 subparagraph: yes
-
+fontsize: 10pt
 editor_options: 
   chunk_output_type: console
 classoption: twocolumn
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(kableExtra)
-## Call 'mdhCovidWebScrape.R' 
+## call other scripts
 source('mdhCovidWebScrape.R')
-## call "COVID.R"
 source('COVID.R')
 
-## get data for most recent date 
+## get data for the most recent date
 dataWidePlain = dataWide %>% 
   filter(Date == last(Date))
 ```
@@ -63,26 +62,29 @@ p4
 ```{r table1, echo=FALSE, warning= FALSE}
 ## table 1
  dataWide %>%
+   mutate(Date = format(Date, format = "%b %d"))%>% 
    filter(Date %in% tail(Date, 5)) %>%
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
    kable(digits = 3,booktabs = T, caption = "Total numbers for last 5 days",align = "c") %>%
    kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 9) %>% 
-   row_spec(5, color = "white", background = "#FF33CC")
+   row_spec(5, color = "white", background = "#FF33CC") 
 ```
 
 ```{r table2, echo=FALSE, warning= FALSE}
 ## table 2
  dataWide %>%
+   mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 5)) %>%
    #mutate(HospitalizedPercent = HospitalizedPercent*100, ICUPercent = ICUPercent*100) %>%
    select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests) %>% 
    rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `ICU` = ICU, `Tests` = Daily.tests) %>%
    select(Date, Hospitalized, ICU, Active, Tests) %>% 
-   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
+   kable(digits = 2, booktabs = T, caption = "Current nuthmbers for last 5 days", align = "c") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
-   row_spec(5, color = "white", background = "#FF33CC")
+   row_spec(5, color = "white", background = "#FF33CC") 
 ```
 For source code and data source please see 
 
 * *https://github.com/coolbaby0208/MN-COVID19*
+
