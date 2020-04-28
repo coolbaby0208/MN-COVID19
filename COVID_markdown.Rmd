@@ -80,7 +80,7 @@ p4
    select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests) %>% 
    rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `ICU` = ICU, `Tests` = Daily.tests) %>%
    select(Date, Hospitalized, ICU, Active, Tests) %>% 
-   kable(digits = 2, booktabs = T, caption = "Current nuthmbers for last 5 days", align = "c") %>%
+   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
