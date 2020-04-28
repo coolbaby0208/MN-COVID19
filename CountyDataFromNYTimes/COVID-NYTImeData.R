@@ -128,7 +128,7 @@ p6 = plot_usmap(data = countyMN %>%
 fig2 = ggarrange(p3,p4,p5,p6, nrow = 2, ncol = 2)
 
 ggsave("MNcounty_COVID-19_Map.png", 
-       annotate_figure(fig2, fig.lab = paste("COVID-19 by MN county:", last(countyMN$date))), width = 10, height = 6)
+       annotate_figure(fig2, fig.lab = paste("COVID-19 by MN county:", last(countyMN$date)), bottom = "Data source: https://github.com/nytimes/covid-19-data"), width = 10, height = 6)
 
 ## Combine both figures
 ggsave("MNcounty_COVID-19_Combined.png", gridExtra::grid.arrange(fig1, fig2, nrow = 2 , ncol = 1, heights = c(1.5,1)), width = 12, height = 14)
@@ -148,4 +148,4 @@ p8 = plot_usmap(data = countyUT %>%
   theme(legend.position = "right", plot.margin = unit(c(.5, .5, 1, 1), "cm"))
 
 ggsave("UTcounty_COVID-19_Map.png", 
-       annotate_figure(ggarrange(p7, p8, nrow = 1, ncol = 2), fig.lab = paste("COVID-19 by UT county:", last(countyUT$date))), width = 10, height = 6)
+       annotate_figure(ggarrange(p7, p8, nrow = 1, ncol = 2), fig.lab = paste("COVID-19 by UT county:", last(countyUT$date)), bottom = "Data source: https://github.com/nytimes/covid-19-data"), width = 10, height = 6)
