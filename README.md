@@ -14,7 +14,7 @@ Note:
   
   - Response data source: "https://mn.gov/covid19/data/response.jsp"
   
-  - Library needed for this R markdown: tidyverse, gridExtra, knitr, kableExtra, rvest, lubridate  
+  - Library needed for this R markdown: tidyverse, ggrepel, gridExtra, knitr, kableExtra, rvest, lubridate  
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
