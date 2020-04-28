@@ -10,6 +10,7 @@
 
 ## Load library
 library(tidyverse)
+library(ggrepel)
 
 ## Data preprocessing
 ## tidy up code on 2020-04-17
@@ -47,33 +48,35 @@ dataLongAvg = dataLongDailyTests %>%
 p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.cases")))+
   aes(Date, Value, fill = Variable, label = Value)+
   geom_col(position = "identity", alpha = .7)+
-  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 4, size = 2.5)+
-  geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
-  # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.deaths","New.cases")), aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.4, alpha = .9)+
-  labs(x = "", y = "Number of new cases", title = "MN COVID-19: daily new cases and deaths", fill = "")+
   geom_vline(xintercept = dataLongDailyTests %>%
                distinct(Date) %>% 
                filter(Date %in% as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-04-12"))) %>% 
-               pull(Date), lty = 2, alpha = .5)+
+               pull(Date), lty = 2, alpha = .4)+
+  # n day moving average
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.deaths","New.cases")), aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.4, alpha = .9)+
+  #geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 4, size = 2.5)+
+  #geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_y = 1, size = 2.5)+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_y = 1, size = 2.5)+
   annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(100, 150, 200, 250), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
+  labs(x = "", y = "Number of new cases", title = "MN COVID-19: daily new cases and deaths", fill = "")+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Set1"), labels = c("New case", "New death"))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(), legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))
-plot(p1)
+#plot(p1)
 
 ## plot daily positive percentage with data point size indicating number of daily tests
 p2 = ggplot(dataWide)+
   aes(Date, PositivePercent*100, size = Daily.tests, label = Date)+
-  geom_line(aes(group=1), size = 1, color = "gray40")+
-  geom_point(shape = 21, stroke = 1.5, fill = scales::alpha(RColorBrewer::brewer.pal(3,"Set2")[1], 0.7), color = "gray40")+
+  geom_line(aes(group=1), size = .9, color = "gray50")+
+  geom_point(shape = 21, stroke = 1.5, fill = scales::alpha(RColorBrewer::brewer.pal(3,"Set2")[1], 0.7), color = "gray50")+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
                filter(Date %in% as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-04-12"))) %>% 
-               pull(Date), lty = 2, alpha = .5)+
+               pull(Date), lty = 2, alpha = .4)+
   # n day moving average
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercent")), aes(Date, movAvgValue*100, color = Variable, group = Variable), size = 1.8, alpha = .8)+
   #scale_fill_gradient(low = "yellow", high = "red", na.value = NA)+
@@ -98,11 +101,11 @@ p3 = ggplot(dataLongDailyTests %>%
                      Variable = factor(Variable, levels = c("Currently.hospitalized", "ICU", "Total.deaths", "HospitalizedPercent","ICUPercent"))))+ 
   aes(Date, Value, color = Variable)+
   geom_line(aes(group = Variable, lty = Variable, alpha = Variable))+
-  geom_point(aes(fill = Variable), shape = 21, stroke = 1.2, size = 2.5)+
+  geom_point(aes(fill = Variable), shape = 21, stroke = 1.2, size = 2)+
   geom_vline(xintercept = dataLongDailyTests %>% filter(Date > as.Date("2020-03-23")) %>% 
                distinct(Date) %>% 
                filter(Date %in% as.Date(c("2020-03-28","2020-04-12"))) %>% 
-               pull(Date), lty = 2, alpha = .5)+
+               pull(Date), lty = 2, alpha = .4)+
   geom_point(inherit.aes = F, data = dataWide %>% filter(Date > as.Date("2020-03-23")), aes(x = Date, y = -15, size = Daily.tests), shape = 21, stroke = 1.2, fill = "white", alpha = .8)+
   labs(x = "", y = "Number of cases", size = "Daily tests", fill = "", title = str_wrap("Hospitalized, ICU, Death, Hospitalized percentage and ICU percentage",38))+
   guides(color=guide_legend(nrow=2,byrow=TRUE))+
@@ -119,7 +122,7 @@ p3 = ggplot(dataLongDailyTests %>%
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
-plot(p3)
+#plot(p3)
 ## plot hospital surge capacity
 p4 = ggplot(responseData)+
   aes(x = interaction(Detail3), y = Value, fill = Detail1, label = Value)+
@@ -131,7 +134,7 @@ p4 = ggplot(responseData)+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 10, face = "bold"))
-
+#plot(p4)
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
 #   geom_point(aes(y = Total.cases))+
