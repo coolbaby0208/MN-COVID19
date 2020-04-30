@@ -7,6 +7,7 @@
 require(rvest) ## web scrape library
 require(tidyverse)
 require(lubridate) ## deal with date 
+require(purrr)
 
 ## Remove existing variables ####
 rm(list=ls(all=TRUE))
@@ -14,7 +15,8 @@ rm(list=ls(all=TRUE))
 ## Scrape MDH website COVID-19 data  
 url = "https://www.health.state.mn.us/diseases/coronavirus/situation.html"
 
-mdhData = read_html(url) %>% 
+mdhData = url %>% 
+  read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
   html_nodes("li, p") %>% 
   html_text() %>% 
@@ -53,20 +55,32 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
+## 
+## Function to extract csv file url
+## Avoid error reading in reponse url 
+getResponseDataUrl = function(url){
+  out = read_html(url) %>% 
+    html_nodes("a") %>%
+    ## find attributes we need
+    html_attr("href") %>%
+    as_tibble() %>%
+    ## extract part of csv data url
+    filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
+    ## complete the csv data url
+    mutate(value = paste0("https://mn.gov", value)) %>%
+    pull(value)
+  return(out)
+}
+
+## default url for response prep
 responseUrl = "https://mn.gov/covid19/data/response-prep"
-responseData = read_html(responseUrl) %>%
-  ## use CSS tools to find nodes
-  html_nodes("a") %>%
-  ## find attributes we need
-  html_attr("href") %>%
-  as_tibble() %>%
-  ## extract part of csv data url
-  filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
-  ## complete the csv data url
-  mutate(value = paste0("https://mn.gov", value)) %>%
-  pull(value) %>% 
-  ## read in data
-# responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>% 
+## alternative direct link to csv file
+## "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv"
+## extract url for csv file
+## possibly is from "purrr"
+responseData = possibly(getResponseDataUrl, 
+                           otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
+## read in data
   read.csv(na.strings = c("NA","")) %>% 
   ## remove columns with All NAs
   select_if(~!all(is.na(.))) %>%
