@@ -25,19 +25,15 @@ mdhData = url %>%
   ## get necessary data for COVID.R
   filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total positive:|Patients no longer needing isolation:|Deaths:|Hospitalized as of today: |Hospitalized in ICU as of today:")) %>% 
   ## format date string using regular expression
-  
-  
+  ## format deaths (added on 2020-05-02)
   mutate(value = ifelse(str_detect(value, "Updated"), 
                         paste("Date:", value %>% str_match("\r\n\tUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
        ## format hospitalized as of today and remove extra info in the end
-       value = ifelse(str_detect(value, "Hospitalized as of today:"), word(value, sep = "\r\n  "), value)) %>% 
-  ## format deaths (added on 2020-05-02)
-  mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) 
-
-
-%>% 
-  ## filter out info we don't need
-  #filter(str_detect(value, "\r\n|from", negate = T)) %>% 
+       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:"), word(value, sep = "\r\n"), value)) %>% 
+  # ## format deaths (added on 2020-05-02)
+  # mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) %>% 
+  # ## filter out info we don't need
+  # filter(str_detect(value, "\r\n|from", negate = T)) %>% 
   ## separate variable into two columns by ":"
   separate(value, c("Name", "Value"), sep = ":") %>%
   ## remove space in the beginning, then remove "0" before month or remove comma for numbers
