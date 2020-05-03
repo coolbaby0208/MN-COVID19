@@ -55,6 +55,8 @@ mdhData = url %>%
 ## Add current data from MDH website to existing csv file  
 read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   full_join(mdhData) %>% 
+  ## remove duplicated data from the same date (just added in case)
+  distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F)
   
 ## Read in MN response data for hospital capacity

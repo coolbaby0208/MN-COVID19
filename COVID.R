@@ -15,7 +15,6 @@ library(ggrepel)
 ## Data preprocessing
 ## tidy up code on 2020-04-17
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  distinct(Date, .keep_all = T) %>% 
   # format date string and compute values for plotting 
   mutate(Date = Date %>% as.Date(format = "%m/%d/%y"), 
          Daily.tests = Total.tested - lag(Total.tested), 
@@ -60,7 +59,7 @@ p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.case
   #geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = -.25, nudge_y = 1, size = 4)+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = .25, nudge_y = 1, size = 4, ylim = c(0, Inf))+
-  annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(100, 150, 200, 250), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
+  annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(200, 250, 300, 350), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
   labs(x = "", y = "Number of new cases", title = "Daily new cases and deaths", fill = "")+
   guides(fill = guide_legend(order = 1))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
@@ -68,7 +67,7 @@ p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.case
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(), legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))
-plot(p1)
+#plot(p1)
 
 ## plot daily positive percentage with data point size indicating number of daily tests
 p2 = ggplot()+
@@ -93,7 +92,7 @@ p2 = ggplot()+
   scale_size_continuous(range = c(.1,4))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
-plot(p2)
+#plot(p2)
 
 # p2 = ggplot(dataWide)+
 #   aes(Date, PositivePercent*100, size = Daily.tests, label = Date)+
@@ -136,7 +135,7 @@ p3 = ggplot(dataLongDailyTests %>%
                                                                                                                                                                   filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>%
                                                                                                                                                                   pull(Value)),
                                                                                                                                               Variable = factor(Variable)), aes(y = Value, fill = Variable), alpha = .3, color = NA, position = "dodge", width = .5)+
-  labs(x = "", y = "Number of cases", size = "Daily tests", fill = "", title = str_wrap("Hospitalized, ICU, Death, Hospitalized percentage and ICU percentage",38))+
+  labs(x = "", y = "Number of cases", size = "Daily tests", fill = "", title = "Cases (line): Hospitalized, ICU & Death\nPercentage (bar): Hospitalized & ICU")+
   guides(color=guide_legend(nrow=1,byrow=TRUE, order = 3))+
   scale_size_continuous(range = c(.1,4))+
   scale_color_manual(values = c(RColorBrewer::brewer.pal(3, "Set1")[1:2], RColorBrewer::brewer.pal(5, "Set1")[5]), name = "", labels = c("Current hospitalized", "Current ICU","Total deaths"))+
@@ -145,12 +144,12 @@ p3 = ggplot(dataLongDailyTests %>%
                                                    filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>% 		
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
-  annotate("label", x = as.Date(c("2020-03-28","2020-04-12")), y = c(200,250), label = c("StayHomeOrder","8pm data"))+
+  annotate("label", x = as.Date(c("2020-03-28","2020-04-12")), y = c(325,375), label = c("StayHomeOrder","8pm data"))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
-plot(p3)
+#plot(p3)
 ## old version p3
 # p3 = ggplot(dataLongDailyTests %>% 
 #               filter(Variable %in% c("ICU", "Currently.hospitalized", "ICUPercent", "Total.deaths", "HospitalizedPercent"), Date > as.Date("2020-03-23")) %>% 
