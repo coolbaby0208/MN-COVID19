@@ -19,7 +19,7 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   mutate(Date = Date %>% as.Date(format = "%m/%d/%y"), 
          Daily.tests = Total.tested - lag(Total.tested), 
          New.cases = Total.cases - lag(Total.cases), 
-         Currently.sick = Total.cases - Total.deaths - Total.recovered,
+         Currently.sick = Total.cases - Total.recovered,
          New.deaths = Total.deaths - lag(Total.deaths),
          New.ICU = ICU - lag(ICU),
          New.hospitalized = Currently.hospitalized - lag(Currently.hospitalized),
