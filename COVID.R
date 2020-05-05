@@ -16,7 +16,8 @@ library(ggrepel)
 ## tidy up code on 2020-04-17
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   # format date string and compute values for plotting 
-  mutate(Date = Date %>% as.Date(format = "%m/%d/%y"), 
+  mutate(Date = Date %>% as.Date(format = "%m/%d/%y"),
+         Day = Date %>% wday(label = TRUE),
          Daily.tests = Total.tested - lag(Total.tested), 
          New.cases = Total.cases - lag(Total.cases), 
          Currently.sick = Total.cases - Total.recovered,
@@ -33,7 +34,7 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 
 ## Convert to long format for p1 and p3 plots
 dataLongDailyTests = dataWide %>% 
-  pivot_longer(c(-Date, -Daily.tests), names_to = "Variable", values_to = "Value")
+  pivot_longer(c(-Date, -Day, -Daily.tests), names_to = "Variable", values_to = "Value")
 
 
 ## Long data for New cases and deaths with n day moving average
@@ -85,7 +86,7 @@ p2 = ggplot()+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.tests), shape = 21, stroke = 1, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[1:2]), label = c("Positive rate","Fatality rate"))+
   annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12")), y = c(11, 13, 15, 17), label = c("Bar close","School close","StayHomeOrder","8pm data"))+
-  labs(x = "", y = "Percentage (%)", title = "Daily positive rate and fatality rate", size = "Daily tests", fill = "Positive rate")+
+  labs(x = "", y = "Percentage (%)", title = "Daily positive rate and case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   scale_fill_manual(name = "", label = c("Positive rate","      Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[1:2]))+
@@ -124,7 +125,7 @@ p3 = ggplot(dataLongDailyTests %>%
               mutate(Variable = factor(Variable, levels = c("Currently.hospitalized", "ICU", "Total.deaths"))))+ 
   aes(Date, Value, color = Variable)+
   geom_line(aes(group = Variable))+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("ICU", "Currently.hospitalized", "Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, nudge_y = 15, nudge_x = .9, size = 3.5, show.legend = F)+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("ICU", "Currently.hospitalized", "Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, nudge_y = 15, nudge_x = 2.5, size = 3.5, show.legend = F)+
   geom_point(fill = "white", shape = 21, stroke = .8, size = .9, show.legend = F)+
   geom_vline(xintercept = dataLongDailyTests %>% filter(Date > as.Date("2020-03-23")) %>% 
                distinct(Date) %>% 
@@ -189,7 +190,7 @@ p3 = ggplot(dataLongDailyTests %>%
 p4 = ggplot(responseData)+
   aes(x = interaction(Detail3), y = Value, fill = Detail1, label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8) + 
-  geom_text(position = "stack", vjust = 2)+
+  geom_text(position = "stack", vjust = 1.5)+
   facet_wrap(~Metric)+
   labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%b %d")), caption = paste("Data source:", responseUrl))+
   scale_fill_brewer(palette ="Set2")+
