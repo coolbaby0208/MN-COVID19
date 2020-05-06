@@ -19,11 +19,12 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## remove duplicated data from the same date (just added in case)
   distinct(Date, .keep_all = T) %>% 
   # format date string and compute values for plotting 
+  rename(Total.no.isolated = Total.recovered) %>% 
   mutate(Date = Date %>% as.Date(format = "%m/%d/%y"),
          Day = Date %>% wday(label = TRUE),
          Daily.tests = Total.tested - lag(Total.tested), 
          New.cases = Total.cases - lag(Total.cases), 
-         Currently.sick = Total.cases - Total.recovered,
+         Currently.sick = Total.cases - Total.no.isolated,
          New.deaths = Total.deaths - lag(Total.deaths),
          New.ICU = ICU - lag(ICU),
          New.hospitalized = Currently.hospitalized - lag(Currently.hospitalized),
@@ -32,7 +33,8 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          ICUPercent = ICU/Currently.hospitalized, 
          HospitalizedPercent = Currently.hospitalized/Currently.sick,
          DeathPercent = Total.deaths/Total.cases,
-         Total.recovered = Total.recovered - Total.deaths) %>% 
+         Total.recovered = Total.no.isolated - Total.deaths) %>% 
+  select(-Total.no.isolated) %>% 
   # drop rows with NA in daily tests
   drop_na(Daily.tests) 
 
