@@ -29,7 +29,9 @@ mdhData = url %>%
   mutate(value = ifelse(str_detect(value, "Updated"), 
                         paste("Date:", value %>% str_match("\r\n\tUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
        ## format hospitalized as of today and remove extra info in the end
-       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:"), word(value, sep = "\r\n"), value)) %>% 
+       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:"), word(value, sep = "\r\n"), value),
+       ## added on May 6th
+       value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n\t"), value)) %>% 
   # ## format deaths (added on 2020-05-02)
   # mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) %>% 
   # ## filter out info we don't need
@@ -50,7 +52,10 @@ mdhData = url %>%
          Total.recovered = `Patients no longer needing isolation`) %>% 
   ## convert variables to integer except for Date
   mutate_at(vars(-Date), as.integer) %>% 
-  select(-starts_with("Total approximate"))
+  mutate(Date = Date %>% as.Date(format = "%m/%d/%y") %>% as.character(),
+         Day = Date %>% wday(label = TRUE) %>% as.character()) %>% 
+  select(-starts_with("Total approximate")) %>% 
+  select(Date,Day,everything())
 
 ## Add current data from MDH website to existing csv file  
 read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
@@ -100,3 +105,4 @@ responseData = possibly(getResponseDataUrl,
   ## rename levels and refactor Detail1
   mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
          Detail1 = factor(Detail1, levels = c("Surge - 72 hour", "Surge - 24 hour", "On back order", "Surge", "Current")))
+
