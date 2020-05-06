@@ -52,7 +52,16 @@ mdhData = url %>%
          Total.recovered = `Patients no longer needing isolation`) %>% 
   ## convert variables to integer except for Date
   mutate_at(vars(-Date), as.integer) %>% 
-  select(-starts_with("Total approximate"))
+  select(-starts_with("Total approximate")) %>% 
+  mutate(Total.recovered = Total.recovered - Total.deaths,
+         Date = Date %>% mdy()) 
+
+## Output data
+read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  mutate(Date = Date %>% ymd()) %>% 
+  full_join(mdhData) %>% 
+  distinct(Date, .keep_all = T) %>% 
+  write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17

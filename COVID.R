@@ -15,16 +15,11 @@ library(ggrepel)
 ## Data preprocessing
 ## tidy up code on 2020-04-17
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  full_join(mdhData) %>% 
-  ## remove duplicated data from the same date (just added in case)
-  distinct(Date, .keep_all = T) %>% 
   # format date string and compute values for plotting 
-  rename(Total.no.isolated = Total.recovered) %>% 
-  mutate(Date = Date %>% as.Date(format = "%m/%d/%y"),
-         Day = Date %>% wday(label = TRUE),
+  mutate(Date = Date %>% ymd(),
          Daily.tests = Total.tested - lag(Total.tested), 
          New.cases = Total.cases - lag(Total.cases), 
-         Currently.sick = Total.cases - Total.no.isolated,
+         Currently.sick = Total.cases - Total.recovered - Total.deaths,
          New.deaths = Total.deaths - lag(Total.deaths),
          New.ICU = ICU - lag(ICU),
          New.hospitalized = Currently.hospitalized - lag(Currently.hospitalized),
@@ -32,18 +27,14 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = ICU/Currently.hospitalized, 
          HospitalizedPercent = Currently.hospitalized/Currently.sick,
-         DeathPercent = Total.deaths/Total.cases,
-         Total.recovered = Total.no.isolated - Total.deaths) %>% 
-  select(-Total.no.isolated) %>% 
+         DeathPercent = Total.deaths/Total.cases) %>% 
+  #select(Date, Day, Daily.tests, starts_with("New"), starts_with("Current"), ICU, starts_with("Total"), ends_with("Percent"))
   # drop rows with NA in daily tests
   drop_na(Daily.tests) 
 
-## Output dataset
-write.csv(dataWide , "MNCovidData.csv", row.names = F) 
-
 ## Convert to long format for p1 and p3 plots
 dataLongDailyTests = dataWide %>% 
-  pivot_longer(c(-Date, -Day, -Daily.tests), names_to = "Variable", values_to = "Value")
+  pivot_longer(c(-Date, -Daily.tests), names_to = "Variable", values_to = "Value")
 
 
 ## Long data for New cases and deaths with n day moving average
@@ -77,7 +68,7 @@ p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.case
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(), legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12))
-#plot(p1)
+plot(p1)
 
 ## plot daily positive percentage with data point size indicating number of daily tests
 p2 = ggplot()+
