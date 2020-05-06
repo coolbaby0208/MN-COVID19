@@ -52,18 +52,8 @@ mdhData = url %>%
          Total.recovered = `Patients no longer needing isolation`) %>% 
   ## convert variables to integer except for Date
   mutate_at(vars(-Date), as.integer) %>% 
-  mutate(Date = Date %>% as.Date(format = "%m/%d/%y") %>% as.character(),
-         Day = Date %>% wday(label = TRUE) %>% as.character()) %>% 
-  select(-starts_with("Total approximate")) %>% 
-  select(Date,Day,everything())
+  select(-starts_with("Total approximate"))
 
-## Add current data from MDH website to existing csv file  
-read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  full_join(mdhData) %>% 
-  ## remove duplicated data from the same date (just added in case)
-  distinct(Date, .keep_all = T) %>% 
-  write.csv("MNCovidData.csv", row.names = F)
-  
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
 ## 

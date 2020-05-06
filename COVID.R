@@ -15,6 +15,9 @@ library(ggrepel)
 ## Data preprocessing
 ## tidy up code on 2020-04-17
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  full_join(mdhData) %>% 
+  ## remove duplicated data from the same date (just added in case)
+  distinct(Date, .keep_all = T) %>% 
   # format date string and compute values for plotting 
   mutate(Date = Date %>% as.Date(format = "%m/%d/%y"),
          Day = Date %>% wday(label = TRUE),
@@ -28,9 +31,13 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = ICU/Currently.hospitalized, 
          HospitalizedPercent = Currently.hospitalized/Currently.sick,
-         DeathPercent = Total.deaths/Total.cases) %>% 
+         DeathPercent = Total.deaths/Total.cases,
+         Total.recovered = Total.recovered - Total.deaths) %>% 
   # drop rows with NA in daily tests
-  drop_na(Daily.tests)
+  drop_na(Daily.tests) 
+
+## Output dataset
+write.csv(dataWide , "MNCovidData.csv", row.names = F) 
 
 ## Convert to long format for p1 and p3 plots
 dataLongDailyTests = dataWide %>% 
