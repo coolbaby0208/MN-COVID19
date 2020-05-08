@@ -31,7 +31,8 @@ mdhData = url %>%
        ## format hospitalized as of today and remove extra info in the end
        value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:"), word(value, sep = "\r\n"), value),
        ## added on May 6th
-       value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n\t"), value)) %>% 
+       ## edit again on May 8th
+       value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n"), value)) %>% 
   # ## format deaths (added on 2020-05-02)
   # mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) %>% 
   # ## filter out info we don't need
