@@ -145,7 +145,7 @@ p3 = ggplot(dataLongDailyTests %>%
                                                    filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>% 		
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
-  annotate("label", x = as.Date(c("2020-03-28","2020-04-12","2020-05-04")), y = c(325,375, 600), label = c("StayHomeOrder","8pm data","Curbside pickup"))+
+  annotate("label", x = as.Date(c("2020-03-28","2020-04-12","2020-05-04")), y = c(325,375, 610), label = c("StayHomeOrder","8pm data","Curbside pickup"))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
