@@ -27,12 +27,12 @@ mdhData = url %>%
   ## format date string using regular expression
   ## format deaths (added on 2020-05-02)
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("\r\n\tUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
+                        paste("Date:", value %>% str_match("\r\nUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
        ## format hospitalized as of today and remove extra info in the end
-       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:"), word(value, sep = "\r\n"), value),
+       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive:"), word(value, sep = "\r\n"), value)) %>% 
        ## added on May 6th
        ## edit again on May 8th
-       value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n"), value)) %>% 
+       #value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n"), value)) %>% 
   # ## format deaths (added on 2020-05-02)
   # mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) %>% 
   # ## filter out info we don't need
@@ -59,7 +59,7 @@ mdhData = url %>%
 
 ## Output data
 read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  mutate(Date = Date %>% ymd()) %>% 
+  mutate(Date = Date %>% mdy()) %>% 
   full_join(mdhData) %>% 
   distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
