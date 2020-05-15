@@ -61,6 +61,7 @@ p1 = ggplot(dataLongDailyTests %>% filter(Variable %in% c("New.deaths","New.case
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = -.25, nudge_y = 1, size = 4)+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = .25, nudge_y = 1, size = 4, ylim = c(0, Inf))+
   annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12","2020-05-04")), y = c(200, 300, 400, 500, 850), label = c("Bar close","School close","StayHomeOrder","8pm data", "Curbside pickup"))+
+  annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Number of new cases", title = "Daily new cases and deaths", fill = "")+
   guides(fill = guide_legend(order = 1))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
@@ -86,6 +87,7 @@ p2 = ggplot()+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.tests), shape = 21, stroke = 1, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[1:2]), label = c("Positive rate","Fatality rate"))+
   annotate("label", x = as.Date(c("2020-03-16","2020-03-20","2020-03-29","2020-04-12","2020-05-04")), y = c(11, 15, 19, 23, 31), label = c("Bar close","School close","StayHomeOrder","8pm data","Curbside pickup"))+
+  annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate and case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
@@ -146,6 +148,7 @@ p3 = ggplot(dataLongDailyTests %>%
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
   annotate("label", x = as.Date(c("2020-03-28","2020-04-12","2020-05-04")), y = c(325,375, 610), label = c("StayHomeOrder","8pm data","Curbside pickup"))+
+  annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),

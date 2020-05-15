@@ -57,9 +57,15 @@ mdhData = url %>%
   mutate(Total.recovered = Total.recovered - Total.deaths,
          Date = Date %>% mdy()) 
 
-## Output data
-read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+## Output data to two csv files
+read.csv("MNCovidDataBySpecimenCollectionDate.csv", na.strings = c("", "NA")) %>% 
   mutate(Date = Date %>% mdy()) %>% 
+  full_join(mdhData) %>% 
+  distinct(Date, .keep_all = T) %>% 
+  write.csv("MNCovidDataBySpecimenCollectionDate.csv", row.names = F) 
+
+read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  mutate(Date = Date %>% ymd()) %>% 
   full_join(mdhData) %>% 
   distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
@@ -89,9 +95,12 @@ responseUrl = "https://mn.gov/covid19/data/response-prep"
 ## "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv"
 ## extract url for csv file
 ## possibly is from "purrr"
-responseData = possibly(getResponseDataUrl, 
-                           otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
-## read in data
+## This does not work because of website change on 2020-05-14
+# responseData = possibly(getResponseDataUrl, 
+#                            otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
+
+responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>%   
+  ## read in data
   read.csv(na.strings = c("NA","")) %>% 
   ## remove columns with All NAs
   select_if(~!all(is.na(.))) %>%
