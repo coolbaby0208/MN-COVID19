@@ -53,9 +53,11 @@ mdhData = url %>%
          Total.recovered = `Patients no longer needing isolation`) %>% 
   ## convert variables to integer except for Date
   mutate_at(vars(-Date), as.integer) %>% 
-  select(-starts_with("Total approximate")) %>% 
-  mutate(Total.recovered = Total.recovered - Total.deaths,
-         Date = Date %>% mdy()) 
+  select(-starts_with("Total approximate")) %>%
+  ## edit 2020-05-18 due to MDH website change
+  # mutate(Total.recovered = Total.recovered - Total.deaths,
+  #        Date = Date %>% mdy()) 
+  mutate(Date = Date %>% mdy()) 
 
 ## Output data to two csv files
 read.csv("MNCovidDataBySpecimenCollectionDate.csv", na.strings = c("", "NA")) %>% 
