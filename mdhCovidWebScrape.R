@@ -23,13 +23,14 @@ mdhData = url %>%
   ## convert list to a tibble
   as_tibble() %>% 
   ## get necessary data for COVID.R
-  filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total positive:|Patients no longer needing isolation:|Deaths:|Hospitalized as of today: |Hospitalized in ICU as of today:")) %>% 
+  filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total positive cases:|Patients no longer needing isolation:|Deaths:|Hospitalized as of today: |Hospitalized in ICU as of today:")) %>% 
   ## format date string using regular expression
   ## format deaths (added on 2020-05-02)
+  ## format Total positive cases on 2020-05-25
   mutate(value = ifelse(str_detect(value, "Updated"), 
                         paste("Date:", value %>% str_match("\r\nUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
        ## format hospitalized as of today and remove extra info in the end
-       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive:"), word(value, sep = "\r\n"), value)) %>% 
+       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive cases:"), word(value, sep = "\r\n"), value)) %>% 
        ## added on May 6th
        ## edit again on May 8th
        #value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n"), value)) %>% 
@@ -45,7 +46,7 @@ mdhData = url %>%
   pivot_wider(names_from = Name,
               values_from = Value) %>%
   ## rename colnames to match csv file "MNCovidData.csv"
-  rename(Total.cases = `Total positive`, 
+  rename(Total.cases = `Total positive cases`, 
          Total.tested = `Total approximate number of completed tests`,
          Currently.hospitalized = `Hospitalized as of today`,
          ICU = `Hospitalized in ICU as of today`,
