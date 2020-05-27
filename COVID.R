@@ -49,9 +49,10 @@ dataLongAvg = dataLongDailyTests %>%
 ## set up vline dates and vline labels for important events
 vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-27")),
                 Label = c("Bar close","School close","Stay Home", "Curbside\npickup", "Stay Safe", "25% worship"))
-
+# for p1 sec_axis
+secAxisConstant = 12
 ## plot daily new cases and deaths
-p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths", Value*20, Value)) %>% filter(Variable %in% c("New.deaths","New.cases")))+
+p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths", Value*secAxisConstant, Value)) %>% filter(Variable %in% c("New.deaths","New.cases")))+
   aes(Date, Value, fill = Variable, label = Value)+
   geom_col(position = "dodge", alpha = .5, width = .85)+
   geom_vline(xintercept = dataLongDailyTests %>%
@@ -59,11 +60,11 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
   # n day moving average
-  geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "New.deaths", movAvgValue*20, movAvgValue)) %>% filter(Variable %in% c("New.deaths","New.cases")) , aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.6, alpha = .9)+
+  geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "New.deaths", movAvgValue*secAxisConstant, movAvgValue)) %>% filter(Variable %in% c("New.deaths","New.cases")) , aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.6, alpha = .9)+
   #geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 4, size = 2.5)+
   #geom_text(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Value > 0), aes(x= Date, y = Value), nudge_y = 2, size = 2.5)+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = -.25, nudge_y = 1, size = 4)+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*20), segment.color = NA, direction = "y", box.padding = .05, nudge_x = .25, nudge_y = 1, size = 4, ylim = c(0, Inf))+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.cases")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2, nudge_y = 1, size = 4, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*secAxisConstant), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, nudge_y = 1, size = 4, ylim = c(0, Inf),color = RColorBrewer::brewer.pal(3, "Dark2")[2],fontface = "bold")+
   annotate("label", x = vlineDf$Date, y = c(200, 300, 400, 850, 850, 930), label = vlineDf$Label)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "New cases", title = "Daily new cases and deaths", fill = "")+
@@ -71,7 +72,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Dark2"), labels = c("New case", "New death"))+
   scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
-  scale_y_continuous(sec.axis = sec_axis(~ ./20, 		
+  scale_y_continuous(sec.axis = sec_axis(~ ./secAxisConstant, 		
                                          name = "New deaths"))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(), legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14), legend.text = element_text(size=12),
@@ -90,8 +91,8 @@ p2 = ggplot()+
                pull(Date), lty = 2, alpha = .4)+
   # n day moving average
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercent","DeathPercent")), aes(Date, movAvgValue*100, color = rev(Variable), group = Variable), size = 1.8, alpha = .8)+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercent")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = -.05, nudge_y = 1, size = 3.5)+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercent")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = .5, nudge_y = 1, size = 3.5, ylim = c(0, Inf))+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercent")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2, nudge_y = 1, size = 3.5, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercent")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, nudge_y = 1, size = 3.5, ylim = c(0, Inf), color = RColorBrewer::brewer.pal(3, "Dark2")[2], fontface = "bold")+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.tests), shape = 21, stroke = 1, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[1:2]), label = c("Positive rate","Fatality rate"))+
   annotate("label", x = vlineDf$Date, y = c(11, 15, 19, 25, 25, 29), label = vlineDf$Label)+
