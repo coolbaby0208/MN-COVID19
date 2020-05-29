@@ -107,10 +107,12 @@ responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1
   read.csv(na.strings = c("NA","")) %>% 
   ## remove columns with All NAs
   select_if(~!all(is.na(.))) %>%
+  filter(!is.na(Detail3)) %>% 
   ## format Date and Values 
-  mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
+  ## edit on 2020-05-29 due to excel datevalues format
+  mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
          Value = Value_NUMBER %>% as.character() %>% as.integer(),
-         DateUpdate = Date.and.time.of.update %>% mdy_hm() %>% format("%m/%d/%y")) %>% 
+         DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>% 
   ## remove unnecessary columns
   select(-starts_with("Geographic"), -URLlink, -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
   filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
