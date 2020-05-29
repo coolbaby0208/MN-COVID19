@@ -112,7 +112,7 @@ responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1
          Value = Value_NUMBER %>% as.character() %>% as.integer(),
          DateUpdate = Date.and.time.of.update %>% mdy_hm() %>% format("%m/%d/%y")) %>% 
   ## remove unnecessary columns
-  select(-starts_with("Geographic"), -URLLINK, -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
+  select(-starts_with("Geographic"), -URLlink, -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
   filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
   ## rename levels and refactor Detail1
   mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
