@@ -110,9 +110,14 @@ responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1
   filter(!is.na(Detail3)) %>% 
   ## format Date and Values 
   ## edit on 2020-05-29 due to excel datevalues format
-  mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+  ## edit on 2020-06-09 due to change back to original dat format
+  # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+  #        Value = Value_NUMBER %>% as.character() %>% as.integer(),
+  #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>% 
+  
+  mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
          Value = Value_NUMBER %>% as.character() %>% as.integer(),
-         DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>% 
+         DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
   ## remove unnecessary columns
   select(-starts_with("Geographic"), -URLlink, -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
   filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
