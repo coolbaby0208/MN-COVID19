@@ -72,7 +72,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   guides(fill = guide_legend(order = 1))+
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Dark2"), labels = c("New case", "New death"))+
-  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   scale_y_continuous(sec.axis = sec_axis(~ ./secAxisConstant, 		
                                          name = "New deaths"))+
   theme_minimal()+
@@ -100,7 +100,7 @@ p2 = ggplot()+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate and case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
-  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   scale_fill_manual(name = "", label = c("Positive rate","      Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[1:2]))+
   scale_size_continuous(range = c(.1,4))+
   theme_minimal()+
@@ -157,9 +157,9 @@ p3 = ggplot(dataLongDailyTests %>%
                                                    filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>% 		
                                                    pull(Value))*100, 		
                                          name = "Percentage (%)"))+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(325, 615, 615, 800, 710, 420, 380), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(325, 615, 615, 800, 710, 420, 320), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
-  scale_x_date(date_breaks = "3 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
