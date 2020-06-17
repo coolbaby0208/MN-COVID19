@@ -8,6 +8,7 @@ require(rvest) ## web scrape library
 require(tidyverse)
 require(lubridate) ## deal with date 
 require(purrr)
+require(RCurl)
 
 ## Remove existing variables ####
 rm(list=ls(all=TRUE))
@@ -78,22 +79,22 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 ## 
 ## Function to extract csv file url
 ## Avoid error reading in reponse url 
-getResponseDataUrl = function(url){
-  out = read_html(url) %>% 
-    html_nodes("a") %>%
-    ## find attributes we need
-    html_attr("href") %>%
-    as_tibble() %>%
-    ## extract part of csv data url
-    filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
-    ## complete the csv data url
-    mutate(value = paste0("https://mn.gov", value)) %>%
-    pull(value)
-  return(out)
-}
+# getResponseDataUrl = function(url){
+#   out = read_html(url) %>% 
+#     html_nodes("a") %>%
+#     ## find attributes we need
+#     html_attr("href") %>%
+#     as_tibble() %>%
+#     ## extract part of csv data url
+#     filter(str_detect(value, "StateofMNResponseDashboardCSV")) %>%
+#     ## complete the csv data url
+#     mutate(value = paste0("https://mn.gov", value)) %>%
+#     pull(value)
+#   return(out)
+# }
 
 ## default url for response prep
-responseUrl = "https://mn.gov/covid19/data/response-prep"
+ responseUrl = "https://mn.gov/covid19/data/response-prep/response-capacity.jsp" 
 ## alternative direct link to csv file
 ## "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv"
 ## extract url for csv file
@@ -102,7 +103,7 @@ responseUrl = "https://mn.gov/covid19/data/response-prep"
 # responseData = possibly(getResponseDataUrl, 
 #                            otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
 
-responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>%   
+responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>% 
   ## read in data
   read.csv(na.strings = c("NA","")) %>% 
   ## remove columns with All NAs
@@ -111,13 +112,19 @@ responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1
   ## format Date and Values 
   ## edit on 2020-05-29 due to excel datevalues format
   ## edit on 2020-06-09 due to change back to original dat format
-  # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-  #        Value = Value_NUMBER %>% as.character() %>% as.integer(),
-  #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>% 
-  
-  mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
-         Value = Value_NUMBER %>% as.character() %>% as.integer(),
-         DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
+  mutate(Value = Value_NUMBER %>% as.character() %>% as.integer()) %>% 
+  # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
+  #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
+  ## edit on 2020-06-16 due to change back to original dat format
+  ## try to accomodate both formats
+  mutate(Date = if_else(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
+                       Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                       Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+         DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
+                             Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+         Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
+  # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
+  #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
   ## remove unnecessary columns
   select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
   filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
