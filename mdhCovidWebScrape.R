@@ -103,32 +103,41 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 # responseData = possibly(getResponseDataUrl, 
 #                            otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
 
-responseData = "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv" %>% 
-  ## read in data
-  read.csv(na.strings = c("NA","")) %>% 
-  ## remove columns with All NAs
-  select_if(~!all(is.na(.))) %>%
-  filter(!is.na(Detail3)) %>% 
-  ## format Date and Values 
-  ## edit on 2020-05-29 due to excel datevalues format
-  ## edit on 2020-06-09 due to change back to original dat format
-  mutate(Value = Value_NUMBER %>% as.character() %>% as.integer()) %>% 
-  # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
-  #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
-  ## edit on 2020-06-16 due to change back to original dat format
-  ## try to accomodate both formats
-  mutate(Date = if_else(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
-                       Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                       Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
-         DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
-                             Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-         Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
-  # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
-  #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
-  ## remove unnecessary columns
-  select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
-  filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
-  ## rename levels and refactor Detail1
-  mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
-         Detail1 = factor(Detail1, levels = c("Surge - 72 hour", "Surge - 24 hour", "On back order", "Surge", "Current")))
-
+## Revised on 2020-06-17  
+## Get response prep data
+## Use tryCatch if response csv file is not available (access denied)
+## If error the function will look for a local csv file: "StateofMNResponseDashboardCSV_tcm1148-427143.csv"
+ responseDataExtract = function(fileLoc){
+   out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
+                    ## remove columns with All NAs
+                    select_if(~!all(is.na(.))) %>%
+                    filter(!is.na(Detail3)),
+                  error = function(e) read.csv("StateofMNResponseDashboardCSV_tcm1148-427143.csv", na.strings = c("NA","")) %>% 
+                    ## remove columns with All NAs
+                    select_if(~!all(is.na(.))) %>%
+                    filter(!is.na(Detail3)))
+   out = out %>% 
+     mutate(Value = Value_NUMBER %>% as.character() %>% as.integer()) %>% 
+     # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
+     #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
+     ## edit on 2020-06-16 due to change back to original dat format
+     ## try to accomodate both formats
+     mutate(Date = if_else(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
+                           Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                           Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+            DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
+                                Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                                Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
+     # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
+     #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
+     ## remove unnecessary columns
+     select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
+     filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
+     ## rename levels and refactor Detail1
+     mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
+            Detail1 = factor(Detail1, levels = c("Surge - 72 hour", "Surge - 24 hour", "On back order", "Surge", "Current")))
+   return(out)
+ }
+ responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")
+ 
+ 
