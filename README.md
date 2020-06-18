@@ -8,7 +8,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
 3. Outputs a pdf file named "COVID_markdown.pdf".
 
 Note: 
-  - The csv data (current version: 2020-06-17) may not be updated regularly, but you can find the most recent data in the following link. 
+  - The csv data (current version: 2020-06-18) may not be updated regularly, but you can find the most recent data in the following link. 
   
   - COVID Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
