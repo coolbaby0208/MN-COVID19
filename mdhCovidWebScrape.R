@@ -59,7 +59,9 @@ mdhData = url %>%
   ## edit 2020-05-18 due to MDH website change
   # mutate(Total.recovered = Total.recovered - Total.deaths,
   #        Date = Date %>% mdy()) 
-  mutate(Date = Date %>% mdy()) 
+  mutate(Date = Date %>% mdy()) %>% 
+  # Fix stupid typo on MDH website
+  mutate(Total.cases = ifelse(Date == "2020-06-18", 31675, Total.cases))
 
 ## Output data to two csv files
 read.csv("MNCovidDataBySpecimenCollectionDate.csv", na.strings = c("", "NA")) %>% 
@@ -106,7 +108,7 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 ## Revised on 2020-06-17  
 ## Get response prep data
 ## Use tryCatch if response csv file is not available (access denied)
-## If error the function will look for a local csv file: "StateofMNResponseDashboardCSV_tcm1148-427143.csv"
+## If error, the function will look for a local csv file: "StateofMNResponseDashboardCSV_tcm1148-427143.csv"
  responseDataExtract = function(fileLoc){
    out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
                     ## remove columns with All NAs
@@ -122,12 +124,12 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
      ## edit on 2020-06-16 due to change back to original dat format
      ## try to accomodate both formats
-     mutate(Date = if_else(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
+     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% ymd() %>% is.na(), 
                            Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                           Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
-            DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
+                           Data.Date..MM.DD.YYYY. %>% ymd() %>% format("%m/%d/%y")),
+            DateUpdate = ifelse(Date.and.time.of.update %>% ymd() %>% is.na(), 
                                 Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                                Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
+                                Date.and.time.of.update %>% ymd() %>% format("%m/%d/%y"))) %>% 
      # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
      #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
      ## remove unnecessary columns
