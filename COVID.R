@@ -208,17 +208,18 @@ plot(p3)
 #         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
 # plot(p3)
 ## plot hospital surge capacity
-p4 = ggplot(responseData)+
-  aes(x = interaction(Detail3), y = Value, fill = Detail1, label = Value)+
+# edit 2020-06-23 to fix surge in use for ventilators
+p4 = ggplot(responseData %>% filter (Value>0))+
+  aes(x = Detail3, y = Value, fill = interaction(Detail1), label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8) + 
-  geom_text(position = "stack", vjust = 1.5)+
+  geom_text_repel(position = "stack", vjust = 1.5)+
   facet_wrap(~Metric)+
   labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%b %d")), caption = paste("Data source:", responseUrl))+
   scale_fill_brewer(palette ="Set2")+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 10, face = "bold"))
-#plot(p4)
+plot(p4)
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
 #   geom_point(aes(y = Total.cases))+
