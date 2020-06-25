@@ -124,9 +124,9 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
      ## edit on 2020-06-16 due to change back to original dat format
      ## try to accomodate both formats
-     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
+     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% ymd() %>% is.na(), 
                            Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                           Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+                           Data.Date..MM.DD.YYYY. %>% ymd() %>% format("%m/%d/%y")),
             DateUpdate = ifelse(Date.and.time.of.update %>% ymd() %>% is.na(), 
                                 Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
                                 Date.and.time.of.update %>% ymd() %>% format("%m/%d/%y"))) %>% 
