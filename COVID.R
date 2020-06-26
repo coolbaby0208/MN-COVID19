@@ -209,16 +209,17 @@ plot(p3)
 # plot(p3)
 ## plot hospital surge capacity
 # edit 2020-06-23 to fix surge in use for ventilators
+# edit 2020-06-26 with position_stack (cleaner text label)
 p4 = ggplot(responseData %>% filter (Value>0))+
   aes(x = Detail3, y = Value, fill = interaction(Detail1), label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8) + 
-  geom_text_repel(position = "stack", vjust = 1.5)+
+  geom_text(position = position_stack(vjust = 0.5), size = 3)+
   facet_wrap(~Metric)+
-  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%b %d")), caption = paste("Data source:", responseUrl))+
+  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%b %d")), caption = paste("Source:", responseUrl))+
   scale_fill_brewer(palette ="Set2")+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
-        axis.text.x =  element_text(size = 10, face = "bold"))
+        axis.text.x =  element_text(size = 10, face = "bold"), plot.caption = element_text(hjust = -.0005))
 plot(p4)
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
