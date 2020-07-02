@@ -215,7 +215,7 @@ p4 = ggplot(responseData %>% filter (Value>0))+
   geom_bar(position = "stack", stat = "identity", width = .8) + 
   geom_text(position = position_stack(vjust = 0.5), size = 3)+
   facet_wrap(~Metric)+
-  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date), "%b %d")), caption = paste("Source:", responseUrl))+
+  labs(fill = "Capacity", x = "", y = "", title = paste("Hospital surge capacity: updated on", format(mdy(responseData$Date.and.time.of.update), "%b %d")), caption = paste("Source:", responseUrl))+
   scale_fill_brewer(palette ="Set2")+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),

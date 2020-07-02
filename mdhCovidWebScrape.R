@@ -28,8 +28,9 @@ mdhData = url %>%
   ## format date string using regular expression
   ## format deaths (added on 2020-05-02)
   ## format Total positive cases on 2020-05-25
+  ## fomrat date strings on 2020-07-02
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("\r\nUpdated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
+                        paste("Date:", value %>% str_match("Updated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
        ## format hospitalized as of today and remove extra info in the end
        value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive cases:"), word(value, sep = "\r\n"), value)) %>% 
        ## added on May 6th
