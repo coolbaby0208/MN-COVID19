@@ -43,7 +43,7 @@ mdhData = url %>%
   ## separate variable into two columns by ":"
   separate(value, c("Name", "Value"), sep = ":") %>%
   ## remove space in the beginning, then remove "0" before month or remove comma for numbers
-  mutate(Value = ifelse(str_detect(Value,"/"), Value %>% str_trim("left") %>% str_remove("^0"), Value %>% str_trim("left") %>% str_remove(","))) %>% 
+  mutate(Value = ifelse(str_detect(Value,"/"), Value %>% str_trim("left") %>% str_remove("^0"), Value %>% str_trim("left") %>% str_replace_all("[[:punct:]]", ""))) %>% 
   ## convert to wide format 
   pivot_wider(names_from = Name,
               values_from = Value) %>%
