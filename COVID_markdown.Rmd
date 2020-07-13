@@ -17,6 +17,7 @@ classoption: twocolumn
 knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(kableExtra)
+library(lubridate)
 ## call other scripts
 source('mdhCovidWebScrape.R')
 source('COVID.R')
@@ -66,7 +67,7 @@ p4
    filter(Date %in% tail(Date, 5)) %>%
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
-   kable(digits = 3,booktabs = T, caption = "Total numbers for last 5 days",align = "c") %>%
+   kable(digits = 3,booktabs = T, caption = "Cumulative numbers for last 5 days",align = "c") %>%
    kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 9) %>% 
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
