@@ -64,18 +64,33 @@ mdhData = url %>%
   # Fix stupid typo on MDH website
   mutate(Total.cases = ifelse(Date == "2020-06-18", 31675, Total.cases))
 
-## Output data to two csv files
-read.csv("MNCovidDataBySpecimenCollectionDate.csv", na.strings = c("", "NA")) %>% 
-  mutate(Date = Date %>% mdy()) %>% 
-  full_join(mdhData) %>% 
-  distinct(Date, .keep_all = T) %>% 
-  write.csv("MNCovidDataBySpecimenCollectionDate.csv", row.names = F) 
-
+## Output data to csv file
 read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   mutate(Date = Date %>% ymd()) %>% 
   full_join(mdhData) %>% 
   distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
+
+## For extracting data for positive cases by specimen date
+mdhDataTable = url %>% 
+  read_html() %>% 
+  ## use CSS tools to figure out needed nodes for data 
+  html_nodes("table") 
+
+## Get table for specimen collection date
+dataSpecimenDate = mdhDataTable[[6]] %>% 
+  ## rename variables
+  html_table() %>% 
+  rename(DateBySpecimen = `Specimen collection date`,
+         New.casesBySpecimenDate = `Positive cases`,
+         Total.casesBySpecimenDate = `Cumulative positive cases`) %>% 
+  ## format DateBySpeimen as "Date" 
+  ## remove comma and format Total cases as number 
+  mutate(DateBySpecimen = as.Date(DateBySpecimen, "%m/%d"),
+         Total.casesBySpecimenDate =  gsub(",","", Total.casesBySpecimenDate) %>% as.double()) %>% 
+  ## Output data to csv file
+  write.csv("MNCovidDataBySpecimenCollectionDate.csv", row.names = F) 
+
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
