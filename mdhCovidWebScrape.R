@@ -71,26 +71,44 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
+## Added on 2020-07-14 to take care of the following two variables changed by MDH within the past 7 days
+## 1. Total testing
+## 2. Positive cases
+
 ## For extracting data for positive cases by specimen date
 mdhDataTable = url %>% 
   read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
-  html_nodes("table") 
+  html_nodes("table") %>% 
+  lmap(html_table)
 
-## Get table for specimen collection date
+## Get testing number from report date
+testReportDate = mdhDataTable[[5]] %>% 
+  rename(DateReport = `Date reported to MDH`,
+         MDHTestsByReportDate = `Completed tests reported from the MDH Public Health Lab (daily)`,
+         ExternalTestsByReportDate  = `Completed tests reported from external laboratories (daily)`,
+         TotalTestsByReportDate = `Total approximate number of completed tests`) %>% 
+  mutate(DateReport = as.Date(DateReport , "%m/%d")) %>% 
+  mutate_at(vars(-DateReport), ~str_remove_all(., ",") %>% as.double())
+
+## Get positve cases for specimen collection date
 dataSpecimenDate = mdhDataTable[[6]] %>% 
-  ## rename variables
-  html_table() %>% 
-  rename(DateBySpecimen = `Specimen collection date`,
+  rename(DateReport = `Specimen collection date`,
          New.casesBySpecimenDate = `Positive cases`,
          Total.casesBySpecimenDate = `Cumulative positive cases`) %>% 
-  ## format DateBySpeimen as "Date" 
-  ## remove comma and format Total cases as number 
-  mutate(DateBySpecimen = as.Date(DateBySpecimen, "%m/%d"),
-         Total.casesBySpecimenDate =  gsub(",","", Total.casesBySpecimenDate) %>% as.double()) %>% 
-  ## Output data to csv file
-  write.csv("MNCovidDataBySpecimenCollectionDate.csv", row.names = F) 
+  mutate(DateReport = as.Date(DateReport, "%m/%d"),
+         Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double()) %>% 
+  ## combine with testing data
+  full_join(testReportDate, by = "DateReport") %>% 
+  mutate(Date = DateReport + 1)
 
+## Combine data from daily update with data reported by specimen & reported dates
+data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  mutate_at(vars(starts_with("Date")), ymd) %>% 
+  full_join(dataSpecimenDate) %>% 
+  arrange(Date) %>% 
+  distinct(TotalTestsByReportDate, .keep_all = TRUE)
+  write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17

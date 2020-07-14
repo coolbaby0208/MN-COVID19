@@ -65,6 +65,7 @@ p4
  dataWide %>% 
    mutate(Date = format(Date, format = "%b %d"))%>% 
    filter(Date %in% tail(Date, 5)) %>%
+   select(-contains("By")) %>% 
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
    kable(digits = 3,booktabs = T, caption = "Cumulative numbers for last 5 days",align = "c") %>%
