@@ -100,7 +100,8 @@ dataSpecimenDate = mdhDataTable[[6]] %>%
          Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double()) %>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
-  mutate(Date = DateReport + 1) %>% 
+  mutate(Date = DateReport + 1) %>%
+  ## drop Data with missing date
   drop_na(DateReport)
 
 ## Combine data from daily update with data reported by specimen & reported dates
