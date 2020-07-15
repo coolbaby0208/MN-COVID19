@@ -115,7 +115,6 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   select(-DateReport:-TotalTestsByReportDate) %>% 
   full_join(dataSpecimenDate) %>% 
   arrange(Date) %>% 
-  distinct(TotalTestsByReportDate, .keep_all = TRUE) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
