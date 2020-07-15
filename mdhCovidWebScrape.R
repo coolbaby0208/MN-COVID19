@@ -100,14 +100,21 @@ dataSpecimenDate = mdhDataTable[[6]] %>%
          Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double()) %>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
-  mutate(Date = DateReport + 1)
+  mutate(Date = DateReport + 1) %>% 
+  drop_na(DateReport)
 
 ## Combine data from daily update with data reported by specimen & reported dates
+## edit on 2020-07-15
 data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  mutate_at(vars(starts_with("Date")), ymd) %>% 
+  ## remove data with missing date
+  drop_na(Date) %>% 
+  mutate_at(vars(starts_with("Date")), ymd) %>%
+  ## since the values in duplicated variables will change
+  ## remove duplicated variables before full_join
+  select(-DateReport:-TotalTestsByReportDate) %>% 
   full_join(dataSpecimenDate) %>% 
   arrange(Date) %>% 
-  distinct(TotalTestsByReportDate, .keep_all = TRUE)
+  distinct(TotalTestsByReportDate, .keep_all = TRUE) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
