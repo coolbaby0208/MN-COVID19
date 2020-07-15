@@ -17,6 +17,20 @@ Note:
   - Library needed for this R markdown: tidyverse, ggrepel, gridExtra, knitr, kableExtra, rvest, lubridate  
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
+  
+Major change in the 1st and 2nd plots: 2020-07-15
+
+Data for New cases, Daily tests, Daily positive rate and Case fatality rate are using either specimen collection date (e.g., New cases) or date reported to MDH (e.g., Daily tests from testing data table) if the data is more than a week old. 
+
+For data within a week, the variables mentioned above will be calculated using MDH Daily Update. 
+For example, 
+New cases = Today's Total positive cases (cumulative) - Yesterday's Total positive cases (cumulative) 
+Daily tests = Today's Total approximate number of completed tests - Yesterday's Total approximate number of completed tests
+
+Differences between the 1st and 2nd plots. 
+
+Because Positive cases by date specimen collected data table starts on 3/5 and Testing data table starts on 3/28, you only see new cases data from 3/5 to 3/28 and you won't see data before 3/28 in the 2nd plot. 
+
 
 **Example output**
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
