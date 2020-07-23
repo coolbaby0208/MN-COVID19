@@ -1,478 +1,612 @@
 Metric,Detail1,Detail2,Detail3,Detail4,Data Date (MM/DD/YYYY),GeographicLevel,GeographicName,Value_NUMBER,Units,MOST RECENT DATA,COVID Team,Date and time of update,Subgroup,Value_Text,URLLINK
-$ available,COVID 19 MN Fund,Available,,,6/1/2020,State,Minnesota,15118000,dollars,,Funding,6/8/2020,,$15.1M,https://mn.gov/mmb/budget/covid19-mn-fund/
-$ in initial,COVID 19 MN Fund,Initial balance,,,6/1/2020,State,Minnesota,200000000,dollars,,Funding,6/8/2020,,$200M,https://mn.gov/mmb/budget/covid19-mn-fund/
-$ spending approval,COVID 19 MN Fund,Spending Approved,,,6/1/2020,State,Minnesota,184882000,dollars,,Funding,6/8/2020,,$184.9M,https://mn.gov/mmb/budget/covid19-mn-fund/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-22,State,Minnesota,93,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-23,State,Minnesota,973,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-24,State,Minnesota,710,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-25,State,Minnesota,634,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-26,State,Minnesota,836,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-27,State,Minnesota,752,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-28,State,Minnesota,101,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-29,State,Minnesota,116,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-30,State,Minnesota,1065,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-03-31,State,Minnesota,741,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-01,State,Minnesota,936,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-02,State,Minnesota,927,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-03,State,Minnesota,927,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-04,State,Minnesota,120,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-05,State,Minnesota,120,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-06,State,Minnesota,1347,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-07,State,Minnesota,861,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-08,State,Minnesota,968,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-09,State,Minnesota,950,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-10,State,Minnesota,730,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-11,State,Minnesota,90,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-12,State,Minnesota,79,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-13,State,Minnesota,1069,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-14,State,Minnesota,821,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-15,State,Minnesota,793,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-16,State,Minnesota,684,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-17,State,Minnesota,515,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-18,State,Minnesota,62,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-19,State,Minnesota,62,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-20,State,Minnesota,775,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-21,State,Minnesota,560,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-22,State,Minnesota,608,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-23,State,Minnesota,609,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-24,State,Minnesota,487,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-25,State,Minnesota,69,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-26,State,Minnesota,54,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-27,State,Minnesota,714,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-28,State,Minnesota,526,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-29,State,Minnesota,499,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-04-30,State,Minnesota,491,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-01,State,Minnesota,643,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-02,State,Minnesota,81,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-03,State,Minnesota,50,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-04,State,Minnesota,848,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-05,State,Minnesota,691,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-06,State,Minnesota,693,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-07,State,Minnesota,671,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-08,State,Minnesota,533,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-09,State,Minnesota,69,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-10,State,Minnesota,63,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-11,State,Minnesota,792,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-12,State,Minnesota,659,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-13,State,Minnesota,615,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-14,State,Minnesota,579,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-15,State,Minnesota,458,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-16,State,Minnesota,65,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-17,State,Minnesota,51,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-18,State,Minnesota,695,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-19,State,Minnesota,502,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-20,State,Minnesota,457,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-21,State,Minnesota,497,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-22,State,Minnesota,364,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-23,State,Minnesota,31,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-24,State,Minnesota,34,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-25,State,Minnesota,56,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-26,State,Minnesota,672,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-27,State,Minnesota,388,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-28,State,Minnesota,332,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-29,State,Minnesota,307,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-30,State,Minnesota,53,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-05-31,State,Minnesota,45,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-01,State,Minnesota,853,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-02,State,Minnesota,622,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-03,State,Minnesota,578,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-04,State,Minnesota,578,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-05,State,Minnesota,477,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-06,State,Minnesota,57,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-07,State,Minnesota,52,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-08,State,Minnesota,897,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-09,State,Minnesota,828,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-10,State,Minnesota,706,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-11,State,Minnesota,501,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-06-12,State,Minnesota,254,Applications,,Food security,2020-06-15 12:01:19 UTC,,,https://mn.gov/dhs/food-emergency/
-# of Face masks,Distributed,Donations,,,6/15/2020,State,Minnesota,"410,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,410K,"https://mn.gov/mmb/ppe/"
-# of Face shields,Distributed,Donations,,,6/15/2020,State,Minnesota,"36,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,36K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Distributed,Donations,,,6/15/2020,State,Minnesota,"556,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,556K,"https://mn.gov/mmb/ppe/"
-# of Gowns,Distributed,Donations,,,6/15/2020,State,Minnesota,"40,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,40K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Distributed,Donations,,,6/15/2020,State,Minnesota,"443,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,443K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Obtained,Donations,,,6/15/2020,State,Minnesota,"560,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,560K,"https://mn.gov/mmb/ppe/"
-# of Face shields,Obtained,Donations,,,6/15/2020,State,Minnesota,"36,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,36K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Obtained,Donations,,,6/15/2020,State,Minnesota,"589,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,589K,"https://mn.gov/mmb/ppe/"
-# of Gowns,Obtained,Donations,,,6/15/2020,State,Minnesota,"73,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,73K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Obtained,Donations,,,6/15/2020,State,Minnesota,"512,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,512K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Distributed,Federal government,,,6/15/2020,State,Minnesota,"505,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,505K,"https://mn.gov/mmb/ppe/"
-# of Face shields,Distributed,Federal government,,,6/15/2020,State,Minnesota,"79,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,79K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Distributed,Federal government,,,6/15/2020,State,Minnesota,"167,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,167K,"https://mn.gov/mmb/ppe/"
-# of Gowns,Distributed,Federal government,,,6/15/2020,State,Minnesota,"66,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,66K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Distributed,Federal government,,,6/15/2020,State,Minnesota,"366,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,366K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Obtained,Federal government,,,6/15/2020,State,Minnesota,"2,792,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,2.8M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Obtained,Federal government,,,6/15/2020,State,Minnesota,"138,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,138K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Obtained,Federal government,,,6/15/2020,State,Minnesota,"659,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,659K,"https://mn.gov/mmb/ppe/"
-# of Gowns,Obtained,Federal government,,,6/15/2020,State,Minnesota,"118,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,118K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Obtained,Federal government,,,6/15/2020,State,Minnesota,"406,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,406K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Distributed,Procurement,,,6/15/2020,State,Minnesota,"591,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,591K,"https://mn.gov/mmb/ppe/"
-# of Face shields,Distributed,Procurement,,,6/15/2020,State,Minnesota,"118,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,118K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Distributed,Procurement,,,6/15/2020,State,Minnesota,"7,175,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,7.2M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Distributed,Procurement,,,6/15/2020,State,Minnesota,"76,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,76K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Distributed,Procurement,,,6/15/2020,State,Minnesota,"1,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,1K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Obtained,Procurement,,,6/15/2020,State,Minnesota,"8,974,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,9.0M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Obtained,Procurement,,,6/15/2020,State,Minnesota,"486,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,486K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Obtained,Procurement,,,6/15/2020,State,Minnesota,"10,884,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,10.9M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Obtained,Procurement,,,6/15/2020,State,Minnesota,"1,072,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,1.1M,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Obtained,Procurement,,,6/15/2020,State,Minnesota,"207,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,207K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Awaiting Delivery,Total,,,6/15/2020,State,Minnesota,"2,115,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,2.1M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Awaiting Delivery,Total,,,6/15/2020,State,Minnesota,0,Face shields*,,Critical Care Supplies,6/15/2020 21:15,,0K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Awaiting Delivery,Total,,,6/15/2020,State,Minnesota,"40,302,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,40.3M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Awaiting Delivery,Total,,,6/15/2020,State,Minnesota,"5,863,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,5.9M,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Awaiting Delivery,Total,,,6/15/2020,State,Minnesota,"2,402,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,2.4M,"https://mn.gov/mmb/ppe/"
-# of Face masks,Current inventory,Total,,,6/15/2020,State,Minnesota,"10,821,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,10.8M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Current inventory,Total,,,6/15/2020,State,Minnesota,"427,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,427K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Current inventory,Total,,,6/15/2020,State,Minnesota,"4,234,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,4.2M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Current inventory,Total,,,6/15/2020,State,Minnesota,"1,081,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,1.1M,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Current inventory,Total,,,6/15/2020,State,Minnesota,"314,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,314K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Distributed,Total,,,6/15/2020,State,Minnesota,"1,505,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,1.5M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Distributed,Total,,,6/15/2020,State,Minnesota,"233,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,233K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Distributed,Total,,,6/15/2020,State,Minnesota,"7,898,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,7.9M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Distributed,Total,,,6/15/2020,State,Minnesota,"182,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,182K,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Distributed,Total,,,6/15/2020,State,Minnesota,"810,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,810K,"https://mn.gov/mmb/ppe/"
-# of Face masks,Obtained,Total,,,6/15/2020,State,Minnesota,"12,326,000",Face masks,,Critical Care Supplies,6/15/2020 21:15,,12.3M,"https://mn.gov/mmb/ppe/"
-# of Face shields,Obtained,Total,,,6/15/2020,State,Minnesota,"660,000",Face shields*,,Critical Care Supplies,6/15/2020 21:15,,660K,"https://mn.gov/mmb/ppe/"
-# of Gloves (non-latex),Obtained,Total,,,6/15/2020,State,Minnesota,"12,132,000",Gloves (non-latex),,Critical Care Supplies,6/15/2020 21:15,,12.1M,"https://mn.gov/mmb/ppe/"
-# of Gowns,Obtained,Total,,,6/15/2020,State,Minnesota,"1,263,000",Gowns*,,Critical Care Supplies,6/15/2020 21:15,,1.3M,"https://mn.gov/mmb/ppe/"
-# of N95 respirators,Obtained,Total,,,6/15/2020,State,Minnesota,"1,125,000",N95 respirators,,Critical Care Supplies,6/15/2020 21:15,,1.1M,"https://mn.gov/mmb/ppe/"
-# of loans made to small businesses,,,,,4/3/2020,State,Minnesota,17,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/4/2020,State,Minnesota,0,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/5/2020,State,Minnesota,0,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/6/2020,State,Minnesota,21,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/7/2020,State,Minnesota,20,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/8/2020,State,Minnesota,41,loans,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/9/2020,State,Minnesota,36,loans,,Economic Security,4/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/10/2020,State,Minnesota,27,loans,,Economic Security,4/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/11/2020,State,Minnesota,0,loans,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/12/2020,State,Minnesota,0,loans,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/13/2020,State,Minnesota,52,loans,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/14/2020,State,Minnesota,30,loans,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/15/2020,State,Minnesota,43,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/16/2020,State,Minnesota,52,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/17/2020,State,Minnesota,28,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/18/2020,State,Minnesota,0,loans,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/19/2020,State,Minnesota,0,loans,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/20/2020,State,Minnesota,59,loans,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/21/2020,State,Minnesota,37,loans,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/22/2020,State,Minnesota,46,loans,,Economic Security,4/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/23/2020,State,Minnesota,53,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/24/2020,State,Minnesota,42,loans,,Economic Security,4/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/25/2020,State,Minnesota,0,loans,,Economic Security,4/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/26/2020,State,Minnesota,0,loans,,Economic Security,4/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/27/2020,State,Minnesota,20,loans,,Economic Security,4/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/28/2020,State,Minnesota,27,loans,,Economic Security,4/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/29/2020,State,Minnesota,17,loans,,Economic Security,4/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,4/30/2020,State,Minnesota,37,loans,,Economic Security,4/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/1/2020,State,Minnesota,27,loans,,Economic Security,4/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/2/2020,State,Minnesota,0,loans,,Economic Security,4/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/3/2020,State,Minnesota,0,loans,,Economic Security,4/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/4/2020,State,Minnesota,30,loans,,Economic Security,4/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/5/2020,State,Minnesota,34,loans,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/6/2020,State,Minnesota,17,loans,,Economic Security,5/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/7/2020,State,Minnesota,18,loans,,Economic Security,5/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/8/2020,State,Minnesota,26,loans,,Economic Security,5/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/9/2020,State,Minnesota,0,loans,,Economic Security,5/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/10/2020,State,Minnesota,0,loans,,Economic Security,5/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/11/2020,State,Minnesota,17,loans,,Economic Security,5/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/12/2020,State,Minnesota,13,loans,,Economic Security,5/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/13/2020,State,Minnesota,16,loans,,Economic Security,5/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/14/2020,State,Minnesota,0,loans,,Economic Security,5/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/15/2020,State,Minnesota,17,loans,,Economic Security,5/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/16/2020,State,Minnesota,0,loans,,Economic Security,5/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/17/2020,State,Minnesota,0,loans,,Economic Security,5/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/18/2020,State,Minnesota,8,loans,,Economic Security,5/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/19/2020,State,Minnesota,14,loans,,Economic Security,5/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/20/2020,State,Minnesota,7,loans,,Economic Security,5/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/21/2020,State,Minnesota,10,loans,,Economic Security,5/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/22/2020,State,Minnesota,2,loans,,Economic Security,5/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/23/2020,State,Minnesota,0,loans,,Economic Security,5/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/24/2020,State,Minnesota,0,loans,,Economic Security,5/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/25/2020,State,Minnesota,0,loans,,Economic Security,5/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/26/2020,State,Minnesota,0,loans,,Economic Security,5/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/27/2020,State,Minnesota,0,loans,,Economic Security,5/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/28/2020,State,Minnesota,0,loans,,Economic Security,5/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/29/2020,State,Minnesota,0,loans,,Economic Security,5/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/30/2020,State,Minnesota,0,loans,,Economic Security,5/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,5/31/2020,State,Minnesota,0,loans,,Economic Security,5/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/1/2020,State,Minnesota,0,loans,,Economic Security,6/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/2/2020,State,Minnesota,0,loans,,Economic Security,6/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/3/2020,State,Minnesota,10,loans,,Economic Security,6/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/4/2020,State,Minnesota,0,loans,,Economic Security,6/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/5/2020,State,Minnesota,0,loans,,Economic Security,6/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/6/2020,State,Minnesota,0,loans,,Economic Security,6/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/7/2020,State,Minnesota,0,loans,,Economic Security,6/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/8/2020,State,Minnesota,0,loans,,Economic Security,6/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/9/2020,State,Minnesota,0,loans,,Economic Security,6/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/10/2020,State,Minnesota,0,loans,,Economic Security,6/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/11/2020,State,Minnesota,0,loans,,Economic Security,6/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/12/2020,State,Minnesota,3,loans,,Economic Security,6/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/13/2020,State,Minnesota,0,loans,,Economic Security,6/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/14/2020,State,Minnesota,0,loans,,Economic Security,6/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of loans made to small businesses,,,,,6/15/2020,State,Minnesota,0,loans,,Economic Security,6/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,"12,119",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,"26,987",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/18/2020,State,Minnesota,"32,160",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/19/2020,State,Minnesota,"23,416",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/20/2020,State,Minnesota,"21,084",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/21/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/22/2020,State,Minnesota,"10,952",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/23/2020,State,Minnesota,"21,433",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/24/2020,State,Minnesota,"15,607",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/25/2020,State,Minnesota,"18,362",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/26/2020,State,Minnesota,"20,488",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/27/2020,State,Minnesota,"23,326",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/28/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/29/2020,State,Minnesota,"11,604",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/30/2020,State,Minnesota,"15,873",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/31/2020,State,Minnesota,"17,189",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/1/2020,State,Minnesota,"25,442",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/2/2020,State,Minnesota,"23,373",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/3/2020,State,Minnesota,"18,954",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/4/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/5/2020,State,Minnesota,"4,021",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/6/2020,State,Minnesota,"13,931",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/7/2020,State,Minnesota,"13,372",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/8/2020,State,Minnesota,"19,471",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/9/2020,State,Minnesota,"24,157",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/10/2020,State,Minnesota,"17,905",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/11/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/12/2020,State,Minnesota,"4,024",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/13/2020,State,Minnesota,"12,312",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/14/2020,State,Minnesota,"13,299",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/15/2020,State,Minnesota,"18,257",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/16/2020,State,Minnesota,"16,936",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/17/2020,State,Minnesota,"12,228",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/18/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/19/2020,State,Minnesota,"3,238",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/20/2020,State,Minnesota,"8,601",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/21/2020,State,Minnesota,"8,602",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/22/2020,State,Minnesota,"10,645",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/23/2020,State,Minnesota,"11,370",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/24/2020,State,Minnesota,"9,439",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/25/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/26/2020,State,Minnesota,"2,955",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/27/2020,State,Minnesota,"7,358",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/28/2020,State,Minnesota,"7,864",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/29/2020,State,Minnesota,"9,743",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/30/2020,State,Minnesota,"9,814",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/1/2020,State,Minnesota,"9,063",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/2/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/3/2020,State,Minnesota,"3,014",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/4/2020,State,Minnesota,"7,467",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/5/2020,State,Minnesota,"6,701",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/6/2020,State,Minnesota,"8,466",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/7/2020,State,Minnesota,"7,401",Accounts,,Economic Security,5/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/8/2020,State,Minnesota,"6,519",Accounts,,Economic Security,5/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/9/2020,State,Minnesota,0,Accounts,,Economic Security,5/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/10/2020,State,Minnesota,"2,619",Accounts,,Economic Security,5/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/11/2020,State,Minnesota,"5,959",Accounts,,Economic Security,5/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/12/2020,State,Minnesota,"5,269",Accounts,,Economic Security,5/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/13/2020,State,Minnesota,"7,067",Accounts,,Economic Security,5/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/14/2020,State,Minnesota,"6,400",Accounts,,Economic Security,5/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/15/2020,State,Minnesota,"5,065",Accounts,,Economic Security,5/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/16/2020,State,Minnesota,0,Accounts,,Economic Security,5/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/17/2020,State,Minnesota,"2,684",Accounts,,Economic Security,5/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/18/2020,State,Minnesota,"4,681",Accounts,,Economic Security,5/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/19/2020,State,Minnesota,"4,327",Accounts,,Economic Security,5/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/20/2020,State,Minnesota,"4,914",Accounts,,Economic Security,5/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/21/2020,State,Minnesota,"5,178",Accounts,,Economic Security,5/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/22/2020,State,Minnesota,"4,380",Accounts,,Economic Security,5/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/23/2020,State,Minnesota,0,Accounts,,Economic Security,5/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/24/2020,State,Minnesota,"1,848",Accounts,,Economic Security,5/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/25/2020,State,Minnesota,"2,151",Accounts,,Economic Security,5/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/26/2020,State,Minnesota,"4,190",Accounts,,Economic Security,5/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/27/2020,State,Minnesota,"4,241",Accounts,,Economic Security,5/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/28/2020,State,Minnesota,"4,320",Accounts,,Economic Security,5/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/29/2020,State,Minnesota,"3,760",Accounts,,Economic Security,5/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/30/2020,State,Minnesota,0,Accounts,,Economic Security,5/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/31/2020,State,Minnesota,"2,182",Accounts,,Economic Security,5/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/1/2020,State,Minnesota,"4,899",Accounts,,Economic Security,5/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/2/2020,State,Minnesota,"3,933",Accounts,,Economic Security,6/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/3/2020,State,Minnesota,"4,956",Accounts,,Economic Security,6/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/4/2020,State,Minnesota,"5,719",Accounts,,Economic Security,6/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/5/2020,State,Minnesota,"4,914",Accounts,,Economic Security,6/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/6/2020,State,Minnesota,0,Accounts,,Economic Security,6/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/7/2020,State,Minnesota,"2,632",Accounts,,Economic Security,6/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/8/2020,State,Minnesota,"4,688",Accounts,,Economic Security,6/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/9/2020,State,Minnesota,"4,031",Accounts,,Economic Security,6/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/10/2020,State,Minnesota,"4,679",Accounts,,Economic Security,6/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/11/2020,State,Minnesota,"4,373",Accounts,,Economic Security,6/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/12/2020,State,Minnesota,"3,284",Accounts,,Economic Security,6/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/13/2020,State,Minnesota,0,Accounts,,Economic Security,6/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/14/2020,State,Minnesota,"1,879",Accounts,,Economic Security,6/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/15/2020,State,Minnesota,"3,870",Accounts,,Economic Security,6/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/3/2020,State,Minnesota,590000,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/4/2020,State,Minnesota,0,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/5/2020,State,Minnesota,0,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/6/2020,State,Minnesota,730000,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/7/2020,State,Minnesota,640000,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/8/2020,State,Minnesota,1300000,dollars,,Economic Security,4/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/9/2020,State,Minnesota,1200000,dollars,,Economic Security,4/9/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/10/2020,State,Minnesota,800000,dollars,,Economic Security,4/10/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/11/2020,State,Minnesota,0,dollars,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/12/2020,State,Minnesota,0,dollars,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/13/2020,State,Minnesota,1550000,loans,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/14/2020,State,Minnesota,880000,loans,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/15/2020,State,Minnesota,1350000,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/16/2020,State,Minnesota,1500000,loans,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/17/2020,State,Minnesota,820000,dollars,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/18/2020,State,Minnesota,0,dollars,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/19/2020,State,Minnesota,0,dollars,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/20/2020,State,Minnesota,1790000,dollars,,Economic Security,4/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/21/2020,State,Minnesota,980000,dollars,,Economic Security,4/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/22/2020,State,Minnesota,1350000,dollars,,Economic Security,4/15/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/23/2020,State,Minnesota,1500000,dollars,,Economic Security,4/16/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/24/2020,State,Minnesota,1200000,dollars,,Economic Security,4/17/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/25/2020,State,Minnesota,0,dollars,,Economic Security,4/18/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/26/2020,State,Minnesota,0,dollars,,Economic Security,4/19/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/27/2020,State,Minnesota,663000,dollars,,Economic Security,4/20/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/28/2020,State,Minnesota,750000,dollars,,Economic Security,4/21/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/29/2020,State,Minnesota,425000,dollars,,Economic Security,4/22/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,4/30/2020,State,Minnesota,1020000,dollars,,Economic Security,4/23/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/1/2020,State,Minnesota,615000,dollars,,Economic Security,4/23/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/2/2020,State,Minnesota,0,dollars,,Economic Security,4/23/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/3/2020,State,Minnesota,0,dollars,,Economic Security,4/23/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/4/2020,State,Minnesota,845000,dollars,,Economic Security,4/24/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/5/2020,State,Minnesota,930000,dollars,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/6/2020,State,Minnesota,500000,dollars,,Economic Security,5/6/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/7/2020,State,Minnesota,435000,dollars,,Economic Security,5/7/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/8/2020,State,Minnesota,700000,dollars,,Economic Security,5/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/9/2020,State,Minnesota,0,dollars,,Economic Security,5/9/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/10/2020,State,Minnesota,0,dollars,,Economic Security,5/10/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/11/2020,State,Minnesota,610000,dollars,,Economic Security,5/11/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/12/2020,State,Minnesota,305000,dollars,,Economic Security,5/12/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/13/2020,State,Minnesota,370000,dollars,,Economic Security,5/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/14/2020,State,Minnesota,0,dollars,,Economic Security,5/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/15/2020,State,Minnesota,460000,dollars,,Economic Security,5/15/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/16/2020,State,Minnesota,0,dollars,,Economic Security,5/16/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/17/2020,State,Minnesota,0,dollars,,Economic Security,5/17/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/18/2020,State,Minnesota,245000,dollars,,Economic Security,5/18/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/19/2020,State,Minnesota,360000,dollars,,Economic Security,5/19/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/20/2020,State,Minnesota,150000,dollars,,Economic Security,5/20/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/21/2020,State,Minnesota,243000,dollars,,Economic Security,5/21/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/22/2020,State,Minnesota,67000,dollars,,Economic Security,5/22/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/23/2020,State,Minnesota,0,dollars,,Economic Security,5/23/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/24/2020,State,Minnesota,0,dollars,,Economic Security,5/24/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/25/2020,State,Minnesota,0,dollars,,Economic Security,5/25/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/26/2020,State,Minnesota,0,dollars,,Economic Security,5/26/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/27/2020,State,Minnesota,0,dollars,,Economic Security,5/27/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/28/2020,State,Minnesota,0,dollars,,Economic Security,5/28/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/29/2020,State,Minnesota,0,dollars,,Economic Security,5/29/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/30/2020,State,Minnesota,0,dollars,,Economic Security,5/30/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,5/31/2020,State,Minnesota,0,dollars,,Economic Security,5/31/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/1/2020,State,Minnesota,0,dollars,,Economic Security,6/1/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/2/2020,State,Minnesota,0,dollars,,Economic Security,6/2/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/3/2020,State,Minnesota,340000,dollars,,Economic Security,6/3/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/4/2020,State,Minnesota,0,dollars,,Economic Security,6/4/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/5/2020,State,Minnesota,0,dollars,,Economic Security,6/5/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/6/2020,State,Minnesota,0,dollars,,Economic Security,6/6/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/7/2020,State,Minnesota,0,dollars,,Economic Security,6/7/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/8/2020,State,Minnesota,0,dollars,,Economic Security,6/8/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/9/2020,State,Minnesota,0,dollars,,Economic Security,6/9/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/10/2020,State,Minnesota,0,dollars,,Economic Security,6/10/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/11/2020,State,Minnesota,0,dollars,,Economic Security,6/11/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/12/2020,State,Minnesota,74000,dollars,,Economic Security,6/12/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/13/2020,State,Minnesota,0,dollars,,Economic Security,6/13/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/14/2020,State,Minnesota,0,dollars,,Economic Security,6/14/2020,,,https://mn.gov/deed/newscenter/covid/
-$ of loans made to small businesses,,,,,6/15/2020,State,Minnesota,0,dollars,,Economic Security,6/15/2020,,,https://mn.gov/deed/newscenter/covid/
-New total capacity,,,,,3/16/2020,State,Minnesota,1106,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/17/2020,State,Minnesota,3470,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/18/2020,State,Minnesota,1591,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/19/2020,State,Minnesota,181,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/20/2020,State,Minnesota,2169,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/21/2020,State,Minnesota,599,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/22/2020,State,Minnesota,1033,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/23/2020,State,Minnesota,3304,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/24/2020,State,Minnesota,1348,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/25/2020,State,Minnesota,1591,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/26/2020,State,Minnesota,1335,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/27/2020,State,Minnesota,486,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/28/2020,State,Minnesota,82,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/29/2020,State,Minnesota,179,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/30/2020,State,Minnesota,655,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/31/2020,State,Minnesota,351,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/1/2020,State,Minnesota,345,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/2/2020,State,Minnesota,292,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/3/2020,State,Minnesota,1274,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/4/2020,State,Minnesota,109,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/5/2020,State,Minnesota,3105,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/6/2020,State,Minnesota,297,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/7/2020,State,Minnesota,277,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/8/2020,State,Minnesota,512,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/9/2020,State,Minnesota,524,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/10/2020,State,Minnesota,240,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/11/2020,State,Minnesota,12,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/12/2020,State,Minnesota,33,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/13/2020,State,Minnesota,87,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/14/2020,State,Minnesota,310,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/15/2020,State,Minnesota,74,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/16/2020,State,Minnesota,95,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/17/2020,State,Minnesota,501,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/18/2020,State,Minnesota,33,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/19/2020,State,Minnesota,5,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/20/2020,State,Minnesota,180,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/21/2020,State,Minnesota,314,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/22/2020,State,Minnesota,664,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/23/2020,State,Minnesota,357,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/24/2020,State,Minnesota,3416,available slots,,Education and Care,4/24/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/25/2020,State,Minnesota,75,available slots,,Education and Care,4/25/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/26/2020,State,Minnesota,314,available slots,,Education and Care,4/26/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/27/2020,State,Minnesota,631,available slots,,Education and Care,4/27/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/28/2020,State,Minnesota,300,available slots,,Education and Care,4/28/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/29/2020,State,Minnesota,343,available slots,,Education and Care,4/29/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/30/2020,State,Minnesota,269,available slots,,Education and Care,4/30/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/1/2020,State,Minnesota,389,available slots,,Education and Care,5/1/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/2/2020,State,Minnesota,58,available slots,,Education and Care,5/2/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/3/2020,State,Minnesota,0,available slots,,Education and Care,5/3/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/4/2020,State,Minnesota,237,available slots,,Education and Care,5/4/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/5/2020,State,Minnesota,573,available slots,,Education and Care,5/5/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/6/2020,State,Minnesota,281,available slots,,Education and Care,5/6/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/7/2020,State,Minnesota,91,available slots,,Education and Care,5/7/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/8/2020,State,Minnesota,108,available slots,,Education and Care,5/8/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/9/2020,State,Minnesota,69,available slots,,Education and Care,5/9/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/10/2020,State,Minnesota,28,available slots,,Education and Care,5/10/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/11/2020,State,Minnesota,59,available slots,,Education and Care,5/11/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/12/2020,State,Minnesota,36,available slots,,Education and Care,5/12/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/13/2020,State,Minnesota,11,available slots,,Education and Care,5/13/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/14/2020,State,Minnesota,137,available slots,,Education and Care,5/14/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/15/2020,State,Minnesota,372,available slots,,Education and Care,5/15/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/16/2020,State,Minnesota,5,available slots,,Education and Care,5/16/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/17/2020,State,Minnesota,0,available slots,,Education and Care,5/17/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/18/2020,State,Minnesota,67,available slots,,Education and Care,5/18/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/19/2020,State,Minnesota,164,available slots,,Education and Care,5/19/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/20/2020,State,Minnesota,55,available slots,,Education and Care,5/20/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/21/2020,State,Minnesota,12,available slots,,Education and Care,5/21/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/22/2020,State,Minnesota,9,available slots,,Education and Care,5/22/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/23/2020,State,Minnesota,0,available slots,,Education and Care,5/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/24/2020,State,Minnesota,227,available slots,,Education and Care,5/24/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/25/2020,State,Minnesota,19,available slots,,Education and Care,5/25/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/26/2020,State,Minnesota,1423,available slots,,Education and Care,5/26/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/27/2020,State,Minnesota,605,available slots,,Education and Care,5/27/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/28/2020,State,Minnesota,990,available slots,,Education and Care,5/28/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/29/2020,State,Minnesota,21,available slots,,Education and Care,5/29/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/30/2020,State,Minnesota,0,available slots,,Education and Care,5/30/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/31/2020,State,Minnesota,3,available slots,,Education and Care,5/31/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/1/2020,State,Minnesota,36,available slots,,Education and Care,6/1/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/2/2020,State,Minnesota,162,available slots,,Education and Care,6/2/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/3/2020,State,Minnesota,236,available slots,,Education and Care,6/3/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/4/2020,State,Minnesota,119,available slots,,Education and Care,6/4/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/5/2020,State,Minnesota,72,available slots,,Education and Care,6/5/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/6/2020,State,Minnesota,0,available slots,,Education and Care,6/6/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/7/2020,State,Minnesota,7,available slots,,Education and Care,6/7/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/8/2020,State,Minnesota,169,available slots,,Education and Care,6/8/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/9/2020,State,Minnesota,33,available slots,,Education and Care,6/9/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/10/2020,State,Minnesota,57,available slots,,Education and Care,6/10/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/11/2020,State,Minnesota,222,available slots,,Education and Care,6/11/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/12/2020,State,Minnesota,112,available slots,,Education and Care,6/12/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/13/2020,State,Minnesota,8,available slots,,Education and Care,6/13/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/14/2020,State,Minnesota,37,available slots,,Education and Care,6/14/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/15/2020,State,Minnesota,59,available slots,,Education and Care,6/15/2020 17:05,,,https://mn.gov/mmb/childcare/families/
-# of 24 readiness,Surge - 24 hour,Critical Care,Total capacity,,43997,State,Minnesota,529,Beds,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of 72 readiness,Surge - 72 hour,Critical Care,Total capacity,,43997,State,Minnesota,415,Beds,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Intensive Care Beds,Current,Critical Care,In use,,43997,State,Minnesota,1049,Beds,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Intensive Care Beds,Current,Critical Care,Total capacity,,43997,State,Minnesota,1255,Beds,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Ventilators,Current,Ventilators,In use,,43997,State,Minnesota,525,Ventilators,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Ventilators,Current,Ventilators,Total capacity,,43997,State,Minnesota,1434,Ventilators,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Ventilators,Surge,Ventilators,Total capacity,,43997,State,Minnesota,1628,Ventilators,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
-# of Ventilators (ordered),On back order,Ventilators,Total capacity,,43997,State,Minnesota,856,ventilators,,Hospital Surge Capacity,43997,,,https://mn.gov/covid19/
+# of Face masks,Awaiting Delivery,Total,,,2020-07-22,State,Minnesota,2180000,Face masks,,Critical Care Supplies,2020-07-22 20:30:00,,2.2M,"https://mn.gov/mmb/ppe/
+"
+# of Face shields,Awaiting Delivery,Total,,,2020-07-22,State,Minnesota,0,Face shields*,,Critical Care Supplies,2020-07-22 20:30:00,,0K,"https://mn.gov/mmb/ppe/
+"
+# of Gloves (non-latex),Awaiting Delivery,Total,,,2020-07-22,State,Minnesota,48587000,Gloves (non-latex),,Critical Care Supplies,2020-07-22 20:30:00,,48.6M,"https://mn.gov/mmb/ppe/
+"
+# of Gowns,Awaiting Delivery,Total,,,2020-07-22,State,Minnesota,103000,Gowns*,,Critical Care Supplies,2020-07-22 20:30:00,,103K,"https://mn.gov/mmb/ppe/
+"
+# of N95 respirators,Awaiting Delivery,Total,,,2020-07-22,State,Minnesota,4996000,N95 respirators,,Critical Care Supplies,2020-07-22 20:30:00,,5.0M,"https://mn.gov/mmb/ppe/
+"
+# of Face masks,Current inventory,Total,,,2020-07-22,State,Minnesota,9427000,Face masks,,Critical Care Supplies,2020-07-22 20:30:00,,9.4M,"https://mn.gov/mmb/ppe/
+"
+# of Face shields,Current inventory,Total,,,2020-07-22,State,Minnesota,438000,Face shields*,,Critical Care Supplies,2020-07-22 20:30:00,,438K,"https://mn.gov/mmb/ppe/
+"
+# of Gloves (non-latex),Current inventory,Total,,,2020-07-22,State,Minnesota,2559000,Gloves (non-latex),,Critical Care Supplies,2020-07-22 20:30:00,,2.6M,"https://mn.gov/mmb/ppe/
+"
+# of Gowns,Current inventory,Total,,,2020-07-22,State,Minnesota,6105000,Gowns*,,Critical Care Supplies,2020-07-22 20:30:00,,6.1M,"https://mn.gov/mmb/ppe/
+"
+# of N95 respirators,Current inventory,Total,,,2020-07-22,State,Minnesota,132000,N95 respirators,,Critical Care Supplies,2020-07-22 20:30:00,,132K,"https://mn.gov/mmb/ppe/
+"
+# of Face masks,Distributed,Total,,,2020-07-22,State,Minnesota,4515000,Face masks,,Critical Care Supplies,2020-07-22 20:30:00,,4.5M,"https://mn.gov/mmb/ppe/
+"
+# of Face shields,Distributed,Total,,,2020-07-22,State,Minnesota,411000,Face shields*,,Critical Care Supplies,2020-07-22 20:30:00,,411K,"https://mn.gov/mmb/ppe/
+"
+# of Gloves (non-latex),Distributed,Total,,,2020-07-22,State,Minnesota,11111000,Gloves (non-latex),,Critical Care Supplies,2020-07-22 20:30:00,,11.1M,"https://mn.gov/mmb/ppe/
+"
+# of Gowns,Distributed,Total,,,2020-07-22,State,Minnesota,791000,Gowns*,,Critical Care Supplies,2020-07-22 20:30:00,,791K,"https://mn.gov/mmb/ppe/
+"
+# of N95 respirators,Distributed,Total,,,2020-07-22,State,Minnesota,145000,N95 respirators,,Critical Care Supplies,2020-07-22 20:30:00,,145K,"https://mn.gov/mmb/ppe/
+"
+# of Face masks,Obtained,Total,,,2020-07-22,State,Minnesota,13943000,Face masks,,Critical Care Supplies,2020-07-22 20:30:00,,13.9M,"https://mn.gov/mmb/ppe/
+"
+# of Face shields,Obtained,Total,,,2020-07-22,State,Minnesota,849000,Face shields*,,Critical Care Supplies,2020-07-22 20:30:00,,849K,"https://mn.gov/mmb/ppe/
+"
+# of Gloves (non-latex),Obtained,Total,,,2020-07-22,State,Minnesota,13670000,Gloves (non-latex),,Critical Care Supplies,2020-07-22 20:30:00,,13.7M,"https://mn.gov/mmb/ppe/
+"
+# of Gowns,Obtained,Total,,,2020-07-22,State,Minnesota,6895000,Gowns*,,Critical Care Supplies,2020-07-22 20:30:00,,6.9M,"https://mn.gov/mmb/ppe/
+"
+# of N95 respirators,Obtained,Total,,,2020-07-22,State,Minnesota,276000,N95 respirators,,Critical Care Supplies,2020-07-22 20:30:00,,276K,"https://mn.gov/mmb/ppe/
+"
+Applications,# of Applications - Total,SNAP,Total,,2020-03-22,State,Minnesota,93,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-23,State,Minnesota,973,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-24,State,Minnesota,710,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-25,State,Minnesota,634,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-26,State,Minnesota,836,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-27,State,Minnesota,752,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-28,State,Minnesota,101,Applications,,Food security,2020-04-24 18:12:27,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-29,State,Minnesota,116,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-30,State,Minnesota,1065,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-31,State,Minnesota,741,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-01,State,Minnesota,936,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-02,State,Minnesota,927,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-03,State,Minnesota,927,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-04,State,Minnesota,120,Applications,,Food security,2020-05-01 18:12:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-05,State,Minnesota,120,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-06,State,Minnesota,1347,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-07,State,Minnesota,861,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-08,State,Minnesota,968,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-09,State,Minnesota,950,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-10,State,Minnesota,730,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-11,State,Minnesota,90,Applications,,Food security,2020-05-08 18:12:41,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-12,State,Minnesota,79,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-13,State,Minnesota,1069,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-14,State,Minnesota,821,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-15,State,Minnesota,793,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-16,State,Minnesota,684,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-17,State,Minnesota,515,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-18,State,Minnesota,62,Applications,,Food security,2020-05-15 18:12:48,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-19,State,Minnesota,62,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-20,State,Minnesota,775,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-21,State,Minnesota,560,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-22,State,Minnesota,608,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-23,State,Minnesota,609,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-24,State,Minnesota,487,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-25,State,Minnesota,69,Applications,,Food security,2020-05-21 18:12:54,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-26,State,Minnesota,54,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-27,State,Minnesota,714,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-28,State,Minnesota,526,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-29,State,Minnesota,499,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-30,State,Minnesota,491,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-01,State,Minnesota,643,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-02,State,Minnesota,81,Applications,,Food security,2020-05-29 18:13:02,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-03,State,Minnesota,50,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-04,State,Minnesota,848,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-05,State,Minnesota,691,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-06,State,Minnesota,693,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-07,State,Minnesota,671,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-08,State,Minnesota,533,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-09,State,Minnesota,69,Applications,,Food security,2020-06-05 18:13:09,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-10,State,Minnesota,63,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-11,State,Minnesota,792,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-12,State,Minnesota,659,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-13,State,Minnesota,615,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-14,State,Minnesota,579,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-15,State,Minnesota,458,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-16,State,Minnesota,65,Applications,,Food security,2020-06-12 18:13:16,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-17,State,Minnesota,51,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-18,State,Minnesota,691,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-19,State,Minnesota,500,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-20,State,Minnesota,456,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-21,State,Minnesota,498,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-22,State,Minnesota,364,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-23,State,Minnesota,32,Applications,,Food security,2020-06-19 18:13:23,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-24,State,Minnesota,35,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-25,State,Minnesota,56,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-26,State,Minnesota,675,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-27,State,Minnesota,385,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-28,State,Minnesota,342,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-29,State,Minnesota,312,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-30,State,Minnesota,52,Applications,,Food security,2020-06-26 18:13:30,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-01,State,Minnesota,870,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-02,State,Minnesota,629,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-03,State,Minnesota,585,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-04,State,Minnesota,586,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-05,State,Minnesota,494,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-06,State,Minnesota,60,Applications,,Food security,2020-06-30 18:13:34,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-31,State,Minnesota,47,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-01,State,Minnesota,870,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-02,State,Minnesota,627,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-03,State,Minnesota,586,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-04,State,Minnesota,584,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-05,State,Minnesota,495,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-06,State,Minnesota,60,Applications,,Food security,2020-07-01 18:13:35,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-14,State,Minnesota,44,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-15,State,Minnesota,729,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-16,State,Minnesota,582,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-17,State,Minnesota,569,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-18,State,Minnesota,545,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-19,State,Minnesota,434,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-20,State,Minnesota,35,Applications,,Food security,2020-07-17 18:13:51,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-21,State,Minnesota,44,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-22,State,Minnesota,618,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-23,State,Minnesota,507,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-24,State,Minnesota,490,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-25,State,Minnesota,512,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-26,State,Minnesota,459,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-27,State,Minnesota,37,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-28,State,Minnesota,47,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-29,State,Minnesota,692,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-30,State,Minnesota,569,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-01,State,Minnesota,682,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-02,State,Minnesota,480,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-03,State,Minnesota,69,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-04,State,Minnesota,22,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-05,State,Minnesota,38,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-06,State,Minnesota,761,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-07,State,Minnesota,571,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-08,State,Minnesota,515,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-09,State,Minnesota,509,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-10,State,Minnesota,446,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-11,State,Minnesota,37,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-12,State,Minnesota,28,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-13,State,Minnesota,732,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-14,State,Minnesota,593,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-15,State,Minnesota,503,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-16,State,Minnesota,509,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-17,State,Minnesota,441,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-18,State,Minnesota,26,Applications,,Food security,2020-07-22 18:13:56,,,https://mn.gov/dhs/food-emergency/
+New total capacity,,,,,2020-03-16,State,Minnesota,793,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-17,State,Minnesota,2963,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-18,State,Minnesota,1355,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-19,State,Minnesota,83,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-20,State,Minnesota,1919,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-21,State,Minnesota,562,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-22,State,Minnesota,982,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-23,State,Minnesota,2768,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-24,State,Minnesota,1115,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-25,State,Minnesota,1242,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-26,State,Minnesota,1233,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-27,State,Minnesota,464,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-28,State,Minnesota,67,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-29,State,Minnesota,150,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-30,State,Minnesota,641,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-03-31,State,Minnesota,333,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-01,State,Minnesota,324,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-02,State,Minnesota,149,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-03,State,Minnesota,1164,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-04,State,Minnesota,109,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-05,State,Minnesota,3027,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-06,State,Minnesota,217,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-07,State,Minnesota,225,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-08,State,Minnesota,498,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-09,State,Minnesota,482,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-10,State,Minnesota,193,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-11,State,Minnesota,12,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-12,State,Minnesota,10,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-13,State,Minnesota,69,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-14,State,Minnesota,307,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-15,State,Minnesota,53,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-16,State,Minnesota,90,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-17,State,Minnesota,466,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-18,State,Minnesota,33,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-19,State,Minnesota,0,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-20,State,Minnesota,128,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-21,State,Minnesota,260,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-22,State,Minnesota,527,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-23,State,Minnesota,236,available slots,,Education and Care,2020-04-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-24,State,Minnesota,2942,available slots,,Education and Care,2020-04-24 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-25,State,Minnesota,61,available slots,,Education and Care,2020-04-25 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-26,State,Minnesota,215,available slots,,Education and Care,2020-04-26 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-27,State,Minnesota,516,available slots,,Education and Care,2020-04-27 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-28,State,Minnesota,505,available slots,,Education and Care,2020-04-28 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-29,State,Minnesota,335,available slots,,Education and Care,2020-04-29 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-04-30,State,Minnesota,154,available slots,,Education and Care,2020-04-30 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-01,State,Minnesota,366,available slots,,Education and Care,2020-05-01 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-02,State,Minnesota,52,available slots,,Education and Care,2020-05-02 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-03,State,Minnesota,0,available slots,,Education and Care,2020-05-03 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-04,State,Minnesota,174,available slots,,Education and Care,2020-05-04 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-05,State,Minnesota,493,available slots,,Education and Care,2020-05-05 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-06,State,Minnesota,195,available slots,,Education and Care,2020-05-06 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-07,State,Minnesota,67,available slots,,Education and Care,2020-05-07 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-08,State,Minnesota,44,available slots,,Education and Care,2020-05-08 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-09,State,Minnesota,65,available slots,,Education and Care,2020-05-09 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-10,State,Minnesota,25,available slots,,Education and Care,2020-05-10 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-11,State,Minnesota,57,available slots,,Education and Care,2020-05-11 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-12,State,Minnesota,6,available slots,,Education and Care,2020-05-12 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-13,State,Minnesota,3,available slots,,Education and Care,2020-05-13 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-14,State,Minnesota,131,available slots,,Education and Care,2020-05-14 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-15,State,Minnesota,227,available slots,,Education and Care,2020-05-15 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-16,State,Minnesota,0,available slots,,Education and Care,2020-05-16 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-17,State,Minnesota,0,available slots,,Education and Care,2020-05-17 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-18,State,Minnesota,33,available slots,,Education and Care,2020-05-18 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-19,State,Minnesota,72,available slots,,Education and Care,2020-05-19 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-20,State,Minnesota,22,available slots,,Education and Care,2020-05-20 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-21,State,Minnesota,12,available slots,,Education and Care,2020-05-21 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-22,State,Minnesota,9,available slots,,Education and Care,2020-05-22 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-23,State,Minnesota,0,available slots,,Education and Care,2020-05-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-24,State,Minnesota,227,available slots,,Education and Care,2020-05-24 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-25,State,Minnesota,19,available slots,,Education and Care,2020-05-25 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-26,State,Minnesota,1198,available slots,,Education and Care,2020-05-26 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-27,State,Minnesota,544,available slots,,Education and Care,2020-05-27 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-28,State,Minnesota,975,available slots,,Education and Care,2020-05-28 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-29,State,Minnesota,21,available slots,,Education and Care,2020-05-29 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-30,State,Minnesota,0,available slots,,Education and Care,2020-05-30 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-05-31,State,Minnesota,0,available slots,,Education and Care,2020-05-31 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-01,State,Minnesota,28,available slots,,Education and Care,2020-06-01 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-02,State,Minnesota,110,available slots,,Education and Care,2020-06-02 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-03,State,Minnesota,209,available slots,,Education and Care,2020-06-03 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-04,State,Minnesota,108,available slots,,Education and Care,2020-06-04 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-05,State,Minnesota,72,available slots,,Education and Care,2020-06-05 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-06,State,Minnesota,0,available slots,,Education and Care,2020-06-06 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-07,State,Minnesota,7,available slots,,Education and Care,2020-06-07 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-08,State,Minnesota,70,available slots,,Education and Care,2020-06-08 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-09,State,Minnesota,20,available slots,,Education and Care,2020-06-09 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-10,State,Minnesota,25,available slots,,Education and Care,2020-06-10 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-11,State,Minnesota,154,available slots,,Education and Care,2020-06-11 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-12,State,Minnesota,112,available slots,,Education and Care,2020-06-12 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-13,State,Minnesota,8,available slots,,Education and Care,2020-06-13 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-14,State,Minnesota,33,available slots,,Education and Care,2020-06-14 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-15,State,Minnesota,101,available slots,,Education and Care,2020-06-15 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-16,State,Minnesota,44,available slots,,Education and Care,2020-06-16 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-17,State,Minnesota,15,available slots,,Education and Care,2020-06-17 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-18,State,Minnesota,4,available slots,,Education and Care,2020-06-18 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-19,State,Minnesota,75,available slots,,Education and Care,2020-06-19 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-20,State,Minnesota,19,available slots,,Education and Care,2020-06-20 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-21,State,Minnesota,12,available slots,,Education and Care,2020-06-21 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-22,State,Minnesota,32,available slots,,Education and Care,2020-06-22 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-23,State,Minnesota,370,available slots,,Education and Care,2020-06-23 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-24,State,Minnesota,108,available slots,,Education and Care,2020-06-24 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-25,State,Minnesota,6,available slots,,Education and Care,2020-06-25 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-26,State,Minnesota,38,available slots,,Education and Care,2020-06-26 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-27,State,Minnesota,0,available slots,,Education and Care,2020-06-27 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-28,State,Minnesota,10,available slots,,Education and Care,2020-06-28 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-29,State,Minnesota,158,available slots,,Education and Care,2020-06-29 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-06-30,State,Minnesota,6,available slots,,Education and Care,2020-06-30 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-01,State,Minnesota,165,available slots,,Education and Care,2020-07-01 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-02,State,Minnesota,412,available slots,,Education and Care,2020-07-02 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-03,State,Minnesota,24,available slots,,Education and Care,2020-07-03 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-04,State,Minnesota,12,available slots,,Education and Care,2020-07-04 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-05,State,Minnesota,0,available slots,,Education and Care,2020-07-05 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-06,State,Minnesota,35,available slots,,Education and Care,2020-07-06 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-07,State,Minnesota,83,available slots,,Education and Care,2020-07-07 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-08,State,Minnesota,48,available slots,,Education and Care,2020-07-08 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-09,State,Minnesota,10,available slots,,Education and Care,2020-07-09 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-10,State,Minnesota,168,available slots,,Education and Care,2020-07-10 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-11,State,Minnesota,8,available slots,,Education and Care,2020-07-11 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-12,State,Minnesota,0,available slots,,Education and Care,2020-07-12 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-13,State,Minnesota,347,available slots,,Education and Care,2020-07-13 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-14,State,Minnesota,355,available slots,,Education and Care,2020-07-14 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-15,State,Minnesota,2733,available slots,,Education and Care,2020-07-15 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-16,State,Minnesota,464,available slots,,Education and Care,2020-07-16 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-17,State,Minnesota,712,available slots,,Education and Care,2020-07-17 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-18,State,Minnesota,27,available slots,,Education and Care,2020-07-18 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-19,State,Minnesota,143,available slots,,Education and Care,2020-07-19 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-20,State,Minnesota,556,available slots,,Education and Care,2020-07-20 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-21,State,Minnesota,90,available slots,,Education and Care,2020-07-21 17:04:59,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2020-07-22,State,Minnesota,138,available slots,,Education and Care,2020-07-22 17:04:59,,,https://mn.gov/mmb/childcare/families/
+# of loans made to small businesses,,,,,2020-04-03,State,Minnesota,17,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-04,State,Minnesota,0,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-05,State,Minnesota,0,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-06,State,Minnesota,21,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-07,State,Minnesota,20,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-08,State,Minnesota,41,loans,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-09,State,Minnesota,36,loans,,Economic Security,2020-04-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-10,State,Minnesota,27,loans,,Economic Security,2020-04-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-11,State,Minnesota,0,loans,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-12,State,Minnesota,0,loans,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-13,State,Minnesota,52,loans,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-14,State,Minnesota,30,loans,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-15,State,Minnesota,43,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-16,State,Minnesota,52,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-17,State,Minnesota,28,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-18,State,Minnesota,0,loans,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-19,State,Minnesota,0,loans,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-20,State,Minnesota,59,loans,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-21,State,Minnesota,37,loans,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-22,State,Minnesota,46,loans,,Economic Security,2020-04-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-23,State,Minnesota,53,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-24,State,Minnesota,42,loans,,Economic Security,2020-04-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-25,State,Minnesota,0,loans,,Economic Security,2020-04-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-26,State,Minnesota,0,loans,,Economic Security,2020-04-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-27,State,Minnesota,20,loans,,Economic Security,2020-04-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-28,State,Minnesota,27,loans,,Economic Security,2020-04-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-29,State,Minnesota,17,loans,,Economic Security,2020-04-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-04-30,State,Minnesota,37,loans,,Economic Security,2020-04-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-01,State,Minnesota,27,loans,,Economic Security,2020-04-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-02,State,Minnesota,0,loans,,Economic Security,2020-04-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-03,State,Minnesota,0,loans,,Economic Security,2020-04-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-04,State,Minnesota,30,loans,,Economic Security,2020-04-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-05,State,Minnesota,34,loans,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-06,State,Minnesota,17,loans,,Economic Security,2020-05-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-07,State,Minnesota,18,loans,,Economic Security,2020-05-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-08,State,Minnesota,26,loans,,Economic Security,2020-05-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-09,State,Minnesota,0,loans,,Economic Security,2020-05-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-10,State,Minnesota,0,loans,,Economic Security,2020-05-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-11,State,Minnesota,17,loans,,Economic Security,2020-05-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-12,State,Minnesota,13,loans,,Economic Security,2020-05-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-13,State,Minnesota,16,loans,,Economic Security,2020-05-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-14,State,Minnesota,0,loans,,Economic Security,2020-05-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-15,State,Minnesota,17,loans,,Economic Security,2020-05-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-16,State,Minnesota,0,loans,,Economic Security,2020-05-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-17,State,Minnesota,0,loans,,Economic Security,2020-05-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-18,State,Minnesota,8,loans,,Economic Security,2020-05-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-19,State,Minnesota,14,loans,,Economic Security,2020-05-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-20,State,Minnesota,7,loans,,Economic Security,2020-05-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-21,State,Minnesota,10,loans,,Economic Security,2020-05-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-22,State,Minnesota,2,loans,,Economic Security,2020-05-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-23,State,Minnesota,0,loans,,Economic Security,2020-05-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-24,State,Minnesota,0,loans,,Economic Security,2020-05-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-25,State,Minnesota,0,loans,,Economic Security,2020-05-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-26,State,Minnesota,0,loans,,Economic Security,2020-05-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-27,State,Minnesota,0,loans,,Economic Security,2020-05-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-28,State,Minnesota,0,loans,,Economic Security,2020-05-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-29,State,Minnesota,0,loans,,Economic Security,2020-05-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-30,State,Minnesota,0,loans,,Economic Security,2020-05-30 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-05-31,State,Minnesota,0,loans,,Economic Security,2020-05-31 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-01,State,Minnesota,0,loans,,Economic Security,2020-06-01 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-02,State,Minnesota,0,loans,,Economic Security,2020-06-02 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-03,State,Minnesota,10,loans,,Economic Security,2020-06-03 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-04,State,Minnesota,0,loans,,Economic Security,2020-06-04 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-05,State,Minnesota,0,loans,,Economic Security,2020-06-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-06,State,Minnesota,0,loans,,Economic Security,2020-06-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-07,State,Minnesota,0,loans,,Economic Security,2020-06-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-08,State,Minnesota,0,loans,,Economic Security,2020-06-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-09,State,Minnesota,0,loans,,Economic Security,2020-06-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-10,State,Minnesota,0,loans,,Economic Security,2020-06-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-11,State,Minnesota,0,loans,,Economic Security,2020-06-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-12,State,Minnesota,3,loans,,Economic Security,2020-06-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-13,State,Minnesota,0,loans,,Economic Security,2020-06-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-14,State,Minnesota,0,loans,,Economic Security,2020-06-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-15,State,Minnesota,2,loans,,Economic Security,2020-06-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-16,State,Minnesota,2,loans,,Economic Security,2020-06-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-17,State,Minnesota,3,loans,,Economic Security,2020-06-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-18,State,Minnesota,9,loans,,Economic Security,2020-06-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-19,State,Minnesota,2,loans,,Economic Security,2020-06-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-20,State,Minnesota,0,loans,,Economic Security,2020-06-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-21,State,Minnesota,0,loans,,Economic Security,2020-06-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-22,State,Minnesota,2,loans,,Economic Security,2020-06-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-23,State,Minnesota,0,loans,,Economic Security,2020-06-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-24,State,Minnesota,7,loans,,Economic Security,2020-06-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-25,State,Minnesota,2,loans,,Economic Security,2020-06-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-26,State,Minnesota,6,loans,,Economic Security,2020-06-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-27,State,Minnesota,0,loans,,Economic Security,2020-06-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-28,State,Minnesota,0,loans,,Economic Security,2020-06-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of loans made to small businesses,,,,,2020-06-29,State,Minnesota,10,loans,,Economic Security,2020-06-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-15,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-16,State,Minnesota,12114,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-17,State,Minnesota,26981,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-18,State,Minnesota,32152,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-19,State,Minnesota,23411,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-20,State,Minnesota,21079,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-21,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-22,State,Minnesota,10949,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-23,State,Minnesota,21428,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-24,State,Minnesota,15603,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-25,State,Minnesota,18357,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-26,State,Minnesota,20483,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-27,State,Minnesota,23322,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-28,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-29,State,Minnesota,11602,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-30,State,Minnesota,15870,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-03-31,State,Minnesota,17190,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-01,State,Minnesota,25440,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-02,State,Minnesota,23369,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-03,State,Minnesota,18955,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-04,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-05,State,Minnesota,4022,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-06,State,Minnesota,13927,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-07,State,Minnesota,13369,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-08,State,Minnesota,19470,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-09,State,Minnesota,24155,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-10,State,Minnesota,17902,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-11,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-12,State,Minnesota,4027,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-13,State,Minnesota,12313,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-14,State,Minnesota,13307,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-15,State,Minnesota,18266,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-16,State,Minnesota,16952,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-17,State,Minnesota,12230,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-18,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-19,State,Minnesota,3238,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-20,State,Minnesota,8602,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-21,State,Minnesota,8601,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-22,State,Minnesota,10653,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-23,State,Minnesota,11373,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-24,State,Minnesota,9440,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-25,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-26,State,Minnesota,2960,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-27,State,Minnesota,7362,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-28,State,Minnesota,7869,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-29,State,Minnesota,9740,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-04-30,State,Minnesota,9816,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-01,State,Minnesota,9068,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-02,State,Minnesota,0,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-03,State,Minnesota,3018,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-04,State,Minnesota,7470,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-05,State,Minnesota,6708,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-06,State,Minnesota,8487,Accounts,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-07,State,Minnesota,7433,Accounts,,Economic Security,2020-05-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-08,State,Minnesota,6526,Accounts,,Economic Security,2020-05-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-09,State,Minnesota,0,Accounts,,Economic Security,2020-05-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-10,State,Minnesota,2623,Accounts,,Economic Security,2020-05-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-11,State,Minnesota,5966,Accounts,,Economic Security,2020-05-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-12,State,Minnesota,5280,Accounts,,Economic Security,2020-05-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-13,State,Minnesota,7080,Accounts,,Economic Security,2020-05-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-14,State,Minnesota,6422,Accounts,,Economic Security,2020-05-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-15,State,Minnesota,5080,Accounts,,Economic Security,2020-05-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-16,State,Minnesota,0,Accounts,,Economic Security,2020-05-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-17,State,Minnesota,2689,Accounts,,Economic Security,2020-05-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-18,State,Minnesota,4688,Accounts,,Economic Security,2020-05-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-19,State,Minnesota,4325,Accounts,,Economic Security,2020-05-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-20,State,Minnesota,4933,Accounts,,Economic Security,2020-05-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-21,State,Minnesota,5191,Accounts,,Economic Security,2020-05-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-22,State,Minnesota,4386,Accounts,,Economic Security,2020-05-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-23,State,Minnesota,0,Accounts,,Economic Security,2020-05-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-24,State,Minnesota,1853,Accounts,,Economic Security,2020-05-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-25,State,Minnesota,2153,Accounts,,Economic Security,2020-05-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-26,State,Minnesota,4186,Accounts,,Economic Security,2020-05-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-27,State,Minnesota,4253,Accounts,,Economic Security,2020-05-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-28,State,Minnesota,4320,Accounts,,Economic Security,2020-05-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-29,State,Minnesota,3766,Accounts,,Economic Security,2020-05-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-30,State,Minnesota,0,Accounts,,Economic Security,2020-05-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-05-31,State,Minnesota,2179,Accounts,,Economic Security,2020-05-30 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-01,State,Minnesota,4896,Accounts,,Economic Security,2020-05-31 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-02,State,Minnesota,3937,Accounts,,Economic Security,2020-06-01 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-03,State,Minnesota,4948,Accounts,,Economic Security,2020-06-02 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-04,State,Minnesota,5718,Accounts,,Economic Security,2020-06-03 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-05,State,Minnesota,4911,Accounts,,Economic Security,2020-06-04 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-06,State,Minnesota,0,Accounts,,Economic Security,2020-06-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-07,State,Minnesota,2626,Accounts,,Economic Security,2020-06-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-08,State,Minnesota,4676,Accounts,,Economic Security,2020-06-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-09,State,Minnesota,4033,Accounts,,Economic Security,2020-06-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-10,State,Minnesota,4675,Accounts,,Economic Security,2020-06-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-11,State,Minnesota,4377,Accounts,,Economic Security,2020-06-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-12,State,Minnesota,3284,Accounts,,Economic Security,2020-06-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-13,State,Minnesota,0,Accounts,,Economic Security,2020-06-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-14,State,Minnesota,1877,Accounts,,Economic Security,2020-06-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-15,State,Minnesota,3820,Accounts,,Economic Security,2020-06-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-16,State,Minnesota,3165,Accounts,,Economic Security,2020-06-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-17,State,Minnesota,3525,Accounts,,Economic Security,2020-06-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-18,State,Minnesota,3376,Accounts,,Economic Security,2020-06-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-19,State,Minnesota,2708,Accounts,,Economic Security,2020-06-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-20,State,Minnesota,0,Accounts,,Economic Security,2020-06-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-21,State,Minnesota,1667,Accounts,,Economic Security,2020-06-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-22,State,Minnesota,3575,Accounts,,Economic Security,2020-06-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-23,State,Minnesota,2862,Accounts,,Economic Security,2020-06-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-24,State,Minnesota,3265,Accounts,,Economic Security,2020-06-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-25,State,Minnesota,3191,Accounts,,Economic Security,2020-06-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-26,State,Minnesota,2843,Accounts,,Economic Security,2020-06-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-27,State,Minnesota,0,Accounts,,Economic Security,2020-06-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-28,State,Minnesota,1886,Accounts,,Economic Security,2020-06-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-29,State,Minnesota,4037,Accounts,,Economic Security,2020-06-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-06-30,State,Minnesota,3153,Accounts,,Economic Security,2020-06-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-01,State,Minnesota,3467,Accounts,,Economic Security,2020-06-30 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-02,State,Minnesota,3347,Accounts,,Economic Security,2020-07-01 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-03,State,Minnesota,1562,Accounts,,Economic Security,2020-07-02 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-04,State,Minnesota,0,Accounts,,Economic Security,2020-07-03 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-05,State,Minnesota,2050,Accounts,,Economic Security,2020-07-04 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-06,State,Minnesota,4632,Accounts,,Economic Security,2020-07-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-07,State,Minnesota,3164,Accounts,,Economic Security,2020-07-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-08,State,Minnesota,3373,Accounts,,Economic Security,2020-07-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-09,State,Minnesota,2982,Accounts,,Economic Security,2020-07-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-10,State,Minnesota,2606,Accounts,,Economic Security,2020-07-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-11,State,Minnesota,0,Accounts,,Economic Security,2020-07-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-12,State,Minnesota,1821,Accounts,,Economic Security,2020-07-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-13,State,Minnesota,3397,Accounts,,Economic Security,2020-07-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-14,State,Minnesota,2549,Accounts,,Economic Security,2020-07-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-15,State,Minnesota,2760,Accounts,,Economic Security,2020-07-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-16,State,Minnesota,2704,Accounts,,Economic Security,2020-07-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-17,State,Minnesota,2331,Accounts,,Economic Security,2020-07-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-18,State,Minnesota,0,Accounts,,Economic Security,2020-07-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-19,State,Minnesota,1504,Accounts,,Economic Security,2020-07-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-20,State,Minnesota,2934,Accounts,,Economic Security,2020-07-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-21,State,Minnesota,2221,Accounts,,Economic Security,2020-07-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,2020-07-22,State,Minnesota,2398,Accounts,,Economic Security,2020-07-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-03,State,Minnesota,590000,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-04,State,Minnesota,0,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-05,State,Minnesota,0,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-06,State,Minnesota,730000,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-07,State,Minnesota,640000,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-08,State,Minnesota,1300000,dollars,,Economic Security,2020-04-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-09,State,Minnesota,1200000,dollars,,Economic Security,2020-04-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-10,State,Minnesota,800000,dollars,,Economic Security,2020-04-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-11,State,Minnesota,0,dollars,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-12,State,Minnesota,0,dollars,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-13,State,Minnesota,1550000,loans,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-14,State,Minnesota,880000,loans,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-15,State,Minnesota,1350000,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-16,State,Minnesota,1500000,loans,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-17,State,Minnesota,820000,dollars,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-18,State,Minnesota,0,dollars,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-19,State,Minnesota,0,dollars,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-20,State,Minnesota,1790000,dollars,,Economic Security,2020-04-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-21,State,Minnesota,980000,dollars,,Economic Security,2020-04-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-22,State,Minnesota,1350000,dollars,,Economic Security,2020-04-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-23,State,Minnesota,1500000,dollars,,Economic Security,2020-04-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-24,State,Minnesota,1200000,dollars,,Economic Security,2020-04-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-25,State,Minnesota,0,dollars,,Economic Security,2020-04-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-26,State,Minnesota,0,dollars,,Economic Security,2020-04-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-27,State,Minnesota,663000,dollars,,Economic Security,2020-04-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-28,State,Minnesota,750000,dollars,,Economic Security,2020-04-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-29,State,Minnesota,425000,dollars,,Economic Security,2020-04-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-04-30,State,Minnesota,1020000,dollars,,Economic Security,2020-04-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-01,State,Minnesota,615000,dollars,,Economic Security,2020-04-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-02,State,Minnesota,0,dollars,,Economic Security,2020-04-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-03,State,Minnesota,0,dollars,,Economic Security,2020-04-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-04,State,Minnesota,845000,dollars,,Economic Security,2020-04-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-05,State,Minnesota,930000,dollars,,Economic Security,2020-05-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-06,State,Minnesota,500000,dollars,,Economic Security,2020-05-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-07,State,Minnesota,435000,dollars,,Economic Security,2020-05-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-08,State,Minnesota,700000,dollars,,Economic Security,2020-05-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-09,State,Minnesota,0,dollars,,Economic Security,2020-05-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-10,State,Minnesota,0,dollars,,Economic Security,2020-05-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-11,State,Minnesota,610000,dollars,,Economic Security,2020-05-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-12,State,Minnesota,305000,dollars,,Economic Security,2020-05-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-13,State,Minnesota,370000,dollars,,Economic Security,2020-05-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-14,State,Minnesota,0,dollars,,Economic Security,2020-05-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-15,State,Minnesota,460000,dollars,,Economic Security,2020-05-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-16,State,Minnesota,0,dollars,,Economic Security,2020-05-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-17,State,Minnesota,0,dollars,,Economic Security,2020-05-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-18,State,Minnesota,245000,dollars,,Economic Security,2020-05-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-19,State,Minnesota,360000,dollars,,Economic Security,2020-05-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-20,State,Minnesota,150000,dollars,,Economic Security,2020-05-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-21,State,Minnesota,243000,dollars,,Economic Security,2020-05-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-22,State,Minnesota,67000,dollars,,Economic Security,2020-05-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-23,State,Minnesota,0,dollars,,Economic Security,2020-05-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-24,State,Minnesota,0,dollars,,Economic Security,2020-05-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-25,State,Minnesota,0,dollars,,Economic Security,2020-05-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-26,State,Minnesota,0,dollars,,Economic Security,2020-05-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-27,State,Minnesota,0,dollars,,Economic Security,2020-05-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-28,State,Minnesota,0,dollars,,Economic Security,2020-05-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-29,State,Minnesota,0,dollars,,Economic Security,2020-05-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-30,State,Minnesota,0,dollars,,Economic Security,2020-05-30 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-05-31,State,Minnesota,0,dollars,,Economic Security,2020-05-31 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-01,State,Minnesota,0,dollars,,Economic Security,2020-06-01 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-02,State,Minnesota,0,dollars,,Economic Security,2020-06-02 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-03,State,Minnesota,340000,dollars,,Economic Security,2020-06-03 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-04,State,Minnesota,0,dollars,,Economic Security,2020-06-04 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-05,State,Minnesota,0,dollars,,Economic Security,2020-06-05 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-06,State,Minnesota,0,dollars,,Economic Security,2020-06-06 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-07,State,Minnesota,0,dollars,,Economic Security,2020-06-07 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-08,State,Minnesota,0,dollars,,Economic Security,2020-06-08 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-09,State,Minnesota,0,dollars,,Economic Security,2020-06-09 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-10,State,Minnesota,0,dollars,,Economic Security,2020-06-10 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-11,State,Minnesota,0,dollars,,Economic Security,2020-06-11 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-12,State,Minnesota,74000,dollars,,Economic Security,2020-06-12 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-13,State,Minnesota,0,dollars,,Economic Security,2020-06-13 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-14,State,Minnesota,0,dollars,,Economic Security,2020-06-14 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-15,State,Minnesota,55000,dollars,,Economic Security,2020-06-15 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-16,State,Minnesota,67000,dollars,,Economic Security,2020-06-16 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-17,State,Minnesota,77000,dollars,,Economic Security,2020-06-17 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-18,State,Minnesota,277000,dollars,,Economic Security,2020-06-18 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-19,State,Minnesota,66000,dollars,,Economic Security,2020-06-19 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-20,State,Minnesota,0,dollars,,Economic Security,2020-06-20 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-21,State,Minnesota,0,dollars,,Economic Security,2020-06-21 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-22,State,Minnesota,50000,dollars,,Economic Security,2020-06-22 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-23,State,Minnesota,0,dollars,,Economic Security,2020-06-23 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-24,State,Minnesota,150000,dollars,,Economic Security,2020-06-24 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-25,State,Minnesota,55000,dollars,,Economic Security,2020-06-25 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-26,State,Minnesota,183000,dollars,,Economic Security,2020-06-26 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-27,State,Minnesota,0,dollars,,Economic Security,2020-06-27 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-28,State,Minnesota,0,dollars,,Economic Security,2020-06-28 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+$ of loans made to small businesses,,,,,2020-06-29,State,Minnesota,238865,dollars,,Economic Security,2020-06-29 00:00:00,,,https://mn.gov/deed/newscenter/covid/
+# of 24 readiness,Surge - 24 hour,Critical Care,In use,,2020-07-22,State,Minnesota,0,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of 24 readiness,Surge - 24 hour,Critical Care,Total capacity,,2020-07-22,State,Minnesota,528,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of 72 readiness,Surge - 72 hour,Critical Care,In use,,2020-07-22,State,Minnesota,0,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of 72 readiness,Surge - 72 hour,Critical Care,Total capacity,,2020-07-22,State,Minnesota,415,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Intensive Care Beds,Current,Critical Care,In use,,2020-07-22,State,Minnesota,1076,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Intensive Care Beds,Current,Critical Care,Total capacity,,2020-07-22,State,Minnesota,1235,Beds,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Ventilators,Current,Ventilators,In use,,2020-07-22,State,Minnesota,458,Ventilators,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Ventilators,Current,Ventilators,Total capacity,,2020-07-22,State,Minnesota,1395,Ventilators,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Ventilators,Surge,Ventilators,Total capacity,,2020-07-22,State,Minnesota,1520,Ventilators,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+# of Ventilators (ordered),On back order,Ventilators,Total capacity,,2020-07-22,State,Minnesota,856,ventilators,,Hospital Surge Capacity,2020-07-22 00:00:00,,,https://mn.gov/covid19/
+$ Available to MN,State Funds,State,0,,44026,State,Minnesota,553742058.8,dollars,,Funding,44035,553.7,$554M,https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Available to MN,Grant/Formula Allocation,Federal,Available,,44026,State,Minnesota,1403245608,dollars,,Funding,44035,1403.2,"$1,403M",https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Available to MN,Coronavirus Relief Fund - Local,Federal,Available,,44026,State,Minnesota,1158370613,dollars,,Funding,44035,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Available to MN,Coronavirus Relief Fund - State,Federal,Available,,44026,State,Minnesota,1028456708,dollars,,Funding,44035,1028.5,"$1,029M",https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Spending Authority Granted,State Funds,State,Authority granted,,44026,State,Minnesota,527149684.8,dollars,,Funding,44035,527.1,$527M,https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Spending Authority Granted,Coronavirus Relief Fund - Local,Federal,Authority granted,,44026,State,Minnesota,1158370613,dollars,,Funding,44035,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Spending Authority Granted,Grant/Formula Allocation,Federal,Authority granted,,44034,State,Minnesota,1244821206,dollars,,Funding,44035,1244.8,"$1,245M",https://mn.gov/mmb/budget/covid19-mn-fund/
+$ Spending Authority Granted,Coronavirus Relief Fund - State,Federal,Authority granted,,44035,State,Minnesota,327001079,dollars,,Funding,44035,327,$327M,https://mn.gov/mmb/budget/covid19-mn-fund/
