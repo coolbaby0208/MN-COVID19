@@ -8,7 +8,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
 3. Outputs a pdf file named "COVID_markdown.pdf".
 
 Note: 
-  - The csv data (current version: 2020-08-02) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
+  - The csv data (current version: 2020-08-04) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
   
   - COVID Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
