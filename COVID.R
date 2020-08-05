@@ -53,12 +53,11 @@ dataLongDailyTests = dataWide %>%
 ## Long data for New cases and deaths with n day moving average
 # set number of days for moving average 
 # add moving average value weighted by number of daily tests on 2020-06-22
-moveAvg = 5
+moveAvg = 7
 dataLongAvg = dataLongDailyTests %>%
   group_by(Variable) %>%
   mutate(movAvgValue = RcppRoll::roll_mean(Value, moveAvg, fill = "left", align = "right"),
          movAvgValue2 = TTR::VWMA(Value, moveAvg, volume = Daily.testsPlot))
-
 
 #### Plots ####
 ## set up vline dates and vline labels for important events
@@ -161,7 +160,7 @@ p3 = ggplot(dataLongDailyTests %>%
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
-        legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
+        legend.position = "bottom", legend.direction = "horizontal", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
 plot(p3)
 ## old version p3
 # p3 = ggplot(dataLongDailyTests %>% 
@@ -212,6 +211,35 @@ p4 = ggplot(responseData %>% filter (Value>0))+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 10, face = "bold"), plot.caption = element_text(hjust = -.0005))
 plot(p4)
+
+
+## active case over time
+
+p5 = ggplot()+
+  geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")) %>% mutate(Value = Value), 
+           aes(x = Date, y = Value, fill = rev(Variable)), color = NA, width = .85, alpha = .3, show.legend = F)+
+  geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
+  geom_vline(xintercept = dataLongDailyTests %>%
+               drop_na(Daily.tests) %>% 
+               distinct(Date) %>% 
+               filter(Date %in% vlineDf$Date, Date > as.Date("2020-03-23")) %>% 
+               pull(Date), lty = 2, alpha = .4)+
+  # n day moving average
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue, color = rev(Variable), group = Variable), size = 1.8, alpha = .7)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue2, color = rev(Variable), group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue", show.legend = F)+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Currently.sick")) %>% filter(Date == last(Date)), aes(x= Date, y = Value, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -2, size = 3.5, color = RColorBrewer::brewer.pal(4, "Dark2")[4], fontface = "bold")+
+  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(5, "Dark2")[4]), label = c(""))+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(4000, 4850, 5500, 1500, 500, 2500, 1750, 2500, 1950), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
+  labs(x = "", y = "Active cases", title = "Daily active cases")+
+  guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2))+
+  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+  scale_fill_manual(name = "", label = c("Daily active case"), values = (RColorBrewer::brewer.pal(4, "Dark2")[4]))+
+  #scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1), labels = "")+
+  theme_minimal()+
+  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "none", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
+plot(p5)
+
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
 #   geom_point(aes(y = Total.cases))+

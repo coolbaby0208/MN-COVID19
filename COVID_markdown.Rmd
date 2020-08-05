@@ -25,12 +25,16 @@ source('COVID.R')
 ## get data for the most recent date
 dataWidePlain = dataWide %>% 
    filter(Date == last(Date))
+
+dataLongAvgPlain = dataLongAvg %>% 
+   filter(Date == last(Date), Variable == "PositivePercent")
 ```
 
 ## MN COVID-19 Summary (`r format(Sys.time(), '%Y-%m-%d')`)
 * Testing
   + Total number of completed tests: **`r (dataWidePlain$Total.tested)`** (up `r (dataWidePlain$Daily.tests)`)
   + Total positive: **`r (dataWidePlain$Total.cases)`** (up `r (dataWidePlain$New.cases)`)
+  + Daily/7-day positive percentage: **`r (round(dataLongAvgPlain$Value, 4)*100)`/`r (round(dataLongAvgPlain$movAvgValue, 4)*100)`**
 * Case info   
   + Patients who are currently sick: **`r (dataWidePlain$Currently.sick)`** (`r (ifelse(dataWidePlain$New.sick <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.sick)))`)
   + Total deaths: **`r (dataWidePlain$Total.deaths)`** (`r (ifelse(dataWidePlain$New.deaths <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.deaths)))`)
@@ -55,12 +59,18 @@ p2
 p3
 ```
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3}
+```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.5}
+## plots from COVID.R
+p5
+```
+
+
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 2.5}
 ## plots from COVID.R
 p4
 ```
 
-```{r table1, echo=FALSE, warning= FALSE}
+```{r table1, echo=FALSE, warning= FALSE, include = FALSE}
 ## table 1
  dataWide %>% 
    mutate(Date = format(Date, format = "%b %d"))%>% 
