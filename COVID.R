@@ -141,7 +141,7 @@ p3 = ggplot(dataLongDailyTests %>%
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
-  geom_point(inherit.aes = F, data = dataWide %>% filter(Date > as.Date("2020-03-23")), aes(x = Date, y = -15, size = Daily.testsPlot), shape = 21, stroke = 1, fill = "white")+
+  #geom_point(inherit.aes = F, data = dataWide %>% filter(Date > as.Date("2020-03-23")), aes(x = Date, y = -15, size = Daily.testsPlot), shape = 21, stroke = 1, fill = "white")+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("HospitalizedPercent","ICUPercent"), Date > as.Date("2020-03-23")) %>% mutate(Value = Value*max(dataLongDailyTests %>% 
                                                                                                                                                                   filter(Variable %in% c("Date", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>%
                                                                                                                                                                   pull(Value)),
@@ -217,27 +217,27 @@ plot(p4)
 
 p5 = ggplot()+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")) %>% mutate(Value = Value), 
-           aes(x = Date, y = Value, fill = rev(Variable)), color = NA, width = .85, alpha = .3, show.legend = F)+
-  geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
+           aes(x = Date, y = Value, fill = Variable), color = NA, width = .85, alpha = .3, show.legend = T)+
+  geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4, show.legend = F)+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date, Date > as.Date("2020-03-23")) %>% 
-               pull(Date), lty = 2, alpha = .4)+
+               pull(Date), lty = 2, alpha = .4, show.legend = F)+
   # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue, color = rev(Variable), group = Variable), size = 1.8, alpha = .7)+
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue2, color = rev(Variable), group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue", show.legend = F)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.8, alpha = .7)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Currently.sick"), Date > as.Date("2020-03-23")), aes(Date, movAvgValue2, color = Variable, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue", show.legend = FALSE)+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Currently.sick")) %>% filter(Date == last(Date)), aes(x= Date, y = Value, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -2, size = 3.5, color = RColorBrewer::brewer.pal(4, "Dark2")[4], fontface = "bold")+
-  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(5, "Dark2")[4]), label = c(""))+
   annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(4000, 4850, 5500, 1500, 500, 2500, 1750, 2500, 1950), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Active cases", title = "Daily active cases")+
-  guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2))+
+  guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
-  scale_fill_manual(name = "", label = c("Daily active case"), values = (RColorBrewer::brewer.pal(4, "Dark2")[4]))+
-  #scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1), labels = "")+
+  scale_color_manual(label = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(4, "Dark2")[4]), name = c(""))+
+  scale_fill_manual(name = "", label = c("Raw"), values = c(RColorBrewer::brewer.pal(4, "Dark2")[4]))+
+  scale_linetype_manual(name = "", values = c(1), labels = "")+
   theme_minimal()+
-  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "none", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
+  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="horizontal",legend.position = c(0.5, -.25), axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
 plot(p5)
 
 #### Other exploratory plots: not print####
