@@ -154,8 +154,8 @@ p3 = ggplot(dataLongDailyTests %>%
   labs(x = "", y = "Total deaths", size = "Daily tests", fill = "", title = "Current hospitalized, ICU cases & Total death")+
   guides(color=guide_legend(nrow=1,byrow=TRUE, order = 3))+
   scale_size_continuous(range = c(.1,4))+
-  scale_color_manual(values = c(RColorBrewer::brewer.pal(3, "Set1")[1:2], RColorBrewer::brewer.pal(5, "Set1")[5]), name = "", labels = c("Hospitalized\n7-day moving average", "ICU\n7-day moving average","Total deaths"))+
-  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Hospitalized","ICU"))+
+  scale_color_manual(values = c(RColorBrewer::brewer.pal(3, "Set1")[1:2], RColorBrewer::brewer.pal(5, "Set1")[5]), name = "", labels = c("Total hospitalized\n7-day moving average", "ICU only\n7-day moving average","Total deaths"))+
+  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Total hospitalized","ICU only"))+
   scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Current cases"))+
   annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(325, 1500, 1500, 1300, 200, 500, 850, 600, 1000), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
