@@ -54,7 +54,7 @@ p2
 ```
 
    
-```{r plot3, echo=FALSE, warning = FALSE, message=FALSE}
+```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6}
 ## plots from COVID.R
 p3
 ```
