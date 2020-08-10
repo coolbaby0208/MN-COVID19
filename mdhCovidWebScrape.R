@@ -160,7 +160,8 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
                     select_if(~!all(is.na(.))) %>%
                     filter(!is.na(Detail3)))
    out = out %>% 
-     mutate(Value = Value_NUMBER %>% as.character() %>% as.integer()) %>% 
+     ## remove punctuation
+     mutate(Value = Value_NUMBER %>% as.character() %>% str_replace_all("[[:punct:]]", "") %>% as.integer()) %>% 
      # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
      #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
      ## edit on 2020-06-16 due to change back to original dat format
