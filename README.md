@@ -8,7 +8,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
 3. Outputs a pdf file named "COVID_markdown.pdf".
 
 Note: 
-  - The csv data (current version: 2020-08-17) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
+  - The csv data (current version: 2020-08-18) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
   
   - COVID Data source: https://www.health.state.mn.us/diseases/coronavirus/situation.html
   
@@ -18,8 +18,12 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
   
-Major change in the 1st and 2nd plots: 2020-07-15
+Another change in the 2nd plot: 2020-08-18
+====
+Add positive percentage by number of people tested daily in addition to number of daily tests.
 
+Major change in the 1st and 2nd plots: 2020-07-15
+====
 Data for New cases, Daily tests, Daily positive rate and Case fatality rate are using either specimen collection date (e.g., New cases) or date reported to MDH (e.g., Daily tests from testing data table) if the data is more than a week old. 
 
 For data within a week, the variables mentioned above will be calculated using MDH Daily Update. 
