@@ -35,6 +35,6 @@ Differences between the 1st and 2nd plots.
 
 Because Positive cases by date specimen collected data table starts on 3/5 and Testing data table starts on 3/28, you only see new cases data from 3/5 to 3/28 and you won't see data before 3/28 in the 2nd plot. 
 
-
-**Example output**
+Example output
+====
 ![Example output](https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown.png)
