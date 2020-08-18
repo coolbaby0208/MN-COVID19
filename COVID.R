@@ -16,10 +16,13 @@ library(lubridate)
 ## Data preprocessing
 ## tidy up code on 2020-04-17
 ## edit on 2020-07-14 due to adding data by report/specimen collection date
+## edit on 2020-08-18 to include number of people tested
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   # format date string and compute values for plotting 
   mutate(Date = Date %>% ymd(),
-         Daily.tests = Total.tested - lag(Total.tested), 
+         Daily.tests = Total.tested - lag(Total.tested),
+         ## add on 2020-08-18
+         Daily.tests.people = Total.tested.people - lag(Total.tested.people),
          New.cases = Total.cases - lag(Total.cases), 
          Currently.sick = Total.cases - Total.recovered - Total.deaths,
          New.deaths = Total.deaths - lag(Total.deaths),
@@ -37,17 +40,20 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## added on 2020-07-15 
   ## create new variables combining data by specimen date and routine daily updates for plotting only 
   ## since data for most recent 5 days are reported in the table
+  ## edit on 2020-08-18 to include number of people tested
   mutate(Daily.testsPlot = ifelse(last(.$Date) - Date > 6,  DailyTestByReportDate, Daily.tests),
          New.casesPlot = ifelse(last(.$Date) - Date > 6,  New.casesBySpecimenDate, New.cases),
          Total.casesPlot = ifelse(last(.$Date) - Date > 6,  Total.casesBySpecimenDate, Total.cases),
-         PositivePercentPlot = New.casesPlot/Daily.testsPlot, 
+         PositivePercentPlot = New.casesPlot/Daily.testsPlot,
+         PositivePercentPeoplePlot = New.casesPlot/Daily.tests.people,
          DeathPercentPlot = Total.deaths/Total.casesPlot)
   
 ## Convert to long format for p1 and p3 plots
+## edit on 2020-08-18 to include number of people tested
 dataLongDailyTests = dataWide %>% 
   # edit on 2020-07-14 due to adding data by report/specimen collection date
   # edit on 2020-07-15: add "Daily.testsPlot"
-  pivot_longer(c(-Date, -Daily.tests, -DateReport, -DailyTestByReportDate, -Daily.testsPlot), names_to = "Variable", values_to = "Value")
+  pivot_longer(c(-Date, -Daily.tests, -DateReport, -DailyTestByReportDate, -Daily.testsPlot, -Daily.tests.people), names_to = "Variable", values_to = "Value")
 
 
 ## Long data for New cases and deaths with n day moving average
@@ -98,8 +104,8 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
 plot(p1)
 
 p2 = ggplot()+
-  geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot")) %>% mutate(Value = Value*100), 
-           aes(x = Date, y = Value, fill = rev(Variable)), color = NA, position = "dodge", width = .85, alpha = .5)+
+  geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","PositivePercentPeoplePlot")) %>% mutate(Value = Value*100), 
+           aes(x = Date, y = Value, fill = Variable), color = NA, position = "dodge", width = .85, alpha = .5)+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
@@ -107,23 +113,23 @@ p2 = ggplot()+
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
   # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot")), aes(Date, movAvgValue*100, color = rev(Variable), group = Variable), size = 1.8, alpha = .7)+
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot")), aes(Date, movAvgValue2*100, color = rev(Variable), group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, nudge_y = 4.5, size = 3.5, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","PositivePercentPeoplePlot")), aes(Date, movAvgValue*100, color = rev(Variable), group = Variable), size = 1.8, alpha = .7)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot")), aes(Date, movAvgValue2*100, color = Variable, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","PositivePercentPeoplePlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, nudge_y = 1.5, size = 3.5, color = RColorBrewer::brewer.pal(3, "Dark2")[c(1,3)], fontface = "bold")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercentPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, nudge_y = 1.5, size = 3.5, ylim = c(0, Inf), color = RColorBrewer::brewer.pal(3, "Dark2")[2], fontface = "bold")+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.testsPlot), shape = 21, stroke = 1, fill = "white")+
-  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[1:2]), label = c("Positive rate","Fatality rate"))+
+  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,3,2)]), label = c("Positive rate","Positive rate (people)","Fatality rate"))+
   annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 21, 21, 22, 17, 13, 10, 13, 13), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate and case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
-  scale_fill_manual(name = "", label = c("Positive rate","      Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[1:2]))+
+  scale_fill_manual(name = "", label = c("Positive rate","Positive rate (people)","Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[c(1,3,2)]))+
   scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1,1), labels = "")+
   scale_size_continuous(range = c(.1,4))+
   coord_cartesian(ylim = c(0,25))+
   theme_minimal()+
-  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
+  theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=10))
 plot(p2)
 
 ## new version p3 (cols for raw hospitalized and icu data)

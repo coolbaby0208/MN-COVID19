@@ -16,6 +16,9 @@ rm(list=ls(all=TRUE))
 ## Scrape MDH website COVID-19 data  
 url = "https://www.health.state.mn.us/diseases/coronavirus/situation.html"
 
+## Updated on 2020-08-18 to include total number of people tested
+## instead of total tests since some people got tested multiple times
+
 mdhData = url %>% 
   read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
@@ -23,28 +26,15 @@ mdhData = url %>%
   html_text() %>% 
   ## convert list to a tibble
   as_tibble() %>% 
-  ## get necessary data for COVID.R
-  filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total positive cases:|Patients no longer needing isolation:|Deaths:|Hospitalized as of today: |Hospitalized in ICU as of today:")) %>% 
-  ## format date string using regular expression
-  ## format deaths (added on 2020-05-02)
-  ## format Total positive cases on 2020-05-25
-  ## fomrat date strings on 2020-07-02
+  filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total approximate number of people tested:|Total positive cases:|Patients no longer needing isolation:|Deaths:|Hospitalized as of today: |Hospitalized in ICU as of today:"),
+         str_detect(value, "Updated every", negate = T)) %>% 
   mutate(value = ifelse(str_detect(value, "Updated"), 
                         paste("Date:", value %>% str_match("Updated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
-       ## format hospitalized as of today and remove extra info in the end
-       value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive cases:"), word(value, sep = "\r\n"), value)) %>% 
-       ## added on May 6th
-       ## edit again on May 8th
-       #value = ifelse(str_detect(value, "Total positive:"), word(value, sep = "\r\n"), value)) %>% 
-  # ## format deaths (added on 2020-05-02)
-  # mutate(value = ifelse(str_detect(value, "Deaths:"), word(value, sep = "\r\n\t"), value)) %>% 
-  # ## filter out info we don't need
-  # filter(str_detect(value, "\r\n|from", negate = T)) %>% 
-  ## separate variable into two columns by ":"
+         ## format hospitalized as of today and remove extra info in the end
+         value = ifelse(str_detect(value, "Hospitalized as of today:|Deaths:|Total positive cases:"), word(value, sep = "\r\n"), value)) %>% 
   separate(value, c("Name", "Value"), sep = ":") %>%
   ## remove space in the beginning, then remove "0" before month or remove comma for numbers
   mutate(Value = ifelse(str_detect(Value,"/"), Value %>% str_trim("left") %>% str_remove("^0"), Value %>% str_trim("left") %>% str_replace_all("[[:punct:]]", ""))) %>% 
-  ## convert to wide format 
   pivot_wider(names_from = Name,
               values_from = Value) %>%
   ## rename colnames to match csv file "MNCovidData.csv"
@@ -53,7 +43,8 @@ mdhData = url %>%
          Currently.hospitalized = `Hospitalized as of today`,
          ICU = `Hospitalized in ICU as of today`,
          Total.deaths = Deaths,          
-         Total.recovered = `Patients no longer needing isolation`) %>% 
+         Total.recovered = `Patients no longer needing isolation`,
+         Total.tested.people = `Total approximate number of people tested`) %>% 
   ## convert variables to integer except for Date
   mutate_at(vars(-Date), as.integer) %>% 
   select(-starts_with("Total approximate")) %>%

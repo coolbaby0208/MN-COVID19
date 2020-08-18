@@ -40,7 +40,7 @@ dataLongAvgPlain = dataLongAvg %>%
   + Total deaths: **`r (dataWidePlain$Total.deaths) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.deaths <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.deaths)))`)
  - Hospitalization   
    - Hospitalized as of today: **`r (dataWidePlain$Currently.hospitalized) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
-     - Hospitalized in ICU as of today: **`r (dataWidePlain$ICU)`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
+     - Hospitalized in ICU as of today: **`r (dataWidePlain$ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
 
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
