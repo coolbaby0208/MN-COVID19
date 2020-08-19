@@ -34,7 +34,7 @@ For data older than a week, the variables mentioned above will be calculated as 
  - New cases from *Positive cases by date specimen collected data table*
  - Daily tests from *Testing data table*: Total approximate number of completed tests - Total approximate number of completed tests from the previous day
 
-Differences between the 1st and 2nd plots. 
+Differences between the 1st and 2nd plots (left column). 
 
 Because Positive cases by date specimen collected data table starts on 3/5 and Testing data table starts on 3/28, you only see new cases data from 3/5 to 3/28 and you won't see data before 3/28 in the 2nd plot. 
 
