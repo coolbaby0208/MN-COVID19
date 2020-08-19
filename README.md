@@ -28,8 +28,8 @@ Data for New cases, Daily tests, Daily positive rate and Case fatality rate are 
 
 For data within a week, the variables mentioned above will be calculated using MDH Daily Update. 
 For example, 
-New cases = Today's Total positive cases (cumulative) - Yesterday's Total positive cases (cumulative) 
-Daily tests = Today's Total approximate number of completed tests - Yesterday's Total approximate number of completed tests
+ - New cases = Today's Total positive cases (cumulative) - Yesterday's Total positive cases (cumulative) 
+ - Daily tests = Today's Total approximate number of completed tests - Yesterday's Total approximate number of completed tests
 
 Differences between the 1st and 2nd plots. 
 
