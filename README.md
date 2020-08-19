@@ -20,7 +20,7 @@ Note:
   
 Another change in the 2nd plot: 2020-08-18
 ====
-Add positive percentage by number of people tested daily in addition to number of daily tests. This data was reported starting on 2020-07-30
+Add positive percentage by number of people tested daily in addition to number of daily tests. This data was reported starting on 2020-07-30 to account for multiple testings of the same individual.
 
 Major change in the 1st and 2nd plots: 2020-07-15
 ====
