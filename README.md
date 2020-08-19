@@ -27,9 +27,12 @@ Major change in the 1st and 2nd plots: 2020-07-15
 Data for New cases, Daily tests, Daily positive rate and Case fatality rate are using either specimen collection date (e.g., New cases) or date reported to MDH (e.g., Daily tests from testing data table) if the data is more than a week old. 
 
 For data within a week, the variables mentioned above will be calculated using MDH Daily Update. 
-For example, 
  - New cases = Today's Total positive cases (cumulative) - Yesterday's Total positive cases (cumulative) 
  - Daily tests = Today's Total approximate number of completed tests - Yesterday's Total approximate number of completed tests
+
+For data older than a week, the variables mentioned above will be calculated as the following. 
+ - New cases from *Positive cases by date specimen collected data table*
+ - Daily tests from *Testing data table*: Total approximate number of completed tests - Total approximate number of completed tests from the previous day
 
 Differences between the 1st and 2nd plots. 
 
