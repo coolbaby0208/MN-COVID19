@@ -71,7 +71,7 @@ mdhDataTable = url %>%
   read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
   html_nodes("table") %>% 
-  lmap(html_table)
+  lmap(html_table, fill = TRUE)
 
 ## Get testing number from report date
 testReportDate = mdhDataTable[[5]] %>% 
