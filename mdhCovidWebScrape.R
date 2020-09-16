@@ -30,7 +30,7 @@ mdhData = url %>%
   filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total approximate number of people tested:|Total positive cases:|Patients no longer needing isolation:|Deaths:|Hospitalized"),
          str_detect(value, "Updated every", negate = T)) %>% 
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("Updated (.*?).\r\n\tUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
+                        paste("Date:", value %>% str_match("Updated (.*?).\r\nUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
          ## format hospitalized as of today and remove extra info in the end
          value = ifelse(str_detect(value, "Hospitalized as of today|Deaths:|Total positive cases:"), word(value, sep = "\r\n"), value),
          ## Change on 2020-08-24 due to MDH website change
@@ -43,8 +43,8 @@ mdhData = url %>%
   ## rename colnames to match csv file "MNCovidData.csv"
   rename(Total.cases = `Total positive cases`, 
          Total.tested = `Total approximate number of completed tests`,
-         Currently.hospitalized = `Hospitalized as of today*`,
-         ICU = `Hospitalized in ICU as of today*`,
+         Currently.hospitalized = `Hospitalized as of today`,
+         ICU = `Hospitalized in ICU as of today`,
          Total.deaths = Deaths,          
          Total.recovered = `Patients no longer needing isolation`,
          Total.tested.people = `Total approximate number of people tested`) %>% 
