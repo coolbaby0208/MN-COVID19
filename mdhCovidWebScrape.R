@@ -81,7 +81,7 @@ testReportDate = mdhDataTable[[5]] %>%
   rename(DateReport = `Date reported to MDH`,
          MDHTestsByReportDate = `Completed tests reported from the MDH Public Health Lab (daily)`,
          ExternalTestsByReportDate  = `Completed tests reported from external laboratories (daily)`,
-         TotalTestsByReportDate = `Total approximate number of completed tests`) %>% 
+         TotalTestsByReportDate = `Total approximate number of completed tests (cumulative)`) %>% 
   mutate(DateReport = as.Date(DateReport , "%m/%d")) %>% 
   mutate_at(vars(-DateReport), ~str_remove_all(., ",") %>% as.double())
 
@@ -89,7 +89,7 @@ testReportDate = mdhDataTable[[5]] %>%
 dataSpecimenDate = mdhDataTable[[6]] %>% 
   rename(DateReport = `Specimen collection date`,
          New.casesBySpecimenDate = `Positive cases`,
-         Total.casesBySpecimenDate = `Cumulative positive cases`) %>% 
+         Total.casesBySpecimenDate = `Total positive cases (cumulative)`) %>% 
   mutate(DateReport = as.Date(DateReport, "%m/%d"),
          Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double()) %>% 
   ## combine with testing data
