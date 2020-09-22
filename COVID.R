@@ -94,7 +94,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   scale_fill_brewer(name = "", palette = "Set2", labels = c("New case", "New death"))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = RColorBrewer::brewer.pal(3, "Dark2"), labels = c("New case", "New death"))+
   scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1,1), labels = "")+
-  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   scale_y_continuous(sec.axis = sec_axis(~ ./secAxisConstant, 		
                                          name = "New deaths"))+
   theme_minimal()+
@@ -123,7 +123,7 @@ p2 = ggplot()+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate and case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
-  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   scale_fill_manual(name = "", label = c("Positive rate","Positive rate (people)","Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[c(1,3,2)]))+
   scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1,1), labels = "")+
   scale_size_continuous(range = c(.05,2))+
@@ -164,7 +164,7 @@ p3 = ggplot(dataLongDailyTests %>%
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Total hospitalized","ICU only"))+
   scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Current cases"))+
   annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(325, 1550, 1800, 1300, 200, 500, 850, 600, 1050, 1200, 1200), label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
-  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   guides(fill = guide_legend(order = 1))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
@@ -275,7 +275,7 @@ p5 = ggplot()+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Active cases", title = "Daily active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
-  scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+  scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   scale_color_manual(label = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(4, "Dark2")[4]), name = c(""))+
   scale_fill_manual(name = "", label = c("Raw"), values = c(RColorBrewer::brewer.pal(4, "Dark2")[4]))+
   scale_linetype_manual(name = "", values = c(1), labels = "")+
