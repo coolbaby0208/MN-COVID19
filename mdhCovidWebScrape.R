@@ -91,7 +91,8 @@ dataSpecimenDate = mdhDataTable[[6]] %>%
          New.casesBySpecimenDate = `Positive cases`,
          Total.casesBySpecimenDate = `Total positive cases (cumulative)`) %>% 
   mutate(DateReport = as.Date(DateReport, "%m/%d"),
-         Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double()) %>% 
+         Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double(),
+         New.casesBySpecimenDate =  str_remove_all(New.casesBySpecimenDate, ",") %>% as.double()) %>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
   mutate(Date = DateReport + 1) %>%
