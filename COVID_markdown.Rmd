@@ -44,8 +44,8 @@ dataLongAvgPeople = dataLongAvg %>%
   + Patients who are currently sick: **`r (dataWidePlain$Currently.sick) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.sick <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.sick))) %>% formatC(format="d", big.mark=",")`)
   + Total deaths: **`r (dataWidePlain$Total.deaths) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.deaths <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.deaths)))`)
 * Hospitalization   
-  + Hospitalized as of today: **`r (dataWidePlain$Currently.hospitalized) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
-    - Hospitalized in ICU as of today: **`r (dataWidePlain$ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
+  + Total hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
+    - Total ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
 
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
@@ -93,11 +93,11 @@ p4
  dataWide %>%
    mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 5)) %>%
-   select(-starts_with("Total"), -starts_with("New"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
-   rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `ICU` = ICU, `Tests` = Daily.tests, `People tested` = Daily.tests.people) %>%
-   select(Date, Hospitalized, ICU, Active, Tests, `People tested`) %>% 
-   mutate_at(vars(Hospitalized:`People tested`), list(~formatC(., format="d", big.mark=","))) %>%
-   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
+   select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
+   rename(`New Hospitalized` = New.hospitalized, `Active` = Currently.sick, `New ICU` = New.ICU, `Tests` = Daily.tests, `People tested` = Daily.tests.people) %>%
+   select(Date, `New Hospitalized`, `New ICU`, Active, Tests, `People tested`) %>% 
+   mutate_at(vars(`New Hospitalized`:`People tested`), list(~formatC(., format="d", big.mark=","))) %>%
+   kable(digits = 2, booktabs = T, caption = "Daily numbers for last 5 days", align = "c") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
