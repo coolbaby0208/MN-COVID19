@@ -17,7 +17,23 @@ Note:
   - Library needed for this R markdown: tidyverse, ggrepel, gridExtra, knitr, kableExtra, rvest, lubridate  
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
-  
+
+Another major change in the top rgiht plot and table: 2020-09-24
+====
+Major change due to MDH changes how they report "Hospitalization"
+
+Top right plot now shows the following 3 curves and two bars:
+Curves:
+- Total hospitalization (cumulative)
+- Total ICU (cumulative)
+- Total deaths (cumulative)
+
+Bars:
+- New hospitalization
+- New ICU
+
+Table is revised to show daily new hospitalization and daily new ICU numbers.
+
 Another change in the 2nd plot: 2020-08-18
 ====
 Add positive percentage by number of people tested daily in addition to number of daily tests. This data was reported starting on 2020-07-30 to account for multiple testings of the same individual.
