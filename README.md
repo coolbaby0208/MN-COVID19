@@ -18,7 +18,7 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
-Another major change in the top rgiht plot and table: 2020-09-24
+Another major change: 2020-09-24
 ====
 Major change due to MDH changes how they report "Hospitalization"
 
