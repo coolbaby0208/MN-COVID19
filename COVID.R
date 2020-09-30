@@ -140,7 +140,7 @@ plot(p2)
 ## Raw value for total Death.
 ## conversion factor for secondary axis
 convertFactor = max(dataLongDailyTests %>%
-                      filter(Variable %in% c("Date", "Total.Hospital")) %>% 		
+                      filter(Variable %in% c("Date", "Total.deaths")) %>% 		
                       pull(Value), na.rm = T)/(max(dataLongDailyTests %>%
                                                      filter(Variable %in% c("Date", "New.ICU", "New.hospitalized")) %>% 		
                                                      pull(Value), na.rm = T))
@@ -151,9 +151,10 @@ p3 = ggplot(dataLongDailyTests %>%
               mutate(Variable = factor(Variable, levels = c("Total.deaths"))))+ 
   aes(Date, Value, color = Variable)+
   #geom_line(aes(group = Variable))+
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Total.Hospital", "Total.ICU","Total.deaths")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("Total.Hospital", "Total.ICU","Total.deaths"))), aes(Date, movAvgValue, color = (Variable), group = Variable), size = 1.3, alpha = .7)+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.Hospital", "Total.ICU", "Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -1, nudge_x = 2.5, size = 3.5, show.legend = F, fontface = "bold")+
-  #geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c(), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x = 2.5, size = 3.5, show.legend = F)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("Total.deaths")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("Total.deaths"))), aes(Date, movAvgValue, color = (Variable), group = Variable), size = 1.3, alpha = .7)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("New.hospitalized", "New.ICU"))), aes(Date, movAvgValue*convertFactor , color = (Variable), group = Variable), size = 1.3, alpha = .7)+
+  geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -1.5, nudge_x = 2.5, size = 3.5, show.legend = F, fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x = 2.5, size = 3.5, show.legend = F)+
   #geom_point(fill = "white", shape = 21, stroke = .8, size = .15, show.legend = F)+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
   geom_vline(xintercept = dataLongDailyTests %>% 
@@ -161,12 +162,12 @@ p3 = ggplot(dataLongDailyTests %>%
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("New.ICU", "New.hospitalized")), aes(y = Value*convertFactor, fill = Variable), alpha = .3, color = NA, position = "dodge", width = .5)+
-  labs(x = "", y = "Cases", size = "Daily tests", fill = "", title = "Total hospitalized, ICU cases & deaths")+
+  labs(x = "", y = "Deaths", size = "Daily tests", fill = "", title = "Daily hospitalized, ICU cases & total deaths")+
   #scale_size_continuous(range = c(.1,4))+
   scale_color_manual(values = RColorBrewer::brewer.pal(5, "Set1")[c(1,2,5)], name = "7-day moving average", labels = c("Hospitalized", "ICU", "Death"))+
-  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("New hospitalized","New ICU"))+
-  scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Daily cases"))+
-  annotate("label", x = vlineDf  %>% pull(Date), y = c(2325, 3550, 4800, 3300, 5800, 5000, 6550, 4000, 1950, 2000, 2400, 2800, 2500), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Hospitalized","ICU"))+
+  scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Daily admitted cases"))+
+  annotate("label", x = vlineDf  %>% pull(Date), y = c(825, 1250, 1600, 1700, 2200, 2000, 1950, 1400, 490, 1200, 1340, 1400, 1550), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   guides(color=guide_legend(nrow=1,byrow=TRUE, order = 2), fill = guide_legend(order = 1))+
@@ -174,6 +175,7 @@ p3 = ggplot(dataLongDailyTests %>%
   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
         legend.position = "bottom", legend.direction = "horizontal", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12), legend.text.align = 0.5)
 plot(p3)
+
 
 ## old version p3 (cols for percentage)
 # p3 = ggplot(dataLongDailyTests %>% 
