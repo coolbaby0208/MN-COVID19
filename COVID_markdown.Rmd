@@ -59,18 +59,18 @@ p2
 ```
 
    
-```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6}
+```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6, fig.height = 5}
 ## plots from COVID.R
 p3
 ```
 
-```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.5}
+```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 4.5}
 ## plots from COVID.R
 p5
 ```
 
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 2.5}
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.5}
 ## plots from COVID.R
 p4
 ```
@@ -94,14 +94,12 @@ p4
    mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 5)) %>%
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
-   rename(`New Hospitalized` = New.hospitalized, `Active` = Currently.sick, `New ICU` = New.ICU, `Tests` = Daily.tests, `People tested` = Daily.tests.people) %>%
-   select(Date, `New Hospitalized`, `New ICU`, Active, Tests, `People tested`) %>% 
-   mutate_at(vars(`New Hospitalized`:`People tested`), list(~formatC(., format="d", big.mark=","))) %>%
-   kable(digits = 2, booktabs = T, caption = "Daily numbers for last 5 days", align = "c") %>%
-   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 9) %>% 
-   row_spec(5, color = "white", background = "#FF33CC") 
+   rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `Tests` = Daily.tests, `People tested` = Daily.tests.people) %>%
+   select(Date, Hospitalized, ICU, Active, Tests, `People tested`) %>% 
+   mutate_at(vars(Hospitalized:`People tested`), list(~formatC(., format="d", big.mark=","))) %>%
+   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
+   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 7) %>%
+   footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 
+   row_spec(5, color = "white", background = "#FF33CC")
 ```
-For source code and data source please see 
-
-* *https://github.com/coolbaby0208/MN-COVID19*
 

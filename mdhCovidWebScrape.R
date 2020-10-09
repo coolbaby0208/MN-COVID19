@@ -99,11 +99,11 @@ dataSpecimenDate = mdhDataTable[[6]] %>%
   ## drop Data with missing date
   drop_na(DateReport)
 
-## Get hospitalized data: completely changed on Sep24
+## Get hospital admitted data: completely changed on Sep24
 hospitalData = mdhDataTable[[8]] 
 names(hospitalData)<-str_replace_all(names(hospitalData), c(" " = "" , "," = "" ))
 
-hospitalData = hospitalData %>% 
+hospitalAdmitData = hospitalData %>% 
   rename(IcuAdmit = `CasesadmittedtoanICU`,
          HospitalAdmit = `Casesadmittedtoahospital`,
          Total.ICU = `TotalICUhospitalizations(cumulative)`,
@@ -115,8 +115,30 @@ hospitalData = hospitalData %>%
   full_join(dataSpecimenDate, by = "DateReport") %>% 
   arrange(DateReport)
 
+## Get hospitalization data
+## Add on 2020-10-09
+hospitalizationExtract = function(fileLoc){
+  out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
+                   ## remove columns with All NAs
+                   select_if(~!all(is.na(.))) %>% 
+                   mutate(Value = Value_NUMBER), 
+                 error = function(e) read.csv("HospitalCapacity_HistoricCSV_tcm1148-449110.csv", na.strings = c("NA","")) %>% 
+                   ## remove columns with All NAs
+                   select_if(~!all(is.na(.))))
+  return(out)
+}
+
+hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv") %>% 
+  mutate(DateReport = Data.Date..MM.DD.YYYY. %>% mdy()) %>% 
+  arrange(DateReport)%>% 
+  filter(Metric == "Number of patients", Detail3 == "COVID+") %>% 
+  select(DateReport, Detail1, Value_NUMBER) %>% 
+  pivot_wider(names_from = Detail1, values_from = Value_NUMBER) %>% 
+  rename(Currently.hospitalized = `Non-ICU`)
+
 ## Combine data from daily update with data reported by specimen & reported dates
 ## edit on 2020-07-15
+## edit on 2020-10-09 to add back hospitalization data
 data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   ## remove data with missing date
   drop_na(Date) %>% 
@@ -124,7 +146,11 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## since the values in duplicated variables will change
   ## remove duplicated variables before full_join
   select(-DateReport:-TotalTestsByReportDate) %>% 
-  full_join(hospitalData) %>% 
+  full_join(hospitalAdmitData) %>%
+  full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
+  mutate(ICU = coalesce(ICU.x, ICU.y), 
+         Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
+  select(-ends_with(c(".x",".y"))) %>% 
   arrange(Date) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
@@ -157,6 +183,9 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 # responseData = possibly(getResponseDataUrl, 
 #                            otherwise ="https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")(responseUrl) %>% 
 
+# https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv 
+# https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv 
+ 
 ## Revised on 2020-06-17  
 ## Get response prep data
 ## Use tryCatch if response csv file is not available (access denied)
@@ -164,12 +193,11 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
  responseDataExtract = function(fileLoc){
    out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
                     ## remove columns with All NAs
-                    select_if(~!all(is.na(.))) %>%
-                    filter(!is.na(Detail3)),
+                    select_if(~!all(is.na(.))) %>% 
+                    mutate(Value = Value_NUMBER), 
                   error = function(e) read.csv("StateofMNResponseDashboardCSV_tcm1148-427143.csv", na.strings = c("NA","")) %>% 
                     ## remove columns with All NAs
-                    select_if(~!all(is.na(.))) %>%
-                    filter(!is.na(Detail3)))
+                    select_if(~!all(is.na(.))))
    out = out %>% 
      ## remove punctuation
      mutate(Value = Value_NUMBER %>% as.character() %>% str_replace_all("[[:punct:]]", "") %>% as.integer()) %>% 
@@ -189,10 +217,17 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
      filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
      ## rename levels and refactor Detail1
-     mutate(Metric = ifelse(str_detect(Metric, "Ventilator"), "Ventilator", "ICU beds"),
-            Detail1 = factor(Detail1, levels = c("Surge - 72 hour", "Surge - 24 hour", "On back order", "Surge", "Current")))
+     mutate(Metric = recode (Metric, `Number of beds` = "bed     patient",`Number of patients` = "bed     patient",
+                             `Number of vents` = "ventilator",
+                             `# of Ventilators (ordered)` = "ventilator ordered"),
+
+            Detail2 = ifelse(Metric == "ventilator ordered", "Ordered", str_to_title(Detail2)),
+            Detail3 = ifelse(is.na(Detail3), as.character(Detail2), as.character(Detail3)) %>% 
+              factor(levels = c("Capacity", "Surge", "Ordered", "In Use", "COVID+", "non-COVID+")),
+            Metric = str_remove(Metric, " ordered"),
+            Detail1 = ifelse(str_detect(Metric, "ventilator"), as.character(Detail3), as.character(Detail1)) %>% 
+              factor(levels = c("Capacity","Surge","Ordered", "In Use","ICU", "Non-ICU")))
    return(out)
  }
  responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")
- 
  
