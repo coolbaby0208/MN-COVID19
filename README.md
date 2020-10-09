@@ -18,6 +18,16 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
+Another major change: 2020-10-09
+====
+Major change due to MDH reports "Current hospitalization" with a differetn dataset
+Link: https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv
+
+Add current hospitalization and ICU numbers to the 2nd plot of the right column. 
+Also made changes to the 3rd plot of the right column to reflect change in data structure from MDH.
+
+Table is revised to show current hospitalization and current ICU numbers.
+
 Another major change: 2020-09-24
 ====
 Major change due to MDH changes how they report "Hospitalization"
