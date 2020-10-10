@@ -66,8 +66,9 @@ dataLongDailyTests = dataWide %>%
 moveAvg = 7
 dataLongAvg = dataLongDailyTests %>%
   group_by(Variable) %>%
-  mutate(movAvgValue = RcppRoll::roll_mean(Value, moveAvg, fill = "left", align = "right"),
-         movAvgValue2 = TTR::VWMA(Value, moveAvg, volume = Daily.testsPlot))
+  mutate(movAvgValue = RcppRoll::roll_mean(Value, moveAvg, fill = "left", align = "right"))
+        # 2020-10-10: comment out since it's not used in plots anymore 
+         #movAvgValue2 = TTR::VWMA(Value, moveAvg, volume = Daily.testsPlot))
 
 #### Plots ####
 ## set up vline dates and vline labels for important events
