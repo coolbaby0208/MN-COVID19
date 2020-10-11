@@ -255,12 +255,12 @@ plot(p3)
 p4 = ggplot(responseData %>% filter (Value>0))+
   aes(x = Detail3, y = Value, fill = Detail1, label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8, size = .3) + 
-  geom_text(data = responseData %>% filter(Detail3 != "COVID+"),
+  geom_text(data = responseData %>% filter(Detail3 != "COVID+" | Detail1!="ICU"),
             aes(x = Detail3, y = Value, label = Value), 
             position = position_stack(vjust = 0.5), size = 2.8)+
-  geom_text_repel(data = responseData %>% filter(Detail3 == "COVID+"),
+  geom_text(data = responseData %>% filter(Detail3 == "COVID+", Detail1 == "ICU"),
                   aes(x = Detail3, y = Value, label = Value, color = Detail1),
-                  position = position_stack(vjust = 0.5), size = 3.4, show.legend = F)+
+                  position = position_stack(vjust = 5), size = 3.4, show.legend = F)+
   facet_wrap(~Metric,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(mdy(responseData$Date), "%b %d"))))+
   scale_fill_brewer(palette ="Set3")+
@@ -300,7 +300,7 @@ p5 = ggplot()+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   scale_y_continuous(sec.axis = sec_axis(~ ./secAxisConstant, 		
                                          name = "Hospitalizations"))+
-  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Acitve"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
+  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Active"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   scale_fill_manual(name = "", label = "", values = c(RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
