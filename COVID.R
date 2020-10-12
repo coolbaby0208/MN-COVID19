@@ -262,7 +262,7 @@ p4 = ggplot(responseData %>% filter (Value>0))+
                   aes(x = Detail3, y = Value, label = Value, color = Detail1),
                   position = position_stack(vjust = 5), size = 3.4, show.legend = F)+
   facet_wrap(~Metric,scales="free")+
-  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(mdy(responseData$Date), "%b %d"))))+
+  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
   scale_fill_brewer(palette ="Set3")+
   scale_color_manual(values = c(RColorBrewer::brewer.pal(6, "Set3")[c(5,6)]))+
   theme_minimal()+

@@ -146,11 +146,13 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## since the values in duplicated variables will change
   ## remove duplicated variables before full_join
   select(-DateReport:-TotalTestsByReportDate) %>% 
-  full_join(hospitalAdmitData) %>%
+  full_join(hospitalAdmitData) %>% 
+  mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
+         Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>%
   full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
   mutate(ICU = coalesce(ICU.x, ICU.y), 
          Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
-  select(-ends_with(c(".x",".y"))) %>% 
+  select(-ends_with((".x"), -ends_with(".y"))) %>% 
   arrange(Date) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
@@ -205,12 +207,12 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
      ## edit on 2020-06-16 due to change back to original dat format
      ## try to accomodate both formats
-     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% ymd() %>% is.na(), 
+     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
                            Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                           Data.Date..MM.DD.YYYY. %>% ymd() %>% format("%m/%d/%y")),
-            DateUpdate = ifelse(Date.and.time.of.update %>% ymd() %>% is.na(), 
+                           Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+            DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
                                 Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                                Date.and.time.of.update %>% ymd() %>% format("%m/%d/%y"))) %>% 
+                                Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
      # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
      #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
      ## remove unnecessary columns
@@ -220,7 +222,6 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      mutate(Metric = recode (Metric, `Number of beds` = "bed     patient",`Number of patients` = "bed     patient",
                              `Number of vents` = "ventilator",
                              `# of Ventilators (ordered)` = "ventilator ordered"),
-
             Detail2 = ifelse(Metric == "ventilator ordered", "Ordered", str_to_title(Detail2)),
             Detail3 = ifelse(is.na(Detail3), as.character(Detail2), as.character(Detail3)) %>% 
               factor(levels = c("Capacity", "Surge", "Ordered", "In Use", "COVID+", "non-COVID+")),
