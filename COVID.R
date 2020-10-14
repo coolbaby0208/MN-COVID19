@@ -38,7 +38,7 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          HospitalizedPercent = Total.Hospital/Total.cases,
          DeathPercent = Total.deaths/Total.cases,
          # add on 2020-07-14
-         DailyTestByReportDate = MDHTestsByReportDate+ExternalTestsByReportDate) %>%  
+         DailyTestByReportDate = TotalTestsByReportDate - lag(TotalTestsByReportDate)) %>%  
   #select(Date, Day, Daily.tests, starts_with("New"), starts_with("Current"), ICU, starts_with("Total"), ends_with("Percent"))
   drop_na(Daily.tests) %>% 
   ## added on 2020-07-15 
@@ -50,8 +50,8 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          Total.casesPlot = ifelse(last(.$Date) - Date > 6,  Total.casesBySpecimenDate, Total.cases),
          PositivePercentPlot = New.casesPlot/Daily.testsPlot,
          PositivePercentPeoplePlot = New.casesPlot/Daily.tests.people,
-         DeathPercentPlot = Total.deaths/Total.casesPlot)
-  
+         DeathPercentPlot = Total.deaths/Total.casesPlot) 
+
 ## Convert to long format for p1 and p3 plots
 ## edit on 2020-08-18 to include number of people tested
 dataLongDailyTests = dataWide %>% 

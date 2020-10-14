@@ -18,8 +18,8 @@ url = "https://www.health.state.mn.us/diseases/coronavirus/situation.html"
 
 ## Updated on 2020-08-18 to include total number of people tested
 ## instead of total tests since some people got tested multiple times
-
-mdhData = url %>% 
+## Updated on 2020-10-14 due to website change
+DateUpdated = url %>% 
   read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
   html_nodes("li, p") %>% 
@@ -27,72 +27,75 @@ mdhData = url %>%
   ## convert list to a tibble
   as_tibble() %>% 
   ## Change on 2020-08-24 due to MDH website change
-  filter(str_detect(value, "Updated|Total approximate number of completed tests:|Total approximate number of people tested:|Total positive cases:|Patients no longer needing isolation:|Total deaths:|Hospitalized"),
-         str_detect(value, "Updated every", negate = T)) %>% 
+  filter(str_detect(value, "Updated"))%>% 
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("Updated (.*?).\r\nUpdated") %>% mdy() %>% format("%m/%d/%y")), value),
-         ## format hospitalized as of today and remove extra info in the end
-         value = ifelse(str_detect(value, "Hospitalized as of today|Total deaths:|Total positive cases:"), word(value, sep = "\r\n"), value),
-         ## Change on 2020-08-24 due to MDH website change
-         value = str_remove(value, "Refer to \"More about hospitalizations\" for notes.")) %>% 
-  separate(value, c("Name", "Value"), sep = ":") %>%
-  ## remove space in the beginning, then remove "0" before month or remove comma for numbers
-  mutate(Value = ifelse(str_detect(Value,"/"), Value %>% str_trim("left") %>% str_remove("^0"), Value %>% str_trim("left") %>% str_replace_all("[[:punct:]]", ""))) %>% 
-  pivot_wider(names_from = Name,
-              values_from = Value) %>%
-  ## rename colnames to match csv file "MNCovidData.csv"
-  rename(Total.cases = `Total positive cases`, 
-         Total.tested = `Total approximate number of completed tests`,
-         #Currently.hospitalized = `Hospitalized as of today`,
-         #ICU = `Hospitalized in ICU as of today`,
-         Total.deaths = `Total deaths`,          
-         Total.recovered = `Patients no longer needing isolation`,
-         Total.tested.people = `Total approximate number of people tested`) %>% 
-  ## convert variables to integer except for Date
-  mutate_at(vars(-Date), as.integer) %>% 
-  select(-starts_with("Total approximate")) %>%
-  ## edit 2020-05-18 due to MDH website change
-  # mutate(Total.recovered = Total.recovered - Total.deaths,
-  #        Date = Date %>% mdy()) 
-  mutate(Date = Date %>% mdy()) %>% 
-  # Fix stupid typo on MDH website
-  mutate(Total.cases = ifelse(Date == "2020-06-18", 31675, Total.cases))
+                        paste("Date:", value %>% str_match("Updated (.*?).\r\nUpdated") %>% mdy %>% format("%m/%d/%y")), value)) %>% 
+  separate(value, c("Variable", "Value"), sep = ":") %>%
+  mutate(Date = Value %>% str_trim("left")) %>%
+  filter(Date!="NA") %>% 
+  select(Date)
 
-## Output data to csv file
-read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
-  mutate(Date = Date %>% ymd()) %>% 
-  full_join(mdhData) %>% 
-  distinct(Date, .keep_all = T) %>% 
-  write.csv("MNCovidData.csv", row.names = F) 
-
-## Added on 2020-07-14 to take care of the following two variables changed by MDH within the past 7 days
-## 1. Total testing
-## 2. Positive cases
-
-## For extracting data for positive cases by specimen date
+## For extracting all data
 mdhDataTable = url %>% 
   read_html() %>% 
   ## use CSS tools to figure out needed nodes for data 
   html_nodes("table") %>% 
   lmap(html_table, fill = TRUE)
 
+## Added on 2020-10-14
+# totalCase = mdhDataTable[[1]]
+# newCase = mdhDataTable[[2]]
+# newDeath = mdhDataTable[[4]]
+# totalTests = mdhDataTable[[7]]
+# totalPeopleTested = mdhDataTable[[9]]
+# totalRecovered = mdhDataTable[[13]]
+# totalDeath = mdhDataTable[[14]]
+
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]]) %>% 
+  rename(Variable = X1, Value = X2) %>%
+  mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
+  pivot_wider(names_from = Variable, values_from = Value) %>% 
+  bind_cols(DateUpdated) %>%
+  rename(Total.cases = `Total positive cases (cumulative)`,
+         Total.tested = `Total approximate completed tests (cumulative)`,
+         Total.tested.people = `Total approximate number of people tested (cumulative)`, 
+         Total.recovered = `Patients no longer needing isolation (cumulative)`,
+         Total.deaths = `Total deaths (cumulative)`) %>% 
+  select(Date,starts_with("Total.")) %>% 
+  mutate(Date = Date %>% mdy)
+
+## Output data to csv file
+read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  mutate(Date = Date %>% ymd) %>% 
+  full_join(mdhData) %>% 
+  distinct(Date, .keep_all = T) %>% 
+  write.csv("MNCovidData.csv", row.names = F) 
+
 ## Get testing number from report date
-testReportDate = mdhDataTable[[5]] %>% 
+## Revised on 2020-10-14
+testReportDate = mdhDataTable[[8]] %>% 
   rename(DateReport = `Date reported to MDH`,
-         MDHTestsByReportDate = `Completed tests reported from the MDH Public Health Lab (daily)`,
-         ExternalTestsByReportDate  = `Completed tests reported from external laboratories (daily)`,
+         MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
+         ExternalPcr = `Completed PCR tests reported from external laboratories`,
+         TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
+         ExternalAntigen = `Completed antigen tests reported from external laboratories`,
+         TotalAntigen = `Total approximate number of completed antigen tests (cumulative)`,
          TotalTestsByReportDate = `Total approximate number of completed tests (cumulative)`) %>% 
-  mutate(DateReport = as.Date(DateReport , "%m/%d")) %>% 
-  mutate_at(vars(-DateReport), ~str_remove_all(., ",") %>% as.double())
+  mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
+  mutate(ExternalTestsByReportDate = ExternalPcr+ExternalAntigen,
+         DateReport = as.Date(DateReport , "%m/%d"))
 
 ## Get positve cases for specimen collection date
-dataSpecimenDate = mdhDataTable[[6]] %>% 
+## Updated on 2020-10-14
+dataSpecimenDate = mdhDataTable[[11]] %>% 
   rename(DateReport = `Specimen collection date`,
-         New.casesBySpecimenDate = `Positive cases`,
+         ProbableCase = starts_with("Probable"),
+         ConfirmedCase = starts_with("Confirmed cases"),
          Total.casesBySpecimenDate = `Total positive cases (cumulative)`) %>% 
-  mutate(DateReport = as.Date(DateReport, "%m/%d"),
-         Total.casesBySpecimenDate =  str_remove_all(Total.casesBySpecimenDate, ",") %>% as.double(),
-         New.casesBySpecimenDate =  str_remove_all(New.casesBySpecimenDate, ",") %>% as.double()) %>% 
+  mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
+  mutate(New.casesBySpecimenDate = Total.casesBySpecimenDate - lag(Total.casesBySpecimenDate),
+         DateReport = as.Date(DateReport , "%m/%d")) %>% 
+  select(DateReport, ends_with("SpecimenDate"))%>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
   mutate(Date = DateReport + 1) %>%
@@ -100,9 +103,8 @@ dataSpecimenDate = mdhDataTable[[6]] %>%
   drop_na(DateReport)
 
 ## Get hospital admitted data: completely changed on Sep24
-hospitalData = mdhDataTable[[8]] 
+hospitalData = mdhDataTable[[18]] 
 names(hospitalData)<-str_replace_all(names(hospitalData), c(" " = "" , "," = "" ))
-
 hospitalAdmitData = hospitalData %>% 
   rename(IcuAdmit = `CasesadmittedtoanICU`,
          HospitalAdmit = `Casesadmittedtoahospital`,
@@ -145,15 +147,20 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   mutate_at(vars(starts_with("Date")), ymd) %>%
   ## since the values in duplicated variables will change
   ## remove duplicated variables before full_join
-  select(-DateReport:-TotalTestsByReportDate) %>% 
+  select(-DateReport:-ExternalTestsByReportDate) %>% 
   full_join(hospitalAdmitData) %>% 
   mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
-         Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>%
+         Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>% 
+  select(-ends_with(".y"), -ends_with(".x")) %>%
   full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
   mutate(ICU = coalesce(ICU.x, ICU.y), 
          Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
-  select(-ends_with((".x"), -ends_with(".y"))) %>% 
-  arrange(Date) %>% 
+  select(-ends_with(".x"),-ends_with(".y")) %>% 
+  filter(!is.na(DateReport)) %>% 
+  arrange(Date) 
+
+
+%>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
@@ -231,4 +238,5 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
    return(out)
  }
  responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")
+ 
  
