@@ -157,10 +157,7 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
   select(-ends_with(".x"),-ends_with(".y")) %>% 
   filter(!is.na(DateReport)) %>% 
-  arrange(Date) 
-
-
-%>% 
+  arrange(Date) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
 ## Read in MN response data for hospital capacity
