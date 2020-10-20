@@ -109,7 +109,9 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
 plot(p1)
 
 p2 = ggplot()+
-  geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","PositivePercentPeoplePlot")) %>% mutate(Value = Value*100), 
+  geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","PositivePercentPeoplePlot")) %>% 
+             mutate(Value = Value*100, 
+                    Variable = factor(Variable, levels = c("PositivePercentPlot","PositivePercentPeoplePlot","DeathPercentPlot"))), 
            aes(x = Date, y = Value, fill = Variable), color = NA, position = "dodge", width = .85, alpha = .5)+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
   geom_vline(xintercept = dataLongDailyTests %>%
@@ -293,7 +295,7 @@ p5 = ggplot()+
                     mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
                            ValuePlot = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)) %>% 
                     filter(Date == last(Date)), aes(x= Date, y = ValuePlot, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, size = 3.5, color = RColorBrewer::brewer.pal(4, "Set1")[c(2,1,4)], fontface = "bold")+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 3550, 6500, 4500, 2000, 5500, 3050, 1500, 1950, 3500, 1900, -1600)+6000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 3550, 6500, 4500, 2000, 5500, 3050, 500, 1950, 3500, 1900, 5000)+6000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
