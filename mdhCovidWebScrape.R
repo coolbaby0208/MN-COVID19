@@ -136,7 +136,9 @@ hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/Hosp
   filter(Metric == "Number of patients", Detail3 == "COVID+") %>% 
   select(DateReport, Detail1, Value_NUMBER) %>% 
   pivot_wider(names_from = Detail1, values_from = Value_NUMBER) %>% 
-  rename(Currently.hospitalized = `Non-ICU`)
+  rename(Currently.hospitalized = `Non-ICU`) %>% 
+  ## After 2020-08-01 the hospitalizations for non-ICU and ICU are reported separately
+  mutate(Currently.hospitalized = Currently.hospitalized+ICU)
 
 ## Combine data from daily update with data reported by specimen & reported dates
 ## edit on 2020-07-15
@@ -224,7 +226,7 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
      ## rename levels and refactor Detail1
      mutate(Metric = recode (Metric, `Number of beds` = "bed     patient",`Number of patients` = "bed     patient",
-                             `Number of vents` = "ventilator",
+                             `Number of ventilators` = "ventilator",
                              `# of Ventilators (ordered)` = "ventilator ordered"),
             Detail2 = ifelse(Metric == "ventilator ordered", "Ordered", str_to_title(Detail2)),
             Detail3 = ifelse(is.na(Detail3), as.character(Detail2), as.character(Detail3)) %>% 

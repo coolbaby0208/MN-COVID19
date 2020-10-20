@@ -92,7 +92,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   #geom_path(data = dataLongAvg %>% mutate(movAvgValue2 = ifelse(Variable == "New.deaths", movAvgValue2*secAxisConstant, movAvgValue2)) %>% filter(Variable %in% c("New.deaths","New.casesPlot")) , aes(Date, movAvgValue2, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.casesPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -.5, size = 4, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*secAxisConstant), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -.5, size = 4, ylim = c(0, Inf),color = RColorBrewer::brewer.pal(3, "Dark2")[2],fontface = "bold")+
-  annotate("label", x = vlineDf$Date, y = c(200, 300, 400, 680, 780, 1030, 950, 850, 750, 850, 950, 1000, 870, 800), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(200, 400, 600, 880, 1280, 1830, 1650, 850, 1050, 850, 950, 1000, 870, 800), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "New cases", title = "Daily new cases & deaths", fill = "")+
   guides(fill = guide_legend(order = 1))+
@@ -169,7 +169,7 @@ p3 = ggplot(dataLongDailyTests %>%
   scale_color_manual(values = RColorBrewer::brewer.pal(5, "Set1")[c(1,2,5)], name = "7-day moving average", labels = c("Hospitalized", "ICU", "Death"))+
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Hospitalized","ICU"))+
   scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Daily admitted cases"))+
-  annotate("label", x = vlineDf  %>% pull(Date), y = c(825, 1250, 1600, 1700, 2200, 2000, 1950, 1400, 490, 1200, 1340, 1400, 1550, 1550), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf  %>% pull(Date), y = c(825, 1250, 1600, 1700, 2200, 2000, 1950, 1400, 490, 1200, 1340, 1400, 1550, 1850), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   guides(color=guide_legend(nrow=1,byrow=TRUE, order = 2), fill = guide_legend(order = 1))+
@@ -255,12 +255,12 @@ plot(p3)
 p4 = ggplot(responseData %>% filter (Value>0))+
   aes(x = Detail3, y = Value, fill = Detail1, label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8, size = .3) + 
-  geom_text(data = responseData %>% filter(Detail3 != "COVID+" | Detail1!="ICU"),
+  geom_text(data = responseData %>% filter(Detail3 != "COVID+" | Detail1!="ICU", Value >0),
             aes(x = Detail3, y = Value, label = Value), 
             position = position_stack(vjust = 0.5), size = 2.8)+
-  geom_text(data = responseData %>% filter(Detail3 == "COVID+", Detail1 == "ICU"),
+  geom_text(data = responseData %>% filter(Detail3 == "COVID+", Detail1 == "ICU", Value>0),
                   aes(x = Detail3, y = Value, label = Value, color = Detail1),
-                  position = position_stack(vjust = 5), size = 3.4, show.legend = F)+
+                  position = position_stack(vjust = 8), size = 3.4, show.legend = F, fontface = "bold")+
   facet_wrap(~Metric,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
   scale_fill_brewer(palette ="Set3")+
@@ -293,7 +293,7 @@ p5 = ggplot()+
                     mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
                            ValuePlot = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)) %>% 
                     filter(Date == last(Date)), aes(x= Date, y = ValuePlot, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, size = 3.5, color = RColorBrewer::brewer.pal(4, "Set1")[c(2,1,4)], fontface = "bold")+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(3000, 3550, 5000, 3500, 2500, 4500, 2750, 2500, 1950, 2500, 1900, 900)+5000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 3550, 6500, 4500, 2000, 5500, 3050, 1500, 1950, 3500, 1900, -1600)+6000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
