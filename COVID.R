@@ -76,7 +76,7 @@ vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-0
                 Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally"))
 
 # for p1 sec_axis
-secAxisConstant = 12
+secAxisConstant = 12.5
 ## plot daily new cases and deaths
 ## edit on 2020-07-15 using the new variables for plotting new cases
 p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths", Value*secAxisConstant, Value)) %>% filter(Variable %in% c("New.deaths","New.casesPlot")))+
@@ -143,11 +143,12 @@ plot(p2)
 ## plot 7 daty moving average for Hospitalized, ICU
 ## Raw value for total Death.
 ## conversion factor for secondary axis
-convertFactor = max(dataLongDailyTests %>%
+convertFactor = trunc(max(dataLongDailyTests %>%
                       filter(Variable %in% c("Date", "Total.deaths")) %>% 		
                       pull(Value), na.rm = T)/(max(dataLongDailyTests %>%
                                                      filter(Variable %in% c("Date", "New.ICU", "New.hospitalized")) %>% 		
-                                                     pull(Value), na.rm = T))
+                                                     pull(Value), na.rm = T)))
+ 
 
 p3 = ggplot(dataLongDailyTests %>% 
               filter(Variable %in% c("Total.deaths")) %>% 
@@ -300,13 +301,14 @@ p5 = ggplot()+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
-  scale_y_continuous(sec.axis = sec_axis(~ ./secAxisConstant, 		
-                                         name = "Hospitalizations"))+
+  scale_y_continuous(breaks = c(0,5000, 10000), sec.axis = sec_axis(~ ./secAxisConstant, 		
+                                         name = "Hospitalizations", breaks = c(0,400,800)))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Active"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   scale_fill_manual(name = "", label = "", values = c(RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
 plot(p5)
+
 
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
