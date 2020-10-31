@@ -133,8 +133,11 @@ hospitalizationExtract = function(fileLoc){
 hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv") %>% 
   mutate(DateReport = Data.Date..MM.DD.YYYY. %>% mdy(),
          ## Add on 2020-10-26 to fix excel date entry value
-         DateReport = if_else(is.na(DateReport), as.Date(Data.Date..MM.DD.YYYY., origin = "1899-12-30"), DateReport)) %>% 
-  arrange(DateReport)%>% 
+         ## Revise on 2020-10-31 to fix excel date entry value
+         DateReport = if_else(is.na(DateReport), as.character(Data.Date..MM.DD.YYYY.) %>% 
+                                as.numeric %>% 
+                                as.Date(origin = "1899-12-30"), DateReport))%>% 
+  arrange(DateReport) %>% 
   filter(Metric == "Number of patients", Detail3 == "COVID+") %>% 
   select(DateReport, Detail1, Value_NUMBER) %>% 
   pivot_wider(names_from = Detail1, values_from = Value_NUMBER) %>% 
@@ -161,8 +164,8 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
   select(-ends_with(".x"),-ends_with(".y")) %>% 
   filter(!is.na(DateReport)) %>% 
-  arrange(Date) %>% 
-  write.csv("MNCovidData.csv", row.names = F) 
+  arrange(Date) %>%
+  write.csv("MNCovidData.csv", row.names = F)
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
@@ -238,6 +241,7 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
               factor(levels = c("Capacity","Surge","Ordered", "In Use","ICU", "Non-ICU")))
    return(out)
  }
- responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv")
- 
+ responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") %>% 
+   filter(Detail1!="Ordered") %>% 
+   mutate(Detail1 = factor(Detail1))
  
