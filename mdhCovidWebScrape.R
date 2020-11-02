@@ -131,7 +131,7 @@ hospitalizationExtract = function(fileLoc){
 }
 
 hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv") %>% 
-  mutate(DateReport = Data.Date..MM.DD.YYYY. %>% mdy(),
+  mutate(DateReport = Data.Date..MM.DD.YYYY. %>% ymd(),
          ## Add on 2020-10-26 to fix excel date entry value
          ## Revise on 2020-10-31 to fix excel date entry value
          DateReport = if_else(is.na(DateReport), as.character(Data.Date..MM.DD.YYYY.) %>% 
