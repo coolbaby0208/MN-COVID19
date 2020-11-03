@@ -126,7 +126,7 @@ p2 = ggplot()+
   #geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercentPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, vjust = -.5, size = 3.5, ylim = c(0, Inf), color = RColorBrewer::brewer.pal(3, "Dark2")[2], fontface = "bold")+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.testsPlot), shape = 21, stroke = .6, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,3,2)]), label = c("Positive rate","Positive rate (people)","Fatality rate"))+
-  annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 22, 20, 22, 17, 13, 10, 13, 13, 15, 20, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 22, 20, 22, 17, 13, 10, 13, 13, 15, 23, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
@@ -266,8 +266,8 @@ p4 = ggplot(responseData %>% filter (Value>0))+
                   position = position_stack(vjust = 8), size = 3.4, show.legend = F, fontface = "bold")+
   facet_wrap(~Metric,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
-  scale_fill_brewer(palette ="Set3")+
-  scale_color_manual(values = c(RColorBrewer::brewer.pal(6, "Set3")[c(5,6)]))+
+  scale_fill_brewer(palette ="Pastel1")+
+  scale_color_manual(values = c(RColorBrewer::brewer.pal(6, "Dark2")[c(3)]))+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 9, face = "bold", angle = 40, hjust = 1),
@@ -279,8 +279,9 @@ plot(p4)
 
 p5 = ggplot()+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized"), Date > as.Date("2020-03-23")) %>% 
-             mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick"))), 
-           aes(x = Date, y = Value, fill = Variable), width = .85, alpha = .3, show.legend = F)+
+             mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
+                    Value = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)), 
+           aes(x = Date, y = Value, fill = Variable), width = .85, alpha = .3, show.legend = F, position = "dodge")+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4, show.legend = F)+
   geom_vline(xintercept = dataLongDailyTests %>%
                drop_na(Daily.tests) %>% 
@@ -301,8 +302,8 @@ p5 = ggplot()+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
-  scale_y_continuous(breaks = c(0,5000, 10000), sec.axis = sec_axis(~ ./secAxisConstant, 		
-                                         name = "Hospitalizations", breaks = c(0,400,800)))+
+  scale_y_continuous(breaks = c(0,5000, 10000, 15000, 20000), sec.axis = sec_axis(~ ./secAxisConstant, 		
+                                         name = "Hospitalizations", breaks = c(0,400,800,1200,1600)))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Active"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   scale_fill_manual(name = "", label = "", values = c(RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   theme_minimal()+
