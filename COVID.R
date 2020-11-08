@@ -72,8 +72,8 @@ dataLongAvg = dataLongDailyTests %>%
 
 #### Plots ####
 ## set up vline dates and vline labels for important events
-vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-31")),
-                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "Halloween"))
+vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-15", "2020-10-31")),
+                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "MEA\nweek","Halloween"))
 
 # for p1 sec_axis
 secAxisConstant = 12.5
@@ -92,7 +92,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   #geom_path(data = dataLongAvg %>% mutate(movAvgValue2 = ifelse(Variable == "New.deaths", movAvgValue2*secAxisConstant, movAvgValue2)) %>% filter(Variable %in% c("New.deaths","New.casesPlot")) , aes(Date, movAvgValue2, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.casesPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -.5, size = 4, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*secAxisConstant*4), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -.5, size = 4, ylim = c(0, Inf),color = RColorBrewer::brewer.pal(3, "Dark2")[2],fontface = "bold")+
-  annotate("label", x = vlineDf$Date, y = c(200, 800, 1500, 900, 3000, 2500, 2000, 800, 1300, 850, 1200, 1400, 800, 800, 3000)+1500, label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(200, 800, 1500, 900, 3000, 2500, 2000, 800, 1300, 850, 1200, 1400, 800, 800, 1500, 3000)+1500, label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "New cases", title = "Daily new cases & deaths", fill = "")+
   guides(fill = guide_legend(order = 1))+
@@ -126,7 +126,7 @@ p2 = ggplot()+
   #geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercentPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, vjust = -.5, size = 3.5, ylim = c(0, Inf), color = RColorBrewer::brewer.pal(3, "Dark2")[2], fontface = "bold")+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.testsPlot), shape = 21, stroke = .6, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,3,2)]), label = c("Positive rate","Positive rate (people)","Fatality rate"))+
-  annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 24, 21, 24, 17, 13, 10, 13, 13, 15, 23, 20, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 24, 21, 24, 17, 13, 10, 13, 13, 15, 23, 15, 24, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
@@ -172,7 +172,7 @@ p3 = ggplot(dataLongDailyTests %>%
   scale_color_manual(values = RColorBrewer::brewer.pal(5, "Set1")[c(1,2,5)], name = "7-day moving average", labels = c("Hospitalized", "ICU", "Death"))+
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1"), .3), labels  = c("Hospitalized","ICU"))+
   scale_y_continuous(sec.axis = sec_axis(~ ./convertFactor, name = "Daily admitted cases"))+
-  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 1800, 2500, 3000, 2700, 2000, 2400, 1600, 1100, 1300, 1400, 1550, 1800, 1800), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 1800, 2500, 3000, 2700, 2000, 2400, 1600, 1000, 1300, 1400, 1550, 1700, 1800, 2000), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
   guides(color=guide_legend(nrow=1,byrow=TRUE, order = 2), fill = guide_legend(order = 1))+
@@ -300,13 +300,13 @@ p5 = ggplot()+
                     mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
                            ValuePlot = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)) %>% 
                     filter(Date == last(Date)), aes(x= Date, y = ValuePlot, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, size = 3.5, color = RColorBrewer::brewer.pal(4, "Set1")[c(2,1,4)], fontface = "bold")+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 3600, 10500, 6000, 2000, 8000, 4000, 500, 1950, 3500, 1900, 5000, 15000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 4000, 20000, 17000, 14000, 10000, 6000, 500, 2500, 6500, 2000, 5000, 10000, 22000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
-  scale_y_continuous(breaks = c(0,5000, 10000, 15000, 20000), sec.axis = sec_axis(~ ./secAxisConstant, 		
-                                         name = "Hospitalizations", breaks = c(0,400,800,1200,1600)))+
+  scale_y_continuous(breaks = c(0, 5000, 10000, 15000, 20000, 25000, 30000), sec.axis = sec_axis(~ ./secAxisConstant, 		
+                                         name = "Hospitalizations", breaks = c(0,400,800,1200,1600,2000,2400)))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Active"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   scale_fill_manual(name = "", label = "", values = c(RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   theme_minimal()+
