@@ -19,6 +19,7 @@ library(lubridate)
 ## edit on 2020-08-18 to include number of people tested
 ## edit on 2020-09-24 due to change in reporting ICU and hospitalized number 
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  drop_na(Date) %>% 
   ## add on 2020-09-24
   ## add it back on 2020-10-09
   #select(-Currently.hospitalized, -ICU) %>% 
@@ -119,6 +120,9 @@ p2 = ggplot()+
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
+  # add dialback positivity threshold
+  geom_hline(yintercept = 15, color = "red", lty = 2)+
+  geom_text(aes(x = "2020-03-15" %>% as.Date, y = 15), label = "Positivity\nthreshold", vjust = -.5, color = "red", size = 3, lineheight = .8, fontface = "bold")+
   # n day moving average
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","PositivePercentPeoplePlot")), aes(Date, movAvgValue*100, color = rev(Variable), group = Variable), size = 1.8, alpha = .7)+
   #geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot")), aes(Date, movAvgValue2*100, color = Variable, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
@@ -126,7 +130,7 @@ p2 = ggplot()+
   #geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("DeathPercentPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*100, label = round(Value*100,2)), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 2.5, vjust = -.5, size = 3.5, ylim = c(0, Inf), color = RColorBrewer::brewer.pal(3, "Dark2")[2], fontface = "bold")+
   geom_point(inherit.aes = F, data = dataWide, aes(x = Date, y = -1, size = Daily.testsPlot), shape = 21, stroke = .6, fill = "white")+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,3,2)]), label = c("Positive rate","Positive rate (people)","Fatality rate"))+
-  annotate("label", x = vlineDf$Date, y = c(9, 13, 17, 24, 21, 24, 17, 13, 10, 13, 13, 15, 23, 15, 24, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(9, 13, 24, 24, 21, 24, 17, 13, 10, 13, 13, 15, 23, 15, 24, 20), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .15)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", size = "Daily tests", fill = "Positive rate")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 2), lty = guide_legend(order = 2), size = guide_legend(order = 3), fill = guide_legend(order = 1))+
@@ -139,7 +143,7 @@ p2 = ggplot()+
   theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=10))
 plot(p2)
 
-## new version p3 (cols for raw hospitalized and icu data)
+  ## new version p3 (cols for raw hospitalized and icu data)
 ## plot 7 daty moving average for Hospitalized, ICU
 ## Raw value for total Death.
 ## conversion factor for secondary axis
@@ -182,7 +186,7 @@ p3 = ggplot(dataLongDailyTests %>%
 plot(p3)
 
 
-## old version p3 (cols for percentage)
+## old version p3 (cols for percentage) ####
 # p3 = ggplot(dataLongDailyTests %>% 
 #               filter(Variable %in% c("ICU", "Currently.hospitalized", "Total.deaths"), Date > as.Date("2020-03-23")) %>% 
 #               ## this value transformation is for plotting on the secondary y-axis (right) for ICU percentage of current hospitalized cases
@@ -252,18 +256,19 @@ plot(p3)
 #   theme(panel.grid.major.x = element_blank(),axis.text.x = element_text(size=10, angle = 50, hjust = 1), axis.text.y.right =  element_text(colour = "black"), axis.title.y.right = element_text(colour = "black"),
 #         legend.position = "bottom", legend.margin=margin(), legend.box="vertical",text=element_text(size=14), legend.text = element_text(size=12))
 # plot(p3)
-## plot hospital surge capacity
+## plot hospital surge capacity ####
 # edit 2020-06-23 to fix surge in use for ventilators
 # edit 2020-06-26 with position_stack (cleaner text label)
+# edit 2020-11-10 to remove "In Use for ICU surge"
 p4 = ggplot(responseData %>% filter (Value>0))+
   aes(x = Detail3, y = Value, fill = Detail1, label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8, size = .3) + 
   geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", Value >0),
             aes(x = Detail3, y = Value, label = Value), 
             position = position_stack(vjust = 0.5), size = 2.8)+
-  geom_text(data = responseData %>% filter(Detail3 == "Surge", Detail2 == "In Use", Detail1 == "ICU" , Value>0),
-            aes(x = Detail3, y = Value, label = paste(Value, "in use"), color = Detail1), 
-            position = position_stack(vjust = 40), size = 3, show.legend = F, fontface = "bold")+
+  # geom_text(data = responseData %>% filter(Detail3 == "Surge", Detail2 == "In Use", Detail1 == "ICU" , Value>0),
+  #           aes(x = Detail3, y = Value, label = paste(Value, "in use"), color = Detail1), 
+  #           position = position_stack(vjust = 40), size = 3, show.legend = F, fontface = "bold")+
   geom_text(data = responseData %>% filter(Detail3 == "COVID+", Detail2 == "In Use", Detail1 == "ICU" , Value>0),
             aes(x = Detail3, y = Value, label = Value, color = Detail1),
             position = position_stack(vjust = 8), size = 3.4, show.legend = F, fontface = "bold")+
@@ -312,7 +317,6 @@ p5 = ggplot()+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),legend.margin=margin(),legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=12))
 plot(p5)
-
 
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
