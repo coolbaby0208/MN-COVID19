@@ -219,8 +219,8 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      ## edit on 2020-06-16 due to change back to original dat format
      ## try to accomodate both formats
      mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
-                           Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                           Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+                          Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                          Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
             DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
                                 Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
                                 Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
@@ -229,19 +229,10 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
      ## remove unnecessary columns
      select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
      filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
-     ## rename levels and refactor Detail1
-     mutate(Metric = recode (Metric, `Number of beds` = "bed     patient",`Number of patients` = "bed     patient",
-                             `Number of ventilators` = "ventilator",
-                             `# of Ventilators (ordered)` = "ventilator ordered"),
-            Detail2 = ifelse(Metric == "ventilator ordered", "Ordered", str_to_title(Detail2)),
-            Detail3 = ifelse(is.na(Detail3), as.character(Detail2), as.character(Detail3)) %>% 
-              factor(levels = c("Capacity", "Surge", "Ordered", "In Use", "COVID+", "non-COVID+")),
-            Metric = str_remove(Metric, " ordered"),
-            Detail1 = ifelse(str_detect(Metric, "ventilator"), as.character(Detail3), as.character(Detail1)) %>% 
-              factor(levels = c("Capacity","Surge","Ordered", "In Use","ICU", "Non-ICU")))
+     mutate(Detail2 = str_to_sentence(Detail2),
+            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("Surge","Capacity","COVID+","non-COVID+","In use")))
    return(out)
  }
- responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") %>% 
-   filter(Detail1!="Ordered") %>% 
-   mutate(Detail1 = factor(Detail1))
+ responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") 
+ 
  

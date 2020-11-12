@@ -260,28 +260,21 @@ plot(p3)
 # edit 2020-06-23 to fix surge in use for ventilators
 # edit 2020-06-26 with position_stack (cleaner text label)
 # edit 2020-11-10 to remove "In Use for ICU surge"
+# edit 2020-11-12 to match state website layout
 p4 = ggplot(responseData %>% filter (Value>0))+
-  aes(x = Detail3, y = Value, fill = Detail1, label = Value)+
-  geom_bar(position = "stack", stat = "identity", width = .8, size = .3) + 
+  aes(x = Detail2, y = Value, fill = Detail3, label = Value)+
+  geom_bar(position = "stack", stat = "identity", width = .8, size = .3)+
   geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", Value >0),
-            aes(x = Detail3, y = Value, label = Value), 
+            aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 2.8)+
-  # geom_text(data = responseData %>% filter(Detail3 == "Surge", Detail2 == "In Use", Detail1 == "ICU" , Value>0),
-  #           aes(x = Detail3, y = Value, label = paste(Value, "in use"), color = Detail1), 
-  #           position = position_stack(vjust = 40), size = 3, show.legend = F, fontface = "bold")+
-  geom_text(data = responseData %>% filter(Detail3 == "COVID+", Detail2 == "In Use", Detail1 == "ICU" , Value>0),
-            aes(x = Detail3, y = Value, label = Value, color = Detail1),
-            position = position_stack(vjust = 8), size = 3.4, show.legend = F, fontface = "bold")+
-  facet_wrap(~Metric,scales="free")+
+  facet_wrap(~Detail1,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
   scale_fill_brewer(palette ="Pastel1")+
-  scale_color_manual(values = c(RColorBrewer::brewer.pal(6, "Dark2")[c(3)]))+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 9, face = "bold", angle = 40, hjust = 1),
         plot.margin = margin(0, 0, .1, .1, "pt"))
 plot(p4)
-
 
 ## active case over time
 
@@ -310,8 +303,8 @@ p5 = ggplot()+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
   scale_x_date(date_breaks = "14 days", date_labels = "%b %d")+
-  scale_y_continuous(breaks = c(0, 5000, 10000, 15000, 20000, 25000, 30000), sec.axis = sec_axis(~ ./secAxisConstant, 		
-                                         name = "Hospitalizations", breaks = c(0,400,800,1200,1600,2000,2400)))+
+  scale_y_continuous(breaks = c(0, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000), sec.axis = sec_axis(~ ./secAxisConstant, 		
+                                         name = "Hospitalizations", breaks = c(0,400,800,1200,1600,2000,2400,2800,3200)))+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), label = c("Hospitalized", "ICU", "Active"), values = (RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   scale_fill_manual(name = "", label = "", values = c(RColorBrewer::brewer.pal(4, "Set1")[c(1,2,4)]))+
   theme_minimal()+
