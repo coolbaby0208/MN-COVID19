@@ -116,7 +116,7 @@ p2 = ggplot()+
            aes(x = Date, y = Value, fill = Variable), color = NA, position = "dodge", width = .85, alpha = .5)+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4)+
   geom_vline(xintercept = dataLongDailyTests %>%
-               drop_na(Daily.testsPlot) %>%
+               #drop_na(Daily.testsPlot) %>%
                distinct(Date) %>%
                filter(Date %in% vlineDf$Date) %>%
                pull(Date), lty = 2, alpha = .4)+
@@ -124,7 +124,7 @@ p2 = ggplot()+
   geom_hline(yintercept = 15, color = "red", lty = 2)+
   geom_text(aes(x = "2020-03-15" %>% as.Date, y = 15), label = "Positivity\nthreshold", vjust = -.5, color = "red", size = 3, lineheight = .8, fontface = "bold")+
   # n day moving average
-  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","Daily.tests")) %>% ungroup %>% mutate(movAvgValue = ifelse(Variable == "Daily.tests", movAvgValue*0.00067, movAvgValue*100), Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(Date, movAvgValue, color = Variable, group = Variable, size = Variable), alpha = .7)+
+  geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","Daily.tests")) %>% ungroup %>% mutate(movAvgValue = ifelse(Variable == "Daily.tests", movAvgValue*0.0005, movAvgValue*100), Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(Date, movAvgValue, color = Variable, group = Variable, size = Variable), alpha = .7)+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","Daily.tests")) %>% filter(Date == last(Date)) %>% 
                     mutate(Value = ifelse(Variable == "Daily.tests", Value, Value*100),
                            Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(x= Date, y = Value, label = round(Value,2), color = Variable), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = c(0, -.5, -.5), size = 3.5, fontface = "bold",show.legend = FALSE)+
@@ -137,7 +137,7 @@ p2 = ggplot()+
   scale_fill_manual(name = "", label = c("Positive rate","Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[c(1,2)]))+
   #scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1,1), labels = "")+
   scale_size_manual(values =c(1.8,1.8,1), name = moveAvg %>% as.character() %>% paste0("-day moving average"),label = c("Positive rate","Fatality rate","Daily tests"))+
-  scale_y_continuous(sec.axis = sec_axis(~ ./0.00067, name = "Daily tests", breaks = c(15000,30000,45000),labels = scales::label_number_si()))+
+  scale_y_continuous(sec.axis = sec_axis(~ ./0.0005, name = "Daily tests", breaks = c(20000,40000,60000),labels = scales::label_number_si()))+
   coord_cartesian(ylim = c(0,35))+
   theme_minimal()+
   theme(panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(),legend.box="vertical",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 50, hjust = 1), text=element_text(size=14),legend.text = element_text(size=10))
@@ -285,7 +285,7 @@ p5 = ggplot()+
            aes(x = Date, y = Value, fill = Variable), width = .85, alpha = .3, show.legend = F, position = "dodge")+
   geom_vline(xintercept = "2020-07-04" %>% as.Date(), lty = 2, alpha = .4, show.legend = F)+
   geom_vline(xintercept = dataLongDailyTests %>%
-               drop_na(Daily.testsPlot) %>% 
+               #drop_na(Daily.testsPlot) %>% 
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date, Date > as.Date("2020-03-23")) %>% 
                pull(Date), lty = 2, alpha = .4, show.legend = F)+
