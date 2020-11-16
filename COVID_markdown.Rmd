@@ -43,7 +43,7 @@ dataLongAvgPeople = dataLongAvg %>%
 * Case info   
   + Patients who are currently sick: **`r (dataWidePlain$Currently.sick) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.sick <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.sick))) %>% formatC(format="d", big.mark=",")`)
   + Total deaths: **`r (dataWidePlain$Total.deaths) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.deaths <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.deaths)))`)
-* Hospitalization   
+* Hospitalization  
   + Total hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
     - Total ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
 
@@ -59,18 +59,18 @@ p2
 ```
 
    
-```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6, fig.height = 5}
+```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6, fig.height = 4.8}
 ## plots from COVID.R
 p3
 ```
 
-```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 4.5}
+```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 4.6}
 ## plots from COVID.R
 p5
 ```
 
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.5}
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.25}
 ## plots from COVID.R
 p4
 ```
@@ -92,14 +92,14 @@ p4
 ## table 2
  dataWide %>%
    mutate(Date = format(Date, format = "%b %d")) %>% 
-   filter(Date %in% tail(Date, 5)) %>%
+   filter(Date %in% tail(Date, 7)) %>%
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
    rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `Tests` = Daily.tests, `People tested` = Daily.tests.people) %>%
    select(Date, Hospitalized, ICU, Active, Tests, `People tested`) %>% 
    mutate_at(vars(Hospitalized:`People tested`), list(~formatC(., format="d", big.mark=","))) %>%
-   kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c") %>%
+   kable(digits = 2, booktabs = T, caption = "Current numbers for last 7 days", align = "c",linesep = "") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 7) %>%
    footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 
-   row_spec(5, color = "white", background = "#FF33CC")
+   row_spec(7, color = "white", background = "#FF33CC")
 ```
 
