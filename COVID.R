@@ -167,7 +167,7 @@ p3 = ggplot(dataLongDailyTests %>%
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
   #geom_line(aes(group = Variable))+
-  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 1800, 2500, 3000, 2700, 2000, 2400, 1600, 1000, 1300, 1400, 1550, 1700, 3800, 3000), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 3500, 2500, 3500, 3000, 2200, 2600, 1600, 1000, 1300, 1400, 1550, 1700, 2800, 3200), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("Total.deaths")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("Total.deaths"))), aes(Date, movAvgValue, color = (Variable), group = Variable), size = 1.3, alpha = .7)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("New.hospitalized", "New.ICU"))), aes(Date, movAvgValue*convertFactor , color = (Variable), group = Variable), size = 1.3, alpha = .7)+
   geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x = 5, size = 3.5, show.legend = F, fontface = "bold")+
@@ -291,7 +291,7 @@ p5 = ggplot()+
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date, Date > as.Date("2020-03-23")) %>% 
                pull(Date), lty = 2, alpha = .4, show.legend = F)+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(-1000, 5000, 30000, 25000, 20000, 15000, 10000, 1500, 8000, 15000, 5000, 10000, 18000, 32000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(38000, 5000, 38000, 30000, 25000, 20000, 12000, 1500, 8000, 15000, 5000, 10000, 18000, 32000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   # n day moving average
   geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "Currently.sick", movAvgValue, movAvgValue*secAxisConstant)) %>% 
               filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized")) %>% ungroup %>% 
