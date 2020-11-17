@@ -73,8 +73,8 @@ dataLongAvg = dataLongDailyTests %>%
 
 #### Plots ####
 ## set up vline dates and vline labels for important events
-vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-15", "2020-10-31")),
-                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "MEA\nweek","Halloween"))
+vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-15", "2020-10-31", "2020-11-13")),
+                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "MEA\nweek","Halloween", "Limited\nsocial"))
 
 # for p1 sec_axis
 secAxisConstant = 20
@@ -94,7 +94,7 @@ p1 = ggplot(dataLongDailyTests %>% mutate(Value = ifelse(Variable == "New.deaths
   #geom_path(data = dataLongAvg %>% mutate(movAvgValue2 = ifelse(Variable == "New.deaths", movAvgValue2*secAxisConstant, movAvgValue2)) %>% filter(Variable %in% c("New.deaths","New.casesPlot")) , aes(Date, movAvgValue2, group = Variable, lty = "DailyTestsWeighted"), size = .5, alpha = .8, color = "blue")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.casesPlot")) %>% filter(Date == last(Date)), aes(x= Date, y = Value), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -10, size = 4, color = RColorBrewer::brewer.pal(3, "Dark2")[1], fontface = "bold")+
   geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("New.deaths")) %>% filter(Date == last(Date)), aes(x= Date, y = Value*secAxisConstant*p1Constant), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 3.5, vjust = -.5, size = 4, ylim = c(0, Inf),color = RColorBrewer::brewer.pal(3, "Dark2")[2],fontface = "bold")+
-  annotate("label", x = vlineDf$Date, y = c(0, 800, 5000, 1000, 5000, 4000, 3000, 2000, 1000, 850, 1200, 1400, 800, 800, 1500, 4500)+3000, label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(0, 800, 5000, 1000, 5000, 4000, 3000, 2000, 1000, 850, 5000, 1400, 800, 800, 1500, 4500, 5000)+3000, label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .2)+
   labs(x = "", y = "New cases", title = "Daily new cases & deaths", fill = "")+
   guides(fill = guide_legend(order = 1))+
@@ -131,7 +131,7 @@ p2 = ggplot()+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,2,3)]), label = c("Positive rate","Fatality rate","Daily tests"))+
   #geom_text(aes(x = "2020-03-15" %>% as.Date, y = 15), label = "Positivity\nthreshold", vjust = -.5, color = "red", size = 3, lineheight = .8, fontface = "bold", check_overlap = TRUE)+
   annotate("label", x = "2020-03-15" %>% as.Date, y = 17, label = "Positivity\nthreshold", lineheight = .8, size = 3, label.padding = unit(0.2, "lines"), label.size = .02, color = "red", fontface = "bold")+
-  annotate("label", x = vlineDf$Date, y = c(9, 13, 30, 26, 30, 24, 21, 18, 12, 13, 18, 22, 24, 22, 26, 30), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf$Date, y = c(9, 13, 30, 26, 30, 24, 21, 18, 12, 13, 30, 20, 22, 20, 23, 26, 30), label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .2)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", fill = "Positive rate")+
   guides(color = guide_legend(), size = guide_legend(), fill = guide_legend())+
@@ -167,11 +167,11 @@ p3 = ggplot(dataLongDailyTests %>%
                filter(Date %in% vlineDf$Date) %>% 
                pull(Date), lty = 2, alpha = .4)+
   #geom_line(aes(group = Variable))+
-  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 3500, 2500, 3500, 3000, 2200, 2600, 1600, 1000, 1300, 1400, 1550, 1700, 2800, 3200), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf  %>% pull(Date), y = c(900, 1300, 3100, 1500, 3100, 2900, 2200, 2600, 1600, 1000, 3100, 1400, 1550, 1700, 2500, 2800, 3100), label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("Total.deaths")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("Total.deaths"))), aes(Date, movAvgValue, color = (Variable), group = Variable), size = 1.3, alpha = .7)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("New.hospitalized", "New.ICU"))), aes(Date, movAvgValue*convertFactor , color = (Variable), group = Variable), size = 1.3, alpha = .7)+
-  geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x = 5, size = 3.5, show.legend = F, fontface = "bold")+
-  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -9, nudge_x = 2.5, size = 3.5, show.legend = F)+
+  geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x= 5, hjust = -1, size = 3.5, show.legend = F, fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = 3, nudge_x = 5, hjust = -2, size = 3.5, show.legend = F)+
   #geom_point(fill = "white", shape = 21, stroke = .8, size = .15, show.legend = F)+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("New.ICU", "New.hospitalized")), aes(y = Value*convertFactor, fill = Variable), alpha = .3, color = NA, position = "dodge", width = .5)+
   labs(x = "", y = "Deaths", size = "Daily tests", fill = "", title = "Daily admitted hospitalized, ICU & total deaths")+
@@ -292,7 +292,7 @@ p5 = ggplot()+
                distinct(Date) %>% 
                filter(Date %in% vlineDf$Date, Date > as.Date("2020-03-23")) %>% 
                pull(Date), lty = 2, alpha = .4, show.legend = F)+
-  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(38000, 5000, 38000, 30000, 25000, 20000, 12000, 1500, 8000, 15000, 5000, 10000, 18000, 32000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
+  annotate("label", x = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Date), y = c(38000, 5000, 38000, 30000, 25000, 20000, 12000, 1500, 38000, 15000, 5000, 10000, 18000, 32000, 38000)+8000, label = vlineDf %>% filter(Date > as.Date("2020-03-23")) %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   # n day moving average
   geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "Currently.sick", movAvgValue, movAvgValue*secAxisConstant)) %>% 
               filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized")) %>% ungroup %>% 
