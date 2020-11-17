@@ -235,7 +235,10 @@ if (!data %>% filter(Date == last(Date)) %>% pull(ICU) %>% is.na) {
      select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
      filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
      mutate(Detail2 = str_to_sentence(Detail2),
-            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("Surge","Capacity","COVID+","non-COVID+","In use")))
+            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("Surge","Capacity","COVID+","non-COVID+","In use"))) %>% 
+     filter(Value>0) %>% 
+     group_by(Detail1,Detail2) %>% 
+     mutate(count = n())
    return(out)
  }
  responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") 

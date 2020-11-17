@@ -263,12 +263,13 @@ plot(p3)
 # edit 2020-06-26 with position_stack (cleaner text label)
 # edit 2020-11-10 to remove "In Use for ICU surge"
 # edit 2020-11-12 to match state website layout
-p4 = ggplot(responseData %>% filter (Value>0))+
+p4 = ggplot(responseData)+
   aes(x = Detail2, y = Value, fill = Detail3, label = Value)+
   geom_bar(position = "stack", stat = "identity", width = .8, size = .3)+
-  geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", Value >0),
+  geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", count !=1),
             aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 3)+
+  geom_text(aes(label = stat(y), group = Detail2), stat = 'summary', fun = sum, vjust = -.2, size = 2.8, fontface = "bold", color = "#36688D")+
   facet_wrap(~Detail1,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
   scale_fill_brewer(palette ="Pastel1")+
