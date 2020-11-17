@@ -164,8 +164,13 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
   select(-ends_with(".x"),-ends_with(".y")) %>% 
   filter(!is.na(DateReport)) %>% 
-  arrange(Date) %>%
-  write.csv("MNCovidData.csv", row.names = F)
+  arrange(Date) 
+
+## Check if the ICU data is upto date
+if (!data %>% filter(Date == last(Date)) %>% pull(ICU) %>% is.na) {
+  data %>% write.csv("MNCovidData.csv", row.names = F)
+}
+
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
