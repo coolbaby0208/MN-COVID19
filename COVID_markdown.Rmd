@@ -70,7 +70,7 @@ p5
 ```
 
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.25}
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.4}
 ## plots from COVID.R
 p4
 ```
@@ -94,8 +94,8 @@ p4
    mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 7)) %>%
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
-   rename(`Hospitalized` = Currently.hospitalized, `Active` = Currently.sick, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
-   select(Date, Hospitalized, ICU, Active, Tests, `New people tested`) %>% 
+   rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
+   select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 
    mutate_at(vars(Hospitalized:`New people tested`), list(~formatC(., format="d", big.mark=","))) %>%
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 7 days", align = "c",linesep = "") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 7) %>%
