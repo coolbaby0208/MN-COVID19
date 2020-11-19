@@ -165,7 +165,7 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   select(-ends_with(".x"),-ends_with(".y")) %>% 
   filter(!is.na(DateReport)) %>% 
   arrange(Date) 
-
+# data %>% write.csv("MNCovidData.csv", row.names = F)
 ## Check if the ICU data is upto date
 if (!data %>% filter(Date == last(Date)) %>% pull(ICU) %>% is.na) {
   data %>% write.csv("MNCovidData.csv", row.names = F)
