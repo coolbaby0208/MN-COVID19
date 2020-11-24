@@ -27,9 +27,10 @@ DateUpdated = url %>%
   ## convert list to a tibble
   as_tibble() %>% 
   ## Change on 2020-08-24 due to MDH website change
-  filter(str_detect(value, "Updated"))%>% 
+  filter(str_detect(value, "Updated")) %>% 
+  ## revised on 11-24-2020 due to website change
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("Updated (.*?).\r\nUpdated") %>% mdy %>% format("%m/%d/%y")), value)) %>% 
+                        paste("Date:", value %>% str_match("Updated (.*?).\r\n\tUpdated") %>% mdy %>% format("%m/%d/%y")), value)) %>% 
   separate(value, c("Variable", "Value"), sep = ":") %>%
   mutate(Date = Value %>% str_trim("left")) %>%
   filter(Date!="NA") %>% 
@@ -155,22 +156,25 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## since the values in duplicated variables will change
   ## remove duplicated variables before full_join
   select(-DateReport:-ExternalTestsByReportDate) %>% 
-  full_join(hospitalAdmitData) %>% 
-  mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
-         Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>% 
-  select(-ends_with(".y"), -ends_with(".x")) %>%
-  full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
-  mutate(ICU = coalesce(ICU.x, ICU.y), 
-         Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
-  select(-ends_with(".x"),-ends_with(".y")) %>% 
-  filter(!is.na(DateReport)) %>% 
-  arrange(Date) 
-# data %>% write.csv("MNCovidData.csv", row.names = F)
-## Check if the ICU data is upto date
-if (!data %>% filter(Date == last(Date)) %>% pull(ICU) %>% is.na) {
-  data %>% write.csv("MNCovidData.csv", row.names = F)
-}
+  full_join(hospitalAdmitData) 
 
+data %>% write.csv("MNCovidData.csv", row.names = F)
+
+## Check if the ICU data is upto date
+## Check if the date is not Sunday and Saturday
+if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(DateReport == last(DateReport)) %>% pull(ICU) %>% is.na)) {
+  data %>% 
+    mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
+           Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>% 
+    select(-ends_with(".y"), -ends_with(".x")) %>%
+    full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
+    mutate(ICU = coalesce(ICU.x, ICU.y), 
+           Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
+    select(-ends_with(".x"),-ends_with(".y")) %>% 
+    filter(!is.na(DateReport)) %>% 
+    arrange(Date) %>% 
+    write.csv("MNCovidData.csv", row.names = F)
+}
 
 ## Read in MN response data for hospital capacity
 ## Web Address changed https://mn.gov/covid19/data/response-prep on 2020-04-17
