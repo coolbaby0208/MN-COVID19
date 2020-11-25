@@ -268,21 +268,24 @@ plot(p3)
 # edit 2020-06-26 with position_stack (cleaner text label)
 # edit 2020-11-10 to remove "In Use for ICU surge"
 # edit 2020-11-12 to match state website layout
+
 p4 = ggplot(responseData)+
   aes(x = Detail2, y = Value, fill = Detail3, label = Value)+
+  geom_text(aes(label = stat(y), group = Detail2), stat = 'summary', fun = sum, vjust = -.2, size = 2.8, fontface = "bold", color = "#36688D", show.legend = F)+
   geom_bar(position = "stack", stat = "identity", width = .8, size = .3)+
   geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", count !=1),
             aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 3)+
-  geom_text(aes(label = stat(y), group = Detail2), stat = 'summary', fun = sum, vjust = -.2, size = 2.8, fontface = "bold", color = "#36688D")+
   facet_wrap(~Detail1,scales="free")+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
-  scale_fill_brewer(palette ="Pastel1")+
+  #scale_fill_brewer(palette ="Pastel1")+
+  scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","COVID+","non-COVID+","In use","In warehouse"))+
   theme_minimal()+
   theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
         axis.text.x =  element_text(size = 9, face = "bold", angle = 40, hjust = 1),
         plot.margin = margin(0, 0, .1, .1, "pt"))
 plot(p4)
+
 
 ## active case over time
 
@@ -303,10 +306,10 @@ p5 = ggplot()+
               filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized")) %>% ungroup %>% 
               mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick"))), 
             aes(Date, movAvgValue, color = Variable, group = Variable), size = 1.6, alpha = .6)+
-  # geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized")) %>% ungroup %>% 
-  #                   mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
-  #                          ValuePlot = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)) %>% 
-  #                   filter(Date == last(Date)), aes(x= Date, y = ValuePlot, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, size = 3.5, color = RColorBrewer::brewer.pal(4, "Set1")[c(2,1,4)], fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Currently.sick","ICU", "Currently.hospitalized")) %>% ungroup %>%
+                    mutate(Variable = factor(Variable, levels = c("Currently.hospitalized","ICU","Currently.sick")),
+                           ValuePlot = ifelse(Variable == "Currently.sick", Value, Value*secAxisConstant)) %>%
+                    filter(Date == last(Date)), aes(x= Date, y = ValuePlot, label = Value), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, size = 3.5, color = RColorBrewer::brewer.pal(4, "Set1")[c(2,1,4)], fontface = "bold")+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .2)+
   labs(x = "", y = "Active cases", title = "Current hospitalized, ICU & active cases")+
   guides(color = guide_legend(nrow=1,byrow=TRUE, order = 1, override.aes=list(fill=NA)), fill = guide_legend(order = 1), linetype = guide_legend(override.aes=list(fill=NA)))+
