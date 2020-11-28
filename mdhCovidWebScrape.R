@@ -51,6 +51,7 @@ mdhDataTable = url %>%
 # totalPeopleTested = mdhDataTable[[9]]
 # totalRecovered = mdhDataTable[[13]]
 # totalDeath = mdhDataTable[[14]]
+# totalHospitalized = mdhDataTable[[17]]
 
 mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]]) %>% 
   rename(Variable = X1, Value = X2) %>%
@@ -163,16 +164,16 @@ data %>% write.csv("MNCovidData.csv", row.names = F)
 ## Check if the ICU data is upto date
 ## Check if the date is not Sunday and Saturday
 if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(DateReport == last(DateReport)) %>% pull(ICU) %>% is.na)) {
-  data %>% 
+  data %>%
     mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
-           Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>% 
+           Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>%
     select(-ends_with(".y"), -ends_with(".x")) %>%
-    full_join(hospitalizationData, by = "DateReport", copy = T) %>% 
-    mutate(ICU = coalesce(ICU.x, ICU.y), 
-           Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>% 
-    select(-ends_with(".x"),-ends_with(".y")) %>% 
-    filter(!is.na(DateReport)) %>% 
-    arrange(Date) %>% 
+    full_join(hospitalizationData, by = "DateReport", copy = T) %>%
+    mutate(ICU = coalesce(ICU.x, ICU.y),
+           Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>%
+    select(-ends_with(".x"),-ends_with(".y")) %>%
+    #filter(!is.na(DateReport)) %>%
+    arrange(Date) %>%
     write.csv("MNCovidData.csv", row.names = F)
 }
 

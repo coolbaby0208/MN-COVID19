@@ -18,6 +18,9 @@ library(lubridate)
 ## edit on 2020-07-14 due to adding data by report/specimen collection date
 ## edit on 2020-08-18 to include number of people tested
 ## edit on 2020-09-24 due to change in reporting ICU and hospitalized number 
+## add exception date to fix errors due to holidays 
+exceptionDate = c("2020-11-27")
+
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   drop_na(Date) %>% 
   ## add on 2020-09-24
@@ -25,23 +28,23 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   #select(-Currently.hospitalized, -ICU) %>% 
   # format date string and compute values for plotting 
   mutate(Date = Date %>% ymd(),
-         Daily.tests = Total.tested - lag(Total.tested),
+         Daily.tests = ifelse(Date != exceptionDate, Total.tested - lag(Total.tested),Total.tested - lag(Total.tested,2)),
          ## add on 2020-08-18
-         Daily.tests.people = Total.tested.people - lag(Total.tested.people),
-         New.cases = Total.cases - lag(Total.cases), 
+         Daily.tests.people = ifelse(Date != exceptionDate, Total.tested.people - lag(Total.tested.people),Total.tested.people - lag(Total.tested.people,2)),
+         New.cases = ifelse(Date != exceptionDate, Total.cases - lag(Total.cases),Total.cases - lag(Total.cases,2)), 
          Currently.sick = Total.cases - Total.recovered - Total.deaths,
-         New.deaths = Total.deaths - lag(Total.deaths),
-         New.ICU = Total.ICU - lag(Total.ICU),
-         New.hospitalized = Total.Hospital - lag(Total.Hospital),
-         New.sick = Currently.sick - lag(Currently.sick),
+         New.deaths = ifelse(Date != exceptionDate, Total.deaths - lag(Total.deaths),Total.deaths - lag(Total.deaths,2)),
+         New.ICU = ifelse(Date != exceptionDate,Total.ICU - lag(Total.ICU), Total.ICU - lag(Total.ICU,2)),
+         New.hospitalized = ifelse(Date != exceptionDate,Total.Hospital - lag(Total.Hospital),Total.Hospital - lag(Total.Hospital,2)),
+         New.sick = ifelse(Date != exceptionDate, Currently.sick - lag(Currently.sick),Currently.sick - lag(Currently.sick,2)),
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = Total.ICU/Total.Hospital, 
          HospitalizedPercent = Total.Hospital/Total.cases,
          DeathPercent = Total.deaths/Total.cases,
          # add on 2020-07-14
-         DailyTestByReportDate = TotalTestsByReportDate - lag(TotalTestsByReportDate)) %>%  
+         DailyTestByReportDate = TotalTestsByReportDate - lag(TotalTestsByReportDate)) %>% 
   #select(Date, Day, Daily.tests, starts_with("New"), starts_with("Current"), ICU, starts_with("Total"), ends_with("Percent"))
-  drop_na(Daily.tests) %>% 
+  #drop_na(Total.tested) %>% 
   ## added on 2020-07-15 
   ## create new variables combining data by specimen date and routine daily updates for plotting only 
   ## since data for most recent 5 days are reported in the table
@@ -67,7 +70,7 @@ dataLongDailyTests = dataWide %>%
 moveAvg = 7
 dataLongAvg = dataLongDailyTests %>%
   group_by(Variable) %>%
-  mutate(movAvgValue = RcppRoll::roll_mean(Value, moveAvg, fill = "left", align = "right"))
+  mutate(movAvgValue = RcppRoll::roll_mean(Value, moveAvg, fill = "left", align = "right", na.rm = TRUE))
         # 2020-10-10: comment out since it's not used in plots anymore 
          #movAvgValue2 = TTR::VWMA(Value, moveAvg, volume = Daily.testsPlot))
 
@@ -277,7 +280,7 @@ p4 = ggplot(responseData)+
             aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 3)+
   facet_wrap(~Detail1,scales="free")+
-  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
+  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$DateUpdate)), "%b %d"))))+
   #scale_fill_brewer(palette ="Pastel1")+
   scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","COVID+","non-COVID+","In use","In warehouse"))+
   theme_minimal()+
