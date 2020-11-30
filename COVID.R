@@ -275,18 +275,25 @@ plot(p3)
 p4 = ggplot(responseData)+
   aes(x = Detail2, y = Value, fill = Detail3, label = Value)+
   geom_text(aes(label = stat(y), group = Detail2), stat = 'summary', fun = sum, vjust = -.2, size = 2.8, fontface = "bold", color = "#36688D", show.legend = F)+
-  geom_bar(position = "stack", stat = "identity", width = .8, size = .3)+
+  geom_bar(position = "stack", stat = "identity", width = .65, size = .3)+
   geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", count !=1),
             aes(x = Detail2, y = Value, label = Value),
-            position = position_stack(vjust = 0.5), size = 3)+
-  facet_wrap(~Detail1,scales="free")+
+            position = position_stack(vjust = 0.5), size = 2)+
+  facet_wrap(~Detail1,scales="free", nrow = 1)+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$DateUpdate)), "%b %d"))))+
   #scale_fill_brewer(palette ="Pastel1")+
-  scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","COVID+","non-COVID+","In use","In warehouse"))+
+  scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","In use","In warehouse","Available"))+
   theme_minimal()+
-  theme(title = element_text(size = 14), strip.text = element_text(size = 11, face = "bold"),
-        axis.text.x =  element_text(size = 9, face = "bold", angle = 40, hjust = 1),
-        plot.margin = margin(0, 0, .1, .1, "pt"))
+  theme(title = element_text(size = 12), strip.text = element_text(size = 10, face = "bold"),
+        axis.text.x =  element_text(size = 8, face = "bold", angle = 40, hjust = 1),
+        plot.margin = margin(0, 0, .1, .1, "pt"),
+        legend.position = "bottom", 
+        legend.direction = "horizontal", 
+        legend.margin=margin(), 
+        legend.box="vertical",
+        text=element_text(size=9), 
+        legend.text = element_text(size=9), 
+        legend.text.align = 0.5)
 plot(p4)
 
 

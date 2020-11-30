@@ -121,18 +121,19 @@ hospitalAdmitData = hospitalData %>%
 
 ## Get hospitalization data
 ## Add on 2020-10-09
+## Revise on 2020-11-30
 hospitalizationExtract = function(fileLoc){
   out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
                    ## remove columns with All NAs
                    select_if(~!all(is.na(.))) %>% 
                    mutate(Value = Value_NUMBER), 
-                 error = function(e) read.csv("HospitalCapacity_HistoricCSV_tcm1148-449110.csv", na.strings = c("NA","")) %>% 
+                 error = function(e) read.csv("TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv", na.strings = c("NA","")) %>% 
                    ## remove columns with All NAs
                    select_if(~!all(is.na(.))))
   return(out)
 }
 
-hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv") %>% 
+hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv") %>% 
   mutate(DateReport = Data.Date..MM.DD.YYYY. %>% mdy(),
          ## Add on 2020-10-26 to fix excel date entry value
          ## Revise on 2020-10-31 to fix excel date entry value
@@ -140,8 +141,8 @@ hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/Hosp
                                 as.numeric %>% 
                                 as.Date(origin = "1899-12-30"), DateReport)) %>% 
   arrange(DateReport) %>% 
-  filter(Metric == "Number of patients", Detail3 == "COVID+") %>% 
-  select(DateReport, Detail1, Value_NUMBER) %>% 
+  filter(GeographicLevel == "State", Detail3 == "COVID+") %>% 
+  select(DateReport, Detail1, Value_NUMBER) %>%
   pivot_wider(names_from = Detail1, values_from = Value_NUMBER) %>% 
   rename(Currently.hospitalized = `Non-ICU`) %>% 
   ## After 2020-08-01 the hospitalizations for non-ICU and ICU are reported separately
@@ -234,14 +235,10 @@ if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(Da
             DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
                                 Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
                                 Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
-     # mutate(Date = Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y"), 
-     #        DateUpdate = Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y")) %>% 
-     ## remove unnecessary columns
-     select(-starts_with("Geographic"), -starts_with("URL"), -Value_Text, -Data.Date..MM.DD.YYYY., -Value_NUMBER) %>%
-     filter(COVID.Team %in% c("Hospital Surge Capacity")) %>% 
-     filter(Value>0) %>%  
-     mutate(Detail2 = str_to_sentence(Detail2),
-            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("In warehouse","Surge","Capacity","COVID+","non-COVID+","In use"))) %>%
+     filter(COVID.Team %in% c("Hospital Surge Capacity"), GeographicLevel %in% c("State"), Value>0) %>% 
+     mutate(Detail1 = ifelse(str_detect(Detail1,"Beds"), paste(Detail1,"surge"), as.character(Detail1)),
+            Detail2 = str_to_sentence(Detail2),
+            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("In warehouse","Surge","Capacity","In use", "Available"))) %>%
      group_by(Detail1,Detail2) %>%
      mutate(count = n()) %>%
      arrange(DateUpdate)
