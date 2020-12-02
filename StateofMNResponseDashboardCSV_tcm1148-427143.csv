@@ -1,14 +1,14 @@
 Metric,Detail1,Detail2,Detail3,Detail4,Data Date (MM/DD/YYYY),GeographicLevel,GeographicName,Value_NUMBER,Units,MOST RECENT DATA,COVID Team,Date and time of update,Subgroup,Value_Text,URLLINK
-# of Ventilators (ordered),Ventilators,CAPACITY,On back order,,11/30/2020,State,Minnesota,0,ventilators,,Hospital Surge Capacity,12/1/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-# of Ventilators (ordered),Ventilators,CAPACITY,In warehouse,,11/30/2020,State,Minnesota,144,ventilators,,Hospital Surge Capacity,12/1/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
- $ Available to MN ,State Funds,State, Available ,,10/20/2020,State,Minnesota,554291611,dollars,,Funding,12/1/2020,554.3,$554M,https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Available to MN ,Coronavirus Relief Fund - Local,Federal, Available ,,7/14/2020,State,Minnesota,1158370613,dollars,,Funding,12/1/2020,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Available to MN ,Coronavirus Relief Fund - State,Federal, Available ,,10/14/2020,State,Minnesota,1033691521,dollars,,Funding,12/1/2020,1033.4,"$1,033M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Available to MN ,Grant/Formula Allocation,Federal, Available ,,9/22/2020,State,Minnesota,1400184966,dollars,,Funding,12/1/2020,1400.2,"$1,400M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Spending Authority Granted ,Coronavirus Relief Fund - Local,Federal, Authority granted ,,7/14/2020,State,Minnesota,1158370613,dollars,,Funding,12/1/2020,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Spending Authority Granted ,Grant/Formula Allocation,Federal, Authority granted ,,10/26/2020,State,Minnesota,1316612420,dollars,,Funding,12/1/2020,1316.6,"$1,317M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Spending Authority Granted ,Coronavirus Relief Fund - State,Federal, Authority granted ,,11/16/2020,State,Minnesota,1016178506,dollars,,Funding,12/1/2020,1016.2,"$1,016M",https://mn.gov/mmb/budget/covid19-mn-fund/
- $ Spending Authority Granted ,State Funds,State, Authority granted ,,11/10/2020,State,Minnesota,516151583,dollars,,Funding,12/1/2020,516.2,$516M,https://mn.gov/mmb/budget/covid19-mn-fund/
+# of Ventilators (ordered),Ventilators,CAPACITY,On back order,,12/1/2020,State,Minnesota,0,ventilators,,Hospital Surge Capacity,12/2/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+# of Ventilators (ordered),Ventilators,CAPACITY,In warehouse,,12/1/2020,State,Minnesota,144,ventilators,,Hospital Surge Capacity,12/2/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+ $ Available to MN ,State Funds,State, Available ,,10/20/2020,State,Minnesota,554291611,dollars,,Funding,12/2/2020,554.3,$554M,https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Available to MN ,Coronavirus Relief Fund - Local,Federal, Available ,,7/14/2020,State,Minnesota,1158370613,dollars,,Funding,12/2/2020,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Available to MN ,Coronavirus Relief Fund - State,Federal, Available ,,10/14/2020,State,Minnesota,1033691521,dollars,,Funding,12/2/2020,1033.4,"$1,033M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Available to MN ,Grant/Formula Allocation,Federal, Available ,,9/22/2020,State,Minnesota,1400184966,dollars,,Funding,12/2/2020,1400.2,"$1,400M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Spending Authority Granted ,Coronavirus Relief Fund - Local,Federal, Authority granted ,,7/14/2020,State,Minnesota,1158370613,dollars,,Funding,12/2/2020,1158.4,"$1,158M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Spending Authority Granted ,Grant/Formula Allocation,Federal, Authority granted ,,10/26/2020,State,Minnesota,1316612420,dollars,,Funding,12/2/2020,1316.6,"$1,317M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Spending Authority Granted ,Coronavirus Relief Fund - State,Federal, Authority granted ,,12/2/2020,State,Minnesota,1038509881,dollars,,Funding,12/2/2020,1038.5,"$1,039M",https://mn.gov/mmb/budget/covid19-mn-fund/
+ $ Spending Authority Granted ,State Funds,State, Authority granted ,,11/10/2020,State,Minnesota,516151583,dollars,,Funding,12/2/2020,516.2,$516M,https://mn.gov/mmb/budget/covid19-mn-fund/
 # of Face masks,Awaiting Delivery,Total,,,11/27/2020,State,Minnesota,"1,822,000",Face masks,,Critical Care Supplies,11/27/2020,,1.8M,https://www.mn.gov/ppe
 # of Face shields,Awaiting Delivery,Total,,,11/27/2020,State,Minnesota,0,Face shields*,,Critical Care Supplies,11/27/2020,,0,https://www.mn.gov/ppe
 # of Gloves (non-latex),Awaiting Delivery,Total,,,11/27/2020,State,Minnesota,"24,583,500",Gloves (non-latex),,Critical Care Supplies,11/27/2020,,24.5M,https://www.mn.gov/ppe
@@ -29,440 +29,123 @@ Metric,Detail1,Detail2,Detail3,Detail4,Data Date (MM/DD/YYYY),GeographicLevel,Ge
 # of Gloves (non-latex),Obtained,Total,,,11/27/2020,State,Minnesota,"47,422,395",Gloves (non-latex),,Critical Care Supplies,11/27/2020,,47.4M,https://www.mn.gov/ppe
 # of Gowns,Obtained,Total,,,11/27/2020,State,Minnesota,"7,170,703",Gowns*,,Critical Care Supplies,11/27/2020,,7.2M,https://www.mn.gov/ppe
 # of N95 respirators,Obtained,Total,,,11/27/2020,State,Minnesota,"1,130,236",N95 respirators,,Critical Care Supplies,11/27/2020,,1.1M,https://www.mn.gov/ppe
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Central,194,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,11/30/2020,State,Minnesota,969,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Central,22,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Metro,0,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Northwest,6,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,Southwest,2,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,11/30/2020,State,Minnesota,30,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Metro,915,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Southeast,94,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,Southwest,43,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,11/30/2020,State,Minnesota,1521,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Central,1,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Metro,25,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,South Central,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,Southwest,3,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,11/30/2020,State,Minnesota,29,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Central,94,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Metro,68,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Northeast,76,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Northwest,60,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,South Central,92,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Southeast,104,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,Southwest,85,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Regional Health Care,West Central,80,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,11/30/2020,Total,Minnesota,659,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Central,16,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Metro,29,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Northeast,13,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Northwest,7,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,South Central,5,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Southeast,18,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,Southwest,7,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Regional Health Care,West Central,6,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,11/30/2020,Total,Minnesota,101,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Central,94,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Metro,683,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Northeast,53,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Northwest,35,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,South Central,31,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Southeast,79,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,11/30/2020,Total,Minnesota,1013,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,State,Minnesota,7477,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Central,786,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Metro,3687,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,South Central,405,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Southeast,1112,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,Southwest,366,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,11/30/2020,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,State,Minnesota,1212,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Metro,688,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,11/30/2020,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,State,Minnesota,1416,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Central,117,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Metro,937,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,11/30/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,State,Minnesota,6818,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Central,692,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Metro,3619,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Northeast,613,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Northwest,182,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,South Central,313,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Southeast,1008,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,Southwest,281,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,11/30/2020,Regional Health Care,West Central,110,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,State,Minnesota,1111,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Central,91,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Metro,659,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Northeast,89,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Northwest,22,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,South Central,18,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Southeast,204,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,11/30/2020,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,State,Minnesota,403,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Central,23,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Metro,254,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Northeast,31,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Northwest,2,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,South Central,16,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Southeast,67,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,11/30/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/1/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,12112,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,26970,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/18/2020,State,Minnesota,32138,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/19/2020,State,Minnesota,23398,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/20/2020,State,Minnesota,21062,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/21/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/22/2020,State,Minnesota,10945,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/23/2020,State,Minnesota,21420,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/24/2020,State,Minnesota,15589,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/25/2020,State,Minnesota,18349,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/26/2020,State,Minnesota,20475,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/27/2020,State,Minnesota,23304,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/28/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/29/2020,State,Minnesota,11598,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/30/2020,State,Minnesota,15865,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,3/31/2020,State,Minnesota,17183,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/1/2020,State,Minnesota,25431,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/2/2020,State,Minnesota,23363,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/3/2020,State,Minnesota,18952,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/4/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/5/2020,State,Minnesota,4019,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/6/2020,State,Minnesota,13917,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/7/2020,State,Minnesota,13362,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/8/2020,State,Minnesota,19467,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/9/2020,State,Minnesota,24144,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/10/2020,State,Minnesota,17898,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/11/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/12/2020,State,Minnesota,4026,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/13/2020,State,Minnesota,12318,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/14/2020,State,Minnesota,13311,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/15/2020,State,Minnesota,18268,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/16/2020,State,Minnesota,16946,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/17/2020,State,Minnesota,12233,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/18/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/19/2020,State,Minnesota,3239,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/20/2020,State,Minnesota,8605,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/21/2020,State,Minnesota,8603,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/22/2020,State,Minnesota,10649,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/23/2020,State,Minnesota,11376,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/24/2020,State,Minnesota,9435,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/25/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/26/2020,State,Minnesota,2961,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/27/2020,State,Minnesota,7361,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/28/2020,State,Minnesota,7865,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/29/2020,State,Minnesota,9743,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,4/30/2020,State,Minnesota,9814,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/1/2020,State,Minnesota,9066,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/2/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/3/2020,State,Minnesota,3013,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/4/2020,State,Minnesota,7466,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/5/2020,State,Minnesota,6722,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/6/2020,State,Minnesota,8504,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/7/2020,State,Minnesota,7445,Accounts,1,Economic Security,5/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/8/2020,State,Minnesota,6534,Accounts,1,Economic Security,5/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/9/2020,State,Minnesota,0,Accounts,1,Economic Security,5/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/10/2020,State,Minnesota,2622,Accounts,1,Economic Security,5/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/11/2020,State,Minnesota,5973,Accounts,1,Economic Security,5/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/12/2020,State,Minnesota,5285,Accounts,1,Economic Security,5/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/13/2020,State,Minnesota,7087,Accounts,1,Economic Security,5/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/14/2020,State,Minnesota,6436,Accounts,1,Economic Security,5/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/15/2020,State,Minnesota,5087,Accounts,1,Economic Security,5/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/16/2020,State,Minnesota,0,Accounts,1,Economic Security,5/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/17/2020,State,Minnesota,2691,Accounts,1,Economic Security,5/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/18/2020,State,Minnesota,4685,Accounts,1,Economic Security,5/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/19/2020,State,Minnesota,4327,Accounts,1,Economic Security,5/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/20/2020,State,Minnesota,4934,Accounts,1,Economic Security,5/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/21/2020,State,Minnesota,5197,Accounts,1,Economic Security,5/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/22/2020,State,Minnesota,4391,Accounts,1,Economic Security,5/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/23/2020,State,Minnesota,0,Accounts,1,Economic Security,5/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/24/2020,State,Minnesota,1855,Accounts,1,Economic Security,5/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/25/2020,State,Minnesota,2152,Accounts,1,Economic Security,5/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/26/2020,State,Minnesota,4182,Accounts,1,Economic Security,5/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/27/2020,State,Minnesota,4249,Accounts,1,Economic Security,5/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/28/2020,State,Minnesota,4298,Accounts,1,Economic Security,5/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/29/2020,State,Minnesota,3761,Accounts,1,Economic Security,5/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/30/2020,State,Minnesota,0,Accounts,1,Economic Security,5/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,5/31/2020,State,Minnesota,2174,Accounts,1,Economic Security,5/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/1/2020,State,Minnesota,4890,Accounts,1,Economic Security,5/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/2/2020,State,Minnesota,3924,Accounts,1,Economic Security,6/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/3/2020,State,Minnesota,4942,Accounts,1,Economic Security,6/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/4/2020,State,Minnesota,5696,Accounts,1,Economic Security,6/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/5/2020,State,Minnesota,4901,Accounts,1,Economic Security,6/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/6/2020,State,Minnesota,0,Accounts,1,Economic Security,6/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/7/2020,State,Minnesota,2618,Accounts,1,Economic Security,6/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/8/2020,State,Minnesota,4664,Accounts,1,Economic Security,6/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/9/2020,State,Minnesota,4027,Accounts,1,Economic Security,6/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/10/2020,State,Minnesota,4672,Accounts,1,Economic Security,6/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/11/2020,State,Minnesota,4370,Accounts,1,Economic Security,6/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/12/2020,State,Minnesota,3279,Accounts,1,Economic Security,6/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/13/2020,State,Minnesota,0,Accounts,1,Economic Security,6/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/14/2020,State,Minnesota,1870,Accounts,1,Economic Security,6/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/15/2020,State,Minnesota,3821,Accounts,1,Economic Security,6/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/16/2020,State,Minnesota,3166,Accounts,1,Economic Security,6/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/17/2020,State,Minnesota,3527,Accounts,1,Economic Security,6/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/18/2020,State,Minnesota,3373,Accounts,1,Economic Security,6/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/19/2020,State,Minnesota,2705,Accounts,1,Economic Security,6/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/20/2020,State,Minnesota,0,Accounts,1,Economic Security,6/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/21/2020,State,Minnesota,1666,Accounts,1,Economic Security,6/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/22/2020,State,Minnesota,3571,Accounts,1,Economic Security,6/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/23/2020,State,Minnesota,2867,Accounts,1,Economic Security,6/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/24/2020,State,Minnesota,3264,Accounts,1,Economic Security,6/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/25/2020,State,Minnesota,3186,Accounts,1,Economic Security,6/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/26/2020,State,Minnesota,2848,Accounts,1,Economic Security,6/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/27/2020,State,Minnesota,0,Accounts,1,Economic Security,6/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/28/2020,State,Minnesota,1881,Accounts,1,Economic Security,6/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/29/2020,State,Minnesota,4037,Accounts,1,Economic Security,6/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,6/30/2020,State,Minnesota,3150,Accounts,1,Economic Security,6/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/1/2020,State,Minnesota,3460,Accounts,1,Economic Security,6/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/2/2020,State,Minnesota,3340,Accounts,1,Economic Security,7/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/3/2020,State,Minnesota,1560,Accounts,1,Economic Security,7/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/4/2020,State,Minnesota,0,Accounts,1,Economic Security,7/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/5/2020,State,Minnesota,2044,Accounts,1,Economic Security,7/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/6/2020,State,Minnesota,4632,Accounts,1,Economic Security,7/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/7/2020,State,Minnesota,3165,Accounts,1,Economic Security,7/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/8/2020,State,Minnesota,3365,Accounts,1,Economic Security,7/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/9/2020,State,Minnesota,2979,Accounts,1,Economic Security,7/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/10/2020,State,Minnesota,2606,Accounts,1,Economic Security,7/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/11/2020,State,Minnesota,0,Accounts,1,Economic Security,7/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/12/2020,State,Minnesota,1810,Accounts,1,Economic Security,7/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/13/2020,State,Minnesota,3394,Accounts,1,Economic Security,7/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/14/2020,State,Minnesota,2536,Accounts,1,Economic Security,7/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/15/2020,State,Minnesota,2760,Accounts,1,Economic Security,7/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/16/2020,State,Minnesota,2707,Accounts,1,Economic Security,7/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/17/2020,State,Minnesota,2329,Accounts,1,Economic Security,7/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/18/2020,State,Minnesota,0,Accounts,1,Economic Security,7/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/19/2020,State,Minnesota,1503,Accounts,1,Economic Security,7/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/20/2020,State,Minnesota,2924,Accounts,1,Economic Security,7/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/21/2020,State,Minnesota,2219,Accounts,1,Economic Security,7/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/22/2020,State,Minnesota,2357,Accounts,1,Economic Security,7/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/23/2020,State,Minnesota,2227,Accounts,1,Economic Security,7/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/24/2020,State,Minnesota,1917,Accounts,1,Economic Security,7/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/25/2020,State,Minnesota,0,Accounts,1,Economic Security,7/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/26/2020,State,Minnesota,1280,Accounts,1,Economic Security,7/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/27/2020,State,Minnesota,2388,Accounts,1,Economic Security,7/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/28/2020,State,Minnesota,1687,Accounts,1,Economic Security,7/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/29/2020,State,Minnesota,1740,Accounts,1,Economic Security,7/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/30/2020,State,Minnesota,1606,Accounts,1,Economic Security,7/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,7/31/2020,State,Minnesota,1512,Accounts,1,Economic Security,7/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/1/2020,State,Minnesota,0,Accounts,1,Economic Security,7/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/2/2020,State,Minnesota,898,Accounts,1,Economic Security,8/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/3/2020,State,Minnesota,1739,Accounts,1,Economic Security,8/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/4/2020,State,Minnesota,1289,Accounts,1,Economic Security,8/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/5/2020,State,Minnesota,1450,Accounts,1,Economic Security,8/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/6/2020,State,Minnesota,1432,Accounts,1,Economic Security,8/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/7/2020,State,Minnesota,1289,Accounts,1,Economic Security,8/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/8/2020,State,Minnesota,0,Accounts,1,Economic Security,8/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/9/2020,State,Minnesota,2399,Accounts,1,Economic Security,8/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/10/2020,State,Minnesota,3036,Accounts,1,Economic Security,8/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/11/2020,State,Minnesota,2118,Accounts,1,Economic Security,8/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/12/2020,State,Minnesota,2002,Accounts,1,Economic Security,8/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/13/2020,State,Minnesota,1878,Accounts,1,Economic Security,8/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/14/2020,State,Minnesota,1640,Accounts,1,Economic Security,8/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/15/2020,State,Minnesota,0,Accounts,1,Economic Security,8/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/16/2020,State,Minnesota,965,Accounts,1,Economic Security,8/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/17/2020,State,Minnesota,1986,Accounts,1,Economic Security,8/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/18/2020,State,Minnesota,1501,Accounts,1,Economic Security,8/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/19/2020,State,Minnesota,1486,Accounts,1,Economic Security,8/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/20/2020,State,Minnesota,1423,Accounts,1,Economic Security,8/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/21/2020,State,Minnesota,1301,Accounts,1,Economic Security,8/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/22/2020,State,Minnesota,0,Accounts,1,Economic Security,8/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/23/2020,State,Minnesota,967,Accounts,1,Economic Security,8/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/24/2020,State,Minnesota,1926,Accounts,1,Economic Security,8/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/25/2020,State,Minnesota,1421,Accounts,1,Economic Security,8/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/26/2020,State,Minnesota,1480,Accounts,1,Economic Security,8/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/27/2020,State,Minnesota,1379,Accounts,1,Economic Security,8/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/28/2020,State,Minnesota,1432,Accounts,1,Economic Security,8/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/29/2020,State,Minnesota,0,Accounts,1,Economic Security,8/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/30/2020,State,Minnesota,1045,Accounts,1,Economic Security,8/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,8/31/2020,State,Minnesota,2035,Accounts,1,Economic Security,8/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/1/2020,State,Minnesota,1643,Accounts,1,Economic Security,8/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/2/2020,State,Minnesota,1694,Accounts,1,Economic Security,9/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/3/2020,State,Minnesota,1689,Accounts,1,Economic Security,9/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/4/2020,State,Minnesota,1518,Accounts,1,Economic Security,9/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/5/2020,State,Minnesota,0,Accounts,1,Economic Security,9/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/6/2020,State,Minnesota,1094,Accounts,1,Economic Security,9/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/7/2020,State,Minnesota,1124,Accounts,1,Economic Security,9/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/8/2020,State,Minnesota,2092,Accounts,1,Economic Security,9/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/9/2020,State,Minnesota,1923,Accounts,1,Economic Security,9/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/10/2020,State,Minnesota,2017,Accounts,1,Economic Security,9/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/11/2020,State,Minnesota,1702,Accounts,1,Economic Security,9/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/12/2020,State,Minnesota,0,Accounts,1,Economic Security,9/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/13/2020,State,Minnesota,1243,Accounts,1,Economic Security,9/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/14/2020,State,Minnesota,2117,Accounts,1,Economic Security,9/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/15/2020,State,Minnesota,1547,Accounts,1,Economic Security,9/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/16/2020,State,Minnesota,1600,Accounts,1,Economic Security,9/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/17/2020,State,Minnesota,1595,Accounts,1,Economic Security,9/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/18/2020,State,Minnesota,1247,Accounts,1,Economic Security,9/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/19/2020,State,Minnesota,0,Accounts,1,Economic Security,9/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/20/2020,State,Minnesota,987,Accounts,1,Economic Security,9/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/21/2020,State,Minnesota,1789,Accounts,1,Economic Security,9/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/22/2020,State,Minnesota,1302,Accounts,1,Economic Security,9/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/23/2020,State,Minnesota,1351,Accounts,1,Economic Security,9/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/24/2020,State,Minnesota,1448,Accounts,1,Economic Security,9/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/25/2020,State,Minnesota,1246,Accounts,1,Economic Security,9/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/26/2020,State,Minnesota,0,Accounts,1,Economic Security,9/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/27/2020,State,Minnesota,837,Accounts,1,Economic Security,9/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/28/2020,State,Minnesota,1700,Accounts,1,Economic Security,9/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/29/2020,State,Minnesota,1274,Accounts,1,Economic Security,9/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,9/30/2020,State,Minnesota,1363,Accounts,1,Economic Security,9/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/1/2020,State,Minnesota,1620,Accounts,1,Economic Security,9/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/2/2020,State,Minnesota,1283,Accounts,1,Economic Security,10/1/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/3/2020,State,Minnesota,0,Accounts,1,Economic Security,10/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/4/2020,State,Minnesota,906,Accounts,1,Economic Security,10/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/5/2020,State,Minnesota,1910,Accounts,1,Economic Security,10/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/6/2020,State,Minnesota,1381,Accounts,1,Economic Security,10/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/7/2020,State,Minnesota,1421,Accounts,1,Economic Security,10/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/8/2020,State,Minnesota,1384,Accounts,1,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/9/2020,State,Minnesota,1256,Accounts,1,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/10/2020,State,Minnesota,0,Accounts,1,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/11/2020,State,Minnesota,938,Accounts,1,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/12/2020,State,Minnesota,1970,Accounts,1,Economic Security,10/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/13/2020,State,Minnesota,1472,Accounts,1,Economic Security,10/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/14/2020,State,Minnesota,1554,Accounts,1,Economic Security,10/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/15/2020,State,Minnesota,1443,Accounts,1,Economic Security,10/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/16/2020,State,Minnesota,1361,Accounts,1,Economic Security,10/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/17/2020,State,Minnesota,0,Accounts,1,Economic Security,10/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/18/2020,State,Minnesota,992,Accounts,1,Economic Security,10/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/19/2020,State,Minnesota,2404,Accounts,1,Economic Security,10/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/20/2020,State,Minnesota,1798,Accounts,1,Economic Security,10/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/21/2020,State,Minnesota,1778,Accounts,1,Economic Security,10/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/22/2020,State,Minnesota,1708,Accounts,1,Economic Security,10/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/23/2020,State,Minnesota,1739,Accounts,1,Economic Security,10/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/24/2020,State,Minnesota,0,Accounts,1,Economic Security,10/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/25/2020,State,Minnesota,1134,Accounts,1,Economic Security,10/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/26/2020,State,Minnesota,3311,Accounts,1,Economic Security,10/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/27/2020,State,Minnesota,2181,Accounts,1,Economic Security,10/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/28/2020,State,Minnesota,1806,Accounts,1,Economic Security,10/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/29/2020,State,Minnesota,1626,Accounts,1,Economic Security,10/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/30/2020,State,Minnesota,1556,Accounts,1,Economic Security,10/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,10/31/2020,State,Minnesota,0,Accounts,1,Economic Security,10/31/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/1/2020,State,Minnesota,1219,Accounts,1,Economic Security,11/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/2/2020,State,Minnesota,3162,Accounts,1,Economic Security,11/2/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/3/2020,State,Minnesota,1884,Accounts,1,Economic Security,11/3/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/4/2020,State,Minnesota,1804,Accounts,1,Economic Security,11/4/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/5/2020,State,Minnesota,1809,Accounts,1,Economic Security,11/5/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/6/2020,State,Minnesota,1759,Accounts,1,Economic Security,11/6/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/7/2020,State,Minnesota,0,Accounts,1,Economic Security,11/7/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/8/2020,State,Minnesota,1535,Accounts,1,Economic Security,11/8/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/9/2020,State,Minnesota,4225,Accounts,1,Economic Security,11/9/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/10/2020,State,Minnesota,3182,Accounts,1,Economic Security,11/10/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/11/2020,State,Minnesota,2333,Accounts,1,Economic Security,11/11/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/12/2020,State,Minnesota,2728,Accounts,1,Economic Security,11/12/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/13/2020,State,Minnesota,2617,Accounts,1,Economic Security,11/13/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/14/2020,State,Minnesota,0,Accounts,1,Economic Security,11/14/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/15/2020,State,Minnesota,1882,Accounts,1,Economic Security,11/15/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/16/2020,State,Minnesota,5278,Accounts,1,Economic Security,11/16/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/17/2020,State,Minnesota,3273,Accounts,1,Economic Security,11/17/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/18/2020,State,Minnesota,3968,Accounts,1,Economic Security,11/18/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/19/2020,State,Minnesota,4450,Accounts,1,Economic Security,11/19/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/20/2020,State,Minnesota,4442,Accounts,1,Economic Security,11/20/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/21/2020,State,Minnesota,0,Accounts,1,Economic Security,11/21/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/22/2020,State,Minnesota,4269,Accounts,1,Economic Security,11/22/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/23/2020,State,Minnesota,8632,Accounts,1,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/24/2020,State,Minnesota,5139,Accounts,1,Economic Security,11/24/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/25/2020,State,Minnesota,4118,Accounts,1,Economic Security,11/25/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/26/2020,State,Minnesota,0,Accounts,1,Economic Security,11/26/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/27/2020,State,Minnesota,3023,Accounts,1,Economic Security,11/27/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/28/2020,State,Minnesota,0,Accounts,1,Economic Security,11/28/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/29/2020,State,Minnesota,3010,Accounts,1,Economic Security,11/29/2020,,,https://mn.gov/deed/newscenter/covid/
-# of new and reactivated accounts,New & Reactivated Accounts,,,,11/30/2020,State,Minnesota,7550,Accounts,1,Economic Security,11/30/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,1/1/2019,State,Minnesota,62437,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/1/2019,State,Minnesota,61964,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,3/1/2019,State,Minnesota,58263,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,4/1/2019,State,Minnesota,46400,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/1/2019,State,Minnesota,27498,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,6/1/2019,State,Minnesota,26314,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,7/1/2019,State,Minnesota,26931,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/1/2019,State,Minnesota,24501,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,9/1/2019,State,Minnesota,22508,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/1/2019,State,Minnesota,23090,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,11/1/2019,State,Minnesota,39574,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,12/1/2019,State,Minnesota,54306,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,11/7/2020,State,Minnesota,89328,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/31/2020,State,Minnesota,98872,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/24/2020,State,Minnesota,108131,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/17/2020,State,Minnesota,115614,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/10/2020,State,Minnesota,122835,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,10/3/2020,State,Minnesota,135292,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,9/26/2020,State,Minnesota,152328,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,9/19/2020,State,Minnesota,172033,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,9/12/2020,State,Minnesota,188628,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,9/5/2020,State,Minnesota,198113,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/29/2020,State,Minnesota,207062,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/22/2020,State,Minnesota,215567,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/15/2020,State,Minnesota,225667,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/8/2020,State,Minnesota,233370,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,8/1/2020,State,Minnesota,250668,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,7/25/2020,State,Minnesota,278558,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,7/18/2020,State,Minnesota,292589,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,7/11/2020,State,Minnesota,303587,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,7/4/2020,State,Minnesota,308416,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,6/27/2020,State,Minnesota,311745,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,6/20/2020,State,Minnesota,319814,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,6/13/2020,State,Minnesota,334485,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,6/6/2020,State,Minnesota,350908,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/30/2020,State,Minnesota,375787,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/23/2020,State,Minnesota,382934,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/16/2020,State,Minnesota,396128,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/9/2020,State,Minnesota,404296,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,5/2/2020,State,Minnesota,405361,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,4/25/2020,State,Minnesota,401916,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,4/18/2020,State,Minnesota,400884,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,4/11/2020,State,Minnesota,375900,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,4/4/2020,State,Minnesota,334618,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,3/28/2020,State,Minnesota,253891,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,3/21/2020,State,Minnesota,166310,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,3/14/2020,State,Minnesota,70319,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,3/7/2020,State,Minnesota,64925,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/29/2020,State,Minnesota,64197,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/22/2020,State,Minnesota,63820,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/15/2020,State,Minnesota,63856,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/8/2020,State,Minnesota,63727,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,2/1/2020,State,Minnesota,63179,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,1/25/2020,State,Minnesota,63265,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,1/18/2020,State,Minnesota,63331,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
-# of weekly regular continuing UI claims,Regular continuing claims,,,,1/11/2020,State,Minnesota,63214,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Central,181,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Metro,480,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Northeast,107,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Northwest,35,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,South Central,49,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Southeast,76,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,Southwest,14,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,Regional Health Care,West Central,14,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/1/2020,State,Minnesota,956,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Central,15,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Metro,0,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Northeast,0,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Northwest,7,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,South Central,0,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Southeast,0,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,Southwest,2,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,Regional Health Care,West Central,0,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/1/2020,State,Minnesota,24,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Central,148,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Metro,915,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Northeast,179,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Northwest,42,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,South Central,52,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Southeast,94,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,Southwest,43,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,Regional Health Care,West Central,48,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/1/2020,State,Minnesota,1521,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Central,1,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Metro,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Northeast,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Northwest,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,South Central,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Southeast,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,Southwest,2,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,Regional Health Care,West Central,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/1/2020,State,Minnesota,3,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Central,78,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Metro,70,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Northeast,76,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Northwest,61,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,South Central,78,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Southeast,106,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,Southwest,95,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Regional Health Care,West Central,84,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/1/2020,Total,Minnesota,648,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Central,16,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Metro,31,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Northeast,18,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Northwest,3,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,South Central,1,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Southeast,16,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,Southwest,6,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Regional Health Care,West Central,8,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/1/2020,Total,Minnesota,99,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Central,99,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Metro,581,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Northeast,58,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Northwest,34,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,South Central,31,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Southeast,82,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,Southwest,22,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Regional Health Care,West Central,14,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/1/2020,Total,Minnesota,921,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,State,Minnesota,7460,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Central,769,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Metro,3687,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Northeast,689,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Northwest,242,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,South Central,405,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Southeast,1112,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,Southwest,366,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/1/2020,Regional Health Care,West Central,190,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,State,Minnesota,1212,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Central,107,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Metro,688,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Northeast,102,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Northwest,29,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,South Central,23,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Southeast,222,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,Southwest,21,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/1/2020,Regional Health Care,West Central,20,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,State,Minnesota,1419,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Central,120,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Metro,937,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Northeast,84,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Northwest,37,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,South Central,47,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Southeast,146,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,Southwest,34,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/1/2020,Regional Health Care,West Central,14,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,State,Minnesota,6812,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Central,691,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Metro,3617,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Northeast,613,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Northwest,181,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,South Central,327,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Southeast,1006,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,Southwest,271,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/1/2020,Regional Health Care,West Central,106,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,State,Minnesota,1113,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Central,91,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Metro,657,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Northeast,84,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Northwest,26,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,South Central,22,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Southeast,206,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,Southwest,15,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/1/2020,Regional Health Care,West Central,12,Beds,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,State,Minnesota,498,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Central,21,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Metro,356,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Northeast,26,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Northwest,3,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,South Central,16,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Southeast,64,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,Southwest,12,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/1/2020,Regional Health Care,West Central,0,Ventilators,,Hospital Surge Capacity,12/2/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
 Applications,# of Applications - Total,SNAP,Total,,2020-03-22,State,Minnesota,93,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
 Applications,# of Applications - Total,SNAP,Total,,2020-03-23,State,Minnesota,973,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
 Applications,# of Applications - Total,SNAP,Total,,2020-03-24,State,Minnesota,710,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
@@ -659,59 +342,59 @@ Applications,# of Applications - Total,SNAP,Total,,2020-09-30,State,Minnesota,62
 Applications,# of Applications - Total,SNAP,Total,,2020-10-01,State,Minnesota,903,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
 Applications,# of Applications - Total,SNAP,Total,,2020-10-02,State,Minnesota,600,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
 Applications,# of Applications - Total,SNAP,Total,,2020-10-03,State,Minnesota,51,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-04,State,Minnesota,51,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-05,State,Minnesota,970,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-06,State,Minnesota,808,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-07,State,Minnesota,720,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-08,State,Minnesota,731,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-09,State,Minnesota,602,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-10,State,Minnesota,50,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-11,State,Minnesota,65,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-12,State,Minnesota,906,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-13,State,Minnesota,826,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-14,State,Minnesota,727,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-15,State,Minnesota,744,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-16,State,Minnesota,591,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-17,State,Minnesota,34,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-18,State,Minnesota,48,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-19,State,Minnesota,979,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-20,State,Minnesota,741,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-21,State,Minnesota,765,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-22,State,Minnesota,629,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-23,State,Minnesota,553,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-24,State,Minnesota,50,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-25,State,Minnesota,63,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-26,State,Minnesota,956,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-27,State,Minnesota,752,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-28,State,Minnesota,661,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-29,State,Minnesota,642,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-30,State,Minnesota,613,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-10-31,State,Minnesota,38,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-01,State,Minnesota,149,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-02,State,Minnesota,1032,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-03,State,Minnesota,789,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-04,State,Minnesota,770,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-05,State,Minnesota,728,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-06,State,Minnesota,616,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-07,State,Minnesota,46,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-08,State,Minnesota,51,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-09,State,Minnesota,1015,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-10,State,Minnesota,840,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-11,State,Minnesota,163,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-12,State,Minnesota,1089,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-13,State,Minnesota,700,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-14,State,Minnesota,54,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-15,State,Minnesota,63,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-16,State,Minnesota,1201,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-17,State,Minnesota,808,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-18,State,Minnesota,816,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-19,State,Minnesota,816,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-20,State,Minnesota,619,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-21,State,Minnesota,72,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-22,State,Minnesota,73,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-23,State,Minnesota,831,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-24,State,Minnesota,532,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,2020-11-25,State,Minnesota,259,Applications,1,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-04,State,Minnesota,51,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-05,State,Minnesota,970,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-06,State,Minnesota,808,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-07,State,Minnesota,720,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-08,State,Minnesota,731,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-09,State,Minnesota,602,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-10,State,Minnesota,50,Applications,,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-11,State,Minnesota,65,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-12,State,Minnesota,906,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-13,State,Minnesota,826,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-14,State,Minnesota,727,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-15,State,Minnesota,744,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-16,State,Minnesota,591,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-17,State,Minnesota,34,Applications,,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-18,State,Minnesota,48,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-19,State,Minnesota,979,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-20,State,Minnesota,741,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-21,State,Minnesota,765,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-22,State,Minnesota,629,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-23,State,Minnesota,553,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-24,State,Minnesota,50,Applications,,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-25,State,Minnesota,63,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-26,State,Minnesota,956,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-27,State,Minnesota,752,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-28,State,Minnesota,661,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-29,State,Minnesota,642,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-30,State,Minnesota,613,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-31,State,Minnesota,38,Applications,,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-01,State,Minnesota,149,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-02,State,Minnesota,1032,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-03,State,Minnesota,789,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-04,State,Minnesota,770,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-05,State,Minnesota,728,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-06,State,Minnesota,616,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-07,State,Minnesota,46,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-08,State,Minnesota,51,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-09,State,Minnesota,1015,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-10,State,Minnesota,840,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-11,State,Minnesota,163,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-12,State,Minnesota,1089,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-13,State,Minnesota,700,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-14,State,Minnesota,54,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-15,State,Minnesota,63,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-16,State,Minnesota,1201,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-17,State,Minnesota,808,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-18,State,Minnesota,816,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-19,State,Minnesota,816,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-20,State,Minnesota,619,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-21,State,Minnesota,72,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-22,State,Minnesota,73,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-23,State,Minnesota,831,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-24,State,Minnesota,532,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-25,State,Minnesota,259,Applications,,Food security,2020-11-30 16:24:36 UTC,,,https://mn.gov/dhs/food-emergency/
 New total capacity,,,,,3/16/2020,State,Minnesota,750,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,3/17/2020,State,Minnesota,2348,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,3/18/2020,State,Minnesota,1022,available slots,,Education and Care,4/23/2020 17:05,,,https://mn.gov/mmb/childcare/families/
@@ -972,3 +655,321 @@ New total capacity,,,,,11/27/2020,State,Minnesota,37,available slots,,Education 
 New total capacity,,,,,11/28/2020,State,Minnesota,5,available slots,,Education and Care,12/1/2020 9:30,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,11/29/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020 9:30,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,11/30/2020,State,Minnesota,253,available slots,,Education and Care,12/1/2020 9:30,,,https://mn.gov/mmb/childcare/families/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,"12,119",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,"26,972",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/18/2020,State,Minnesota,"32,139",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/19/2020,State,Minnesota,"23,401",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/20/2020,State,Minnesota,"21,061",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/21/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/22/2020,State,Minnesota,"10,946",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/23/2020,State,Minnesota,"21,424",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/24/2020,State,Minnesota,"15,591",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/25/2020,State,Minnesota,"18,352",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/26/2020,State,Minnesota,"20,478",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/27/2020,State,Minnesota,"23,306",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/28/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/29/2020,State,Minnesota,"11,599",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/30/2020,State,Minnesota,"15,875",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,3/31/2020,State,Minnesota,"17,185",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/1/2020,State,Minnesota,"25,438",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/2/2020,State,Minnesota,"23,367",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/3/2020,State,Minnesota,"18,957",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/4/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/5/2020,State,Minnesota,"4,020",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/6/2020,State,Minnesota,"13,925",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/7/2020,State,Minnesota,"13,365",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/8/2020,State,Minnesota,"19,475",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/9/2020,State,Minnesota,"24,150",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/10/2020,State,Minnesota,"17,902",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/11/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/12/2020,State,Minnesota,"4,029",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/13/2020,State,Minnesota,"12,332",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/14/2020,State,Minnesota,"13,318",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/15/2020,State,Minnesota,"18,273",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/16/2020,State,Minnesota,"16,953",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/17/2020,State,Minnesota,"12,237",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/18/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/19/2020,State,Minnesota,"3,246",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/20/2020,State,Minnesota,"8,619",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/21/2020,State,Minnesota,"8,614",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/22/2020,State,Minnesota,"10,663",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/23/2020,State,Minnesota,"11,386",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/24/2020,State,Minnesota,"9,450",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/25/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/26/2020,State,Minnesota,"2,979",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/27/2020,State,Minnesota,"7,417",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/28/2020,State,Minnesota,"7,929",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/29/2020,State,Minnesota,"9,787",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,4/30/2020,State,Minnesota,"9,844",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/1/2020,State,Minnesota,"9,087",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/2/2020,State,Minnesota,0,Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/3/2020,State,Minnesota,"3,121",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/4/2020,State,Minnesota,"7,673",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/5/2020,State,Minnesota,"6,865",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/6/2020,State,Minnesota,"8,670",Accounts,,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/7/2020,State,Minnesota,"7,671",Accounts,,Economic Security,5/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/8/2020,State,Minnesota,"6,693",Accounts,,Economic Security,5/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/9/2020,State,Minnesota,0,Accounts,,Economic Security,5/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/10/2020,State,Minnesota,"2,776",Accounts,,Economic Security,5/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/11/2020,State,Minnesota,"6,271",Accounts,,Economic Security,5/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/12/2020,State,Minnesota,"5,434",Accounts,,Economic Security,5/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/13/2020,State,Minnesota,"7,090",Accounts,,Economic Security,5/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/14/2020,State,Minnesota,"6,439",Accounts,,Economic Security,5/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/15/2020,State,Minnesota,"5,091",Accounts,,Economic Security,5/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/16/2020,State,Minnesota,0,Accounts,,Economic Security,5/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/17/2020,State,Minnesota,"2,939",Accounts,,Economic Security,5/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/18/2020,State,Minnesota,"4,693",Accounts,,Economic Security,5/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/19/2020,State,Minnesota,"4,329",Accounts,,Economic Security,5/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/20/2020,State,Minnesota,"4,934",Accounts,,Economic Security,5/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/21/2020,State,Minnesota,"5,198",Accounts,,Economic Security,5/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/22/2020,State,Minnesota,"4,392",Accounts,,Economic Security,5/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/23/2020,State,Minnesota,0,Accounts,,Economic Security,5/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/24/2020,State,Minnesota,"1,960",Accounts,,Economic Security,5/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/25/2020,State,Minnesota,"2,244",Accounts,,Economic Security,5/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/26/2020,State,Minnesota,"4,425",Accounts,,Economic Security,5/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/27/2020,State,Minnesota,"4,451",Accounts,,Economic Security,5/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/28/2020,State,Minnesota,"4,419",Accounts,,Economic Security,5/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/29/2020,State,Minnesota,"3,886",Accounts,,Economic Security,5/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/30/2020,State,Minnesota,0,Accounts,,Economic Security,5/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,5/31/2020,State,Minnesota,"2,226",Accounts,,Economic Security,5/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/1/2020,State,Minnesota,"5,062",Accounts,,Economic Security,5/31/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/2/2020,State,Minnesota,"4,036",Accounts,,Economic Security,6/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/3/2020,State,Minnesota,"5,048",Accounts,,Economic Security,6/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/4/2020,State,Minnesota,"5,788",Accounts,,Economic Security,6/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/5/2020,State,Minnesota,"4,999",Accounts,,Economic Security,6/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/6/2020,State,Minnesota,0,Accounts,,Economic Security,6/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/7/2020,State,Minnesota,"2,636",Accounts,,Economic Security,6/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/8/2020,State,Minnesota,"4,667",Accounts,,Economic Security,6/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/9/2020,State,Minnesota,"4,029",Accounts,,Economic Security,6/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/10/2020,State,Minnesota,"4,676",Accounts,,Economic Security,6/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/11/2020,State,Minnesota,"4,370",Accounts,,Economic Security,6/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/12/2020,State,Minnesota,"3,285",Accounts,,Economic Security,6/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/13/2020,State,Minnesota,0,Accounts,,Economic Security,6/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/14/2020,State,Minnesota,"1,886",Accounts,,Economic Security,6/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/15/2020,State,Minnesota,"3,827",Accounts,,Economic Security,6/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/16/2020,State,Minnesota,"3,174",Accounts,,Economic Security,6/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/17/2020,State,Minnesota,"3,531",Accounts,,Economic Security,6/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/18/2020,State,Minnesota,"3,375",Accounts,,Economic Security,6/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/19/2020,State,Minnesota,"2,710",Accounts,,Economic Security,6/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/20/2020,State,Minnesota,0,Accounts,,Economic Security,6/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/21/2020,State,Minnesota,"1,680",Accounts,,Economic Security,6/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/22/2020,State,Minnesota,"3,578",Accounts,,Economic Security,6/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/23/2020,State,Minnesota,"2,868",Accounts,,Economic Security,6/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/24/2020,State,Minnesota,"3,266",Accounts,,Economic Security,6/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/25/2020,State,Minnesota,"3,190",Accounts,,Economic Security,6/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/26/2020,State,Minnesota,"2,849",Accounts,,Economic Security,6/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/27/2020,State,Minnesota,0,Accounts,,Economic Security,6/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/28/2020,State,Minnesota,"1,905",Accounts,,Economic Security,6/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/29/2020,State,Minnesota,"4,039",Accounts,,Economic Security,6/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,6/30/2020,State,Minnesota,"3,153",Accounts,,Economic Security,6/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/1/2020,State,Minnesota,"3,466",Accounts,,Economic Security,6/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/2/2020,State,Minnesota,"3,345",Accounts,,Economic Security,7/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/3/2020,State,Minnesota,"1,561",Accounts,,Economic Security,7/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/4/2020,State,Minnesota,0,Accounts,,Economic Security,7/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/5/2020,State,Minnesota,"2,061",Accounts,,Economic Security,7/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/6/2020,State,Minnesota,"4,636",Accounts,,Economic Security,7/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/7/2020,State,Minnesota,"3,168",Accounts,,Economic Security,7/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/8/2020,State,Minnesota,"3,367",Accounts,,Economic Security,7/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/9/2020,State,Minnesota,"2,983",Accounts,,Economic Security,7/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/10/2020,State,Minnesota,"2,610",Accounts,,Economic Security,7/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/11/2020,State,Minnesota,0,Accounts,,Economic Security,7/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/12/2020,State,Minnesota,"1,811",Accounts,,Economic Security,7/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/13/2020,State,Minnesota,"3,400",Accounts,,Economic Security,7/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/14/2020,State,Minnesota,"2,543",Accounts,,Economic Security,7/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/15/2020,State,Minnesota,"2,762",Accounts,,Economic Security,7/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/16/2020,State,Minnesota,"2,711",Accounts,,Economic Security,7/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/17/2020,State,Minnesota,"2,332",Accounts,,Economic Security,7/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/18/2020,State,Minnesota,0,Accounts,,Economic Security,7/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/19/2020,State,Minnesota,"1,505",Accounts,,Economic Security,7/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/20/2020,State,Minnesota,"2,931",Accounts,,Economic Security,7/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/21/2020,State,Minnesota,"2,224",Accounts,,Economic Security,7/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/22/2020,State,Minnesota,"2,363",Accounts,,Economic Security,7/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/23/2020,State,Minnesota,"2,229",Accounts,,Economic Security,7/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/24/2020,State,Minnesota,"1,922",Accounts,,Economic Security,7/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/25/2020,State,Minnesota,0,Accounts,,Economic Security,7/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/26/2020,State,Minnesota,"1,279",Accounts,,Economic Security,7/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/27/2020,State,Minnesota,"2,390",Accounts,,Economic Security,7/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/28/2020,State,Minnesota,"1,691",Accounts,,Economic Security,7/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/29/2020,State,Minnesota,"1,744",Accounts,,Economic Security,7/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/30/2020,State,Minnesota,"1,606",Accounts,,Economic Security,7/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,7/31/2020,State,Minnesota,"1,514",Accounts,,Economic Security,7/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/1/2020,State,Minnesota,0,Accounts,,Economic Security,7/31/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/2/2020,State,Minnesota,898,Accounts,,Economic Security,8/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/3/2020,State,Minnesota,"1,742",Accounts,,Economic Security,8/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/4/2020,State,Minnesota,"1,290",Accounts,,Economic Security,8/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/5/2020,State,Minnesota,"1,450",Accounts,,Economic Security,8/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/6/2020,State,Minnesota,"1,436",Accounts,,Economic Security,8/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/7/2020,State,Minnesota,"1,292",Accounts,,Economic Security,8/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/8/2020,State,Minnesota,0,Accounts,,Economic Security,8/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/9/2020,State,Minnesota,"2,400",Accounts,,Economic Security,8/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/10/2020,State,Minnesota,"3,038",Accounts,,Economic Security,8/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/11/2020,State,Minnesota,"2,121",Accounts,,Economic Security,8/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/12/2020,State,Minnesota,"2,009",Accounts,,Economic Security,8/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/13/2020,State,Minnesota,"1,878",Accounts,,Economic Security,8/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/14/2020,State,Minnesota,"1,642",Accounts,,Economic Security,8/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/15/2020,State,Minnesota,0,Accounts,,Economic Security,8/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/16/2020,State,Minnesota,964,Accounts,,Economic Security,8/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/17/2020,State,Minnesota,"1,992",Accounts,,Economic Security,8/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/18/2020,State,Minnesota,"1,503",Accounts,,Economic Security,8/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/19/2020,State,Minnesota,"1,486",Accounts,,Economic Security,8/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/20/2020,State,Minnesota,"1,423",Accounts,,Economic Security,8/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/21/2020,State,Minnesota,"1,302",Accounts,,Economic Security,8/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/22/2020,State,Minnesota,0,Accounts,,Economic Security,8/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/23/2020,State,Minnesota,967,Accounts,,Economic Security,8/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/24/2020,State,Minnesota,"1,928",Accounts,,Economic Security,8/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/25/2020,State,Minnesota,"1,421",Accounts,,Economic Security,8/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/26/2020,State,Minnesota,"1,483",Accounts,,Economic Security,8/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/27/2020,State,Minnesota,"1,381",Accounts,,Economic Security,8/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/28/2020,State,Minnesota,"1,433",Accounts,,Economic Security,8/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/29/2020,State,Minnesota,0,Accounts,,Economic Security,8/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/30/2020,State,Minnesota,"1,046",Accounts,,Economic Security,8/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,8/31/2020,State,Minnesota,"2,040",Accounts,,Economic Security,8/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/1/2020,State,Minnesota,"1,646",Accounts,,Economic Security,8/31/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/2/2020,State,Minnesota,"1,697",Accounts,,Economic Security,9/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/3/2020,State,Minnesota,"1,692",Accounts,,Economic Security,9/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/4/2020,State,Minnesota,"1,520",Accounts,,Economic Security,9/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/5/2020,State,Minnesota,0,Accounts,,Economic Security,9/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/6/2020,State,Minnesota,"1,096",Accounts,,Economic Security,9/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/7/2020,State,Minnesota,"1,126",Accounts,,Economic Security,9/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/8/2020,State,Minnesota,"2,093",Accounts,,Economic Security,9/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/9/2020,State,Minnesota,"1,925",Accounts,,Economic Security,9/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/10/2020,State,Minnesota,"2,017",Accounts,,Economic Security,9/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/11/2020,State,Minnesota,"1,705",Accounts,,Economic Security,9/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/12/2020,State,Minnesota,0,Accounts,,Economic Security,9/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/13/2020,State,Minnesota,"1,244",Accounts,,Economic Security,9/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/14/2020,State,Minnesota,"2,119",Accounts,,Economic Security,9/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/15/2020,State,Minnesota,"1,548",Accounts,,Economic Security,9/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/16/2020,State,Minnesota,"1,601",Accounts,,Economic Security,9/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/17/2020,State,Minnesota,"1,595",Accounts,,Economic Security,9/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/18/2020,State,Minnesota,"1,247",Accounts,,Economic Security,9/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/19/2020,State,Minnesota,0,Accounts,,Economic Security,9/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/20/2020,State,Minnesota,988,Accounts,,Economic Security,9/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/21/2020,State,Minnesota,"1,790",Accounts,,Economic Security,9/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/22/2020,State,Minnesota,"1,304",Accounts,,Economic Security,9/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/23/2020,State,Minnesota,"1,354",Accounts,,Economic Security,9/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/24/2020,State,Minnesota,"1,450",Accounts,,Economic Security,9/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/25/2020,State,Minnesota,"1,249",Accounts,,Economic Security,9/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/26/2020,State,Minnesota,0,Accounts,,Economic Security,9/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/27/2020,State,Minnesota,837,Accounts,,Economic Security,9/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/28/2020,State,Minnesota,"1,702",Accounts,,Economic Security,9/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/29/2020,State,Minnesota,"1,274",Accounts,,Economic Security,9/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,9/30/2020,State,Minnesota,"1,363",Accounts,,Economic Security,9/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/1/2020,State,Minnesota,"1,622",Accounts,,Economic Security,9/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/2/2020,State,Minnesota,"1,284",Accounts,,Economic Security,10/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/3/2020,State,Minnesota,0,Accounts,,Economic Security,10/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/4/2020,State,Minnesota,908,Accounts,,Economic Security,10/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/5/2020,State,Minnesota,"1,913",Accounts,,Economic Security,10/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/6/2020,State,Minnesota,"1,383",Accounts,,Economic Security,10/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/7/2020,State,Minnesota,"1,423",Accounts,,Economic Security,10/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/8/2020,State,Minnesota,"1,384",Accounts,,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/9/2020,State,Minnesota,"1,256",Accounts,,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/10/2020,State,Minnesota,0,Accounts,,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/11/2020,State,Minnesota,939,Accounts,,Economic Security,10/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/12/2020,State,Minnesota,"1,971",Accounts,,Economic Security,10/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/13/2020,State,Minnesota,"1,472",Accounts,,Economic Security,10/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/14/2020,State,Minnesota,"1,558",Accounts,,Economic Security,10/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/15/2020,State,Minnesota,"1,444",Accounts,,Economic Security,10/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/16/2020,State,Minnesota,"1,364",Accounts,,Economic Security,10/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/17/2020,State,Minnesota,0,Accounts,,Economic Security,10/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/18/2020,State,Minnesota,992,Accounts,,Economic Security,10/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/19/2020,State,Minnesota,"2,404",Accounts,,Economic Security,10/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/20/2020,State,Minnesota,"1,800",Accounts,,Economic Security,10/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/21/2020,State,Minnesota,"1,779",Accounts,,Economic Security,10/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/22/2020,State,Minnesota,"1,710",Accounts,,Economic Security,10/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/23/2020,State,Minnesota,"1,741",Accounts,,Economic Security,10/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/24/2020,State,Minnesota,0,Accounts,,Economic Security,10/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/25/2020,State,Minnesota,"1,136",Accounts,,Economic Security,10/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/26/2020,State,Minnesota,"3,313",Accounts,,Economic Security,10/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/27/2020,State,Minnesota,"2,181",Accounts,,Economic Security,10/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/28/2020,State,Minnesota,"1,812",Accounts,,Economic Security,10/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/29/2020,State,Minnesota,"1,626",Accounts,,Economic Security,10/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/30/2020,State,Minnesota,"1,556",Accounts,,Economic Security,10/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,10/31/2020,State,Minnesota,0,Accounts,,Economic Security,10/31/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/1/2020,State,Minnesota,"1,220",Accounts,,Economic Security,11/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/2/2020,State,Minnesota,"3,163",Accounts,,Economic Security,11/2/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/3/2020,State,Minnesota,"1,884",Accounts,,Economic Security,11/3/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/4/2020,State,Minnesota,"1,806",Accounts,,Economic Security,11/4/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/5/2020,State,Minnesota,"1,810",Accounts,,Economic Security,11/5/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/6/2020,State,Minnesota,"1,759",Accounts,,Economic Security,11/6/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/7/2020,State,Minnesota,0,Accounts,,Economic Security,11/7/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/8/2020,State,Minnesota,"1,569",Accounts,,Economic Security,11/8/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/9/2020,State,Minnesota,"4,225",Accounts,,Economic Security,11/9/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/10/2020,State,Minnesota,"3,182",Accounts,,Economic Security,11/10/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/11/2020,State,Minnesota,"2,333",Accounts,,Economic Security,11/11/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/12/2020,State,Minnesota,"2,731",Accounts,,Economic Security,11/12/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/13/2020,State,Minnesota,"2,621",Accounts,,Economic Security,11/13/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/14/2020,State,Minnesota,0,Accounts,,Economic Security,11/14/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/15/2020,State,Minnesota,"1,882",Accounts,,Economic Security,11/15/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/16/2020,State,Minnesota,"5,282",Accounts,,Economic Security,11/16/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/17/2020,State,Minnesota,"3,273",Accounts,,Economic Security,11/17/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/18/2020,State,Minnesota,"3,971",Accounts,,Economic Security,11/18/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/19/2020,State,Minnesota,"4,451",Accounts,,Economic Security,11/19/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/20/2020,State,Minnesota,"4,450",Accounts,,Economic Security,11/20/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/21/2020,State,Minnesota,0,Accounts,,Economic Security,11/21/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/22/2020,State,Minnesota,"4,277",Accounts,,Economic Security,11/22/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/23/2020,State,Minnesota,"8,639",Accounts,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/24/2020,State,Minnesota,"5,143",Accounts,,Economic Security,11/24/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/25/2020,State,Minnesota,"4,125",Accounts,,Economic Security,11/25/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/26/2020,State,Minnesota,0,Accounts,,Economic Security,11/26/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/27/2020,State,Minnesota,"3,027",Accounts,,Economic Security,11/27/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/28/2020,State,Minnesota,0,Accounts,,Economic Security,11/28/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/29/2020,State,Minnesota,"3,010",Accounts,,Economic Security,11/29/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,11/30/2020,State,Minnesota,"7,446",Accounts,,Economic Security,11/30/2020,,,https://mn.gov/deed/newscenter/covid/
+# of new and reactivated accounts,New & Reactivated Accounts,,,,12/1/2020,State,Minnesota,"4,579",Accounts,,Economic Security,12/1/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,1/1/2019,State,Minnesota,62437,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/1/2019,State,Minnesota,61964,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,3/1/2019,State,Minnesota,58263,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,4/1/2019,State,Minnesota,46400,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/1/2019,State,Minnesota,27498,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,6/1/2019,State,Minnesota,26314,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,7/1/2019,State,Minnesota,26931,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/1/2019,State,Minnesota,24501,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,9/1/2019,State,Minnesota,22508,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/1/2019,State,Minnesota,23090,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,11/1/2019,State,Minnesota,39574,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,12/1/2019,State,Minnesota,54306,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,11/7/2020,State,Minnesota,89328,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/31/2020,State,Minnesota,98872,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/24/2020,State,Minnesota,108131,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/17/2020,State,Minnesota,115614,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/10/2020,State,Minnesota,122835,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,10/3/2020,State,Minnesota,135292,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,9/26/2020,State,Minnesota,152328,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,9/19/2020,State,Minnesota,172033,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,9/12/2020,State,Minnesota,188628,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,9/5/2020,State,Minnesota,198113,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/29/2020,State,Minnesota,207062,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/22/2020,State,Minnesota,215567,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/15/2020,State,Minnesota,225667,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/8/2020,State,Minnesota,233370,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,8/1/2020,State,Minnesota,250668,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,7/25/2020,State,Minnesota,278558,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,7/18/2020,State,Minnesota,292589,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,7/11/2020,State,Minnesota,303587,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,7/4/2020,State,Minnesota,308416,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,6/27/2020,State,Minnesota,311745,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,6/20/2020,State,Minnesota,319814,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,6/13/2020,State,Minnesota,334485,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,6/6/2020,State,Minnesota,350908,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/30/2020,State,Minnesota,375787,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/23/2020,State,Minnesota,382934,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/16/2020,State,Minnesota,396128,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/9/2020,State,Minnesota,404296,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,5/2/2020,State,Minnesota,405361,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,4/25/2020,State,Minnesota,401916,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,4/18/2020,State,Minnesota,400884,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,4/11/2020,State,Minnesota,375900,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,4/4/2020,State,Minnesota,334618,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,3/28/2020,State,Minnesota,253891,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,3/21/2020,State,Minnesota,166310,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,3/14/2020,State,Minnesota,70319,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,3/7/2020,State,Minnesota,64925,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/29/2020,State,Minnesota,64197,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/22/2020,State,Minnesota,63820,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/15/2020,State,Minnesota,63856,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/8/2020,State,Minnesota,63727,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,2/1/2020,State,Minnesota,63179,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,1/25/2020,State,Minnesota,63265,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,1/18/2020,State,Minnesota,63331,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
+# of weekly regular continuing UI claims,Regular continuing claims,,,,1/11/2020,State,Minnesota,63214,claims,,Economic Security,11/23/2020,,,https://mn.gov/deed/newscenter/covid/
