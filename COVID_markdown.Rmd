@@ -43,7 +43,7 @@ dataLongAvgPeople = dataLongAvg %>%
 * Case info   
   + Patients who are currently sick: **`r (dataWidePlain$Currently.sick) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.sick <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.sick))) %>% formatC(format="d", big.mark=",")`)
   + Total deaths: **`r (dataWidePlain$Total.deaths) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.deaths <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.deaths)))`)
-* Hospitalization  
+* Hospital admission  
   + Total hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
     - Total ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
 
