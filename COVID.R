@@ -178,8 +178,8 @@ p3 = ggplot(dataLongDailyTests %>%
   annotate("label", x = vlineDf  %>% pull(Date), y = p3LabelLoc, label = vlineDf %>% pull(Label), lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("Total.deaths")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("Total.deaths"))), aes(Date, movAvgValue, color = (Variable), group = Variable), size = 1.3, alpha = .7)+
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU")) %>% ungroup %>% mutate(Variable = factor(Variable, levels = c("New.hospitalized", "New.ICU"))), aes(Date, movAvgValue*convertFactor , color = (Variable), group = Variable), size = 1.3, alpha = .7)+
-  # geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x= 5, hjust = -1, size = 3.5, show.legend = F, fontface = "bold")+
-  # geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = 3, nudge_x = 5, hjust = -2, size = 3.5, show.legend = F)+
+  geom_text_repel(data=dataLongAvg %>% filter(Variable %in% c("New.hospitalized", "New.ICU"), Date == last(Date)), aes(x= Date, y = movAvgValue*convertFactor , label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = -.5, nudge_x= 5, hjust = -1, size = 3.5, show.legend = F, fontface = "bold")+
+  geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("Total.deaths"), Date == last(Date)), aes(x= Date, y = Value, label = Value, color = Variable), segment.color = NA, direction = "y", box.padding = .05, vjust = 3, nudge_x = 5, hjust = -2, size = 3.5, show.legend = F)+
   #geom_point(fill = "white", shape = 21, stroke = .8, size = .15, show.legend = F)+
   geom_col(data = dataLongDailyTests %>% filter(Variable %in% c("New.ICU", "New.hospitalized")), aes(y = Value*convertFactor, fill = Variable), alpha = .3, color = NA, position = "dodge", width = .5)+
   labs(x = "", y = "Deaths", size = "Daily tests", fill = "", title = "Daily admitted hospitalized, ICU & total deaths")+
@@ -278,7 +278,7 @@ p4 = ggplot(responseData)+
   geom_bar(position = "stack", stat = "identity", width = .65, size = .3)+
   geom_text(data = responseData %>% filter(!Detail3 %in% c("Surge","COVID+")|Detail1!="ICU"|Detail2!="In Use", count !=1),
             aes(x = Detail2, y = Value, label = Value),
-            position = position_stack(vjust = 0.5), size = 2)+
+            position = position_stack(vjust = 0.5), size = 1.8)+
   facet_wrap(~Detail1,scales="free", nrow = 1)+
   labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$DateUpdate)), "%b %d"))))+
   #scale_fill_brewer(palette ="Pastel1")+
