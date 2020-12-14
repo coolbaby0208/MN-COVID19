@@ -6299,363 +6299,471 @@ Number of patients,Non-ICU,IN USE,non-COVID+,,11/30/2020,Regional Health Care,So
 Number of patients,Non-ICU,IN USE,non-COVID+,,11/30/2020,Regional Health Care,Southeast,684,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,11/30/2020,Regional Health Care,Southwest,99,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,11/30/2020,Regional Health Care,West Central,69,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,State,Minnesota,745,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,State,Minnesota,746,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Central,41,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Metro,516,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Northeast,45,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southeast,133,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southeast,134,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southwest,-12,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,West Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/1/2020,State,Minnesota,399,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/1/2020,State,Minnesota,402,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Central,51,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Metro,233,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Northeast,39,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Northwest,15,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southeast,35,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southeast,38,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southwest,16,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,West Central,4,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,State,Minnesota,1382,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,State,Minnesota,1388,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Central,173,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Metro,808,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Northeast,112,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Northwest,51,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,South Central,62,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southeast,101,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southeast,107,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,Southwest,54,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/1/2020,Regional Health Care,West Central,21,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,State,Minnesota,4780,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,State,Minnesota,4784,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Central,459,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Metro,2651,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Northeast,413,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Northwest,122,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,South Central,190,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southeast,734,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southeast,738,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,Southwest,130,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/1/2020,Regional Health Care,West Central,81,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,State,Minnesota,733,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,State,Minnesota,734,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Central,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Metro,488,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Northeast,39,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Northwest,8,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southeast,139,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southeast,140,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southwest,0,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,West Central,5,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/2/2020,State,Minnesota,376,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/2/2020,State,Minnesota,380,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Central,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Metro,238,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Northeast,37,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Northwest,13,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southeast,33,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southeast,37,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,West Central,4,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,State,Minnesota,1394,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,State,Minnesota,1401,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Central,189,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Metro,802,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Northeast,115,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Northwest,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,South Central,68,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southeast,100,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southeast,107,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,Southwest,54,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/2/2020,Regional Health Care,West Central,18,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,State,Minnesota,5096,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,State,Minnesota,5100,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Central,429,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Metro,2887,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Northeast,468,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Northwest,135,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,South Central,181,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southeast,787,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southeast,791,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,Southwest,123,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/2/2020,Regional Health Care,West Central,86,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,State,Minnesota,749,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,State,Minnesota,750,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Central,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Metro,492,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Northeast,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Northwest,8,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southeast,142,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southeast,143,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southwest,0,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,West Central,5,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/3/2020,State,Minnesota,368,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/3/2020,State,Minnesota,373,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Central,46,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Metro,232,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Northeast,34,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Northwest,15,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,South Central,8,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southeast,28,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southeast,33,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,West Central,4,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,State,Minnesota,1311,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,State,Minnesota,1319,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Central,162,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Metro,762,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Northeast,109,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Northwest,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,South Central,65,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southeast,99,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southeast,107,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,Southwest,49,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/3/2020,Regional Health Care,West Central,17,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,State,Minnesota,5080,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,State,Minnesota,5086,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Central,441,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Metro,2878,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Northeast,427,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Northwest,141,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,South Central,186,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southeast,806,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southeast,812,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,Southwest,126,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/3/2020,Regional Health Care,West Central,75,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,State,Minnesota,733,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,State,Minnesota,735,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Central,45,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Metro,491,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Northeast,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Northwest,7,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southeast,129,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southeast,131,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southwest,2,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,West Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/4/2020,State,Minnesota,363,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/4/2020,State,Minnesota,367,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Central,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Metro,230,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Northeast,33,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Northwest,14,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southeast,29,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southeast,33,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,West Central,2,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,State,Minnesota,1262,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,State,Minnesota,1269,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Central,150,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Metro,743,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Northeast,100,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Northwest,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,South Central,60,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southeast,95,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southeast,102,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,Southwest,52,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/4/2020,Regional Health Care,West Central,15,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,State,Minnesota,5142,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,State,Minnesota,5150,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Central,459,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Metro,2874,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Northeast,455,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Northwest,144,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,South Central,180,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southeast,843,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southeast,851,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,Southwest,116,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/4/2020,Regional Health Care,West Central,71,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,State,Minnesota,731,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,State,Minnesota,736,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Central,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Metro,493,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Northeast,45,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,South Central,5,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southeast,126,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southeast,131,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,West Central,3,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/5/2020,State,Minnesota,360,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/5/2020,State,Minnesota,362,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Central,43,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Metro,233,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Northeast,31,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Northwest,14,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,South Central,8,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southeast,27,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southeast,29,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southwest,3,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,West Central,1,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,State,Minnesota,1229,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,State,Minnesota,1237,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Central,146,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Metro,722,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Northeast,103,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Northwest,47,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,South Central,61,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southeast,85,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southeast,93,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,Southwest,49,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/5/2020,Regional Health Care,West Central,16,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,State,Minnesota,4982,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,State,Minnesota,4995,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Central,479,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Metro,2793,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Northeast,428,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Northwest,139,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,South Central,162,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southeast,818,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southeast,831,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,Southwest,94,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/5/2020,Regional Health Care,West Central,69,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,State,Minnesota,684,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,State,Minnesota,689,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Central,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Metro,469,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Northeast,42,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,South Central,5,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southeast,110,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southeast,115,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,West Central,3,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/6/2020,State,Minnesota,350,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/6/2020,State,Minnesota,352,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Central,42,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Metro,225,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Northeast,32,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Northwest,13,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,South Central,9,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southeast,25,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southeast,27,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southwest,3,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,West Central,1,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,State,Minnesota,1230,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,State,Minnesota,1237,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Central,147,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Metro,709,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Northeast,109,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Northwest,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,South Central,68,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southeast,92,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southeast,99,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,Southwest,43,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/6/2020,Regional Health Care,West Central,14,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,State,Minnesota,4699,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,State,Minnesota,4717,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Central,438,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Metro,2690,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Northeast,392,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Northwest,130,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,South Central,153,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southeast,724,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southeast,742,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,Southwest,106,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/6/2020,Regional Health Care,West Central,66,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,State,Minnesota,700,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,State,Minnesota,703,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Central,41,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Metro,478,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Northeast,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,South Central,9,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southeast,109,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southeast,112,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,West Central,4,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/7/2020,State,Minnesota,357,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/7/2020,State,Minnesota,359,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Central,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Metro,230,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Northeast,34,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Northwest,13,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southeast,26,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southeast,28,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southwest,3,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,West Central,0,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,State,Minnesota,1235,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,State,Minnesota,1245,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Central,155,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Metro,707,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Northeast,108,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Northwest,52,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,South Central,68,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southeast,86,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southeast,96,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,Southwest,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/7/2020,Regional Health Care,West Central,15,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,State,Minnesota,4703,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,State,Minnesota,4715,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Central,435,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Metro,2680,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Northeast,405,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Northwest,132,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,South Central,160,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southeast,710,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southeast,722,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,Southwest,110,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/7/2020,Regional Health Care,West Central,71,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,State,Minnesota,736,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,State,Minnesota,739,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Central,34,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Metro,492,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Northeast,58,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Northwest,11,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southeast,131,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southeast,134,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southwest,0,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,West Central,3,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/8/2020,State,Minnesota,355,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/8/2020,State,Minnesota,358,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Central,42,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Metro,230,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Northeast,30,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Northwest,14,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southeast,27,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southeast,30,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southwest,5,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,West Central,1,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,State,Minnesota,1189,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,State,Minnesota,1197,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Central,151,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Metro,695,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Northeast,96,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Northwest,48,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,South Central,58,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southeast,84,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southeast,92,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,Southwest,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/8/2020,Regional Health Care,West Central,13,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,State,Minnesota,4990,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,State,Minnesota,4997,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Central,469,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Metro,2819,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Northeast,418,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Northwest,140,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,South Central,164,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southeast,784,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southeast,791,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,Southwest,102,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/8/2020,Regional Health Care,West Central,94,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,State,Minnesota,762,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,State,Minnesota,767,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Central,36,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Metro,507,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Northeast,59,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Northwest,12,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,South Central,9,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southeast,132,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southeast,137,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,West Central,6,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/9/2020,State,Minnesota,349,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/9/2020,State,Minnesota,352,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Central,44,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Metro,222,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Northeast,35,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Northwest,12,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,South Central,4,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southeast,26,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southeast,29,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southwest,4,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,West Central,2,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,State,Minnesota,1189,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,State,Minnesota,1194,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Central,145,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Metro,708,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Northeast,97,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Northwest,52,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,South Central,54,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southeast,76,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southeast,81,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,Southwest,43,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,COVID+,,12/9/2020,Regional Health Care,West Central,14,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,State,Minnesota,5130,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,State,Minnesota,5135,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Central,495,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Metro,2889,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Northeast,431,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Northwest,136,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,South Central,171,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southeast,802,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southeast,807,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,Southwest,117,patients,0,Hospital Surge Capacity,Teletracking
 Number of patients,Non-ICU,IN USE,non-COVID+,,12/9/2020,Regional Health Care,West Central,89,patients,0,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,State,Minnesota,765,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Central,35,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Metro,521,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northeast,55,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northwest,10,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,South Central,6,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southeast,129,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southwest,2,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,West Central,7,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,State,Minnesota,343,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Central,47,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Metro,208,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northeast,35,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northwest,13,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,South Central,7,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southeast,27,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southwest,4,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,West Central,2,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,State,Minnesota,1118,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Central,135,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Metro,667,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northeast,90,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northwest,53,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,South Central,49,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southeast,69,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southwest,41,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,West Central,14,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,State,Minnesota,5328,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Central,484,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Metro,2994,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northeast,454,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northwest,142,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,South Central,181,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southeast,857,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southwest,132,patients,1,Hospital Surge Capacity,Teletracking
-Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,West Central,84,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,State,Minnesota,765,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Central,35,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Metro,521,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northeast,55,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southeast,129,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southwest,2,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,West Central,7,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,State,Minnesota,343,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Central,47,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Metro,208,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northeast,35,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northwest,13,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,South Central,7,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southeast,27,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southwest,4,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,West Central,2,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,State,Minnesota,1118,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Central,135,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Metro,667,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northeast,90,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Northwest,53,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,South Central,49,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southeast,69,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,Southwest,41,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/10/2020,Regional Health Care,West Central,14,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,State,Minnesota,5328,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Central,484,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Metro,2994,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northeast,454,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Northwest,142,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,South Central,181,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southeast,857,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,Southwest,132,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/10/2020,Regional Health Care,West Central,84,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,State,Minnesota,752,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Central,33,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Metro,514,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Northeast,54,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Northwest,9,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Southeast,131,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Southwest,0,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,West Central,5,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,State,Minnesota,340,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Central,45,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Metro,215,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Northeast,32,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Northwest,12,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Southeast,26,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Southwest,3,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,West Central,1,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,State,Minnesota,1066,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Central,130,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Metro,622,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Northeast,82,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Northwest,54,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,South Central,53,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Southeast,69,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,Southwest,43,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/11/2020,Regional Health Care,West Central,13,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,State,Minnesota,5321,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Central,514,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Metro,2993,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Northeast,459,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Northwest,139,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,South Central,169,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Southeast,841,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,Southwest,116,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/11/2020,Regional Health Care,West Central,90,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,State,Minnesota,765,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Central,38,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Metro,509,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Northeast,52,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Northwest,8,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,South Central,6,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Southeast,144,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Southwest,1,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,West Central,7,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,State,Minnesota,322,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Central,48,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Metro,203,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Northeast,28,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Northwest,10,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,South Central,3,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Southeast,27,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Southwest,2,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,West Central,1,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,State,Minnesota,1004,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Central,106,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Metro,594,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Northeast,85,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Northwest,49,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,South Central,53,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Southeast,65,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,Southwest,43,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/12/2020,Regional Health Care,West Central,9,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,State,Minnesota,5044,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Central,509,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Metro,2850,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Northeast,411,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Northwest,118,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,South Central,168,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Southeast,807,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,Southwest,98,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/12/2020,Regional Health Care,West Central,83,patients,0,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,State,Minnesota,716,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Central,34,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Metro,476,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Northeast,61,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Northwest,8,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,South Central,5,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Southeast,122,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Southwest,2,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,West Central,8,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,State,Minnesota,319,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Central,48,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Metro,203,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Northeast,28,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Northwest,8,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,South Central,6,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Southeast,24,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Southwest,1,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,West Central,1,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,State,Minnesota,964,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Central,104,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Metro,570,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Northeast,92,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Northwest,40,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,South Central,49,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Southeast,61,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,Southwest,41,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,COVID+,,12/13/2020,Regional Health Care,West Central,7,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,State,Minnesota,4612,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Central,465,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Metro,2661,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Northeast,318,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Northwest,118,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,South Central,150,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Southeast,748,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,Southwest,85,patients,1,Hospital Surge Capacity,Teletracking
+Number of patients,Non-ICU,IN USE,non-COVID+,,12/13/2020,Regional Health Care,West Central,67,patients,1,Hospital Surge Capacity,Teletracking
