@@ -29,123 +29,123 @@ $ Spending Authority Granted,State Funds,State,Authority granted,,12/11/2020,Sta
 # of Gloves (non-latex),Obtained,Total,,,12/20/2020,State,Minnesota,"49,382,795",Gloves (non-latex),,Critical Care Supplies,12/14/2020,,49.4M,https://www.mn.gov/ppe
 # of Gowns,Obtained,Total,,,12/20/2020,State,Minnesota,"7,170,673",Gowns*,,Critical Care Supplies,12/14/2020,,7.2M,https://www.mn.gov/ppe
 # of N95 respirators,Obtained,Total,,,12/20/2020,State,Minnesota,"2,033,969",N95 respirators,,Critical Care Supplies,12/14/2020,,2M,https://www.mn.gov/ppe
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,Surge,12/20/2020,State,Minnesota,956,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Central,6,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Metro,2,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,Surge,12/20/2020,State,Minnesota,8,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Metro,899,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,12/20/2020,State,Minnesota,1506,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Central,2,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,South Central,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,12/20/2020,State,Minnesota,2,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Central,132,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Metro,172,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Northeast,89,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Northwest,87,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,South Central,118,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Southeast,145,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,Southwest,100,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,Regional Health Care,West Central,100,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,12/20/2020,State,Minnesota,943,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Central,23,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Metro,55,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Northeast,5,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Northwest,11,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,South Central,6,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Southeast,24,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,Southwest,5,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,Regional Health Care,West Central,10,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,12/20/2020,State,Minnesota,139,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Central,108,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Metro,679,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Northeast,68,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Northwest,36,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,South Central,31,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Southeast,85,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,Southwest,23,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,12/20/2020,State,Minnesota,1044,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,State,Minnesota,7416,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Metro,3687,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Southeast,1112,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,Southwest,358,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,12/20/2020,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,State,Minnesota,1212,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Metro,688,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,12/20/2020,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,State,Minnesota,1541,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Metro,1036,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,12/20/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,State,Minnesota,6473,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Central,637,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Metro,3515,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Northeast,600,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Northwest,155,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,South Central,251,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Southeast,967,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,Southwest,258,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,12/20/2020,Regional Health Care,West Central,90,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,State,Minnesota,1073,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Central,84,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Metro,633,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Northeast,97,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Northwest,18,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,South Central,17,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Southeast,198,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,Southwest,16,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,12/20/2020,Regional Health Care,West Central,10,Beds,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,State,Minnesota,497,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Central,35,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Metro,357,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Northeast,16,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Northwest,1,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,South Central,16,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Southeast,61,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,Southwest,11,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,12/20/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/20/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,Surge,12/21/2020,State,Minnesota,956,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Central,6,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Metro,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,Surge,12/21/2020,State,Minnesota,6,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Metro,899,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,12/21/2020,State,Minnesota,1506,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Central,2,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,South Central,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,12/21/2020,State,Minnesota,2,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Central,133,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Metro,185,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Northeast,92,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Northwest,90,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,South Central,127,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Southeast,145,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,Southwest,99,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,Regional Health Care,West Central,96,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,12/21/2020,State,Minnesota,967,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Central,23,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Metro,51,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Northeast,17,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Northwest,12,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,South Central,7,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Southeast,24,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,Southwest,6,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,Regional Health Care,West Central,8,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,12/21/2020,State,Minnesota,148,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Central,108,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Metro,704,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Northeast,69,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Northwest,35,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,South Central,31,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Southeast,87,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,12/21/2020,State,Minnesota,1072,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,State,Minnesota,7416,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Metro,3687,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Southeast,1112,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,Southwest,358,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,12/21/2020,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,State,Minnesota,1212,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Metro,688,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,12/21/2020,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,State,Minnesota,1541,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Metro,1036,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,12/21/2020,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,State,Minnesota,6449,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Central,636,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Metro,3502,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Northeast,597,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Northwest,152,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,South Central,242,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Southeast,967,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,Southwest,259,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,12/21/2020,Regional Health Care,West Central,94,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,State,Minnesota,1064,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Central,84,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Metro,637,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Northeast,85,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Northwest,17,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,South Central,16,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Southeast,198,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,Southwest,15,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,12/21/2020,Regional Health Care,West Central,12,Beds,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,State,Minnesota,469,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Central,35,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Metro,332,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Northeast,15,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Northwest,2,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,South Central,16,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Southeast,59,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,12/21/2020,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,12/21/2020,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
 New total capacity,Non-ICU,Over 95% Full,,,12/16/2020,State,Minnesota,37,hospitals,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,Non-ICU,Over 95% Full,,,12/16/2020,Regional Health Care,Central,4,hospitals,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,Non-ICU,Over 95% Full,,,12/16/2020,Regional Health Care,Metro,18,hospitals,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
@@ -415,272 +415,278 @@ New total capacity,,,,,12/6/2020,State,Minnesota,14,available slots,,Education a
 New total capacity,,,,,12/7/2020,State,Minnesota,7384,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,12/8/2020,State,Minnesota,10451,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,12/9/2020,State,Minnesota,4856,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
-Applications,# of Applications - Total,SNAP,Total,,3/22/2020,State,Minnesota,93,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/23/2020,State,Minnesota,973,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/24/2020,State,Minnesota,710,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/25/2020,State,Minnesota,634,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/26/2020,State,Minnesota,836,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/27/2020,State,Minnesota,752,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/28/2020,State,Minnesota,101,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/29/2020,State,Minnesota,116,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/30/2020,State,Minnesota,1065,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,3/31/2020,State,Minnesota,741,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/1/2020,State,Minnesota,936,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/2/2020,State,Minnesota,927,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/3/2020,State,Minnesota,927,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/4/2020,State,Minnesota,120,Applications,,Food security,5/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/5/2020,State,Minnesota,120,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/6/2020,State,Minnesota,1347,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/7/2020,State,Minnesota,861,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/8/2020,State,Minnesota,968,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/9/2020,State,Minnesota,950,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/10/2020,State,Minnesota,730,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/11/2020,State,Minnesota,90,Applications,,Food security,5/8/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/12/2020,State,Minnesota,79,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/13/2020,State,Minnesota,1069,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/14/2020,State,Minnesota,821,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/15/2020,State,Minnesota,793,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/16/2020,State,Minnesota,684,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/17/2020,State,Minnesota,515,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/18/2020,State,Minnesota,62,Applications,,Food security,5/15/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/19/2020,State,Minnesota,62,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/20/2020,State,Minnesota,775,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/21/2020,State,Minnesota,560,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/22/2020,State,Minnesota,608,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/23/2020,State,Minnesota,609,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/24/2020,State,Minnesota,487,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/25/2020,State,Minnesota,69,Applications,,Food security,5/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/26/2020,State,Minnesota,54,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/27/2020,State,Minnesota,714,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/28/2020,State,Minnesota,526,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/29/2020,State,Minnesota,499,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,4/30/2020,State,Minnesota,491,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/1/2020,State,Minnesota,643,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/2/2020,State,Minnesota,81,Applications,,Food security,5/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/3/2020,State,Minnesota,50,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/4/2020,State,Minnesota,848,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/5/2020,State,Minnesota,691,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/6/2020,State,Minnesota,693,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/7/2020,State,Minnesota,671,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/8/2020,State,Minnesota,533,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/9/2020,State,Minnesota,69,Applications,,Food security,6/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/10/2020,State,Minnesota,63,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/11/2020,State,Minnesota,792,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/12/2020,State,Minnesota,659,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/13/2020,State,Minnesota,615,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/14/2020,State,Minnesota,579,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/15/2020,State,Minnesota,458,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/16/2020,State,Minnesota,65,Applications,,Food security,6/12/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/17/2020,State,Minnesota,51,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/18/2020,State,Minnesota,691,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/19/2020,State,Minnesota,500,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/20/2020,State,Minnesota,456,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/21/2020,State,Minnesota,498,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/22/2020,State,Minnesota,364,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/23/2020,State,Minnesota,32,Applications,,Food security,6/19/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/24/2020,State,Minnesota,35,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/25/2020,State,Minnesota,56,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/26/2020,State,Minnesota,675,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/27/2020,State,Minnesota,385,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/28/2020,State,Minnesota,342,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/29/2020,State,Minnesota,312,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/30/2020,State,Minnesota,52,Applications,,Food security,6/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,5/31/2020,State,Minnesota,47,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/1/2020,State,Minnesota,870,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/2/2020,State,Minnesota,627,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/3/2020,State,Minnesota,586,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/4/2020,State,Minnesota,584,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/5/2020,State,Minnesota,495,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/6/2020,State,Minnesota,60,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/7/2020,State,Minnesota,52,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/8/2020,State,Minnesota,948,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/9/2020,State,Minnesota,878,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/10/2020,State,Minnesota,776,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/11/2020,State,Minnesota,631,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/12/2020,State,Minnesota,519,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/13/2020,State,Minnesota,54,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/14/2020,State,Minnesota,43,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/15/2020,State,Minnesota,727,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/16/2020,State,Minnesota,575,Applications,,Food security,7/1/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/17/2020,State,Minnesota,569,Applications,,Food security,7/17/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/18/2020,State,Minnesota,545,Applications,,Food security,7/17/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/19/2020,State,Minnesota,434,Applications,,Food security,7/17/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/20/2020,State,Minnesota,35,Applications,,Food security,7/17/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/21/2020,State,Minnesota,43,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/22/2020,State,Minnesota,620,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/23/2020,State,Minnesota,507,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/24/2020,State,Minnesota,489,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/25/2020,State,Minnesota,515,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/26/2020,State,Minnesota,460,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/27/2020,State,Minnesota,37,Applications,,Food security,7/24/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/28/2020,State,Minnesota,48,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/29/2020,State,Minnesota,691,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,6/30/2020,State,Minnesota,568,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/1/2020,State,Minnesota,694,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/2/2020,State,Minnesota,482,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/3/2020,State,Minnesota,69,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/4/2020,State,Minnesota,21,Applications,,Food security,7/31/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/5/2020,State,Minnesota,37,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/6/2020,State,Minnesota,765,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/7/2020,State,Minnesota,569,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/8/2020,State,Minnesota,526,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/9/2020,State,Minnesota,509,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/10/2020,State,Minnesota,457,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/11/2020,State,Minnesota,37,Applications,,Food security,8/5/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/12/2020,State,Minnesota,29,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/13/2020,State,Minnesota,743,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/14/2020,State,Minnesota,612,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/15/2020,State,Minnesota,547,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/16/2020,State,Minnesota,551,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/17/2020,State,Minnesota,494,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/18/2020,State,Minnesota,29,Applications,,Food security,8/14/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/19/2020,State,Minnesota,40,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/20/2020,State,Minnesota,853,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/21/2020,State,Minnesota,658,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/22/2020,State,Minnesota,574,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/23/2020,State,Minnesota,522,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/24/2020,State,Minnesota,516,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/25/2020,State,Minnesota,39,Applications,,Food security,8/21/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/26/2020,State,Minnesota,45,Applications,,Food security,8/27/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/27/2020,State,Minnesota,820,Applications,,Food security,8/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/28/2020,State,Minnesota,537,Applications,,Food security,8/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/29/2020,State,Minnesota,544,Applications,,Food security,8/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/30/2020,State,Minnesota,550,Applications,,Food security,8/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,7/31/2020,State,Minnesota,532,Applications,,Food security,8/26/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/1/2020,State,Minnesota,140,Applications,,Food security,8/27/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/2/2020,State,Minnesota,67,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/3/2020,State,Minnesota,1011,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/4/2020,State,Minnesota,826,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/5/2020,State,Minnesota,760,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/6/2020,State,Minnesota,840,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/7/2020,State,Minnesota,703,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/8/2020,State,Minnesota,57,Applications,,Food security,9/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/9/2020,State,Minnesota,54,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/10/2020,State,Minnesota,1019,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/11/2020,State,Minnesota,734,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/12/2020,State,Minnesota,715,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/13/2020,State,Minnesota,709,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/14/2020,State,Minnesota,631,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/15/2020,State,Minnesota,49,Applications,,Food security,9/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/16/2020,State,Minnesota,38,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/17/2020,State,Minnesota,937,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/18/2020,State,Minnesota,721,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/19/2020,State,Minnesota,690,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/20/2020,State,Minnesota,704,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/21/2020,State,Minnesota,577,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/22/2020,State,Minnesota,39,Applications,,Food security,9/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/23/2020,State,Minnesota,60,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/24/2020,State,Minnesota,1004,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/25/2020,State,Minnesota,682,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/26/2020,State,Minnesota,643,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/27/2020,State,Minnesota,641,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/28/2020,State,Minnesota,549,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/29/2020,State,Minnesota,35,Applications,,Food security,9/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/30/2020,State,Minnesota,56,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,8/31/2020,State,Minnesota,847,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/1/2020,State,Minnesota,848,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/2/2020,State,Minnesota,644,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/3/2020,State,Minnesota,654,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/4/2020,State,Minnesota,631,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/5/2020,State,Minnesota,45,Applications,,Food security,9/30/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/6/2020,State,Minnesota,50,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/7/2020,State,Minnesota,66,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/8/2020,State,Minnesota,1055,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/9/2020,State,Minnesota,708,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/10/2020,State,Minnesota,653,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/11/2020,State,Minnesota,546,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/12/2020,State,Minnesota,30,Applications,,Food security,10/9/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/13/2020,State,Minnesota,44,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/14/2020,State,Minnesota,852,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/15/2020,State,Minnesota,659,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/16/2020,State,Minnesota,598,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/17/2020,State,Minnesota,562,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/18/2020,State,Minnesota,547,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/19/2020,State,Minnesota,31,Applications,,Food security,10/16/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/20/2020,State,Minnesota,43,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/21/2020,State,Minnesota,744,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/22/2020,State,Minnesota,613,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/23/2020,State,Minnesota,594,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/24/2020,State,Minnesota,479,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/25/2020,State,Minnesota,486,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/26/2020,State,Minnesota,36,Applications,,Food security,10/23/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/27/2020,State,Minnesota,41,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/28/2020,State,Minnesota,853,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/29/2020,State,Minnesota,654,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,9/30/2020,State,Minnesota,628,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/1/2020,State,Minnesota,903,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/2/2020,State,Minnesota,600,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/3/2020,State,Minnesota,51,Applications,,Food security,10/29/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/4/2020,State,Minnesota,51,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/5/2020,State,Minnesota,970,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/6/2020,State,Minnesota,808,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/7/2020,State,Minnesota,720,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/8/2020,State,Minnesota,731,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/9/2020,State,Minnesota,602,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/10/2020,State,Minnesota,50,Applications,1,Food security,11/6/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/11/2020,State,Minnesota,65,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/12/2020,State,Minnesota,906,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/13/2020,State,Minnesota,826,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/14/2020,State,Minnesota,727,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/15/2020,State,Minnesota,744,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/16/2020,State,Minnesota,591,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/17/2020,State,Minnesota,34,Applications,1,Food security,11/13/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/18/2020,State,Minnesota,48,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/19/2020,State,Minnesota,979,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/20/2020,State,Minnesota,741,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/21/2020,State,Minnesota,765,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/22/2020,State,Minnesota,629,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/23/2020,State,Minnesota,553,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/24/2020,State,Minnesota,50,Applications,1,Food security,11/20/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/25/2020,State,Minnesota,63,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/26/2020,State,Minnesota,956,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/27/2020,State,Minnesota,752,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/28/2020,State,Minnesota,661,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/29/2020,State,Minnesota,642,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/30/2020,State,Minnesota,613,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,10/31/2020,State,Minnesota,38,Applications,1,Food security,11/25/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/1/2020,State,Minnesota,156,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/2/2020,State,Minnesota,1034,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/3/2020,State,Minnesota,799,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/4/2020,State,Minnesota,779,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/5/2020,State,Minnesota,731,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/6/2020,State,Minnesota,623,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/7/2020,State,Minnesota,45,Applications,1,Food security,12/4/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/8/2020,State,Minnesota,51,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/9/2020,State,Minnesota,1029,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/10/2020,State,Minnesota,849,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/11/2020,State,Minnesota,169,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/12/2020,State,Minnesota,1103,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/13/2020,State,Minnesota,720,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/14/2020,State,Minnesota,56,Applications,1,Food security,12/11/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/15/2020,State,Minnesota,64,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/16/2020,State,Minnesota,1232,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/17/2020,State,Minnesota,836,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/18/2020,State,Minnesota,860,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/19/2020,State,Minnesota,893,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/20/2020,State,Minnesota,722,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/21/2020,State,Minnesota,81,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/22/2020,State,Minnesota,83,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/23/2020,State,Minnesota,1086,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/24/2020,State,Minnesota,798,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/25/2020,State,Minnesota,592,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/26/2020,State,Minnesota,25,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/27/2020,State,Minnesota,70,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/28/2020,State,Minnesota,44,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/29/2020,State,Minnesota,52,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,11/30/2020,State,Minnesota,1357,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/1/2020,State,Minnesota,1013,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/2/2020,State,Minnesota,960,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/3/2020,State,Minnesota,839,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/4/2020,State,Minnesota,778,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/5/2020,State,Minnesota,60,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/6/2020,State,Minnesota,60,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/7/2020,State,Minnesota,1186,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/8/2020,State,Minnesota,868,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/9/2020,State,Minnesota,800,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/10/2020,State,Minnesota,710,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/11/2020,State,Minnesota,596,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
-Applications,# of Applications - Total,SNAP,Total,,12/12/2020,State,Minnesota,57,Applications,1,Food security,12/18/2020,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-22,State,Minnesota,93,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-23,State,Minnesota,973,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-24,State,Minnesota,710,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-25,State,Minnesota,634,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-26,State,Minnesota,836,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-27,State,Minnesota,752,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-28,State,Minnesota,101,Applications,,Food security,2020-04-24 12:31:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-29,State,Minnesota,116,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-30,State,Minnesota,1065,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-03-31,State,Minnesota,741,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-01,State,Minnesota,936,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-02,State,Minnesota,927,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-03,State,Minnesota,927,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-04,State,Minnesota,120,Applications,,Food security,2020-05-01 12:33:44 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-05,State,Minnesota,120,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-06,State,Minnesota,1347,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-07,State,Minnesota,861,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-08,State,Minnesota,968,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-09,State,Minnesota,950,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-10,State,Minnesota,730,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-11,State,Minnesota,90,Applications,,Food security,2020-05-08 13:05:01 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-12,State,Minnesota,79,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-13,State,Minnesota,1069,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-14,State,Minnesota,821,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-15,State,Minnesota,793,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-16,State,Minnesota,684,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-17,State,Minnesota,515,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-18,State,Minnesota,62,Applications,,Food security,2020-05-15 12:48:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-19,State,Minnesota,62,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-20,State,Minnesota,775,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-21,State,Minnesota,560,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-22,State,Minnesota,608,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-23,State,Minnesota,609,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-24,State,Minnesota,487,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-25,State,Minnesota,69,Applications,,Food security,2020-05-21 15:27:56 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-26,State,Minnesota,54,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-27,State,Minnesota,714,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-28,State,Minnesota,526,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-29,State,Minnesota,499,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-04-30,State,Minnesota,491,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-01,State,Minnesota,643,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-02,State,Minnesota,81,Applications,,Food security,2020-05-29 19:14:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-03,State,Minnesota,50,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-04,State,Minnesota,848,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-05,State,Minnesota,691,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-06,State,Minnesota,693,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-07,State,Minnesota,671,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-08,State,Minnesota,533,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-09,State,Minnesota,69,Applications,,Food security,2020-06-05 17:59:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-10,State,Minnesota,63,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-11,State,Minnesota,792,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-12,State,Minnesota,659,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-13,State,Minnesota,615,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-14,State,Minnesota,579,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-15,State,Minnesota,458,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-16,State,Minnesota,65,Applications,,Food security,2020-06-12 13:28:17 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-17,State,Minnesota,51,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-18,State,Minnesota,691,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-19,State,Minnesota,500,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-20,State,Minnesota,456,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-21,State,Minnesota,498,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-22,State,Minnesota,364,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-23,State,Minnesota,32,Applications,,Food security,2020-06-19 12:05:20 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-24,State,Minnesota,35,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-25,State,Minnesota,56,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-26,State,Minnesota,675,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-27,State,Minnesota,385,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-28,State,Minnesota,342,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-29,State,Minnesota,312,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-30,State,Minnesota,52,Applications,,Food security,2020-06-26 20:20:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-05-31,State,Minnesota,47,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-01,State,Minnesota,870,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-02,State,Minnesota,627,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-03,State,Minnesota,586,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-04,State,Minnesota,584,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-05,State,Minnesota,495,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-06,State,Minnesota,60,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-07,State,Minnesota,52,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-08,State,Minnesota,948,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-09,State,Minnesota,878,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-10,State,Minnesota,776,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-11,State,Minnesota,631,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-12,State,Minnesota,519,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-13,State,Minnesota,54,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-14,State,Minnesota,43,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-15,State,Minnesota,727,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-16,State,Minnesota,575,Applications,,Food security,2020-07-01 14:37:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-17,State,Minnesota,569,Applications,,Food security,2020-07-17 18:01:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-18,State,Minnesota,545,Applications,,Food security,2020-07-17 18:01:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-19,State,Minnesota,434,Applications,,Food security,2020-07-17 18:01:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-20,State,Minnesota,35,Applications,,Food security,2020-07-17 18:01:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-21,State,Minnesota,43,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-22,State,Minnesota,620,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-23,State,Minnesota,507,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-24,State,Minnesota,489,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-25,State,Minnesota,515,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-26,State,Minnesota,460,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-27,State,Minnesota,37,Applications,,Food security,2020-07-24 18:02:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-28,State,Minnesota,48,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-29,State,Minnesota,691,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-06-30,State,Minnesota,568,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-01,State,Minnesota,694,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-02,State,Minnesota,482,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-03,State,Minnesota,69,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-04,State,Minnesota,21,Applications,,Food security,2020-07-31 17:48:53 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-05,State,Minnesota,37,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-06,State,Minnesota,765,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-07,State,Minnesota,569,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-08,State,Minnesota,526,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-09,State,Minnesota,509,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-10,State,Minnesota,457,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-11,State,Minnesota,37,Applications,,Food security,2020-08-05 13:56:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-12,State,Minnesota,29,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-13,State,Minnesota,743,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-14,State,Minnesota,612,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-15,State,Minnesota,547,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-16,State,Minnesota,551,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-17,State,Minnesota,494,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-18,State,Minnesota,29,Applications,,Food security,2020-08-14 14:02:40 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-19,State,Minnesota,40,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-20,State,Minnesota,853,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-21,State,Minnesota,658,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-22,State,Minnesota,574,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-23,State,Minnesota,522,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-24,State,Minnesota,516,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-25,State,Minnesota,39,Applications,,Food security,2020-08-21 14:07:10 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-26,State,Minnesota,45,Applications,,Food security,2020-08-27 14:54:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-27,State,Minnesota,820,Applications,,Food security,2020-08-26 17:43:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-28,State,Minnesota,537,Applications,,Food security,2020-08-26 17:43:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-29,State,Minnesota,544,Applications,,Food security,2020-08-26 17:43:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-30,State,Minnesota,550,Applications,,Food security,2020-08-26 17:43:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-07-31,State,Minnesota,532,Applications,,Food security,2020-08-26 17:43:39 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-01,State,Minnesota,140,Applications,,Food security,2020-08-27 14:54:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-02,State,Minnesota,67,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-03,State,Minnesota,1011,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-04,State,Minnesota,826,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-05,State,Minnesota,760,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-06,State,Minnesota,840,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-07,State,Minnesota,703,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-08,State,Minnesota,57,Applications,,Food security,2020-09-04 17:29:57 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-09,State,Minnesota,54,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-10,State,Minnesota,1019,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-11,State,Minnesota,734,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-12,State,Minnesota,715,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-13,State,Minnesota,709,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-14,State,Minnesota,631,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-15,State,Minnesota,49,Applications,,Food security,2020-09-11 14:42:03 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-16,State,Minnesota,38,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-17,State,Minnesota,937,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-18,State,Minnesota,721,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-19,State,Minnesota,690,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-20,State,Minnesota,704,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-21,State,Minnesota,577,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-22,State,Minnesota,39,Applications,,Food security,2020-09-18 12:56:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-23,State,Minnesota,60,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-24,State,Minnesota,1004,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-25,State,Minnesota,682,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-26,State,Minnesota,643,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-27,State,Minnesota,641,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-28,State,Minnesota,549,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-29,State,Minnesota,35,Applications,,Food security,2020-09-25 12:07:38 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-30,State,Minnesota,56,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-08-31,State,Minnesota,847,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-01,State,Minnesota,848,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-02,State,Minnesota,644,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-03,State,Minnesota,654,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-04,State,Minnesota,631,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-05,State,Minnesota,45,Applications,,Food security,2020-09-30 13:34:25 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-06,State,Minnesota,50,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-07,State,Minnesota,66,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-08,State,Minnesota,1055,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-09,State,Minnesota,708,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-10,State,Minnesota,653,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-11,State,Minnesota,546,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-12,State,Minnesota,30,Applications,,Food security,2020-10-09 14:22:42 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-13,State,Minnesota,44,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-14,State,Minnesota,852,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-15,State,Minnesota,659,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-16,State,Minnesota,598,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-17,State,Minnesota,562,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-18,State,Minnesota,547,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-19,State,Minnesota,31,Applications,,Food security,2020-10-16 14:38:58 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-20,State,Minnesota,43,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-21,State,Minnesota,744,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-22,State,Minnesota,613,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-23,State,Minnesota,594,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-24,State,Minnesota,479,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-25,State,Minnesota,486,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-26,State,Minnesota,36,Applications,,Food security,2020-10-23 13:47:28 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-27,State,Minnesota,41,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-28,State,Minnesota,853,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-29,State,Minnesota,654,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-09-30,State,Minnesota,628,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-01,State,Minnesota,903,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-02,State,Minnesota,600,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-03,State,Minnesota,51,Applications,,Food security,2020-10-29 13:44:19 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-04,State,Minnesota,51,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-05,State,Minnesota,970,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-06,State,Minnesota,808,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-07,State,Minnesota,720,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-08,State,Minnesota,731,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-09,State,Minnesota,602,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-10,State,Minnesota,50,Applications,1,Food security,2020-11-06 16:32:30 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-11,State,Minnesota,65,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-12,State,Minnesota,906,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-13,State,Minnesota,826,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-14,State,Minnesota,727,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-15,State,Minnesota,744,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-16,State,Minnesota,591,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-17,State,Minnesota,34,Applications,1,Food security,2020-11-13 15:49:24 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-18,State,Minnesota,48,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-19,State,Minnesota,979,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-20,State,Minnesota,741,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-21,State,Minnesota,765,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-22,State,Minnesota,629,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-23,State,Minnesota,553,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-24,State,Minnesota,50,Applications,1,Food security,2020-11-20 17:38:34 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-25,State,Minnesota,63,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-26,State,Minnesota,956,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-27,State,Minnesota,752,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-28,State,Minnesota,661,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-29,State,Minnesota,642,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-30,State,Minnesota,613,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-10-31,State,Minnesota,38,Applications,1,Food security,2020-11-25 15:26:18 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-01,State,Minnesota,156,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-02,State,Minnesota,1034,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-03,State,Minnesota,799,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-04,State,Minnesota,779,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-05,State,Minnesota,731,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-06,State,Minnesota,623,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-07,State,Minnesota,45,Applications,1,Food security,2020-12-04 20:07:27 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-08,State,Minnesota,51,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-09,State,Minnesota,1029,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-10,State,Minnesota,849,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-11,State,Minnesota,169,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-12,State,Minnesota,1103,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-13,State,Minnesota,720,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-14,State,Minnesota,56,Applications,1,Food security,2020-12-11 15:48:08 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-15,State,Minnesota,64,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-16,State,Minnesota,1232,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-17,State,Minnesota,836,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-18,State,Minnesota,860,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-19,State,Minnesota,893,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-20,State,Minnesota,722,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-21,State,Minnesota,81,Applications,1,Food security,2020-12-18 15:39:29 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-22,State,Minnesota,83,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-23,State,Minnesota,1087,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-24,State,Minnesota,800,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-25,State,Minnesota,592,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-26,State,Minnesota,25,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-27,State,Minnesota,70,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-28,State,Minnesota,44,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-29,State,Minnesota,52,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-11-30,State,Minnesota,1359,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-01,State,Minnesota,1014,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-02,State,Minnesota,961,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-03,State,Minnesota,842,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-04,State,Minnesota,780,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-05,State,Minnesota,61,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-06,State,Minnesota,60,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-07,State,Minnesota,1189,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-08,State,Minnesota,872,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-09,State,Minnesota,805,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-10,State,Minnesota,718,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-11,State,Minnesota,612,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-12,State,Minnesota,58,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-13,State,Minnesota,74,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-14,State,Minnesota,953,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-15,State,Minnesota,726,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-16,State,Minnesota,618,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-17,State,Minnesota,544,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
+Applications,# of Applications - Total,SNAP,Total,,2020-12-18,State,Minnesota,312,Applications,1,Food security,2020-12-21 16:18:51 UTC,,,https://mn.gov/dhs/food-emergency/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,12119,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,26970,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
