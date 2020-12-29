@@ -43,6 +43,14 @@ mdhDataTable = url %>%
   html_nodes("table") %>% 
   lmap(html_table, fill = TRUE)
 
+## Add vaccine data on 2020-12-29
+vacUrl = "https://www.health.state.mn.us/diseases/coronavirus/vaccine/stats/admin.html"
+vacData = vacUrl %>% 
+  read_html() %>% 
+  ## use CSS tools to figure out needed nodes for data 
+  html_nodes("table") %>% 
+  lmap(html_table, fill = TRUE)
+
 ## Added on 2020-10-14
 # totalCase = mdhDataTable[[1]]
 # newCase = mdhDataTable[[2]]
@@ -53,7 +61,7 @@ mdhDataTable = url %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]]) %>% 
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData[[1]], vacData[[3]]) %>% 
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
@@ -62,7 +70,9 @@ mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhData
          Total.tested = `Total approximate completed tests (cumulative)`,
          Total.tested.people = `Total approximate number of people tested (cumulative)`, 
          Total.recovered = `Patients no longer needing isolation (cumulative)`,
-         Total.deaths = `Total deaths (cumulative)`) %>% 
+         Total.deaths = `Total deaths (cumulative)`,
+         Total.vaccine = `Total COVID-19 vaccinations (cumulative)`,
+         Total.vaccine.people = `Total number of people vaccinated (cumulative)`) %>% 
   select(Date,starts_with("Total.")) %>% 
   mutate(Date = Date %>% mdy)
 
@@ -133,8 +143,8 @@ hospitalizationExtract = function(fileLoc){
   return(out)
 }
 
-hospitalizationData = hospitalizationExtract("https://mn.gov/covid19/assets/TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv") %>% 
-  mutate(DateReport = Data.Date..MM.DD.YYYY. %>% mdy(),
+hospitalizationData = hospitalizationExtract("TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv") %>% 
+  mutate(DateReport = Data.Date..MM.DD.YYYY. %>% ymd(),
          ## Add on 2020-10-26 to fix excel date entry value
          ## Revise on 2020-10-31 to fix excel date entry value
          DateReport = if_else(is.na(DateReport), as.character(Data.Date..MM.DD.YYYY.) %>% 

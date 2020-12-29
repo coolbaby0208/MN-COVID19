@@ -38,6 +38,8 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          New.ICU = if_else(!Date %in% exceptionDate,Total.ICU - lag(Total.ICU), Total.ICU - lag(Total.ICU,2)),
          New.hospitalized = if_else(!Date %in% exceptionDate,Total.Hospital - lag(Total.Hospital),Total.Hospital - lag(Total.Hospital,2)),
          New.sick = if_else(!Date %in% exceptionDate, Currently.sick - lag(Currently.sick),Currently.sick - lag(Currently.sick,2)),
+         New.vaccine = if_else(!Date %in% exceptionDate,Total.vaccine - lag(Total.vaccine),Total.vaccine - lag(Total.vaccine,2)),
+         New.vaccine.people = if_else(!Date %in% exceptionDate,Total.vaccine.people - lag(Total.vaccine.people),Total.vaccine.people - lag(Total.vaccine.people,2)),
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = Total.ICU/Total.Hospital, 
          HospitalizedPercent = Total.Hospital/Total.cases,
