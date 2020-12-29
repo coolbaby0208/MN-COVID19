@@ -39,7 +39,6 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          New.hospitalized = if_else(!Date %in% exceptionDate,Total.Hospital - lag(Total.Hospital),Total.Hospital - lag(Total.Hospital,2)),
          New.sick = if_else(!Date %in% exceptionDate, Currently.sick - lag(Currently.sick),Currently.sick - lag(Currently.sick,2)),
          New.vaccine = if_else(!Date %in% exceptionDate,Total.vaccine - lag(Total.vaccine),Total.vaccine - lag(Total.vaccine,2)),
-         New.vaccine.people = if_else(!Date %in% exceptionDate,Total.vaccine.people - lag(Total.vaccine.people),Total.vaccine.people - lag(Total.vaccine.people,2)),
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = Total.ICU/Total.Hospital, 
          HospitalizedPercent = Total.Hospital/Total.cases,
@@ -283,7 +282,7 @@ p4 = ggplot(responseData)+
             aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 1.8)+
   facet_wrap(~Detail1,scales="free", nrow = 1)+
-  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$DateUpdate)), "%b %d"))))+
+  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
   #scale_fill_brewer(palette ="Pastel1")+
   scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","In use","In warehouse","Available"))+
   theme_minimal()+
