@@ -18,6 +18,10 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
+Minor update: 2021-01--5
+====
+Add html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
+
 Minor change: 2020-12-29
 ====
 Add vaccination data (source: https://www.health.state.mn.us/diseases/coronavirus/vaccine/stats/admin.html)
