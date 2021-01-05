@@ -61,7 +61,7 @@ vacData = vacUrl %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData[[1]], vacData[[3]]) %>% 
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData[[1]]) %>% 
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
@@ -71,8 +71,7 @@ mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhData
          Total.tested.people = `Total approximate number of people tested (cumulative)`, 
          Total.recovered = `Patients no longer needing isolation (cumulative)`,
          Total.deaths = `Total deaths (cumulative)`,
-         Total.vaccine = `Total COVID-19 vaccinations (cumulative)`,
-         Total.vaccine.people = `Total number of people vaccinated (cumulative)`) %>% 
+         Total.vaccine = `Total COVID-19 vaccinations (cumulative)`) %>% 
   select(Date,starts_with("Total.")) %>% 
   mutate(Date = Date %>% mdy)
 
@@ -85,6 +84,7 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 
 ## Get testing number from report date
 ## Revised on 2020-10-14
+## Fix date issue on 2021-01-02
 testReportDate = mdhDataTable[[8]] %>% 
   rename(DateReport = `Date reported to MDH`,
          MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
@@ -95,7 +95,9 @@ testReportDate = mdhDataTable[[8]] %>%
          TotalTestsByReportDate = `Total approximate number of completed tests (cumulative)`) %>% 
   mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
   mutate(ExternalTestsByReportDate = ExternalPcr+ExternalAntigen,
-         DateReport = as.Date(DateReport , "%m/%d"))
+         DateReport = as.Date(DateReport , "%m/%d"),
+         DateReport = if_else(DateReport > today(), 
+                              DateReport-365, DateReport))
 
 ## Get positve cases for specimen collection date
 ## Updated on 2020-10-14
@@ -106,7 +108,9 @@ dataSpecimenDate = mdhDataTable[[11]] %>%
          Total.casesBySpecimenDate = `Total positive cases (cumulative)`) %>% 
   mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
   mutate(New.casesBySpecimenDate = Total.casesBySpecimenDate - lag(Total.casesBySpecimenDate),
-         DateReport = as.Date(DateReport , "%m/%d")) %>% 
+         DateReport = as.Date(DateReport , "%m/%d"),
+         DateReport = if_else(DateReport > today(), 
+                              DateReport-365, DateReport)) %>% 
   select(DateReport, ends_with("SpecimenDate"))%>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
@@ -123,7 +127,9 @@ hospitalAdmitData = hospitalData %>%
          Total.ICU = `TotalICUhospitalizations(cumulative)`,
          Total.Hospital = `Totalhospitalizations(cumulative)`) %>% 
   mutate_at(vars(-Date), ~str_remove_all(., ",") %>% as.double()) %>% 
-  mutate(DateReport = as.Date(Date , "%m/%d")) %>% 
+  mutate(DateReport = as.Date(Date , "%m/%d"),
+         DateReport = if_else(DateReport > today(), 
+                              DateReport-365, DateReport)) %>% 
   select(DateReport, IcuAdmit:Total.ICU) %>% 
   drop_na(DateReport) %>% 
   full_join(dataSpecimenDate, by = "DateReport") %>% 
@@ -251,7 +257,7 @@ if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(Da
             Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("In warehouse","Surge","Capacity","In use", "Available"))) %>%
      group_by(Detail1,Detail2) %>%
      mutate(count = n()) %>%
-     arrange(DateUpdate)
+     arrange(Date)
    return(out)
  }
  responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") 

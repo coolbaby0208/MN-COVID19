@@ -20,7 +20,7 @@ library(lubridate)
 ## edit on 2020-09-24 due to change in reporting ICU and hospitalized number 
 ## add exception date to fix errors due to holidays 
 ## Need to use the day off +1
-exceptionDate = c("2020-11-27", "2020-12-26") %>% ymd
+exceptionDate = c("2020-11-27", "2020-12-26","2021-01-02") %>% ymd
 
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   drop_na(Date) %>% 
@@ -282,7 +282,7 @@ p4 = ggplot(responseData)+
             aes(x = Detail2, y = Value, label = Value),
             position = position_stack(vjust = 0.5), size = 1.8)+
   facet_wrap(~Detail1,scales="free", nrow = 1)+
-  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(last(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(last(mdy(responseData$Date)), "%b %d"))))+
+  labs(fill = "", x = "", y = "", title = paste("Hospital surge capacity: updated on", ifelse(responseData$Date %>% is.na(), format(first(mdy(responseData$Date.and.time.of.update)), "%b %d"), format(first(mdy(responseData$Date)), "%b %d"))))+
   #scale_fill_brewer(palette ="Pastel1")+
   scale_fill_manual(values = RColorBrewer::brewer.pal(n = 6, name = "Pastel1"), breaks = c("Capacity","Surge","In use","In warehouse","Available"))+
   theme_minimal()+
