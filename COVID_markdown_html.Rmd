@@ -1,20 +1,10 @@
 ---
-# title: "MN COVID-19 update: `r format(Sys.time(), '%Y-%m-%d')`  by r/coolbaby0208"
-output: 
-  pdf_document:
-    fig_height: 5.5
-    fig_width: 6
-geometry: margin = 0.25in
-papersize: letter
-subparagraph: yes
-fontsize: 10pt
-editor_options: 
-  chunk_output_type: console
-classoption: twocolumn
+title: "MN COVID-19 Summary"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, fig.width=12, fig.height=8)
 library(knitr)
 library(kableExtra)
 library(lubridate)
@@ -31,9 +21,10 @@ dataLongAvgPlain = dataLongAvg %>%
 
 dataLongAvgPeople = dataLongAvg %>% 
    filter(Date == last(Date), Variable == "PositivePercentPeoplePlot")
+
 ```
 
-## MN COVID-19 Summary (`r format(Sys.time(), '%Y-%m-%d')`)
+## `r format(Sys.time(), '%Y-%m-%d')`
 * Testing
   + Total number of completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
   + Total number of people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
@@ -47,7 +38,7 @@ dataLongAvgPeople = dataLongAvg %>%
   + Total accumulated hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
     - Total accumulated ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
   + Total accumulated vaccinated: **`r (dataWidePlain$Total.vaccine) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.vaccine <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.vaccine))) %>% formatC(format="d", big.mark=",")`)
-  
+
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p1
@@ -58,17 +49,17 @@ p1
 p2
 ```
    
-```{r plot3, echo=FALSE, warning = FALSE, message=FALSE,fig.width = 6, fig.height = 4.8}
+```{r plot3, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p3
 ```
 
-```{r plot5, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 4.6}
+```{r plot5, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p5
 ```
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE, fig.width = 6, fig.height = 3.4}
+```{r plot4, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p4
 ```
@@ -82,7 +73,7 @@ p4
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
    kable(digits = 3,booktabs = T, caption = "Cumulative numbers for last 5 days",align = "c") %>%
-   kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 9) %>% 
+   kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 14) %>% 
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
 
@@ -96,7 +87,8 @@ p4
    select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 
    mutate_at(vars(Hospitalized:`New people tested`), list(~formatC(., format="d", big.mark=","))) %>%
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 7 days", align = "c",linesep = "") %>%
-   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 7) %>%
+   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 14) %>%
    footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 
    row_spec(7, color = "white", background = "#36688D")
 ```
+
