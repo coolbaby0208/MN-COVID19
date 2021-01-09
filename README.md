@@ -18,7 +18,7 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
-Minor update: 2021-01--5
+Minor update: 2021-01-05
 ====
 Add html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
 
