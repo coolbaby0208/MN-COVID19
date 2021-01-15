@@ -53,9 +53,11 @@ mdhDataTable = url %>%
 #   lmap(html_table, fill = TRUE)
 
 ## Vaccine csv data on 2021-01-14
-vacUrl = "https://mn.gov/covid19/assets/Doses%20Administered_tcm1148-462846.csv"
-vacData = read.csv(vacUrl, header = F, col.names = c("X1","X2")) %>%
-  filter(X1 == "Total vaccine doses administered")
+vacUrl = "Doses Administered_tcm1148-462846.csv"
+vacData = read.csv(vacUrl, header = T) %>%
+  filter(dimension == "Total vaccine doses administered") %>% 
+  rename(X1 = dimension, X2 = Count) %>% 
+  select(X1,X2)
 
 ## Added on 2020-10-14
 # totalCase = mdhDataTable[[1]]
