@@ -52,6 +52,11 @@ mdhDataTable = url %>%
 #   html_nodes("table") %>% 
 #   lmap(html_table, fill = TRUE)
 
+## Vaccine csv data on 2021-01-14
+vacUrl = "https://mn.gov/covid19/assets/Doses%20Administered_tcm1148-462846.csv"
+vacData = read.csv(vacUrl, header = F, col.names = c("X1","X2")) %>%
+  filter(X1 == "Total vaccine doses administered")
+
 ## Added on 2020-10-14
 # totalCase = mdhDataTable[[1]]
 # newCase = mdhDataTable[[2]]
@@ -62,7 +67,7 @@ mdhDataTable = url %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]]) %>% 
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData) %>% 
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
@@ -71,7 +76,8 @@ mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhData
          Total.tested = `Total approximate completed tests (cumulative)`,
          Total.tested.people = `Total approximate number of people tested (cumulative)`, 
          Total.recovered = `Patients no longer needing isolation (cumulative)`,
-         Total.deaths = `Total deaths (cumulative)`) %>% 
+         Total.deaths = `Total deaths (cumulative)`,
+         Total.vaccine = `Total vaccine doses administered`) %>% 
   select(Date,starts_with("Total.")) %>% 
   mutate(Date = Date %>% mdy)
 
