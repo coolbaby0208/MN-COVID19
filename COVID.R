@@ -343,7 +343,7 @@ p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
                                                                              name = "New", breaks = c(10000,20000,30000),labels = scales::label_number_si()))+
-  labs(y = "Total", fill = "", x = "", title = "Vaccination", color = "")+
+  labs(y = "Total", fill = "", x = "", title = "Vaccine doses administered", color = "")+
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[2],.5))+
   theme_minimal()+
   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
