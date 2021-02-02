@@ -24,7 +24,7 @@ Add html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208
 
 Minor change: 2020-12-29
 ====
-Add vaccination data (source: https://www.health.state.mn.us/diseases/coronavirus/vaccine/stats/admin.html)
+Add vaccination data (source: https://mn.gov/covid19/vaccine/data/index.jsp)
 
 
 Major change: 2020-10-14
