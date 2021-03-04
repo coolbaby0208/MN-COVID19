@@ -79,13 +79,13 @@ dataLongAvg = dataLongDailyTests %>%
 
 #### Plots ####
 ## set up vline dates and vline labels for important events
-vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-15", "2020-10-18", "2020-10-31", "2020-11-13", "2020-11-20", "2020-12-19", "2021-01-11")),
-                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "MEA\nweek", "Cold\nstreak","Halloween", "Limited\nsocial", "Dial\nback", "Safe\nopen","Safe\nopen"))
+vlineDf = tibble(Date = as.Date(c("2020-03-17","2020-03-18","2020-03-28","2020-05-04","2020-05-18", "2020-05-26","2020-05-27", "2020-06-01", "2020-06-10", "2020-07-04", "2020-07-25", "2020-08-16", "2020-09-07", "2020-09-30", "2020-10-15", "2020-10-18", "2020-10-31", "2020-11-13", "2020-11-20", "2020-12-13","2020-12-19", "2021-01-11")),
+                Label = c("Bar\nclose","School\nclose","Stay\nHome", "Curbside\npickup", "Stay\nSafe", "Unrest","25%\nworship", "Outdoor\ndining", "Indoor\ndining", "Jul4th", "Mask\nmandate", "Sturgis\nrally", "Labor\nday", "Duluth\nrally", "MEA\nweek", "Cold\nstreak","Halloween", "Limited\nsocial", "Dial\nback", "Start\nvaccine","Safe\nopen","Safe\nopen"))
 
-p1LabelLoc = c(0, 800, 5000, 1000, 5000, 4000, 3000, 2000, 1000, 850, 5000, 1400, 800, 800, 1500, 2500, 3000, 3500, 5000, 5000, 5000)+3000
-p2LabelLoc = c(9, 13, 30, 26, 30, 24, 21, 18, 12, 13, 30, 20, 22, 18, 20, 23, 26, 30, 33, 33, 33)
-p3LabelLoc = c(900, 1300, 3100, 1500, 3100, 2900, 2200, 2600, 1600, 1000, 3100, 1400, 1550, 1700, 1900, 2600, 2800, 3100, 3500, 3500, 3500)
-p5LabelLoc = c(38000, 5000, 38000, 30000, 25000, 20000, 12000, 1500, 38000, 15000, 5000, 10000, 18000, 24000, 28000, 32000, 38000, 38000, 38000)+8000  
+p1LabelLoc = c(0, 800, 5000, 1000, 5000, 4000, 3000, 2000, 1000, 850, 5000, 1400, 800, 800, 1500, 2500, 3000, 3500, 5000, 6000, 5000, 5000)+3000
+p2LabelLoc = c(9, 13, 30, 26, 30, 24, 21, 18, 12, 13, 30, 20, 22, 18, 20, 23, 26, 30, 33, 35, 28, 25)
+p3LabelLoc = c(900, 1300, 3100, 1500, 3100, 2900, 2200, 2600, 1600, 1000, 3100, 1400, 1550, 1700, 1900, 2600, 2800, 3100, 3500, 6500, 3500, 3500)
+p5LabelLoc = c(38000, 5000, 38000, 30000, 25000, 20000, 12000, 1500, 38000, 15000, 5000, 10000, 18000, 24000, 28000, 32000, 38000, 42000, 35000, 35000)+8000  
   
 # for p1 sec_axis
 secAxisConstant = 20
@@ -336,19 +336,26 @@ plot(p5)
 
 ## Add vaccination plot 
 # 2021-01-15
+# revised on 2021-03-04
+p6Constant = dataWide %>% filter(Date == last(Date)) %>% pull(Total.vaccine)/dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine), New.vaccine == max(New.vaccine, na.rm = T)) %>% 
+  pull(New.vaccine)
+
 p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine)))+
   aes(x = Date)+
   geom_path(aes(y = Total.vaccine, color = "Total"), size = 1.5)+
-  geom_col(aes(y = New.vaccine*p1Constant, fill = "New"))+
+  geom_col(aes(y = New.vaccine*p6Constant, fill = "New"))+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
-  scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
-                                                                             name = "New",labels = scales::label_number_si()))+
+  # scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
+  #                                                                            name = "New",labels = scales::label_number_si()))+
   labs(y = "Total", fill = "", x = "", title = "Vaccine doses administered", color = "")+
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[2],.5))+
+  # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
+  #                    sec.axis = sec_axis(~., name = "New"))+
+  scale_y_continuous(labels = scales::label_number_si(), 
+                     sec.axis = sec_axis(trans = ~./p6Constant, name = "New",labels = scales::label_number_si()))+
   theme_minimal()+
   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
         legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 40, hjust = 0.75), text=element_text(size=14),legend.text = element_text(size=10))
-plot(p6)
 
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
