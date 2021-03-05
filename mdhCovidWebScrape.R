@@ -30,7 +30,7 @@ DateUpdated = url %>%
   filter(str_detect(value, "Updated")) %>% 
   ## revised on 11-24-2020 due to website change
   mutate(value = ifelse(str_detect(value, "Updated"), 
-                        paste("Date:", value %>% str_match("Updated (.*?).\r\n\tUpdated") %>% mdy %>% format("%m/%d/%y")), value)) %>% 
+                        paste("Date:", value %>% str_match("Updated (.*?).\r\nUpdated") %>% mdy %>% format("%m/%d/%y")), value)) %>% 
   separate(value, c("Variable", "Value"), sep = ":") %>%
   mutate(Date = Value %>% str_trim("left")) %>%
   filter(Date!="NA") %>% 
@@ -109,6 +109,7 @@ testReportDate = mdhDataTable[[8]] %>%
 
 ## Get positve cases for specimen collection date
 ## Updated on 2020-10-14
+## Edit on 2021-03-05 DateReport is now with "year" added
 dataSpecimenDate = mdhDataTable[[11]] %>% 
   rename(DateReport = `Specimen collection date`,
          ProbableCase = starts_with("Probable"),
@@ -116,9 +117,7 @@ dataSpecimenDate = mdhDataTable[[11]] %>%
          Total.casesBySpecimenDate = `Total positive cases (cumulative)`) %>% 
   mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
   mutate(New.casesBySpecimenDate = Total.casesBySpecimenDate - lag(Total.casesBySpecimenDate),
-         DateReport = as.Date(DateReport , "%m/%d"),
-         DateReport = if_else(DateReport > today(), 
-                              DateReport-365, DateReport)) %>% 
+         DateReport = as.Date(DateReport , "%m/%d/%y")) %>% 
   select(DateReport, ends_with("SpecimenDate"))%>% 
   ## combine with testing data
   full_join(testReportDate, by = "DateReport") %>% 
