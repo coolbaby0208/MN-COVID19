@@ -46,7 +46,7 @@ dataLongAvgPeople = dataLongAvg %>%
 * Hospital admission/Vaccine  
   + Total accumulated hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
     - Total accumulated ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
-  + Total vaccine doses administered: **`r (dataWidePlain$Total.vaccine) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.vaccine <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.vaccine))) %>% formatC(format="d", big.mark=",")`)
+  + Vaccine doses administered: **`r (dataWidePlain$Total.vaccine) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.vaccine <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.vaccine))) %>% formatC(format="d", big.mark=",")`)
 
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
@@ -82,8 +82,8 @@ p6
 ```{r table1, echo=FALSE, warning= FALSE, include = FALSE}
 ## table 1
  dataWide %>% 
-   mutate(Date = format(Date, format = "%b %d"))%>% 
    filter(Date %in% tail(Date, 5)) %>%
+   mutate(Date = format(Date, format = "%b %d"))%>% 
    select(-contains("By"),-contains("Plot")) %>% 
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
@@ -95,8 +95,8 @@ p6
 ```{r table2, echo=FALSE, warning= FALSE}
 ## table 2
  dataWide %>%
-   mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 5)) %>%
+   mutate(Date = format(Date, format = "%b %d")) %>% 
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
    rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
    select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 

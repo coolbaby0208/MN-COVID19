@@ -73,8 +73,8 @@ p6
 ```{r table1, echo=FALSE, warning= FALSE, include = FALSE}
 ## table 1
  dataWide %>% 
-   mutate(Date = format(Date, format = "%b %d"))%>% 
    filter(Date %in% tail(Date, 5)) %>%
+   mutate(Date = format(Date, format = "%b %d"))%>% 
    select(-contains("By"),-contains("Plot")) %>% 
    select(Date, starts_with("Total")) %>%
    rename_at(vars(starts_with("Total")), ~str_to_title(str_remove_all(.,"Total."))) %>%
@@ -86,8 +86,8 @@ p6
 ```{r table2, echo=FALSE, warning= FALSE}
 ## table 2
  dataWide %>%
-   mutate(Date = format(Date, format = "%b %d")) %>% 
    filter(Date %in% tail(Date, 7)) %>%
+   mutate(Date = format(Date, format = "%b %d")) %>% 
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
    rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
    select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 

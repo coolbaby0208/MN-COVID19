@@ -103,9 +103,7 @@ testReportDate = mdhDataTable[[8]] %>%
          TotalTestsByReportDate = `Total approximate number of completed tests (cumulative)`) %>% 
   mutate_at(vars(-DateReport), .%>% as.character() %>% str_remove_all("[[:punct:]]") %>% as.numeric) %>% 
   mutate(ExternalTestsByReportDate = ExternalPcr+ExternalAntigen,
-         DateReport = as.Date(DateReport , "%m/%d"),
-         DateReport = if_else(DateReport > today(), 
-                              DateReport-365, DateReport))
+         DateReport = as.Date(DateReport , "%m/%d/%y"))
 
 ## Get positve cases for specimen collection date
 ## Updated on 2020-10-14
@@ -126,6 +124,7 @@ dataSpecimenDate = mdhDataTable[[11]] %>%
   drop_na(DateReport)
 
 ## Get hospital admitted data: completely changed on Sep24
+## Edit on 2021-03-06 DateReport is now with "year" added
 hospitalData = mdhDataTable[[18]] 
 names(hospitalData)<-str_replace_all(names(hospitalData), c(" " = "" , "," = "" ))
 hospitalAdmitData = hospitalData %>% 
@@ -134,9 +133,7 @@ hospitalAdmitData = hospitalData %>%
          Total.ICU = `TotalICUhospitalizations(cumulative)`,
          Total.Hospital = `Totalhospitalizations(cumulative)`) %>% 
   mutate_at(vars(-Date), ~str_remove_all(., ",") %>% as.double()) %>% 
-  mutate(DateReport = as.Date(Date , "%m/%d"),
-         DateReport = if_else(DateReport > today(), 
-                              DateReport-365, DateReport)) %>% 
+  mutate(DateReport = as.Date(Date , "%m/%d/%y")) %>% 
   select(DateReport, IcuAdmit:Total.ICU) %>% 
   drop_na(DateReport) %>% 
   full_join(dataSpecimenDate, by = "DateReport") %>% 

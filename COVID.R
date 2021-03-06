@@ -339,6 +339,8 @@ plot(p5)
 # revised on 2021-03-04
 p6Constant = dataWide %>% filter(Date == last(Date)) %>% pull(Total.vaccine)/dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine), New.vaccine == max(New.vaccine, na.rm = T)) %>% 
   pull(New.vaccine)
+# round to nearest 5 for better t axis break match
+p6Constant = 5*round(p6Constant/5)
 
 p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine)))+
   aes(x = Date)+
@@ -352,11 +354,12 @@ p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine
   # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
   #                    sec.axis = sec_axis(~., name = "New"))+
   scale_y_continuous(labels = scales::label_number_si(), 
-                     sec.axis = sec_axis(trans = ~./p6Constant, name = "New",labels = scales::label_number_si()))+
+                     sec.axis = sec_axis(trans = ~./p6Constant, name = "New", labels = scales::label_number_si()))+
   theme_minimal()+
   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
         legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 40, hjust = 0.75), text=element_text(size=14),legend.text = element_text(size=10))
 
+plot(p6)
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
 #   geom_point(aes(y = Total.cases))+
