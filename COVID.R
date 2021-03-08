@@ -353,7 +353,7 @@ p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine
   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[2],.5))+
   # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
   #                    sec.axis = sec_axis(~., name = "New"))+
-  scale_y_continuous(labels = scales::label_number_si(), 
+  scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1), 
                      sec.axis = sec_axis(trans = ~./p6Constant, name = "New", labels = scales::label_number_si()))+
   theme_minimal()+
   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
