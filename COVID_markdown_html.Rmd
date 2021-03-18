@@ -38,6 +38,8 @@ dataLongAvgPeople = dataLongAvg %>%
   + Total accumulated hospitalized: **`r (dataWidePlain$Total.Hospital) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.hospitalized <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.hospitalized))) %>% formatC(format="d", big.mark=",")`)
     - Total accumulated ICU: **`r (dataWidePlain$Total.ICU) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.ICU <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.ICU)))`)
   + Total vaccine doses administered: **`r (dataWidePlain$Total.vaccine) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(dataWidePlain$New.vaccine <0, sprintf("down"), sprintf("up")))` `r (abs((dataWidePlain$New.vaccine))) %>% formatC(format="d", big.mark=",")`)
+  + Total people with completed vaccination: **`r (dataWidePlain$Total.people.vaccine.completed) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(is.null(dataWidePlain$New.people.vaccine.completed), sprintf("NA"), sprintf("up")))` `r ((dataWidePlain$New.people.vaccine.completed)) %>% formatC(format="d", big.mark=",")`)
+  + Total people with one dose vaccination: **`r (dataWidePlain$Total.people.vaccine.onedose) %>% formatC(format="d", big.mark=",")`** (`r (ifelse(is.null(dataWidePlain$New.people.vaccine.onedose), sprintf("NA"), sprintf("up")))` `r ((dataWidePlain$New.people.vaccine.onedose)) %>% formatC(format="d", big.mark=",")`)
 
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
@@ -67,6 +69,11 @@ p4
 ```{r plot6, echo=FALSE, message=FALSE, warning=FALSE}
 ## vaccination data
 p6
+```
+
+```{r plot7, echo=FALSE, message=FALSE, warning=FALSE}
+## vaccination data
+p7
 ```
 
 

@@ -59,6 +59,33 @@ vacData = read.csv(vacUrl, header = T) %>%
   rename(X1 = dimension, X2 = Count) %>% 
   select(X1,X2)
 
+## Add vaccince data by people
+## added on 2021-03-18
+vacPplUrl = "People Vaccinated, By Age_tcm1148-467653.csv"
+vacPplData = read.csv(vacPplUrl, header = T) %>%
+  rename(Age = Age.group,
+         OneDose = People.with.at.least.one.vaccine.dose,
+         Completed = People.with.completed.vaccine.series,
+         DateReport = reportedDate) %>%
+  pivot_longer(cols = c(OneDose,Completed), names_to = "Variable", values_to = "People") %>% 
+  mutate(DateReport = mdy(DateReport),
+         Age = fct_recode(Age, "Missing" = "Unknown/missing")) 
+## Used for plotting by age group
+vacPplDataSum = vacPplData %>% 
+  group_by(DateReport,webDate, Variable) %>% 
+  summarise(People = sum(People)) %>% 
+  mutate(Age = "Total") %>% 
+  full_join(vacPplData) %>% 
+  mutate(Variable = fct_relevel(Variable, "Completed", after = 1))
+## For merging into the main "MNCovidData.csv" data
+vacPpl = vacPplDataSum %>% 
+  filter(Age == "Total") %>% 
+  ungroup() %>% 
+  select(Variable,People) %>% 
+  rename(X1 = Variable, X2 = People) %>% 
+  mutate(X1 = recode_factor(X1, "Completed"= "Total.people.vaccine.completed",
+                            "OneDose"="Total.people.vaccine.onedose"))
+
 ## Added on 2020-10-14
 # totalCase = mdhDataTable[[1]]
 # newCase = mdhDataTable[[2]]
@@ -69,7 +96,7 @@ vacData = read.csv(vacUrl, header = T) %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData) %>% 
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl) %>% 
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 

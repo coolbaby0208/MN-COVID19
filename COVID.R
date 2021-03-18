@@ -40,6 +40,8 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          New.hospitalized = if_else(!Date %in% exceptionDate,Total.Hospital - lag(Total.Hospital),Total.Hospital - lag(Total.Hospital,2)),
          New.sick = if_else(!Date %in% exceptionDate, Currently.sick - lag(Currently.sick),Currently.sick - lag(Currently.sick,2)),
          New.vaccine = if_else(!Date %in% exceptionDate,Total.vaccine - lag(Total.vaccine),Total.vaccine - lag(Total.vaccine,2)),
+         New.vaccine.people.completed = if_else(!Date %in% exceptionDate, Total.people.vaccine.completed - lag(Total.people.vaccine.completed), Total.people.vaccine.completed - lag(Total.people.vaccine.completed,2)),
+         New.vaccine.people.onedose = if_else(!Date %in% exceptionDate,Total.people.vaccine.onedose - lag(Total.people.vaccine.onedose),Total.people.vaccine.onedose - lag(Total.people.vaccine.onedose,2)),
          PositivePercent = New.cases/Daily.tests, 
          ICUPercent = Total.ICU/Total.Hospital, 
          HospitalizedPercent = Total.Hospital/Total.cases,
@@ -360,6 +362,19 @@ p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine
         legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 40, hjust = 0.75), text=element_text(size=14),legend.text = element_text(size=10))
 
 plot(p6)
+
+
+p7 = ggplot(vacPplDataSum %>% filter(Age!="Missing"))+
+  aes(x = Age, y = People, fill = Variable, label = People)+
+  geom_bar(position = "dodge", stat = "identity", width = .65, size = .3)+
+  labs(fill = "", 
+       y = "People", 
+       title = paste("People vaccinated: reported by", format(first((vacPplData$DateReport)), "%b %d")))+
+  scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1))+
+  #geom_text(data = vacPplDataSum %>% filter(Age!="Missing", Age == "Total"), aes(label = People, group = Variable), position = position_dodge(width =.65), vjust = -0.5, size = 2.8, fontface = "bold", color = "#36688D", show.legend = F)+
+  scale_fill_manual(values = RColorBrewer::brewer.pal(n = 3, name = "Pastel1"), breaks = c("OneDose","Completed"))+
+  theme_minimal()
+
 #### Other exploratory plots: not print####
 # ggplot(dataWide,aes(x = Date))+
 #   geom_point(aes(y = Total.cases))+
