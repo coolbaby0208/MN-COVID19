@@ -18,7 +18,11 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
-Minor update: 2021-01-05
+Minor change: 2021-03-18
+====
+Remove surge capacity in the pdf version due to limited space and add vaccination data by people in both pdf and html.
+
+Minor change: 2021-01-05
 ====
 Add html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
 
