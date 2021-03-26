@@ -1,6 +1,6 @@
-dimension,Count,reportedDate,webDate
-Total vaccine doses administered,2305796,3/22/21,3/24/21
-Total Pfizer doses administered,1180975,3/22/21,3/24/21
-Total Moderna doses administered,1072616,3/22/21,3/24/21
-Total Johnson & Johnson doses administered,52201,3/22/21,3/24/21
-Total Unknown/missing vaccine type,4,3/22/21,3/24/21
+"dimension","Count","reportedDate","webDate"
+"Total vaccine doses administered",2363495,"3/24/2021",2021-03-26
+"Total Pfizer doses administered",1212653,"3/24/2021",2021-03-26
+"Total Moderna doses administered",1096516,"3/24/2021",2021-03-26
+"Total Johnson & Johnson doses administered",54322,"3/24/2021",2021-03-26
+"Total Unknown/missing vaccine type",4,"3/24/2021",2021-03-26
