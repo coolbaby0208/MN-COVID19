@@ -29,123 +29,123 @@ Metric,Detail1,Detail2,Detail3,Detail4,Data Date (MM/DD/YYYY),GeographicLevel,Ge
 # of Gloves (non-latex),Obtained,Total,,,3/26/2021,State,Minnesota,"57,977,199",Gloves (non-latex),,Critical Care Supplies,3/26/2021,,58M,https://www.mn.gov/ppe
 # of Gowns,Obtained,Total,,,3/26/2021,State,Minnesota,"7,109,147",Gowns*,,Critical Care Supplies,3/26/2021,,7.1M,https://www.mn.gov/ppe
 # of N95 respirators,Obtained,Total,,,3/26/2021,State,Minnesota,"3,202,411",N95 respirators,,Critical Care Supplies,3/26/2021,,3.2M,https://www.mn.gov/ppe
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,3/30/2021,State,Minnesota,956,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Central,1,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Metro,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,3/30/2021,State,Minnesota,1,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Metro,898,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,3/30/2021,State,Minnesota,1505,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Central,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,South Central,1,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,3/30/2021,State,Minnesota,1,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Central,105,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Metro,124,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Northeast,94,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Northwest,103,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,South Central,96,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Southeast,107,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,Southwest,104,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,Regional Health Care,West Central,101,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,3/30/2021,State,Minnesota,834,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Central,23,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Metro,33,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Northeast,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Northwest,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,South Central,9,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Southeast,22,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,Southwest,7,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,Regional Health Care,West Central,13,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,3/30/2021,State,Minnesota,135,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Central,108,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Metro,706,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Northeast,75,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Northwest,36,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,South Central,33,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Southeast,95,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,3/30/2021,State,Minnesota,1091,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,State,Minnesota,7413,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Metro,3687,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Southeast,1105,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,Southwest,362,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,3/30/2021,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,State,Minnesota,1212,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Metro,688,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,3/30/2021,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,State,Minnesota,1548,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Metro,1043,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,3/30/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,State,Minnesota,6579,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Central,664,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Metro,3563,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Northeast,595,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Northwest,139,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,South Central,273,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Southeast,998,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,Southwest,258,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,3/30/2021,Regional Health Care,West Central,89,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,State,Minnesota,1077,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Central,84,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Metro,655,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Northeast,88,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Northwest,15,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,South Central,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Southeast,200,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,3/30/2021,Regional Health Care,West Central,7,Beds,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,State,Minnesota,457,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Central,35,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Metro,337,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Northeast,9,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Northwest,1,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,South Central,14,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Southeast,51,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,3/30/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,3/30/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,3/31/2021,State,Minnesota,956,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Central,1,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Metro,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,3/31/2021,State,Minnesota,1,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Metro,898,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,3/31/2021,State,Minnesota,1505,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Central,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,South Central,1,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,3/31/2021,State,Minnesota,1,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Central,108,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Metro,98,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Northeast,93,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Northwest,97,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,South Central,103,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Southeast,82,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,Southwest,115,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,Regional Health Care,West Central,107,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,3/31/2021,State,Minnesota,803,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Central,26,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Metro,29,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Northeast,10,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Northwest,10,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,South Central,9,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Southeast,20,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,Southwest,9,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,Regional Health Care,West Central,13,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,3/31/2021,State,Minnesota,126,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Central,112,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Metro,711,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Northeast,75,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Northwest,36,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,South Central,35,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Southeast,92,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,3/31/2021,State,Minnesota,1099,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,State,Minnesota,7413,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Metro,3687,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Southeast,1105,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,Southwest,362,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,3/31/2021,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,State,Minnesota,1212,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Metro,688,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,3/31/2021,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,State,Minnesota,1548,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Metro,1043,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,3/31/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,State,Minnesota,6610,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Central,661,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Metro,3589,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Northeast,596,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Northwest,145,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,South Central,266,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Southeast,1023,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,Southwest,247,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,3/31/2021,Regional Health Care,West Central,83,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,State,Minnesota,1086,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Central,81,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Metro,659,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Northeast,92,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Northwest,19,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,South Central,14,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Southeast,202,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,Southwest,12,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,3/31/2021,Regional Health Care,West Central,7,Beds,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,State,Minnesota,449,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Central,31,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Metro,332,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Northeast,9,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Northwest,1,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,South Central,12,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Southeast,54,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,3/31/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,3/31/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,12118,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,26968,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
@@ -949,34 +949,34 @@ Applications,# of Applications - Total,SNAP,Total,,2021-02-24,State,Minnesota,49
 Applications,# of Applications - Total,SNAP,Total,,2021-02-25,State,Minnesota,513,Applications,TRUE,Food security,3/26/2021,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2021-02-26,State,Minnesota,448,Applications,TRUE,Food security,3/26/2021,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2021-02-27,State,Minnesota,31,Applications,TRUE,Food security,3/26/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-02-28,State,Minnesota,48,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-01,State,Minnesota,977,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-02,State,Minnesota,661,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-03,State,Minnesota,570,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-04,State,Minnesota,531,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-05,State,Minnesota,482,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-06,State,Minnesota,31,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-07,State,Minnesota,28,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-08,State,Minnesota,788,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-09,State,Minnesota,585,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-10,State,Minnesota,609,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-11,State,Minnesota,632,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-12,State,Minnesota,490,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-13,State,Minnesota,25,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-14,State,Minnesota,30,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-15,State,Minnesota,686,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-16,State,Minnesota,536,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-17,State,Minnesota,502,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-18,State,Minnesota,485,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-19,State,Minnesota,441,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-20,State,Minnesota,24,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-21,State,Minnesota,35,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-22,State,Minnesota,537,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-23,State,Minnesota,398,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-24,State,Minnesota,369,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-25,State,Minnesota,321,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-26,State,Minnesota,292,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
-Applications,# of Applications - Total,SNAP,Total,,2021-03-27,State,Minnesota,23,Applications,TRUE,Food security,3/30/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-02-28,State,Minnesota,48,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-01,State,Minnesota,979,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-02,State,Minnesota,659,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-03,State,Minnesota,570,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-04,State,Minnesota,531,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-05,State,Minnesota,481,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-06,State,Minnesota,31,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-07,State,Minnesota,28,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-08,State,Minnesota,788,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-09,State,Minnesota,585,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-10,State,Minnesota,610,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-11,State,Minnesota,632,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-12,State,Minnesota,490,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-13,State,Minnesota,25,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-14,State,Minnesota,30,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-15,State,Minnesota,686,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-16,State,Minnesota,537,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-17,State,Minnesota,504,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-18,State,Minnesota,490,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-19,State,Minnesota,447,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-20,State,Minnesota,24,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-21,State,Minnesota,35,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-22,State,Minnesota,542,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-23,State,Minnesota,401,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-24,State,Minnesota,374,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-25,State,Minnesota,328,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-26,State,Minnesota,313,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
+Applications,# of Applications - Total,SNAP,Total,,2021-03-27,State,Minnesota,25,Applications,TRUE,Food security,3/31/2021,,,https://mn.gov/dhs/food-emergency/ 
 New total capacity,,,,,3/16/2020,State,Minnesota,701,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,3/17/2020,State,Minnesota,1245,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
 New total capacity,,,,,3/18/2020,State,Minnesota,601,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
