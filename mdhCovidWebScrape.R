@@ -98,14 +98,7 @@ vacPpl = vacPplDataSum %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-## Changed on 2021-04-26
-# totalTests = mdhDataTable[[5]] 
-# totalPeopleTested = mdhDataTable[[7]]
-# totalRecovered = mdhDataTable[[11]]
-# totalDeath = mdhDataTable[[12]]
-# totalHospitalized = mdhDataTable[[15]]
-
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl) %>% 
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl) %>% 
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
@@ -120,19 +113,16 @@ mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhData
   mutate(Date = Date %>% mdy)
 
 ## Output data to csv file
-read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
-  mutate(Date = Date %>% ymd) %>%
-  full_join(mdhData) %>%
-  distinct(Date, .keep_all = T) %>%
-  write.csv("MNCovidData.csv", row.names = F)
+read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
+  mutate(Date = Date %>% ymd) %>% 
+  full_join(mdhData) %>% 
+  distinct(Date, .keep_all = T) %>% 
+  write.csv("MNCovidData.csv", row.names = F) 
 
 ## Get testing number from report date
 ## Revised on 2020-10-14
 ## Fix date issue on 2021-01-02
-#testReportDate = mdhDataTable[[8]] 
-
-## changed on 2021-04-26
-testReportDate = mdhDataTable[[6]] %>% 
+testReportDate = mdhDataTable[[8]] %>% 
   rename(DateReport = `Date reported to MDH`,
          MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
          ExternalPcr = `Completed PCR tests reported from external laboratories`,
@@ -147,10 +137,7 @@ testReportDate = mdhDataTable[[6]] %>%
 ## Get positve cases for specimen collection date
 ## Updated on 2020-10-14
 ## Edit on 2021-03-05 DateReport is now with "year" added
-# dataSpecimenDate = mdhDataTable[[11]]
-
-## Change on 2021-04-26
-dataSpecimenDate = mdhDataTable[[9]] %>% 
+dataSpecimenDate = mdhDataTable[[11]] %>% 
   rename(DateReport = `Specimen collection date`,
          ProbableCase = starts_with("Probable"),
          ConfirmedCase = starts_with("Confirmed cases"),
@@ -167,10 +154,7 @@ dataSpecimenDate = mdhDataTable[[9]] %>%
 
 ## Get hospital admitted data: completely changed on Sep24
 ## Edit on 2021-03-06 DateReport is now with "year" added
-# hospitalData = mdhDataTable[[18]] 
-
-## Change on 2021-04-26
-hospitalData = mdhDataTable[[16]] 
+hospitalData = mdhDataTable[[18]] 
 names(hospitalData)<-str_replace_all(names(hospitalData), c(" " = "" , "," = "" ))
 hospitalAdmitData = hospitalData %>% 
   rename(IcuAdmit = `CasesadmittedtoanICU`,
@@ -263,7 +247,7 @@ if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(Da
 # }
 
 ## default url for response prep
- responseUrl = "https://mn.gov/covid19/data/response-prep/response-capacity.jsp" 
+responseUrl = "https://mn.gov/covid19/data/response-prep/response-capacity.jsp" 
 ## alternative direct link to csv file
 ## "https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv"
 ## extract url for csv file
@@ -274,41 +258,39 @@ if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(Da
 
 # https://mn.gov/covid19/assets/HospitalCapacity_HistoricCSV_tcm1148-449110.csv 
 # https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv 
- 
+
 ## Revised on 2020-06-17  
 ## Get response prep data
 ## Use tryCatch if response csv file is not available (access denied)
 ## If error, the function will look for a local csv file: "StateofMNResponseDashboardCSV_tcm1148-427143.csv"
- responseDataExtract = function(fileLoc){
-   out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
-                    ## remove columns with All NAs
-                    select_if(~!all(is.na(.))) %>% 
-                    mutate(Value = Value_NUMBER), 
-                  error = function(e) read.csv("StateofMNResponseDashboardCSV_tcm1148-427143.csv", na.strings = c("NA","")) %>% 
-                    ## remove columns with All NAs
-                    select_if(~!all(is.na(.))))
-   out = out %>% 
-     ## remove punctuation
-     mutate(Value = Value_NUMBER %>% as.character() %>% str_replace_all("[[:punct:]]", "") %>% as.integer()) %>% 
-     # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
-     #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
-     ## edit on 2020-06-16 due to change back to original dat format
-     ## try to accomodate both formats
-     mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
-                          Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                          Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
-            DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
-                                Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
-                                Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
-     filter(COVID.Team %in% c("Hospital Surge Capacity"), GeographicLevel %in% c("State"), Value>0) %>% 
-     mutate(Detail1 = ifelse(str_detect(Detail1,"Beds"), paste(Detail1,"surge"), as.character(Detail1)),
-            Detail2 = str_to_sentence(Detail2),
-            Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("In warehouse","Surge","Capacity","In use", "Available"))) %>%
-     group_by(Detail1,Detail2) %>%
-     mutate(count = n()) %>%
-     arrange(Date)
-   return(out)
- }
- responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") 
- 
- 
+responseDataExtract = function(fileLoc){
+  out = tryCatch(read.csv(fileLoc, na.strings = c("NA","")) %>% 
+                   ## remove columns with All NAs
+                   select_if(~!all(is.na(.))) %>% 
+                   mutate(Value = Value_NUMBER), 
+                 error = function(e) read.csv("StateofMNResponseDashboardCSV_tcm1148-427143.csv", na.strings = c("NA","")) %>% 
+                   ## remove columns with All NAs
+                   select_if(~!all(is.na(.))))
+  out = out %>% 
+    ## remove punctuation
+    mutate(Value = Value_NUMBER %>% as.character() %>% str_replace_all("[[:punct:]]", "") %>% as.integer()) %>% 
+    # mutate(Date = Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"),
+    #        DateUpdate = Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y")) %>%
+    ## edit on 2020-06-16 due to change back to original dat format
+    ## try to accomodate both formats
+    mutate(Date = ifelse(Data.Date..MM.DD.YYYY. %>% mdy() %>% is.na(), 
+                         Data.Date..MM.DD.YYYY. %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                         Data.Date..MM.DD.YYYY. %>% mdy() %>% format("%m/%d/%y")),
+           DateUpdate = ifelse(Date.and.time.of.update %>% mdy() %>% is.na(), 
+                               Date.and.time.of.update %>% as.character() %>% as.numeric() %>% as_date(origin = "1899-12-30") %>% ymd() %>% format("%m/%d/%y"), 
+                               Date.and.time.of.update %>% mdy() %>% format("%m/%d/%y"))) %>% 
+    filter(COVID.Team %in% c("Hospital Surge Capacity"), GeographicLevel %in% c("State"), Value>0) %>% 
+    mutate(Detail1 = ifelse(str_detect(Detail1,"Beds"), paste(Detail1,"surge"), as.character(Detail1)),
+           Detail2 = str_to_sentence(Detail2),
+           Detail3 = ifelse(is.na(Detail3), Detail2, as.character(Detail3)) %>% factor(levels = c("In warehouse","Surge","Capacity","In use", "Available"))) %>%
+    group_by(Detail1,Detail2) %>%
+    mutate(count = n()) %>%
+    arrange(Date)
+  return(out)
+}
+responseData = responseDataExtract("https://mn.gov/covid19/assets/StateofMNResponseDashboardCSV_tcm1148-427143.csv") 
