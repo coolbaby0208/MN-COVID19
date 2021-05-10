@@ -98,7 +98,9 @@ vacPpl = vacPplDataSum %>%
 # totalDeath = mdhDataTable[[14]]
 # totalHospitalized = mdhDataTable[[17]]
 
-mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl) %>% 
+# mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl) %>% 
+# Add on 2021-05-10
+mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
@@ -122,7 +124,9 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 ## Get testing number from report date
 ## Revised on 2020-10-14
 ## Fix date issue on 2021-01-02
-testReportDate = mdhDataTable[[8]] %>% 
+#testReportDate = mdhDataTable[[8]] %>% 
+# Add on 2021-05-10
+testReportDate = mdhDataTable[[6]] %>%   
   rename(DateReport = `Date reported to MDH`,
          MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
          ExternalPcr = `Completed PCR tests reported from external laboratories`,
@@ -137,7 +141,9 @@ testReportDate = mdhDataTable[[8]] %>%
 ## Get positve cases for specimen collection date
 ## Updated on 2020-10-14
 ## Edit on 2021-03-05 DateReport is now with "year" added
-dataSpecimenDate = mdhDataTable[[11]] %>% 
+#dataSpecimenDate = mdhDataTable[[11]] %>% 
+# Add on 2021-05-10
+dataSpecimenDate = mdhDataTable[[9]] %>% 
   rename(DateReport = `Specimen collection date`,
          ProbableCase = starts_with("Probable"),
          ConfirmedCase = starts_with("Confirmed cases"),
@@ -154,7 +160,9 @@ dataSpecimenDate = mdhDataTable[[11]] %>%
 
 ## Get hospital admitted data: completely changed on Sep24
 ## Edit on 2021-03-06 DateReport is now with "year" added
-hospitalData = mdhDataTable[[18]] 
+#hospitalData = mdhDataTable[[18]] 
+# Add on 2021-05-10
+hospitalData = mdhDataTable[[16]] 
 names(hospitalData)<-str_replace_all(names(hospitalData), c(" " = "" , "," = "" ))
 hospitalAdmitData = hospitalData %>% 
   rename(IcuAdmit = `CasesadmittedtoanICU`,
