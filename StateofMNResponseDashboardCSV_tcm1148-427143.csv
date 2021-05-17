@@ -1,143 +1,143 @@
 Metric,Detail1,Detail2,Detail3,Detail4,Data Date (MM/DD/YYYY),GeographicLevel,GeographicName,Value_NUMBER,Units,MOST RECENT DATA,COVID Team,Date and time of update,Subgroup,Value_Text,URLLINK
 # of Ventilators (ordered),Ventilators,CAPACITY,On back order,,12/14/2020,State,Minnesota,0,ventilators,,Hospital Surge Capacity,12/14/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
 # of Ventilators (ordered),Ventilators,CAPACITY,In warehouse,,12/14/2020,State,Minnesota,123,ventilators,,Hospital Surge Capacity,12/14/2020,,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-# of Face masks,Awaiting Delivery,Total,,,5/2/2021,State,Minnesota,0,Face masks,,Critical Care Supplies,5/2/2021,,0M,https://www.mn.gov/ppe
-# of Face shields,Awaiting Delivery,Total,,,5/2/2021,State,Minnesota,44000,Face shields*,,Critical Care Supplies,5/2/2021,,0,https://www.mn.gov/ppe
-# of Gloves (non-latex),Awaiting Delivery,Total,,,5/2/2021,State,Minnesota,"4,064,000",Gloves (non-latex),,Critical Care Supplies,5/2/2021,,4.1M,https://www.mn.gov/ppe
-# of Gowns,Awaiting Delivery,Total,,,5/2/2021,State,Minnesota,0,Gowns*,,Critical Care Supplies,5/2/2021,,0,https://www.mn.gov/ppe
-# of N95 respirators,Awaiting Delivery,Total,,,5/2/2021,State,Minnesota,0,N95 respirators,,Critical Care Supplies,5/2/2021,,0M,https://www.mn.gov/ppe
-# of Face masks,Current inventory,Total,,,5/2/2021,State,Minnesota,"16,276,706",Face masks,,Critical Care Supplies,5/2/2021,,16.3M,https://www.mn.gov/ppe
-# of Face shields,Current inventory,Total,,,5/2/2021,State,Minnesota,"872,671",Face shields*,,Critical Care Supplies,5/2/2021,,0.9M,https://www.mn.gov/ppe
-# of Gloves (non-latex),Current inventory,Total,,,5/2/2021,State,Minnesota,"19,071,799",Gloves (non-latex),,Critical Care Supplies,5/2/2021,,19.1M,https://www.mn.gov/ppe
-# of Gowns,Current inventory,Total,,,5/2/2021,State,Minnesota,"1,099,431",Gowns*,,Critical Care Supplies,5/2/2021,,1.1M,https://www.mn.gov/ppe
-# of N95 respirators,Current inventory,Total,,,5/2/2021,State,Minnesota,"458,903",N95 respirators,,Critical Care Supplies,5/2/2021,,0.5M,https://www.mn.gov/ppe
-# of Face masks,Distributed,Total,,,5/2/2021,State,Minnesota,"16,279,106",Face masks,,Critical Care Supplies,5/2/2021,,16.3M,https://www.mn.gov/ppe
-# of Face shields,Distributed,Total,,,5/2/2021,State,Minnesota,918479,Face shields*,,Critical Care Supplies,5/2/2021,,918K,https://www.mn.gov/ppe
-# of Gloves (non-latex),Distributed,Total,,,5/2/2021,State,Minnesota,"19,216,599",Gloves (non-latex),,Critical Care Supplies,5/2/2021,,19.2M,https://www.mn.gov/ppe
-# of Gowns,Distributed,Total,,,5/2/2021,State,Minnesota,"1,103,780",Gowns*,,Critical Care Supplies,5/2/2021,,1.1M,https://www.mn.gov/ppe
-# of N95 respirators,Distributed,Total,,,5/2/2021,State,Minnesota,"458,903",N95 respirators,,Critical Care Supplies,5/2/2021,,459K,https://www.mn.gov/ppe
-# of Face masks,Obtained,Total,,,5/2/2021,State,Minnesota,"32,555,812",Face masks,,Critical Care Supplies,5/2/2021,,32.6M,https://www.mn.gov/ppe
-# of Face shields,Obtained,Total,,,5/2/2021,State,Minnesota,"1,791,150",Face shields*,,Critical Care Supplies,5/2/2021,,1.8M,https://www.mn.gov/ppe
-# of Gloves (non-latex),Obtained,Total,,,5/2/2021,State,Minnesota,"38,288,398",Gloves (non-latex),,Critical Care Supplies,5/2/2021,,38.3M,https://www.mn.gov/ppe
-# of Gowns,Obtained,Total,,,5/2/2021,State,Minnesota,"2,203,211",Gowns*,,Critical Care Supplies,5/2/2021,,2.2M,https://www.mn.gov/ppe
-# of N95 respirators,Obtained,Total,,,5/2/2021,State,Minnesota,"917,806",N95 respirators,,Critical Care Supplies,5/2/2021,,0.9M,https://www.mn.gov/ppe
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,Capacity,Surge,,5/13/2021,State,Minnesota,956,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Central,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Metro,4,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Beds,In use,Surge,,5/13/2021,State,Minnesota,4,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Metro,898,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,Capacity,Surge,,5/13/2021,State,Minnesota,1505,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Central,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,South Central,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,Surge,,5/13/2021,State,Minnesota,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Central,98,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Metro,54,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Northeast,99,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Northwest,76,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,South Central,113,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Southeast,63,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,Southwest,102,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,Regional Health Care,West Central,99,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,Non-ICU,Available,,,5/13/2021,State,Minnesota,704,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Central,25,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Metro,29,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Northeast,14,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Northwest,11,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,South Central,10,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Southeast,13,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,Southwest,10,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,Regional Health Care,West Central,13,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Beds,ICU,Available,,,5/13/2021,State,Minnesota,125,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Central,115,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Metro,707,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Northeast,79,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Northwest,36,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,South Central,32,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Southeast,84,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of Ventilators,Ventilators,Available,,,5/13/2021,State,Minnesota,1091,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,State,Minnesota,7449,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Metro,3723,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Southeast,1105,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,Southwest,362,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,CAPACITY,,,5/13/2021,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,State,Minnesota,1208,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Metro,684,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,CAPACITY,,,5/13/2021,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,State,Minnesota,1548,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Metro,1043,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,CAPACITY,,,5/13/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,State,Minnesota,6745,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Central,671,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Metro,3669,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Northeast,590,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Northwest,166,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,South Central,256,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Southeast,1042,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,Southwest,260,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,Non-ICU,In use,,,5/13/2021,Regional Health Care,West Central,91,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,State,Minnesota,1083,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Central,82,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Metro,655,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Northeast,88,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Northwest,18,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,South Central,13,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Southeast,209,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,Southwest,11,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of beds,ICU,In use,,,5/13/2021,Regional Health Care,West Central,7,Beds,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,State,Minnesota,457,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Central,28,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Metro,336,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Northeast,5,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Northwest,1,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,South Central,15,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Southeast,62,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
-Number of ventilators,Ventilators,In use,,,5/13/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,5/13/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+# of Face masks,Awaiting Delivery,Total,,,5/14/2021,State,Minnesota,0,Face masks,,Critical Care Supplies,5/14/2021,,0M,https://www.mn.gov/ppe
+# of Face shields,Awaiting Delivery,Total,,,5/14/2021,State,Minnesota,34000,Face shields*,,Critical Care Supplies,5/14/2021,,0,https://www.mn.gov/ppe
+# of Gloves (non-latex),Awaiting Delivery,Total,,,5/14/2021,State,Minnesota,"4,064,000",Gloves (non-latex),,Critical Care Supplies,5/14/2021,,4.1M,https://www.mn.gov/ppe
+# of Gowns,Awaiting Delivery,Total,,,5/14/2021,State,Minnesota,0,Gowns*,,Critical Care Supplies,5/14/2021,,0,https://www.mn.gov/ppe
+# of N95 respirators,Awaiting Delivery,Total,,,5/14/2021,State,Minnesota,0,N95 respirators,,Critical Care Supplies,5/14/2021,,0M,https://www.mn.gov/ppe
+# of Face masks,Current inventory,Total,,,5/14/2021,State,Minnesota,"7,526,196",Face masks,,Critical Care Supplies,5/14/2021,,7.5M,https://www.mn.gov/ppe
+# of Face shields,Current inventory,Total,,,5/14/2021,State,Minnesota,"801,668",Face shields*,,Critical Care Supplies,5/14/2021,,0.8M,https://www.mn.gov/ppe
+# of Gloves (non-latex),Current inventory,Total,,,5/14/2021,State,Minnesota,"52,105,800",Gloves (non-latex),,Critical Care Supplies,5/14/2021,,52.1M,https://www.mn.gov/ppe
+# of Gowns,Current inventory,Total,,,5/14/2021,State,Minnesota,"5,857,645",Gowns*,,Critical Care Supplies,5/14/2021,,5.9M,https://www.mn.gov/ppe
+# of N95 respirators,Current inventory,Total,,,5/14/2021,State,Minnesota,"2,592,603",N95 respirators,,Critical Care Supplies,5/14/2021,,2.6M,https://www.mn.gov/ppe
+# of Face masks,Distributed,Total,,,5/14/2021,State,Minnesota,"17,422,470",Face masks,,Critical Care Supplies,5/14/2021,,17.4M,https://www.mn.gov/ppe
+# of Face shields,Distributed,Total,,,5/14/2021,State,Minnesota,977224,Face shields*,,Critical Care Supplies,5/14/2021,,977K,https://www.mn.gov/ppe
+# of Gloves (non-latex),Distributed,Total,,,5/14/2021,State,Minnesota,"20,994,779",Gloves (non-latex),,Critical Care Supplies,5/14/2021,,21M,https://www.mn.gov/ppe
+# of Gowns,Distributed,Total,,,5/14/2021,State,Minnesota,"1,264,396",Gowns*,,Critical Care Supplies,5/14/2021,,1.3M,https://www.mn.gov/ppe
+# of N95 respirators,Distributed,Total,,,5/14/2021,State,Minnesota,"493,863",N95 respirators,,Critical Care Supplies,5/14/2021,,494K,https://www.mn.gov/ppe
+# of Face masks,Obtained,Total,,,5/14/2021,State,Minnesota,"24,948,666",Face masks,,Critical Care Supplies,5/14/2021,,24.9M,https://www.mn.gov/ppe
+# of Face shields,Obtained,Total,,,5/14/2021,State,Minnesota,"1,778,892",Face shields*,,Critical Care Supplies,5/14/2021,,1.8M,https://www.mn.gov/ppe
+# of Gloves (non-latex),Obtained,Total,,,5/14/2021,State,Minnesota,"73,100,579",Gloves (non-latex),,Critical Care Supplies,5/14/2021,,73.1M,https://www.mn.gov/ppe
+# of Gowns,Obtained,Total,,,5/14/2021,State,Minnesota,"7,122,041",Gowns*,,Critical Care Supplies,5/14/2021,,7.1M,https://www.mn.gov/ppe
+# of N95 respirators,Obtained,Total,,,5/14/2021,State,Minnesota,"3,086,466",N95 respirators,,Critical Care Supplies,5/14/2021,,3.1M,https://www.mn.gov/ppe
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Central,181,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Metro,480,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Northeast,107,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Northwest,35,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,South Central,49,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Southeast,76,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,Southwest,14,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,Regional Health Care,West Central,14,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,Capacity,Surge,,5/16/2021,State,Minnesota,956,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Central,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Metro,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Northeast,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Northwest,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,South Central,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Southeast,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,Southwest,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,Regional Health Care,West Central,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Beds,In use,Surge,,5/16/2021,State,Minnesota,0,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Central,148,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Metro,898,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Northeast,179,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Northwest,42,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,South Central,52,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,Southwest,42,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,Regional Health Care,West Central,48,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,Capacity,Surge,,5/16/2021,State,Minnesota,1505,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Central,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Metro,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Northeast,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Northwest,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,South Central,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Southeast,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,Southwest,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,Surge,,5/16/2021,State,Minnesota,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Central,114,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Metro,108,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Northeast,81,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Northwest,86,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,South Central,112,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Southeast,104,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,Southwest,115,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,Regional Health Care,West Central,88,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,Non-ICU,Available,,,5/16/2021,State,Minnesota,808,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Central,22,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Metro,40,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Northeast,18,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Northwest,13,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,South Central,9,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Southeast,15,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,Southwest,8,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,Regional Health Care,West Central,11,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Beds,ICU,Available,,,5/16/2021,State,Minnesota,136,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Central,111,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Metro,705,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Northeast,75,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Northwest,34,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,South Central,32,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Southeast,96,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,Southwest,24,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of Ventilators,Ventilators,Available,,,5/16/2021,State,Minnesota,1091,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,State,Minnesota,7449,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Central,769,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Metro,3723,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Northeast,689,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Northwest,242,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,South Central,369,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Southeast,1105,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,Southwest,362,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,CAPACITY,,,5/16/2021,Regional Health Care,West Central,190,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,State,Minnesota,1208,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Central,107,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Metro,684,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Northeast,102,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Northwest,29,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,South Central,23,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Southeast,222,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,Southwest,21,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,CAPACITY,,,5/16/2021,Regional Health Care,West Central,20,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,State,Minnesota,1548,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Central,143,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Metro,1043,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Northeast,84,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Northwest,37,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,South Central,47,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Southeast,146,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,Southwest,34,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,CAPACITY,,,5/16/2021,Regional Health Care,West Central,14,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,State,Minnesota,6641,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Central,655,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Metro,3615,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Northeast,608,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Northwest,156,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,South Central,257,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Southeast,1001,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,Southwest,247,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,Non-ICU,In use,,,5/16/2021,Regional Health Care,West Central,102,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,State,Minnesota,1072,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Central,85,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Metro,644,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Northeast,84,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Northwest,16,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,South Central,14,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Southeast,207,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,Southwest,13,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of beds,ICU,In use,,,5/16/2021,Regional Health Care,West Central,9,Beds,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,State,Minnesota,457,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Central,32,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Metro,338,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Northeast,9,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Northwest,3,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,South Central,15,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Southeast,50,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,Southwest,10,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
+Number of ventilators,Ventilators,In use,,,5/16/2021,Regional Health Care,West Central,0,Ventilators,1,Hospital Surge Capacity,5/16/2021,MNTrac,,https://www.health.state.mn.us/diseases/coronavirus/situation.html
 Applications,# of Applications - Total,SNAP,Total,,2020-03-22,State,Minnesota,93,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2020-03-23,State,Minnesota,973,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2020-03-24,State,Minnesota,710,Applications,,Food security,4/24/2020,,,https://mn.gov/dhs/food-emergency/ 
@@ -536,422 +536,6 @@ Applications,# of Applications - Total,SNAP,Total,,2021-04-20,State,Minnesota,46
 Applications,# of Applications - Total,SNAP,Total,,2021-04-21,State,Minnesota,445,Applications,TRUE,Food security,4/26/2021,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2021-04-22,State,Minnesota,345,Applications,TRUE,Food security,4/26/2021,,,https://mn.gov/dhs/food-emergency/ 
 Applications,# of Applications - Total,SNAP,Total,,2021-04-23,State,Minnesota,236,Applications,TRUE,Food security,4/26/2021,,,https://mn.gov/dhs/food-emergency/ 
-New total capacity,,,,,3/16/2020,State,Minnesota,651,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/17/2020,State,Minnesota,836,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/18/2020,State,Minnesota,613,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/19/2020,State,Minnesota,3,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/20/2020,State,Minnesota,403,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/21/2020,State,Minnesota,14,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/22/2020,State,Minnesota,147,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/23/2020,State,Minnesota,872,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/24/2020,State,Minnesota,272,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/25/2020,State,Minnesota,345,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/26/2020,State,Minnesota,223,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/27/2020,State,Minnesota,217,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/28/2020,State,Minnesota,24,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/29/2020,State,Minnesota,114,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/30/2020,State,Minnesota,77,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/31/2020,State,Minnesota,141,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/1/2020,State,Minnesota,71,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/2/2020,State,Minnesota,54,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/3/2020,State,Minnesota,330,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/4/2020,State,Minnesota,7,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/5/2020,State,Minnesota,47,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/6/2020,State,Minnesota,67,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/7/2020,State,Minnesota,44,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/8/2020,State,Minnesota,354,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/9/2020,State,Minnesota,86,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/10/2020,State,Minnesota,25,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/11/2020,State,Minnesota,0,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/12/2020,State,Minnesota,0,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/13/2020,State,Minnesota,15,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/14/2020,State,Minnesota,114,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/15/2020,State,Minnesota,41,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/16/2020,State,Minnesota,2,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/17/2020,State,Minnesota,79,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/18/2020,State,Minnesota,5,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/19/2020,State,Minnesota,2,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/20/2020,State,Minnesota,57,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/21/2020,State,Minnesota,29,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/22/2020,State,Minnesota,176,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/23/2020,State,Minnesota,71,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/24/2020,State,Minnesota,588,available slots,,Education and Care,4/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/25/2020,State,Minnesota,39,available slots,,Education and Care,4/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/26/2020,State,Minnesota,3,available slots,,Education and Care,4/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/27/2020,State,Minnesota,148,available slots,,Education and Care,4/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/28/2020,State,Minnesota,49,available slots,,Education and Care,4/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/29/2020,State,Minnesota,52,available slots,,Education and Care,4/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/30/2020,State,Minnesota,128,available slots,,Education and Care,4/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/1/2020,State,Minnesota,252,available slots,,Education and Care,5/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/2/2020,State,Minnesota,5,available slots,,Education and Care,5/2/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/3/2020,State,Minnesota,0,available slots,,Education and Care,5/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/4/2020,State,Minnesota,11,available slots,,Education and Care,5/4/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/5/2020,State,Minnesota,116,available slots,,Education and Care,5/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/6/2020,State,Minnesota,62,available slots,,Education and Care,5/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/7/2020,State,Minnesota,39,available slots,,Education and Care,5/7/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/8/2020,State,Minnesota,0,available slots,,Education and Care,5/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/9/2020,State,Minnesota,0,available slots,,Education and Care,5/9/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/10/2020,State,Minnesota,0,available slots,,Education and Care,5/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/11/2020,State,Minnesota,12,available slots,,Education and Care,5/11/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/12/2020,State,Minnesota,2,available slots,,Education and Care,5/12/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/13/2020,State,Minnesota,0,available slots,,Education and Care,5/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/14/2020,State,Minnesota,0,available slots,,Education and Care,5/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/15/2020,State,Minnesota,1,available slots,,Education and Care,5/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/16/2020,State,Minnesota,0,available slots,,Education and Care,5/16/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/17/2020,State,Minnesota,0,available slots,,Education and Care,5/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/18/2020,State,Minnesota,16,available slots,,Education and Care,5/18/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/19/2020,State,Minnesota,4,available slots,,Education and Care,5/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/20/2020,State,Minnesota,5,available slots,,Education and Care,5/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/21/2020,State,Minnesota,0,available slots,,Education and Care,5/21/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/22/2020,State,Minnesota,0,available slots,,Education and Care,5/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/23/2020,State,Minnesota,0,available slots,,Education and Care,5/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/24/2020,State,Minnesota,84,available slots,,Education and Care,5/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/25/2020,State,Minnesota,0,available slots,,Education and Care,5/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/26/2020,State,Minnesota,258,available slots,,Education and Care,5/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/27/2020,State,Minnesota,58,available slots,,Education and Care,5/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/28/2020,State,Minnesota,38,available slots,,Education and Care,5/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/29/2020,State,Minnesota,0,available slots,,Education and Care,5/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/30/2020,State,Minnesota,0,available slots,,Education and Care,5/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/31/2020,State,Minnesota,0,available slots,,Education and Care,5/31/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/1/2020,State,Minnesota,37,available slots,,Education and Care,6/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/2/2020,State,Minnesota,54,available slots,,Education and Care,6/2/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/3/2020,State,Minnesota,122,available slots,,Education and Care,6/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/4/2020,State,Minnesota,15,available slots,,Education and Care,6/4/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/5/2020,State,Minnesota,0,available slots,,Education and Care,6/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/6/2020,State,Minnesota,0,available slots,,Education and Care,6/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/7/2020,State,Minnesota,6,available slots,,Education and Care,6/7/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/8/2020,State,Minnesota,7,available slots,,Education and Care,6/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/9/2020,State,Minnesota,6,available slots,,Education and Care,6/9/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/10/2020,State,Minnesota,3,available slots,,Education and Care,6/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/11/2020,State,Minnesota,0,available slots,,Education and Care,6/11/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/12/2020,State,Minnesota,0,available slots,,Education and Care,6/12/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/13/2020,State,Minnesota,0,available slots,,Education and Care,6/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/14/2020,State,Minnesota,0,available slots,,Education and Care,6/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/15/2020,State,Minnesota,20,available slots,,Education and Care,6/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/16/2020,State,Minnesota,0,available slots,,Education and Care,6/16/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/17/2020,State,Minnesota,0,available slots,,Education and Care,6/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/18/2020,State,Minnesota,0,available slots,,Education and Care,6/18/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/19/2020,State,Minnesota,14,available slots,,Education and Care,6/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/20/2020,State,Minnesota,0,available slots,,Education and Care,6/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/21/2020,State,Minnesota,8,available slots,,Education and Care,6/21/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/22/2020,State,Minnesota,8,available slots,,Education and Care,6/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/23/2020,State,Minnesota,17,available slots,,Education and Care,6/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/24/2020,State,Minnesota,0,available slots,,Education and Care,6/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/25/2020,State,Minnesota,0,available slots,,Education and Care,6/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/26/2020,State,Minnesota,36,available slots,,Education and Care,6/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/27/2020,State,Minnesota,0,available slots,,Education and Care,6/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/28/2020,State,Minnesota,0,available slots,,Education and Care,6/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/29/2020,State,Minnesota,158,available slots,,Education and Care,6/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,6/30/2020,State,Minnesota,6,available slots,,Education and Care,6/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/1/2020,State,Minnesota,0,available slots,,Education and Care,7/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/2/2020,State,Minnesota,18,available slots,,Education and Care,7/2/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/3/2020,State,Minnesota,0,available slots,,Education and Care,7/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/4/2020,State,Minnesota,0,available slots,,Education and Care,7/4/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/5/2020,State,Minnesota,0,available slots,,Education and Care,7/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/6/2020,State,Minnesota,4,available slots,,Education and Care,7/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/7/2020,State,Minnesota,0,available slots,,Education and Care,7/7/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/8/2020,State,Minnesota,0,available slots,,Education and Care,7/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/9/2020,State,Minnesota,4,available slots,,Education and Care,7/9/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/10/2020,State,Minnesota,100,available slots,,Education and Care,7/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/11/2020,State,Minnesota,0,available slots,,Education and Care,7/11/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/12/2020,State,Minnesota,2,available slots,,Education and Care,7/12/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/13/2020,State,Minnesota,84,available slots,,Education and Care,7/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/14/2020,State,Minnesota,42,available slots,,Education and Care,7/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/15/2020,State,Minnesota,817,available slots,,Education and Care,7/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/16/2020,State,Minnesota,164,available slots,,Education and Care,7/16/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/17/2020,State,Minnesota,136,available slots,,Education and Care,7/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/18/2020,State,Minnesota,14,available slots,,Education and Care,7/18/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/19/2020,State,Minnesota,4,available slots,,Education and Care,7/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/20/2020,State,Minnesota,17,available slots,,Education and Care,7/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/21/2020,State,Minnesota,28,available slots,,Education and Care,7/21/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/22/2020,State,Minnesota,12,available slots,,Education and Care,7/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/23/2020,State,Minnesota,14,available slots,,Education and Care,7/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/24/2020,State,Minnesota,0,available slots,,Education and Care,7/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/25/2020,State,Minnesota,0,available slots,,Education and Care,7/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/26/2020,State,Minnesota,1,available slots,,Education and Care,7/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/27/2020,State,Minnesota,0,available slots,,Education and Care,7/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/28/2020,State,Minnesota,0,available slots,,Education and Care,7/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/29/2020,State,Minnesota,3,available slots,,Education and Care,7/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/30/2020,State,Minnesota,128,available slots,,Education and Care,7/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,7/31/2020,State,Minnesota,50,available slots,,Education and Care,7/31/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/1/2020,State,Minnesota,0,available slots,,Education and Care,8/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/2/2020,State,Minnesota,0,available slots,,Education and Care,8/2/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/3/2020,State,Minnesota,183,available slots,,Education and Care,8/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/4/2020,State,Minnesota,73,available slots,,Education and Care,8/4/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/5/2020,State,Minnesota,5,available slots,,Education and Care,8/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/6/2020,State,Minnesota,9,available slots,,Education and Care,8/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/7/2020,State,Minnesota,0,available slots,,Education and Care,8/7/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/8/2020,State,Minnesota,3,available slots,,Education and Care,8/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/9/2020,State,Minnesota,0,available slots,,Education and Care,8/9/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/10/2020,State,Minnesota,2,available slots,,Education and Care,8/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/11/2020,State,Minnesota,42,available slots,,Education and Care,8/11/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/12/2020,State,Minnesota,109,available slots,,Education and Care,8/12/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/13/2020,State,Minnesota,1,available slots,,Education and Care,8/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/14/2020,State,Minnesota,4,available slots,,Education and Care,8/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/15/2020,State,Minnesota,0,available slots,,Education and Care,8/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/16/2020,State,Minnesota,0,available slots,,Education and Care,8/16/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/17/2020,State,Minnesota,3,available slots,,Education and Care,8/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/18/2020,State,Minnesota,6,available slots,,Education and Care,8/18/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/19/2020,State,Minnesota,0,available slots,,Education and Care,8/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/20/2020,State,Minnesota,4,available slots,,Education and Care,8/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/21/2020,State,Minnesota,0,available slots,,Education and Care,8/21/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/22/2020,State,Minnesota,6,available slots,,Education and Care,8/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/23/2020,State,Minnesota,0,available slots,,Education and Care,8/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/24/2020,State,Minnesota,10,available slots,,Education and Care,8/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/25/2020,State,Minnesota,13,available slots,,Education and Care,8/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/26/2020,State,Minnesota,5,available slots,,Education and Care,8/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/27/2020,State,Minnesota,12,available slots,,Education and Care,8/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/28/2020,State,Minnesota,195,available slots,,Education and Care,8/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/29/2020,State,Minnesota,22,available slots,,Education and Care,8/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/30/2020,State,Minnesota,11,available slots,,Education and Care,8/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,8/31/2020,State,Minnesota,54,available slots,,Education and Care,8/31/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/1/2020,State,Minnesota,10,available slots,,Education and Care,9/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/2/2020,State,Minnesota,4,available slots,,Education and Care,9/2/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/3/2020,State,Minnesota,15,available slots,,Education and Care,9/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/4/2020,State,Minnesota,65,available slots,,Education and Care,9/4/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/5/2020,State,Minnesota,3,available slots,,Education and Care,9/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/6/2020,State,Minnesota,0,available slots,,Education and Care,9/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/7/2020,State,Minnesota,1,available slots,,Education and Care,9/7/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/8/2020,State,Minnesota,7,available slots,,Education and Care,9/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/9/2020,State,Minnesota,6,available slots,,Education and Care,9/9/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/10/2020,State,Minnesota,156,available slots,,Education and Care,9/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/11/2020,State,Minnesota,130,available slots,,Education and Care,9/11/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/12/2020,State,Minnesota,2,available slots,,Education and Care,9/12/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/13/2020,State,Minnesota,0,available slots,,Education and Care,9/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/14/2020,State,Minnesota,24,available slots,,Education and Care,9/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/15/2020,State,Minnesota,5,available slots,,Education and Care,9/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/16/2020,State,Minnesota,20,available slots,,Education and Care,9/16/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/17/2020,State,Minnesota,6,available slots,,Education and Care,9/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/18/2020,State,Minnesota,0,available slots,,Education and Care,9/18/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/19/2020,State,Minnesota,0,available slots,,Education and Care,9/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/20/2020,State,Minnesota,0,available slots,,Education and Care,9/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/21/2020,State,Minnesota,88,available slots,,Education and Care,9/21/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/22/2020,State,Minnesota,41,available slots,,Education and Care,9/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/23/2020,State,Minnesota,23,available slots,,Education and Care,9/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/24/2020,State,Minnesota,5,available slots,,Education and Care,9/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/25/2020,State,Minnesota,0,available slots,,Education and Care,9/25/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/26/2020,State,Minnesota,0,available slots,,Education and Care,9/26/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/27/2020,State,Minnesota,0,available slots,,Education and Care,9/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/28/2020,State,Minnesota,9,available slots,,Education and Care,9/28/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/29/2020,State,Minnesota,39,available slots,,Education and Care,9/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,9/30/2020,State,Minnesota,4,available slots,,Education and Care,9/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/1/2020,State,Minnesota,157,available slots,,Education and Care,10/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/2/2020,State,Minnesota,29,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/3/2020,State,Minnesota,2,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/4/2020,State,Minnesota,23,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/5/2020,State,Minnesota,183,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/6/2020,State,Minnesota,91,available slots,,Education and Care,10/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/7/2020,State,Minnesota,46,available slots,,Education and Care,10/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/8/2020,State,Minnesota,116,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/9/2020,State,Minnesota,49,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/10/2020,State,Minnesota,2,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/11/2020,State,Minnesota,6,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/12/2020,State,Minnesota,57,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/13/2020,State,Minnesota,25,available slots,,Education and Care,10/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/14/2020,State,Minnesota,19,available slots,,Education and Care,10/15/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/15/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/16/2020,State,Minnesota,9,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/17/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/18/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/19/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/20/2020,State,Minnesota,137,available slots,,Education and Care,10/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/21/2020,State,Minnesota,48,available slots,,Education and Care,10/22/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/22/2020,State,Minnesota,51,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/23/2020,State,Minnesota,69,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/24/2020,State,Minnesota,4,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/25/2020,State,Minnesota,7,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/26/2020,State,Minnesota,40,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/27/2020,State,Minnesota,54,available slots,,Education and Care,10/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/28/2020,State,Minnesota,37,available slots,,Education and Care,10/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/29/2020,State,Minnesota,36,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/30/2020,State,Minnesota,3,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,10/31/2020,State,Minnesota,0,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/1/2020,State,Minnesota,6,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/2/2020,State,Minnesota,133,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/3/2020,State,Minnesota,47,available slots,,Education and Care,11/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/4/2020,State,Minnesota,43,available slots,,Education and Care,11/5/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/5/2020,State,Minnesota,10,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/6/2020,State,Minnesota,0,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/7/2020,State,Minnesota,8,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/8/2020,State,Minnesota,5,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/9/2020,State,Minnesota,1,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/10/2020,State,Minnesota,18,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/11/2020,State,Minnesota,0,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/12/2020,State,Minnesota,8,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/13/2020,State,Minnesota,3,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/14/2020,State,Minnesota,0,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/15/2020,State,Minnesota,0,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/16/2020,State,Minnesota,10,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/17/2020,State,Minnesota,148,available slots,,Education and Care,11/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/18/2020,State,Minnesota,198,available slots,,Education and Care,11/19/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/19/2020,State,Minnesota,594,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/20/2020,State,Minnesota,26,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/21/2020,State,Minnesota,15,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/22/2020,State,Minnesota,10,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/23/2020,State,Minnesota,6,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/24/2020,State,Minnesota,15,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/25/2020,State,Minnesota,18,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/26/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/27/2020,State,Minnesota,1,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/28/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/29/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,11/30/2020,State,Minnesota,305,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/1/2020,State,Minnesota,20,available slots,,Education and Care,12/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/2/2020,State,Minnesota,6,available slots,,Education and Care,12/3/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/3/2020,State,Minnesota,3,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/4/2020,State,Minnesota,32,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/5/2020,State,Minnesota,9,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/6/2020,State,Minnesota,0,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/7/2020,State,Minnesota,2873,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/8/2020,State,Minnesota,2688,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/9/2020,State,Minnesota,1808,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/10/2020,State,Minnesota,1963,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/11/2020,State,Minnesota,1256,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/12/2020,State,Minnesota,107,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/13/2020,State,Minnesota,90,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/14/2020,State,Minnesota,751,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/15/2020,State,Minnesota,883,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/16/2020,State,Minnesota,163,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/17/2020,State,Minnesota,459,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/18/2020,State,Minnesota,245,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/19/2020,State,Minnesota,5,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/20/2020,State,Minnesota,36,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/21/2020,State,Minnesota,204,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/22/2020,State,Minnesota,53,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/23/2020,State,Minnesota,196,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/24/2020,State,Minnesota,17,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/25/2020,State,Minnesota,4,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/26/2020,State,Minnesota,12,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/27/2020,State,Minnesota,12,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/28/2020,State,Minnesota,164,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/29/2020,State,Minnesota,1,available slots,,Education and Care,12/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/30/2020,State,Minnesota,6,available slots,,Education and Care,12/30/2020,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,12/31/2020,State,Minnesota,3,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/1/2021,State,Minnesota,8,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/2/2021,State,Minnesota,23,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/3/2021,State,Minnesota,6,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/4/2021,State,Minnesota,123,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/5/2021,State,Minnesota,44,available slots,,Education and Care,1/7/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/6/2021,State,Minnesota,33,available slots,,Education and Care,1/7/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/7/2021,State,Minnesota,2,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/8/2021,State,Minnesota,0,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/9/2021,State,Minnesota,5,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/10/2021,State,Minnesota,0,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/11/2021,State,Minnesota,149,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/12/2021,State,Minnesota,23,available slots,,Education and Care,1/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/13/2021,State,Minnesota,89,available slots,,Education and Care,1/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/14/2021,State,Minnesota,67,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/15/2021,State,Minnesota,15,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/16/2021,State,Minnesota,132,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/17/2021,State,Minnesota,16,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/18/2021,State,Minnesota,167,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/19/2021,State,Minnesota,130,available slots,,Education and Care,1/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/20/2021,State,Minnesota,29,available slots,,Education and Care,1/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/21/2021,State,Minnesota,86,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/22/2021,State,Minnesota,68,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/23/2021,State,Minnesota,12,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/24/2021,State,Minnesota,0,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/25/2021,State,Minnesota,218,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/26/2021,State,Minnesota,105,available slots,,Education and Care,1/28/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/27/2021,State,Minnesota,144,available slots,,Education and Care,1/28/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/28/2021,State,Minnesota,253,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/29/2021,State,Minnesota,91,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/30/2021,State,Minnesota,39,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,1/31/2021,State,Minnesota,95,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/1/2021,State,Minnesota,190,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/2/2021,State,Minnesota,59,available slots,,Education and Care,2/4/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/3/2021,State,Minnesota,366,available slots,,Education and Care,2/4/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/4/2021,State,Minnesota,245,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/5/2021,State,Minnesota,157,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/6/2021,State,Minnesota,104,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/7/2021,State,Minnesota,0,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/8/2021,State,Minnesota,7,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/9/2021,State,Minnesota,6,available slots,,Education and Care,2/11/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/10/2021,State,Minnesota,681,available slots,,Education and Care,2/11/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/11/2021,State,Minnesota,264,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/12/2021,State,Minnesota,116,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/13/2021,State,Minnesota,4,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/14/2021,State,Minnesota,113,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/15/2021,State,Minnesota,52,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/16/2021,State,Minnesota,165,available slots,,Education and Care,2/18/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/17/2021,State,Minnesota,248,available slots,,Education and Care,2/18/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/18/2021,State,Minnesota,2695,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/19/2021,State,Minnesota,3681,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/20/2021,State,Minnesota,425,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/21/2021,State,Minnesota,239,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/22/2021,State,Minnesota,1924,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/23/2021,State,Minnesota,360,available slots,,Education and Care,2/25/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/24/2021,State,Minnesota,988,available slots,,Education and Care,2/25/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/25/2021,State,Minnesota,70,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/26/2021,State,Minnesota,178,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/27/2021,State,Minnesota,0,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,2/28/2021,State,Minnesota,2,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/1/2021,State,Minnesota,95,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/2/2021,State,Minnesota,15,available slots,,Education and Care,3/4/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/3/2021,State,Minnesota,511,available slots,,Education and Care,3/4/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/4/2021,State,Minnesota,89,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/5/2021,State,Minnesota,7,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/6/2021,State,Minnesota,10,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/7/2021,State,Minnesota,3,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/8/2021,State,Minnesota,109,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/9/2021,State,Minnesota,31,available slots,,Education and Care,3/10/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/10/2021,State,Minnesota,6,available slots,,Education and Care,3/10/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/11/2021,State,Minnesota,114,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/12/2021,State,Minnesota,187,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/13/2021,State,Minnesota,0,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/14/2021,State,Minnesota,5,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/15/2021,State,Minnesota,134,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/16/2021,State,Minnesota,35,available slots,,Education and Care,3/18/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/17/2021,State,Minnesota,41,available slots,,Education and Care,3/18/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/18/2021,State,Minnesota,15,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/19/2021,State,Minnesota,6,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/20/2021,State,Minnesota,12,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/21/2021,State,Minnesota,0,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/22/2021,State,Minnesota,76,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/23/2021,State,Minnesota,2,available slots,,Education and Care,3/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/24/2021,State,Minnesota,10,available slots,,Education and Care,3/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/25/2021,State,Minnesota,2,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/26/2021,State,Minnesota,3,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/27/2021,State,Minnesota,2,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/28/2021,State,Minnesota,0,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/29/2021,State,Minnesota,8,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/30/2021,State,Minnesota,661,available slots,,Education and Care,4/1/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,3/31/2021,State,Minnesota,1188,available slots,,Education and Care,4/1/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/1/2021,State,Minnesota,27,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/2/2021,State,Minnesota,87,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/3/2021,State,Minnesota,24,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/4/2021,State,Minnesota,11,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/5/2021,State,Minnesota,66,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/6/2021,State,Minnesota,303,available slots,,Education and Care,4/8/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/7/2021,State,Minnesota,113,available slots,,Education and Care,4/8/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/8/2021,State,Minnesota,160,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/9/2021,State,Minnesota,212,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/10/2021,State,Minnesota,10,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/11/2021,State,Minnesota,0,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/12/2021,State,Minnesota,20,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/13/2021,State,Minnesota,67,available slots,,Education and Care,4/15/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/14/2021,State,Minnesota,337,available slots,,Education and Care,4/15/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/15/2021,State,Minnesota,184,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/16/2021,State,Minnesota,338,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/17/2021,State,Minnesota,2,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/18/2021,State,Minnesota,939,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/19/2021,State,Minnesota,858,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/20/2021,State,Minnesota,80,available slots,,Education and Care,4/22/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/21/2021,State,Minnesota,327,available slots,,Education and Care,4/22/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/22/2021,State,Minnesota,140,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/23/2021,State,Minnesota,88,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/24/2021,State,Minnesota,15,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/25/2021,State,Minnesota,12,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/26/2021,State,Minnesota,356,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/27/2021,State,Minnesota,5217,available slots,,Education and Care,4/29/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/28/2021,State,Minnesota,2012,available slots,,Education and Care,4/29/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/29/2021,State,Minnesota,1324,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,4/30/2021,State,Minnesota,2888,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/1/2021,State,Minnesota,35,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/2/2021,State,Minnesota,53,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/3/2021,State,Minnesota,2489,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/4/2021,State,Minnesota,635,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
-New total capacity,,,,,5/5/2021,State,Minnesota,106,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/15/2020,State,Minnesota,0,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/16/2020,State,Minnesota,12118,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
 # of new and reactivated accounts,New & Reactivated Accounts,,,,3/17/2020,State,Minnesota,26968,Accounts,1,Economic Security,5/5/2020,,,https://mn.gov/deed/newscenter/covid/
@@ -1397,3 +981,427 @@ New total capacity,,,,,5/5/2021,State,Minnesota,106,available slots,,Education a
 # of weekly regular continuing UI claims,Regular continuing claims,,,,4/10/2021,State,Minnesota,88327,claims,,Economic Security,3/21/2021,,,https://mn.gov/deed/newscenter/covid/
 # of weekly regular continuing UI claims,Regular continuing claims,,,,4/17/2021,State,Minnesota,80364,claims,,Economic Security,3/21/2021,,,https://mn.gov/deed/newscenter/covid/
 # of weekly regular continuing UI claims,Regular continuing claims,,,,4/24/2021,State,Minnesota,71652,claims,,Economic Security,3/21/2021,,,https://mn.gov/deed/newscenter/covid/
+New total capacity,,,,,3/16/2020,State,Minnesota,649,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/17/2020,State,Minnesota,829,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/18/2020,State,Minnesota,613,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/19/2020,State,Minnesota,3,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/20/2020,State,Minnesota,401,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/21/2020,State,Minnesota,14,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/22/2020,State,Minnesota,147,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/23/2020,State,Minnesota,872,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/24/2020,State,Minnesota,272,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/25/2020,State,Minnesota,345,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/26/2020,State,Minnesota,221,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/27/2020,State,Minnesota,217,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/28/2020,State,Minnesota,24,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/29/2020,State,Minnesota,114,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/30/2020,State,Minnesota,77,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/31/2020,State,Minnesota,141,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/1/2020,State,Minnesota,71,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/2/2020,State,Minnesota,54,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/3/2020,State,Minnesota,329,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/4/2020,State,Minnesota,7,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/5/2020,State,Minnesota,47,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/6/2020,State,Minnesota,67,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/7/2020,State,Minnesota,44,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/8/2020,State,Minnesota,354,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/9/2020,State,Minnesota,86,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/10/2020,State,Minnesota,25,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/11/2020,State,Minnesota,0,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/12/2020,State,Minnesota,0,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/13/2020,State,Minnesota,15,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/14/2020,State,Minnesota,114,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/15/2020,State,Minnesota,41,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/16/2020,State,Minnesota,2,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/17/2020,State,Minnesota,79,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/18/2020,State,Minnesota,5,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/19/2020,State,Minnesota,2,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/20/2020,State,Minnesota,57,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/21/2020,State,Minnesota,29,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/22/2020,State,Minnesota,176,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/23/2020,State,Minnesota,71,available slots,,Education and Care,4/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/24/2020,State,Minnesota,558,available slots,,Education and Care,4/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/25/2020,State,Minnesota,39,available slots,,Education and Care,4/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/26/2020,State,Minnesota,3,available slots,,Education and Care,4/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/27/2020,State,Minnesota,148,available slots,,Education and Care,4/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/28/2020,State,Minnesota,49,available slots,,Education and Care,4/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/29/2020,State,Minnesota,52,available slots,,Education and Care,4/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/30/2020,State,Minnesota,128,available slots,,Education and Care,4/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/1/2020,State,Minnesota,252,available slots,,Education and Care,5/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/2/2020,State,Minnesota,5,available slots,,Education and Care,5/2/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/3/2020,State,Minnesota,0,available slots,,Education and Care,5/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/4/2020,State,Minnesota,11,available slots,,Education and Care,5/4/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/5/2020,State,Minnesota,116,available slots,,Education and Care,5/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/6/2020,State,Minnesota,62,available slots,,Education and Care,5/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/7/2020,State,Minnesota,39,available slots,,Education and Care,5/7/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/8/2020,State,Minnesota,0,available slots,,Education and Care,5/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/9/2020,State,Minnesota,0,available slots,,Education and Care,5/9/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/10/2020,State,Minnesota,0,available slots,,Education and Care,5/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/11/2020,State,Minnesota,12,available slots,,Education and Care,5/11/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/12/2020,State,Minnesota,2,available slots,,Education and Care,5/12/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/13/2020,State,Minnesota,0,available slots,,Education and Care,5/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/14/2020,State,Minnesota,0,available slots,,Education and Care,5/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/15/2020,State,Minnesota,1,available slots,,Education and Care,5/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/16/2020,State,Minnesota,0,available slots,,Education and Care,5/16/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/17/2020,State,Minnesota,0,available slots,,Education and Care,5/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/18/2020,State,Minnesota,16,available slots,,Education and Care,5/18/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/19/2020,State,Minnesota,4,available slots,,Education and Care,5/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/20/2020,State,Minnesota,5,available slots,,Education and Care,5/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/21/2020,State,Minnesota,0,available slots,,Education and Care,5/21/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/22/2020,State,Minnesota,0,available slots,,Education and Care,5/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/23/2020,State,Minnesota,0,available slots,,Education and Care,5/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/24/2020,State,Minnesota,84,available slots,,Education and Care,5/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/25/2020,State,Minnesota,0,available slots,,Education and Care,5/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/26/2020,State,Minnesota,258,available slots,,Education and Care,5/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/27/2020,State,Minnesota,58,available slots,,Education and Care,5/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/28/2020,State,Minnesota,38,available slots,,Education and Care,5/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/29/2020,State,Minnesota,0,available slots,,Education and Care,5/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/30/2020,State,Minnesota,0,available slots,,Education and Care,5/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/31/2020,State,Minnesota,0,available slots,,Education and Care,5/31/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/1/2020,State,Minnesota,37,available slots,,Education and Care,6/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/2/2020,State,Minnesota,54,available slots,,Education and Care,6/2/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/3/2020,State,Minnesota,122,available slots,,Education and Care,6/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/4/2020,State,Minnesota,15,available slots,,Education and Care,6/4/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/5/2020,State,Minnesota,0,available slots,,Education and Care,6/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/6/2020,State,Minnesota,0,available slots,,Education and Care,6/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/7/2020,State,Minnesota,6,available slots,,Education and Care,6/7/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/8/2020,State,Minnesota,7,available slots,,Education and Care,6/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/9/2020,State,Minnesota,6,available slots,,Education and Care,6/9/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/10/2020,State,Minnesota,3,available slots,,Education and Care,6/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/11/2020,State,Minnesota,0,available slots,,Education and Care,6/11/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/12/2020,State,Minnesota,0,available slots,,Education and Care,6/12/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/13/2020,State,Minnesota,0,available slots,,Education and Care,6/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/14/2020,State,Minnesota,0,available slots,,Education and Care,6/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/15/2020,State,Minnesota,20,available slots,,Education and Care,6/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/16/2020,State,Minnesota,0,available slots,,Education and Care,6/16/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/17/2020,State,Minnesota,0,available slots,,Education and Care,6/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/18/2020,State,Minnesota,0,available slots,,Education and Care,6/18/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/19/2020,State,Minnesota,14,available slots,,Education and Care,6/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/20/2020,State,Minnesota,0,available slots,,Education and Care,6/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/21/2020,State,Minnesota,8,available slots,,Education and Care,6/21/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/22/2020,State,Minnesota,8,available slots,,Education and Care,6/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/23/2020,State,Minnesota,17,available slots,,Education and Care,6/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/24/2020,State,Minnesota,0,available slots,,Education and Care,6/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/25/2020,State,Minnesota,0,available slots,,Education and Care,6/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/26/2020,State,Minnesota,26,available slots,,Education and Care,6/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/27/2020,State,Minnesota,0,available slots,,Education and Care,6/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/28/2020,State,Minnesota,0,available slots,,Education and Care,6/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/29/2020,State,Minnesota,158,available slots,,Education and Care,6/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,6/30/2020,State,Minnesota,6,available slots,,Education and Care,6/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/1/2020,State,Minnesota,0,available slots,,Education and Care,7/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/2/2020,State,Minnesota,18,available slots,,Education and Care,7/2/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/3/2020,State,Minnesota,0,available slots,,Education and Care,7/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/4/2020,State,Minnesota,0,available slots,,Education and Care,7/4/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/5/2020,State,Minnesota,0,available slots,,Education and Care,7/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/6/2020,State,Minnesota,4,available slots,,Education and Care,7/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/7/2020,State,Minnesota,0,available slots,,Education and Care,7/7/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/8/2020,State,Minnesota,0,available slots,,Education and Care,7/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/9/2020,State,Minnesota,4,available slots,,Education and Care,7/9/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/10/2020,State,Minnesota,100,available slots,,Education and Care,7/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/11/2020,State,Minnesota,0,available slots,,Education and Care,7/11/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/12/2020,State,Minnesota,2,available slots,,Education and Care,7/12/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/13/2020,State,Minnesota,84,available slots,,Education and Care,7/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/14/2020,State,Minnesota,42,available slots,,Education and Care,7/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/15/2020,State,Minnesota,817,available slots,,Education and Care,7/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/16/2020,State,Minnesota,164,available slots,,Education and Care,7/16/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/17/2020,State,Minnesota,136,available slots,,Education and Care,7/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/18/2020,State,Minnesota,14,available slots,,Education and Care,7/18/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/19/2020,State,Minnesota,4,available slots,,Education and Care,7/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/20/2020,State,Minnesota,21,available slots,,Education and Care,7/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/21/2020,State,Minnesota,28,available slots,,Education and Care,7/21/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/22/2020,State,Minnesota,12,available slots,,Education and Care,7/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/23/2020,State,Minnesota,14,available slots,,Education and Care,7/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/24/2020,State,Minnesota,0,available slots,,Education and Care,7/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/25/2020,State,Minnesota,0,available slots,,Education and Care,7/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/26/2020,State,Minnesota,1,available slots,,Education and Care,7/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/27/2020,State,Minnesota,0,available slots,,Education and Care,7/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/28/2020,State,Minnesota,0,available slots,,Education and Care,7/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/29/2020,State,Minnesota,3,available slots,,Education and Care,7/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/30/2020,State,Minnesota,128,available slots,,Education and Care,7/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,7/31/2020,State,Minnesota,50,available slots,,Education and Care,7/31/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/1/2020,State,Minnesota,0,available slots,,Education and Care,8/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/2/2020,State,Minnesota,0,available slots,,Education and Care,8/2/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/3/2020,State,Minnesota,136,available slots,,Education and Care,8/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/4/2020,State,Minnesota,73,available slots,,Education and Care,8/4/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/5/2020,State,Minnesota,5,available slots,,Education and Care,8/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/6/2020,State,Minnesota,9,available slots,,Education and Care,8/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/7/2020,State,Minnesota,0,available slots,,Education and Care,8/7/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/8/2020,State,Minnesota,3,available slots,,Education and Care,8/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/9/2020,State,Minnesota,0,available slots,,Education and Care,8/9/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/10/2020,State,Minnesota,2,available slots,,Education and Care,8/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/11/2020,State,Minnesota,42,available slots,,Education and Care,8/11/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/12/2020,State,Minnesota,106,available slots,,Education and Care,8/12/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/13/2020,State,Minnesota,1,available slots,,Education and Care,8/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/14/2020,State,Minnesota,4,available slots,,Education and Care,8/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/15/2020,State,Minnesota,0,available slots,,Education and Care,8/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/16/2020,State,Minnesota,0,available slots,,Education and Care,8/16/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/17/2020,State,Minnesota,3,available slots,,Education and Care,8/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/18/2020,State,Minnesota,6,available slots,,Education and Care,8/18/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/19/2020,State,Minnesota,0,available slots,,Education and Care,8/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/20/2020,State,Minnesota,4,available slots,,Education and Care,8/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/21/2020,State,Minnesota,0,available slots,,Education and Care,8/21/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/22/2020,State,Minnesota,0,available slots,,Education and Care,8/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/23/2020,State,Minnesota,0,available slots,,Education and Care,8/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/24/2020,State,Minnesota,10,available slots,,Education and Care,8/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/25/2020,State,Minnesota,13,available slots,,Education and Care,8/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/26/2020,State,Minnesota,5,available slots,,Education and Care,8/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/27/2020,State,Minnesota,12,available slots,,Education and Care,8/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/28/2020,State,Minnesota,195,available slots,,Education and Care,8/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/29/2020,State,Minnesota,22,available slots,,Education and Care,8/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/30/2020,State,Minnesota,11,available slots,,Education and Care,8/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,8/31/2020,State,Minnesota,54,available slots,,Education and Care,8/31/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/1/2020,State,Minnesota,10,available slots,,Education and Care,9/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/2/2020,State,Minnesota,4,available slots,,Education and Care,9/2/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/3/2020,State,Minnesota,15,available slots,,Education and Care,9/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/4/2020,State,Minnesota,57,available slots,,Education and Care,9/4/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/5/2020,State,Minnesota,3,available slots,,Education and Care,9/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/6/2020,State,Minnesota,0,available slots,,Education and Care,9/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/7/2020,State,Minnesota,1,available slots,,Education and Care,9/7/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/8/2020,State,Minnesota,7,available slots,,Education and Care,9/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/9/2020,State,Minnesota,6,available slots,,Education and Care,9/9/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/10/2020,State,Minnesota,153,available slots,,Education and Care,9/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/11/2020,State,Minnesota,130,available slots,,Education and Care,9/11/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/12/2020,State,Minnesota,2,available slots,,Education and Care,9/12/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/13/2020,State,Minnesota,0,available slots,,Education and Care,9/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/14/2020,State,Minnesota,24,available slots,,Education and Care,9/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/15/2020,State,Minnesota,5,available slots,,Education and Care,9/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/16/2020,State,Minnesota,20,available slots,,Education and Care,9/16/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/17/2020,State,Minnesota,6,available slots,,Education and Care,9/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/18/2020,State,Minnesota,0,available slots,,Education and Care,9/18/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/19/2020,State,Minnesota,0,available slots,,Education and Care,9/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/20/2020,State,Minnesota,0,available slots,,Education and Care,9/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/21/2020,State,Minnesota,88,available slots,,Education and Care,9/21/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/22/2020,State,Minnesota,41,available slots,,Education and Care,9/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/23/2020,State,Minnesota,23,available slots,,Education and Care,9/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/24/2020,State,Minnesota,5,available slots,,Education and Care,9/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/25/2020,State,Minnesota,0,available slots,,Education and Care,9/25/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/26/2020,State,Minnesota,0,available slots,,Education and Care,9/26/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/27/2020,State,Minnesota,0,available slots,,Education and Care,9/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/28/2020,State,Minnesota,9,available slots,,Education and Care,9/28/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/29/2020,State,Minnesota,39,available slots,,Education and Care,9/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,9/30/2020,State,Minnesota,4,available slots,,Education and Care,9/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/1/2020,State,Minnesota,157,available slots,,Education and Care,10/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/2/2020,State,Minnesota,29,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/3/2020,State,Minnesota,2,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/4/2020,State,Minnesota,23,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/5/2020,State,Minnesota,180,available slots,,Education and Care,10/6/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/6/2020,State,Minnesota,91,available slots,,Education and Care,10/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/7/2020,State,Minnesota,46,available slots,,Education and Care,10/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/8/2020,State,Minnesota,120,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/9/2020,State,Minnesota,49,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/10/2020,State,Minnesota,2,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/11/2020,State,Minnesota,6,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/12/2020,State,Minnesota,57,available slots,,Education and Care,10/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/13/2020,State,Minnesota,25,available slots,,Education and Care,10/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/14/2020,State,Minnesota,16,available slots,,Education and Care,10/15/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/15/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/16/2020,State,Minnesota,9,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/17/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/18/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/19/2020,State,Minnesota,0,available slots,,Education and Care,10/20/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/20/2020,State,Minnesota,137,available slots,,Education and Care,10/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/21/2020,State,Minnesota,48,available slots,,Education and Care,10/22/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/22/2020,State,Minnesota,51,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/23/2020,State,Minnesota,69,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/24/2020,State,Minnesota,4,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/25/2020,State,Minnesota,7,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/26/2020,State,Minnesota,40,available slots,,Education and Care,10/27/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/27/2020,State,Minnesota,54,available slots,,Education and Care,10/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/28/2020,State,Minnesota,37,available slots,,Education and Care,10/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/29/2020,State,Minnesota,36,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/30/2020,State,Minnesota,3,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,10/31/2020,State,Minnesota,0,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/1/2020,State,Minnesota,6,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/2/2020,State,Minnesota,133,available slots,,Education and Care,11/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/3/2020,State,Minnesota,47,available slots,,Education and Care,11/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/4/2020,State,Minnesota,43,available slots,,Education and Care,11/5/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/5/2020,State,Minnesota,10,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/6/2020,State,Minnesota,0,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/7/2020,State,Minnesota,8,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/8/2020,State,Minnesota,1,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/9/2020,State,Minnesota,1,available slots,,Education and Care,11/10/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/10/2020,State,Minnesota,18,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/11/2020,State,Minnesota,0,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/12/2020,State,Minnesota,8,available slots,,Education and Care,11/13/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/13/2020,State,Minnesota,3,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/14/2020,State,Minnesota,0,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/15/2020,State,Minnesota,0,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/16/2020,State,Minnesota,10,available slots,,Education and Care,11/17/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/17/2020,State,Minnesota,148,available slots,,Education and Care,11/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/18/2020,State,Minnesota,198,available slots,,Education and Care,11/19/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/19/2020,State,Minnesota,594,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/20/2020,State,Minnesota,26,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/21/2020,State,Minnesota,15,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/22/2020,State,Minnesota,10,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/23/2020,State,Minnesota,6,available slots,,Education and Care,11/24/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/24/2020,State,Minnesota,15,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/25/2020,State,Minnesota,18,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/26/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/27/2020,State,Minnesota,1,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/28/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/29/2020,State,Minnesota,0,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,11/30/2020,State,Minnesota,305,available slots,,Education and Care,12/1/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/1/2020,State,Minnesota,20,available slots,,Education and Care,12/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/2/2020,State,Minnesota,6,available slots,,Education and Care,12/3/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/3/2020,State,Minnesota,3,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/4/2020,State,Minnesota,32,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/5/2020,State,Minnesota,9,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/6/2020,State,Minnesota,0,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/7/2020,State,Minnesota,2844,available slots,,Education and Care,12/8/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/8/2020,State,Minnesota,2550,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/9/2020,State,Minnesota,1808,available slots,,Education and Care,12/14/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/10/2020,State,Minnesota,1839,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/11/2020,State,Minnesota,1254,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/12/2020,State,Minnesota,107,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/13/2020,State,Minnesota,90,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/14/2020,State,Minnesota,740,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/15/2020,State,Minnesota,883,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/16/2020,State,Minnesota,163,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/17/2020,State,Minnesota,453,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/18/2020,State,Minnesota,245,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/19/2020,State,Minnesota,5,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/20/2020,State,Minnesota,36,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/21/2020,State,Minnesota,204,available slots,,Education and Care,12/23/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/22/2020,State,Minnesota,53,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/23/2020,State,Minnesota,196,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/24/2020,State,Minnesota,17,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/25/2020,State,Minnesota,4,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/26/2020,State,Minnesota,12,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/27/2020,State,Minnesota,12,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/28/2020,State,Minnesota,164,available slots,,Education and Care,12/29/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/29/2020,State,Minnesota,1,available slots,,Education and Care,12/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/30/2020,State,Minnesota,6,available slots,,Education and Care,12/30/2020,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,12/31/2020,State,Minnesota,3,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/1/2021,State,Minnesota,8,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/2/2021,State,Minnesota,23,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/3/2021,State,Minnesota,6,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/4/2021,State,Minnesota,123,available slots,,Education and Care,1/5/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/5/2021,State,Minnesota,44,available slots,,Education and Care,1/7/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/6/2021,State,Minnesota,33,available slots,,Education and Care,1/7/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/7/2021,State,Minnesota,2,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/8/2021,State,Minnesota,0,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/9/2021,State,Minnesota,5,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/10/2021,State,Minnesota,0,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/11/2021,State,Minnesota,149,available slots,,Education and Care,1/12/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/12/2021,State,Minnesota,23,available slots,,Education and Care,1/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/13/2021,State,Minnesota,89,available slots,,Education and Care,1/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/14/2021,State,Minnesota,67,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/15/2021,State,Minnesota,15,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/16/2021,State,Minnesota,132,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/17/2021,State,Minnesota,16,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/18/2021,State,Minnesota,167,available slots,,Education and Care,1/20/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/19/2021,State,Minnesota,89,available slots,,Education and Care,1/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/20/2021,State,Minnesota,26,available slots,,Education and Care,1/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/21/2021,State,Minnesota,86,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/22/2021,State,Minnesota,68,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/23/2021,State,Minnesota,12,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/24/2021,State,Minnesota,0,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/25/2021,State,Minnesota,218,available slots,,Education and Care,1/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/26/2021,State,Minnesota,105,available slots,,Education and Care,1/28/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/27/2021,State,Minnesota,143,available slots,,Education and Care,1/28/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/28/2021,State,Minnesota,252,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/29/2021,State,Minnesota,91,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/30/2021,State,Minnesota,39,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,1/31/2021,State,Minnesota,95,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/1/2021,State,Minnesota,190,available slots,,Education and Care,2/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/2/2021,State,Minnesota,59,available slots,,Education and Care,2/4/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/3/2021,State,Minnesota,364,available slots,,Education and Care,2/4/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/4/2021,State,Minnesota,245,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/5/2021,State,Minnesota,157,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/6/2021,State,Minnesota,104,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/7/2021,State,Minnesota,0,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/8/2021,State,Minnesota,7,available slots,,Education and Care,2/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/9/2021,State,Minnesota,6,available slots,,Education and Care,2/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/10/2021,State,Minnesota,678,available slots,,Education and Care,2/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/11/2021,State,Minnesota,252,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/12/2021,State,Minnesota,116,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/13/2021,State,Minnesota,4,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/14/2021,State,Minnesota,113,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/15/2021,State,Minnesota,52,available slots,,Education and Care,2/17/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/16/2021,State,Minnesota,165,available slots,,Education and Care,2/18/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/17/2021,State,Minnesota,245,available slots,,Education and Care,2/18/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/18/2021,State,Minnesota,2440,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/19/2021,State,Minnesota,3630,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/20/2021,State,Minnesota,386,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/21/2021,State,Minnesota,238,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/22/2021,State,Minnesota,1922,available slots,,Education and Care,2/24/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/23/2021,State,Minnesota,355,available slots,,Education and Care,2/25/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/24/2021,State,Minnesota,981,available slots,,Education and Care,2/25/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/25/2021,State,Minnesota,70,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/26/2021,State,Minnesota,176,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/27/2021,State,Minnesota,0,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,2/28/2021,State,Minnesota,2,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/1/2021,State,Minnesota,91,available slots,,Education and Care,3/2/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/2/2021,State,Minnesota,15,available slots,,Education and Care,3/4/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/3/2021,State,Minnesota,511,available slots,,Education and Care,3/4/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/4/2021,State,Minnesota,86,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/5/2021,State,Minnesota,7,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/6/2021,State,Minnesota,10,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/7/2021,State,Minnesota,3,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/8/2021,State,Minnesota,107,available slots,,Education and Care,3/9/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/9/2021,State,Minnesota,31,available slots,,Education and Care,3/10/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/10/2021,State,Minnesota,6,available slots,,Education and Care,3/10/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/11/2021,State,Minnesota,114,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/12/2021,State,Minnesota,187,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/13/2021,State,Minnesota,0,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/14/2021,State,Minnesota,5,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/15/2021,State,Minnesota,134,available slots,,Education and Care,3/16/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/16/2021,State,Minnesota,35,available slots,,Education and Care,3/18/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/17/2021,State,Minnesota,41,available slots,,Education and Care,3/18/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/18/2021,State,Minnesota,15,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/19/2021,State,Minnesota,6,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/20/2021,State,Minnesota,12,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/21/2021,State,Minnesota,0,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/22/2021,State,Minnesota,76,available slots,,Education and Care,3/23/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/23/2021,State,Minnesota,2,available slots,,Education and Care,3/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/24/2021,State,Minnesota,10,available slots,,Education and Care,3/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/25/2021,State,Minnesota,2,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/26/2021,State,Minnesota,3,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/27/2021,State,Minnesota,2,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/28/2021,State,Minnesota,0,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/29/2021,State,Minnesota,8,available slots,,Education and Care,3/30/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/30/2021,State,Minnesota,651,available slots,,Education and Care,4/1/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,3/31/2021,State,Minnesota,1174,available slots,,Education and Care,4/1/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/1/2021,State,Minnesota,27,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/2/2021,State,Minnesota,71,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/3/2021,State,Minnesota,24,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/4/2021,State,Minnesota,11,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/5/2021,State,Minnesota,65,available slots,,Education and Care,4/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/6/2021,State,Minnesota,303,available slots,,Education and Care,4/8/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/7/2021,State,Minnesota,113,available slots,,Education and Care,4/8/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/8/2021,State,Minnesota,160,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/9/2021,State,Minnesota,211,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/10/2021,State,Minnesota,10,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/11/2021,State,Minnesota,0,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/12/2021,State,Minnesota,16,available slots,,Education and Care,4/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/13/2021,State,Minnesota,67,available slots,,Education and Care,4/15/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/14/2021,State,Minnesota,337,available slots,,Education and Care,4/15/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/15/2021,State,Minnesota,184,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/16/2021,State,Minnesota,338,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/17/2021,State,Minnesota,2,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/18/2021,State,Minnesota,939,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/19/2021,State,Minnesota,858,available slots,,Education and Care,4/21/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/20/2021,State,Minnesota,80,available slots,,Education and Care,4/22/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/21/2021,State,Minnesota,327,available slots,,Education and Care,4/22/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/22/2021,State,Minnesota,140,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/23/2021,State,Minnesota,85,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/24/2021,State,Minnesota,15,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/25/2021,State,Minnesota,12,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/26/2021,State,Minnesota,356,available slots,,Education and Care,4/26/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/27/2021,State,Minnesota,5066,available slots,,Education and Care,4/29/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/28/2021,State,Minnesota,2002,available slots,,Education and Care,4/29/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/29/2021,State,Minnesota,1315,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,4/30/2021,State,Minnesota,2888,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/1/2021,State,Minnesota,35,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/2/2021,State,Minnesota,53,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/3/2021,State,Minnesota,2489,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/4/2021,State,Minnesota,635,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/5/2021,State,Minnesota,106,available slots,,Education and Care,5/6/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/6/2021,State,Minnesota,288,available slots,,Education and Care,5/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/7/2021,State,Minnesota,30,available slots,,Education and Care,5/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/8/2021,State,Minnesota,6,available slots,,Education and Care,5/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/9/2021,State,Minnesota,18,available slots,,Education and Care,5/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/10/2021,State,Minnesota,460,available slots,,Education and Care,5/11/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/11/2021,State,Minnesota,147,available slots,,Education and Care,5/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/12/2021,State,Minnesota,55,available slots,,Education and Care,5/13/2021,,,https://mn.gov/mmb/childcare/families/
+New total capacity,,,,,5/13/2021,State,Minnesota,0,available slots,,Education and Care,5/13/2021,,,https://mn.gov/mmb/childcare/families/
