@@ -348,11 +348,16 @@ p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine
   aes(x = Date)+
   geom_path(aes(y = Total.vaccine, color = "Total"), size = 1.5)+
   geom_col(aes(y = New.vaccine*p6Constant, fill = "New"))+
+  geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "New.vaccine", movAvgValue*p6Constant, movAvgValue)) %>% 
+              filter(Variable %in% "New.vaccine", Date > "2020-12-28") %>% ungroup %>% 
+              mutate(Variable = factor(Variable, levels = c("New.vaccine"))), 
+            aes(Date, movAvgValue, color = "New (7-day moving)"), size = 1.5, alpha = .6)+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
   # scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
   #                                                                            name = "New",labels = scales::label_number_si()))+
   labs(y = "Total", fill = "", x = "", title = "Vaccine doses administered", color = "")+
-  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[2],.5))+
+  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[c(2)],.5))+
+  scale_color_manual(values = alpha(RColorBrewer::brewer.pal(5, "Set1")[c(5,1)],.8))+
   # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
   #                    sec.axis = sec_axis(~., name = "New"))+
   scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1), 
