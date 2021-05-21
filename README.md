@@ -7,6 +7,27 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
 
 3. Outputs a pdf file named "COVID_markdown.pdf".
 
+**Brief explanation of the plots**
+  - Left middle: Bars represent daily numbers for new case (green) and death (orange); lines represent 7-day moving average of the new case and death. 
+    - Left y axis for new case
+    - Right y axis for new death  
+    
+  - Left bottom: Bars represent daily positive rate (green) and case fatality rate (orange); lines represent 7-day moving average (purple represents the number of daily tests)
+    - Left y axis for daily positive rate and case fatality rate
+    - Right y axis for daily tests 
+    
+  - Right top: Bars represent daily numbers of new admitted hospitalizations (red) and new admitted icu hospitalizations (blue); lines represent 7-day moving average (orange represents the number of total deaths)
+    - Left y axis for total deaths
+    - Right y axis for daily admitted hospitalization cases
+     
+  - Right 2nd from the top: Bars represent daily numbers of current hospitalizations (red) and current icu hospitalizations (blue); lines represent 7-day moving average (purple represents the number of current active cases)
+    - Left y axis for current active cases
+    - Right y axis for current hospitalization cases
+  
+  - Right 3rd from the top: Bars represent current number of people with at least one dose of vaccination (red) and current number of people with completed vaccination (blue)
+    
+  - Right bottom: Bars represent daily number of vaccination doses (blue); orange line represents the 7-day moving average of daily number of vaccination doses and red line represents number of total vaccination doses administered to date
+
 Note: 
   - The csv data (current version: 2020-09-01) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
   
