@@ -28,7 +28,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
     
   - Right bottom: Bars represent daily number of vaccination doses (blue); orange line represents the 7-day moving average of daily number of vaccination doses and red line represents number of total vaccination doses administered to date
   
-  - According to MDH, the gray shaded area for the most recent 7 days incidates "Due to the need to confirm reports and reporting delays, data maybe incomplete". 
+  - According to MDH, the gray shaded area for the most recent 7 days indicates "Due to the need to confirm reports and reporting delays, data maybe incomplete". 
 
 Note: 
   - The csv data (current version: 2020-09-01) may not be updated regularly, but you can find the most recent data in the following link. The daily positive case number reported here is using today's total positve cases minus the the total positive cases from the previous day in the MDH Daily Update. So the positive case number may be slightly different from the positive case count by specimen colletced date.   
