@@ -223,12 +223,10 @@ data %>% write.csv("MNCovidData.csv", row.names = F)
 ## Check if the date is not Sunday and Saturday
 if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(DateReport == last(DateReport)) %>% pull(ICU) %>% is.na)) {
   data %>%
-    mutate(ICU = ifelse(Date>"2020-08-01", NA, ICU),
-           Currently.hospitalized = ifelse(Date>"2020-08-01", NA, Currently.hospitalized)) %>%
-    select(-ends_with(".y"), -ends_with(".x")) %>%
-    full_join(hospitalizationData, by = "DateReport", copy = T) %>%
-    mutate(ICU = coalesce(ICU.x, ICU.y),
-           Currently.hospitalized = coalesce(Currently.hospitalized.x, Currently.hospitalized.y)) %>%
+    ## Updated on 2021-05-27 to fix bug
+    left_join(hospitalizationData, by = c("DateReport"), copy = T) %>%
+    mutate(ICU = coalesce(ICU.x %>% as.double(), ICU.y),
+           Currently.hospitalized = coalesce(Currently.hospitalized.x %>% as.double(), Currently.hospitalized.y)) %>%
     select(-ends_with(".x"),-ends_with(".y")) %>%
     #filter(!is.na(DateReport)) %>%
     arrange(Date) %>%
