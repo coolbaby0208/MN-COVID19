@@ -225,8 +225,8 @@ if (!last(data$Date) %>% wday %in% c(1,7) && (!hospitalizationData %>% filter(Da
   data %>%
     ## Updated on 2021-05-27 to fix bug
     left_join(hospitalizationData, by = c("DateReport"), copy = T) %>%
-    mutate(ICU = coalesce(ICU.x %>% as.double(), ICU.y),
-           Currently.hospitalized = coalesce(Currently.hospitalized.x %>% as.double(), Currently.hospitalized.y)) %>%
+    mutate(ICU = coalesce(ICU.x %>% as.double(), ICU.y %>% as.double()),
+           Currently.hospitalized = coalesce(Currently.hospitalized.x %>% as.double(), Currently.hospitalized.y %>% as.double())) %>%
     select(-ends_with(".x"),-ends_with(".y")) %>%
     #filter(!is.na(DateReport)) %>%
     arrange(Date) %>%
