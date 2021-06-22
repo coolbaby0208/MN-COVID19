@@ -25,7 +25,7 @@ exceptionDate = c("2020-11-27", "2020-12-26","2021-01-02", "2021-04-05", "2021-0
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   drop_na(Date) %>% 
   ## add on 2021-06-02 to fix NA values in total ICU & hospitalizations to date
-  fill(c(Total.ICU, Total.Hospital), .direction = "down") %>% 
+
   ## add on 2020-09-24
   ## add it back on 2020-10-09
   #select(-Currently.hospitalized, -ICU) %>% 
@@ -61,7 +61,10 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          Total.casesPlot = ifelse(last(.$Date) - Date > 6,  Total.casesBySpecimenDate, Total.cases),
          PositivePercentPlot = New.casesPlot/Daily.testsPlot,
          PositivePercentPeoplePlot = New.casesPlot/Daily.tests.people,
-         DeathPercentPlot = Total.deaths/Total.casesPlot) 
+         DeathPercentPlot = Total.deaths/Total.casesPlot) %>% 
+  ## Change made on 2021-06-22 due to MDH only updates hospitalization table to data two days before the report date
+  ## So the up/down number was always zero
+  fill(c(Total.ICU, Total.Hospital, New.ICU, New.hospitalized), .direction = "down")
 
 ## Convert to long format for p1 and p3 plots
 ## edit on 2020-08-18 to include number of people tested
