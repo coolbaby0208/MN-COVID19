@@ -41,6 +41,10 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
+Minor change: 2021-06-23
+====
+Fix up 0 issues in total hospitalization due to 2-day reporting delay. 
+
 Minor change: 2021-03-18
 ====
 Remove surge capacity in the pdf version due to limited space and add vaccination data by people in both pdf and html.
