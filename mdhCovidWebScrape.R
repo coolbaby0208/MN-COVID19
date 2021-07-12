@@ -124,6 +124,7 @@ mdhData =
 read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   mutate(Date = Date %>% ymd) %>% 
   full_join(mdhData) %>% 
+  arrange(Date) %>% 
   distinct(Date, .keep_all = T) %>% 
   write.csv("MNCovidData.csv", row.names = F) 
 
@@ -186,7 +187,7 @@ dataSpecimenDate =
 if(ncol(mdhDataTable[[18]])==5) {
   hospitalData = mdhDataTable[[18]]
   } else {
-  hospitalData = mdhDataTable[[16]]
+  hospitalData = mdhDataTable[[19]]
 }
 # Add on 2021-05-10
 #hospitalData = mdhDataTable[[16]] 

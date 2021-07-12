@@ -20,10 +20,11 @@ library(lubridate)
 ## edit on 2020-09-24 due to change in reporting ICU and hospitalized number 
 ## add exception date to fix errors due to holidays 
 ## Need to use the day off +1
-exceptionDate = c("2020-11-27", "2020-12-26","2021-01-02", "2021-04-05", "2021-06-01") %>% ymd
+exceptionDate = c("2020-11-27", "2020-12-26","2021-01-02", "2021-04-05", "2021-06-01", "2021-07-05", "2021-07-06", "2021-07-10", "2021-07-11") %>% ymd
 
 dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>% 
   drop_na(Date) %>% 
+  fill(names(.), .direction = "down") %>% 
   ## add on 2020-09-24
   ## add it back on 2020-10-09
   #select(-Currently.hospitalized, -ICU) %>% 
@@ -62,7 +63,9 @@ dataWide = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
          DeathPercentPlot = Total.deaths/Total.casesPlot) %>% 
   ## Change made on 2021-06-22 due to MDH only updates hospitalization table to data two days before the report date
   ## So the up/down number was always zero
-  fill(c(Total.ICU, Total.Hospital, New.ICU, New.hospitalized), .direction = "down")
+  arrange(Date) %>% 
+  fill(c(Total.ICU, Total.Hospital, New.ICU, New.hospitalized), .direction = "down") 
+  #fill(names(.), .direction = "down")
 
 ## Convert to long format for p1 and p3 plots
 ## edit on 2020-08-18 to include number of people tested
