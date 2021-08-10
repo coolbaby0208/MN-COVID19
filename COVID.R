@@ -345,35 +345,54 @@ plot(p5)
 ## Add vaccination plot 
 # 2021-01-15
 # revised on 2021-03-04
-p6Constant = dataWide %>% filter(Date == last(Date)) %>% pull(Total.vaccine)/dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine), New.vaccine == max(New.vaccine, na.rm = T)) %>% 
-  pull(New.vaccine)
-# round to nearest 5 for better t axis break match
-p6Constant = 5*round(p6Constant/5)
+# p6Constant = dataWide %>% filter(Date == last(Date)) %>% pull(Total.people.vaccine.completed)/dataWide %>% filter(Date > "2021-03-10", !is.na(Total.people.vaccine.completed), New.vaccine.people.completed == max(New.vaccine.people.completed, na.rm = T)) %>% 
+#   pull(New.vaccine.people.completed)
+# # round to nearest 5 for better t axis break match
+# p6Constant = 5*round(p6Constant/5)
+# 
+# p6 = ggplot(data = dataWide %>% filter(Date > "2021-03-10", !is.na(Total.vaccine)))+
+#   aes(x = Date)+
+#   geom_path(aes(y = Total.people.vaccine.completed, color = "Total"), size = 1.5)+
+#   geom_col(aes(y = New.vaccine.people.completed*p6Constant, fill = "New"))+
+#   geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "New.vaccine.people.completed", movAvgValue*p6Constant, movAvgValue)) %>% 
+#               filter(Variable %in% "New.vaccine.people.completed", Date > "2021-03-10") %>% ungroup %>% 
+#               mutate(Variable = factor(Variable, levels = c("New.vaccine.people.completed"))), 
+#             aes(Date, movAvgValue, color = "New (7-day moving)"), size = 1.5, alpha = .6)+
+#   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
+#   # scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
+#   #                                                                            name = "New",labels = scales::label_number_si()))+
+#   labs(y = "Total", fill = "", x = "", title = "Vaccine doses administered", color = "")+
+#   scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[c(2)],.5))+
+#   scale_color_manual(values = alpha(RColorBrewer::brewer.pal(5, "Set1")[c(5,1)],.8))+
+#   # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
+#   #                    sec.axis = sec_axis(~., name = "New"))+
+#   scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1), 
+#                      sec.axis = sec_axis(trans = ~./p6Constant, name = "New", labels = scales::label_number_si()))+
+#   theme_minimal()+
+#   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
+#         legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 40, hjust = 0.75), text=element_text(size=14),legend.text = element_text(size=10))
+# 
+# plot(p6)
 
-p6 = ggplot(data = dataWide %>% filter(Date > "2020-12-28", !is.na(Total.vaccine)))+
-  aes(x = Date)+
-  geom_path(aes(y = Total.vaccine, color = "Total"), size = 1.5)+
-  geom_col(aes(y = New.vaccine*p6Constant, fill = "New"))+
-  geom_path(data = dataLongAvg %>% mutate(movAvgValue = ifelse(Variable == "New.vaccine", movAvgValue*p6Constant, movAvgValue)) %>% 
-              filter(Variable %in% "New.vaccine", Date > "2020-12-28") %>% ungroup %>% 
-              mutate(Variable = factor(Variable, levels = c("New.vaccine"))), 
-            aes(Date, movAvgValue, color = "New (7-day moving)"), size = 1.5, alpha = .6)+
+
+p6Constant = vacWkDose %>% filter(DateWeek == last(DateWeek)) %>% pull(TotalDose)/vacWkDose %>% filter(!is.na(Dose), Dose == max(Dose, na.rm = T)) %>% 
+  pull(Dose)
+
+p6 = ggplot(vacWkDose)+
+  aes(x = DateWeek)+
+  geom_path(aes(y = TotalDose, color = "Total"), size = 1.5)+
+  geom_col(aes(y = Dose*p6Constant, fill = "New weekly"), size = 1.5)+
   scale_x_date(date_breaks = "7 days", date_labels = "%b %d")+
-  # scale_y_continuous(labels = scales::label_number_si(), sec.axis = sec_axis(~ ./(p1Constant),
-  #                                                                            name = "New",labels = scales::label_number_si()))+
-  labs(y = "Total", fill = "", x = "", title = "Vaccine doses administered", color = "")+
-  scale_fill_manual(values = alpha(RColorBrewer::brewer.pal(3, "Set1")[c(2)],.5))+
-  scale_color_manual(values = alpha(RColorBrewer::brewer.pal(5, "Set1")[c(5,1)],.8))+
-  # scale_y_continuous(trans = "log10", breaks = scales::label_number_si(), labels = scales::label_number_si(),
-  #                    sec.axis = sec_axis(~., name = "New"))+
+  scale_fill_manual(name = "", values = alpha(RColorBrewer::brewer.pal(3, "Set1")[c(2)],.5))+
+  scale_color_manual(name = "", values = alpha(RColorBrewer::brewer.pal(5, "Set1")[c(5,1)],.8))+
   scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1), 
-                     sec.axis = sec_axis(trans = ~./p6Constant, name = "New", labels = scales::label_number_si()))+
+                     sec.axis = sec_axis(trans = ~./p6Constant, name = "New weekly", labels = scales::label_number_si()))+
+  labs(y = "Total doses", fill = "", x = "", title = "Weekly vaccine doses administered", color = "")+
   theme_minimal()+
   theme(title = element_text(size = 12), panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),legend.margin=margin(t = -30), plot.margin = margin(0, 0, -5, .1, "pt"),
         legend.box="horizontal",legend.position = "bottom", axis.text.x = element_text(size=10, angle = 40, hjust = 0.75), text=element_text(size=14),legend.text = element_text(size=10))
 
-plot(p6)
-
+plot(p6)  
 
 p7 = ggplot(vacPplDataSum %>% filter(Age!="Missing"))+
   aes(x = Age, y = People, fill = Variable, label = People)+

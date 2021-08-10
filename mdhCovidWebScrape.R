@@ -77,6 +77,17 @@ vacPplDataSum = vacPplData %>%
   mutate(Age = "Total") %>% 
   full_join(vacPplData) %>% 
   mutate(Variable = fct_relevel(Variable, "Completed", after = 1))
+
+vacWkDoseUrl = "Doses Administered By Week_tcm1148-462844.csv"
+vacWkDose =  read.csv(vacWkDoseUrl, header = T) %>% 
+  rename (DateWeek = Week.Start.Date, 
+          Dose = Doses.Administered.Per.Week,
+          TotalDose = Cumulative.Total.Doses.Administered..by.week,
+          DateReport = reportedDate) %>% 
+  filter(DateWeek!= "Unknown/missing") %>% 
+  mutate(DateReport = mdy(DateReport),
+         DateWeek = mdy(DateWeek))
+
 ## For merging into the main "MNCovidData.csv" data
 vacPpl = vacPplDataSum %>% 
   filter(Age == "Total") %>% 
@@ -243,7 +254,8 @@ data = read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
   ## since the values in duplicated variables will change
   ## remove duplicated variables before full_join
   select(-DateReport:-ExternalTestsByReportDate) %>% 
-  full_join(hospitalAdmitData) 
+  full_join(hospitalAdmitData) %>% 
+  arrange(Date)
 
 data %>% write.csv("MNCovidData.csv", row.names = F)
 
