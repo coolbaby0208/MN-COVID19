@@ -43,7 +43,7 @@ Note:
 
 Minor change: 2021-08-10
 ====
-Update the bottomo right plot from daily doses administered to weekly doses. 
+Update the bottom right plot from daily doses administered to weekly doses. 
 
 Minor change: 2021-06-23
 ====
