@@ -26,7 +26,7 @@ This r markdown file was setup for my personal use to look at COVID-19 data in M
   
   - Right 3rd from the top: Bars represent current number of people with at least one dose of vaccination (red) and current number of people with completed vaccination (blue)
     
-  - Right bottom: Bars represent daily number of vaccination doses (blue); orange line represents the 7-day moving average of daily number of vaccination doses and red line represents number of total vaccination doses administered to date
+  - Right bottom: Bars represent weekly number of vaccination doses (blue); orange line represents the total number of vaccination doses administered to date
   
   - According to MDH, the gray shaded area for the most recent 7 days indicates "Due to the need to confirm reports and reporting delays, data maybe incomplete". 
 
@@ -40,6 +40,10 @@ Note:
   - Library needed for this R markdown: tidyverse, ggrepel, gridExtra, knitr, kableExtra, rvest, lubridate  
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
+
+Minor change: 2021-08-10
+====
+Update the bottomo right plot from daily doses administered to weekly doses. 
 
 Minor change: 2021-06-23
 ====
