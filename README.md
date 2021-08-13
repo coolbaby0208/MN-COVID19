@@ -41,6 +41,10 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
+Minor change: 2021-08-13
+====
+Made some updates to clean up the labels in the plots and replaced the daily vaccination doses administered to weekly doses. Also removed the up number in the total accumulated hospitalized and ICU numbers since MDH only updated the number from 2 days before the report date.
+
 Minor change: 2021-08-10
 ====
 Update the bottom right plot from daily doses administered to weekly doses. 
