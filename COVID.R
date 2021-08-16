@@ -157,7 +157,7 @@ p2 = ggplot()+
                filter(Date %in% vlineDf$Date) %>%
                pull(Date), lty = 2, alpha = .4)+
   # add dialback positivity threshold
-  geom_hline(yintercept = 15, color = "red", lty = 2)+
+  geom_hline(yintercept = 10, color = "red", lty = 2)+
   annotate("label", x = vlineDf$Date, y = p2LabelLoc, label = vlineDf$Label, lineheight = .75, size = 3, label.padding = unit(0.1, "lines"), label.size = .02)+
   # n day moving average
   geom_path(data = dataLongAvg %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","Daily.tests")) %>% ungroup %>% mutate(movAvgValue = ifelse(Variable == "Daily.tests", movAvgValue*0.0005, movAvgValue*100), Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(Date, movAvgValue, color = Variable, group = Variable, size = Variable), alpha = .7)+
@@ -166,7 +166,7 @@ p2 = ggplot()+
   #                          Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(x= Date, y = Value, label = round(Value,2), color = Variable), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 5, vjust = c(0,-5,-1), size = 3.5, fontface = "bold",show.legend = FALSE)+
   scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,2,3)]), label = c("Positive rate","Fatality rate","Daily tests"))+
   #geom_text(aes(x = "2020-03-15" %>% as.Date, y = 15), label = "Positivity\nthreshold", vjust = -.5, color = "red", size = 3, lineheight = .8, fontface = "bold", check_overlap = TRUE)+
-  annotate("label", x = "2020-03-15" %>% as.Date, y = 17, label = "Positivity\nthreshold", lineheight = .8, size = 3, label.padding = unit(0.2, "lines"), label.size = .02, color = "red", fontface = "bold")+
+  annotate("label", x = "2020-03-15" %>% as.Date, y = 17, label = "High\nrisk", lineheight = .8, size = 3, label.padding = unit(0.2, "lines"), label.size = .02, color = "red", fontface = "bold")+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .2)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", fill = "Positive rate")+
   guides(color = guide_legend(), size = guide_legend(), fill = guide_legend())+
