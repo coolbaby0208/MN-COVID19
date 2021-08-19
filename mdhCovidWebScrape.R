@@ -115,8 +115,15 @@ vacPpl = vacPplDataSum %>%
 # Add on 2021-05-10
 #mdhData = rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl) %>%   
 # Add on 2021-06-02
+
+# revise 2021-08-19 
+# totalTests = mdhDataTable[[8]]
+# totalPeopleTested = mdhDataTable[[10]]
+# totalRecovered = mdhDataTable[[14]]
+# # totalDeath = mdhDataTable[[15]]
+
 mdhData =   
-  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[9]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl), 
+  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[10]], mdhDataTable[[14]], mdhDataTable[[15]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
@@ -143,10 +150,14 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 ## Revised on 2020-10-14
 ## Fix date issue on 2021-01-02
 #testReportDate = mdhDataTable[[8]] %>% 
+
 # Add on 2021-05-10
 # Add on 2021-06-02
+
+# revised on 2021-08-19
+#testReportDate = mdhDataTable[[9]]  
 testReportDate = 
-  tryCatch(mdhDataTable[[8]] %>% rename(DateReport = `Date reported to MDH`,
+  tryCatch(mdhDataTable[[9]] %>% rename(DateReport = `Date reported to MDH`,
                                         MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
                                         ExternalPcr = `Completed PCR tests reported from external laboratories`,
                                         TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
@@ -171,8 +182,10 @@ testReportDate =
 #dataSpecimenDate = mdhDataTable[[11]] %>% 
 # Add on 2021-05-10
 # Add on 2021-06-02
+# revised on 2021-08-19
+#dataSpecimenDate= mdhDataTable[[12]]  
 dataSpecimenDate = 
-  tryCatch(mdhDataTable[[11]] %>% 
+  tryCatch(mdhDataTable[[12]] %>% 
              rename(DateReport = `Specimen collection date`,
                                          ProbableCase = starts_with("Probable"),
                                          ConfirmedCase = starts_with("Confirmed cases"),
