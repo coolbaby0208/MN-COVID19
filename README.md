@@ -44,6 +44,7 @@ Note:
 Minor change: 2021-10-06
 ====
 Made some updates to html version. Added plots with data for most recent 60 days to better visualize the recent trend.
+html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
 
 Minor change: 2021-08-13
 ====
