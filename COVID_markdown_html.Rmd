@@ -89,7 +89,7 @@ p6
 
 ```{r plot7, echo=FALSE, message=FALSE, warning=FALSE}
 ## vaccination data
-plotly::ggplotly(p7)
+p7
 ```
 
 
