@@ -22,12 +22,16 @@ dataLongAvgPlain = dataLongAvg %>%
 dataLongAvgPeople = dataLongAvg %>% 
    filter(Date == last(Date), Variable == "PositivePercentPeoplePlot")
 
+## zoom in range 
+zoomRange = 60
+dateBreak = "1 week"
+
 ```
 
 ## `r format(Sys.time(), '%Y-%m-%d')`
 * Testing
-  + Total number of completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
-  + Total number of people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
+  + Total completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
+  + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
   + Total positive cases: **`r (dataWidePlain$Total.cases) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$New.cases) %>% formatC(format="d", big.mark=",")`)
   + Daily/7-day positive percentage: **`r (round(dataLongAvgPlain$Value, 4)*100)`/`r (round(dataLongAvgPlain$movAvgValue, 4)*100)`**
   <!-- + Daily/7-day positive percentage (people): **`r (round(dataLongAvgPeople$Value, 4)*100)`/`r (round(dataLongAvgPeople$movAvgValue, 4)*100)`** -->
@@ -44,21 +48,33 @@ dataLongAvgPeople = dataLongAvg %>%
 ```{r plot1, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p1
+p1+coord_cartesian(xlim = c(Sys.Date()-zoomRange, Sys.Date()), ylim=c(0, 9500))+
+  scale_x_date(date_breaks = dateBreak, date_labels = "%b %d")+
+  labs(subtitle = paste("Range:", zoomRange, "days"))
 ```
 
 ```{r plot2, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p2
+p2+coord_cartesian(xlim = c(Sys.Date()-zoomRange, Sys.Date()))+
+  scale_x_date(date_breaks = dateBreak, date_labels = "%b %d")+
+  labs(subtitle = paste("Range:", zoomRange, "days"))
 ```
    
 ```{r plot3, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p3
+p3+coord_cartesian(xlim = c(Sys.Date()-zoomRange, Sys.Date()))+
+  scale_x_date(date_breaks = dateBreak, date_labels = "%b %d")+
+  labs(subtitle = paste("Range:", zoomRange, "days"))
 ```
 
 ```{r plot5, echo=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p5
+p5+coord_cartesian(xlim = c(Sys.Date()-zoomRange, Sys.Date()))+
+  scale_x_date(date_breaks = dateBreak, date_labels = "%b %d")+
+  labs(subtitle = paste("Range:", zoomRange, "days"))
 ```
 
 ```{r plot4, echo=FALSE, warning = FALSE, message=FALSE}
@@ -73,7 +89,7 @@ p6
 
 ```{r plot7, echo=FALSE, message=FALSE, warning=FALSE}
 ## vaccination data
-p7
+plotly::ggplotly(p7)
 ```
 
 
@@ -96,9 +112,12 @@ p7
    filter(Date %in% tail(Date, 7)) %>%
    mutate(Date = format(Date, format = "%b %d")) %>% 
    select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
-   rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
-   select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 
-   mutate_at(vars(Hospitalized:`New people tested`), list(~formatC(., format="d", big.mark=","))) %>%
+   rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, 
+          `New people tested` = Daily.tests.people, 
+          `New vaccince people completed` = New.vaccine.people.completed,
+          `New vaccince people one dose` = New.vaccine.people.onedose) %>%
+   select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`, `New vaccince people completed`, `New vaccince people one dose`) %>% 
+   mutate_at(vars(Hospitalized:`New vaccince people one dose`), list(~formatC(., format="d", big.mark=","))) %>%
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 7 days", align = "c",linesep = "") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 14) %>%
    footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 
