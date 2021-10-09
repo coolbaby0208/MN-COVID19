@@ -28,7 +28,7 @@ dateBreak = "1 week"
 
 ```
 
-## `r format(Sys.time(), '%Y-%m-%d')`
+## `r format(Sys.Date(), '%Y-%m-%d')`
 * Testing
   + Total completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
   + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
