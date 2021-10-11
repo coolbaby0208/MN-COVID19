@@ -65,6 +65,7 @@ vacPplUrl = "People Vaccinated, By Age_tcm1148-467653.csv"
 vacPplData = read.csv(vacPplUrl, header = T) %>%
   rename(Age = Age.group,
          OneDose = People.with.at.least.one.vaccine.dose,
+         #TotalDose = Total.doses.administered,
          Completed = People.with.completed.vaccine.series,
          DateReport = reportedDate) %>%
   pivot_longer(cols = c(OneDose,Completed), names_to = "Variable", values_to = "People") %>% 
@@ -122,8 +123,14 @@ vacPpl = vacPplDataSum %>%
 # totalRecovered = mdhDataTable[[14]]
 # # totalDeath = mdhDataTable[[15]]
 
+# revise 2021-10-11 
+# totalTests = mdhDataTable[[8]]
+# totalPeopleTested = NA
+# totalRecovered = mdhDataTable[[13]]
+# totalDeath = mdhDataTable[[14]]
+
 mdhData =   
-  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[10]], mdhDataTable[[14]], mdhDataTable[[15]], vacData, vacPpl), 
+  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
@@ -131,7 +138,7 @@ mdhData =
   bind_cols(DateUpdated) %>%
   rename(Total.cases = `Total positive cases (cumulative)`,
          Total.tested = `Total approximate completed tests (cumulative)`,
-         Total.tested.people = `Total approximate number of people tested (cumulative)`, 
+         #Total.tested.people = `Total approximate number of people tested (cumulative)`, 
          Total.recovered = `Patients no longer needing isolation (cumulative)`,
          Total.deaths = `Total deaths (cumulative)`,
          Total.vaccine = `Total vaccine doses administered`) %>% 
@@ -184,13 +191,15 @@ testReportDate =
 # Add on 2021-06-02
 # revised on 2021-08-19
 #dataSpecimenDate= mdhDataTable[[12]]  
+# revised on 2021-10-11
+#dataSpecimenDate= mdhDataTable[[11]]
 dataSpecimenDate = 
   tryCatch(mdhDataTable[[12]] %>% 
              rename(DateReport = `Specimen collection date`,
                                          ProbableCase = starts_with("Probable"),
                                          ConfirmedCase = starts_with("Confirmed cases"),
                                          Total.casesBySpecimenDate = `Total positive cases (cumulative)`),
-           error = function (e) mdhDataTable[[9]] %>%   
+           error = function (e) mdhDataTable[[11]] %>%   
              rename(DateReport = `Specimen collection date`,
                            ProbableCase = starts_with("Probable"),
                            ConfirmedCase = starts_with("Confirmed cases"),
@@ -242,7 +251,9 @@ hospitalizationExtract = function(fileLoc){
   return(out)
 }
 
-hospitalizationData = hospitalizationExtract("TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv") %>% 
+hospitalizationData = hospitalizationExtract("TELETRACKING_ICU_NonICU_Beds_in_Use_CSV_tcm1148-455097.csv") %>%
+  # fix NA values on 2021-05-01
+  drop_na(Value_NUMBER) %>% 
   mutate(DateReport = Data.Date..MM.DD.YYYY. %>% ymd(),
          ## Add on 2020-10-26 to fix excel date entry value
          ## Revise on 2020-10-31 to fix excel date entry value
