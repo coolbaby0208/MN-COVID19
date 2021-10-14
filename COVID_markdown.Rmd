@@ -19,7 +19,7 @@ library(knitr)
 library(kableExtra)
 library(lubridate)
 
-#setwd("~/Box-Box/GitHub/COVID")
+setwd("~/Library/CloudStorage/Box-Box/GitHub/COVID")
 ## call other scripts
 source('mdhCovidWebScrape.R')
 source('COVID.R')
@@ -38,7 +38,7 @@ dataLongAvgPeople = dataLongAvg %>%
 ## MN COVID-19 Summary (`r format(Sys.Date(), '%Y-%m-%d')`)
 * Testing
   + Total completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
-  + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
+  <!-- + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`) -->
   + Total positive cases: **`r (dataWidePlain$Total.cases) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$New.cases) %>% formatC(format="d", big.mark=",")`)
   + Daily/7-day positive percentage: **`r (round(dataLongAvgPlain$Value, 4)*100)`/`r (round(dataLongAvgPlain$movAvgValue, 4)*100)`**
   <!-- + Daily/7-day positive percentage (people): **`r (round(dataLongAvgPeople$Value, 4)*100)`/`r (round(dataLongAvgPeople$movAvgValue, 4)*100)`** -->
@@ -96,15 +96,25 @@ p6
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
 
-```{r table2, echo=FALSE, warning= FALSE}
-## table 2
+```{r table2, echo=FALSE, warning= FALSE, include = FALSE}
+## table 2 (added on 2021-10-14)
+ breakThrough %>%
+   kable(digits = 2, booktabs = T, caption = "Vaccine Breakthrough Weekly Update", align = "l",linesep = "") %>%
+   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 14) %>% 
+   footnote(general = totalVacPeople$X2, general_title = paste0(totalVacPeople$X1 %>% str_replace("\\*",":")),
+                                                                 footnote_as_chunk = T) 
+```
+
+
+```{r table3, echo=FALSE, warning= FALSE}
+## table 3
  dataWide %>%
    filter(Date %in% tail(Date, 5)) %>%
    mutate(Date = format(Date, format = "%b %d")) %>% 
-   select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people) %>% 
-   rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New people tested` = Daily.tests.people) %>%
-   select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`) %>% 
-   mutate_at(vars(Hospitalized:`New people tested`), list(~formatC(., format="d", big.mark=","))) %>%
+   select(-starts_with("Total"), -ends_with("Percent"), Daily.tests, Daily.tests.people, New.vaccine.people.onedose) %>% 
+   rename(`Hospitalized` = Currently.hospitalized, `New case` = New.cases, `Tests` = Daily.tests, `New vaccince people one dose` = New.vaccine.people.onedose) %>%
+   select(Date, Hospitalized, ICU, `New case`, Tests, `New vaccince people one dose`) %>% 
+   mutate_at(vars(Hospitalized:`New vaccince people one dose`), list(~formatC(., format="d", big.mark=","))) %>%
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 5 days", align = "c",linesep = "") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 7) %>%
    footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 

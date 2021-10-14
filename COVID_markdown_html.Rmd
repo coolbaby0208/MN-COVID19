@@ -31,7 +31,7 @@ dateBreak = "1 week"
 ## `r format(Sys.Date(), '%Y-%m-%d')`
 * Testing
   + Total completed tests: **`r (dataWidePlain$Total.tested) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests) %>% formatC(format="d", big.mark=",")`)
-  + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`)
+  <!-- + Total people tested: **`r (dataWidePlain$Total.tested.people) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$Daily.tests.people) %>% formatC(format="d", big.mark=",")`) -->
   + Total positive cases: **`r (dataWidePlain$Total.cases) %>% formatC(format="d", big.mark=",")`** (up `r (dataWidePlain$New.cases) %>% formatC(format="d", big.mark=",")`)
   + Daily/7-day positive percentage: **`r (round(dataLongAvgPlain$Value, 4)*100)`/`r (round(dataLongAvgPlain$movAvgValue, 4)*100)`**
   <!-- + Daily/7-day positive percentage (people): **`r (round(dataLongAvgPeople$Value, 4)*100)`/`r (round(dataLongAvgPeople$movAvgValue, 4)*100)`** -->
@@ -106,8 +106,19 @@ p7
    row_spec(5, color = "white", background = "#FF33CC") 
 ```
 
+
 ```{r table2, echo=FALSE, warning= FALSE}
-## table 2
+## table 2 (added on 2021-10-14)
+ breakThrough %>%
+   kable(digits = 2, booktabs = T, caption = "COVID-19 Vaccine Breakthrough Weekly Update", align = "c",linesep = "") %>%
+   kable_styling(latex_options = c("hold_position","scale_down"), font_size = 14) %>% 
+   footnote(general = totalVacPeople$X2, general_title = paste0(totalVacPeople$X1 %>% str_replace("\\*",": ")),
+                                                                 footnote_as_chunk = T) 
+```
+
+
+```{r table3, echo=FALSE, warning= FALSE}
+## table 3
  dataWide %>%
    filter(Date %in% tail(Date, 7)) %>%
    mutate(Date = format(Date, format = "%b %d")) %>% 
@@ -116,11 +127,14 @@ p7
           `New people tested` = Daily.tests.people, 
           `New vaccince people completed` = New.vaccine.people.completed,
           `New vaccince people one dose` = New.vaccine.people.onedose) %>%
-   select(Date, Hospitalized, ICU, `New case`, Tests, `New people tested`, `New vaccince people completed`, `New vaccince people one dose`) %>% 
+   select(Date, Hospitalized, ICU, `New case`, Tests, `New vaccince people completed`, `New vaccince people one dose`) %>% 
    mutate_at(vars(Hospitalized:`New vaccince people one dose`), list(~formatC(., format="d", big.mark=","))) %>%
    kable(digits = 2, booktabs = T, caption = "Current numbers for last 7 days", align = "c",linesep = "") %>%
    kable_styling(latex_options = c("hold_position","scale_down"), font_size = 14) %>%
    footnote(general = "https://github.com/coolbaby0208/MN-COVID19",general_title = "Source code: ",footnote_as_chunk = T) %>% 
    row_spec(7, color = "white", background = "#36688D")
 ```
+
+
+
 
