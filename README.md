@@ -41,10 +41,15 @@ Note:
   
   - If you are interested in COVID-19 data by county, take a look in [CountyDataFromNYTimes](../master/CountyDataFromNYTimes). 
 
+
+Minor change: 2021-10-14
+====
+Made some updates to html version. Added a table for weekly vaccine breakthrough cases
+html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
+
 Minor change: 2021-10-06
 ====
 Made some updates to html version. Added plots with data for most recent 60 days to better visualize the recent trend.
-html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
 
 Minor change: 2021-08-13
 ====
