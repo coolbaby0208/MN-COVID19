@@ -44,7 +44,7 @@ Note:
 
 Minor change: 2021-10-14
 ====
-Made some updates to html version. Added a table for weekly vaccine breakthrough cases
+Made some updates to html version. Added a table for weekly vaccine breakthrough cases.
 html version: https://htmlpreview.github.io/?https://github.com/coolbaby0208/MN-COVID19/blob/master/COVID_markdown_html.html
 
 Minor change: 2021-10-06
