@@ -146,8 +146,14 @@ vacPpl = vacPplDataSum %>%
 # totalRecovered = mdhDataTable[[13]]
 # totalDeath = mdhDataTable[[14]]
 
+# revise 2021-10-29
+# totalTests = mdhDataTable[[8]]
+# totalPeopleTested = NA
+# totalRecovered = mdhDataTable[[12]]
+# totalDeath = mdhDataTable[[13]]
+
 mdhData =   
-  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[13]], mdhDataTable[[14]], vacData, vacPpl), 
+  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[12]], mdhDataTable[[13]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
@@ -234,10 +240,11 @@ dataSpecimenDate =
 ## Get hospital admitted data: completely changed on Sep24
 ## Edit on 2021-03-06 DateReport is now with "year" added
 # Add on 2021-06-02
-if(ncol(mdhDataTable[[18]])==5) {
-  hospitalData = mdhDataTable[[18]]
+# modified on 2021-10-29
+if(ncol(mdhDataTable[[17]])==5) {
+  hospitalData = mdhDataTable[[17]]
   } else {
-  hospitalData = mdhDataTable[[19]]
+  hospitalData = mdhDataTable[[18]]
 }
 # Add on 2021-05-10
 #hospitalData = mdhDataTable[[16]] 
