@@ -152,17 +152,23 @@ vacPpl = vacPplDataSum %>%
 # totalRecovered = mdhDataTable[[12]]
 # totalDeath = mdhDataTable[[13]]
 
+# revise 2021-11-01
+# totalTests = mdhDataTable[[10]]
+# totalPeopleTested = NA
+# totalRecovered = mdhDataTable[[18]]
+# totalDeath = mdhDataTable[[19]]
+
 mdhData =   
-  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[8]], mdhDataTable[[12]], mdhDataTable[[13]], vacData, vacPpl), 
+  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[10]], mdhDataTable[[18]], mdhDataTable[[19]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
   pivot_wider(names_from = Variable, values_from = Value) %>% 
   bind_cols(DateUpdated) %>%
-  rename(Total.cases = `Total positive cases (cumulative)`,
+  rename(Total.cases = `Total positive cases, including reinfections (cumulative)`,
          Total.tested = `Total approximate completed tests (cumulative)`,
          #Total.tested.people = `Total approximate number of people tested (cumulative)`, 
-         Total.recovered = `Patients no longer needing isolation (cumulative)`,
+         Total.recovered = `Cases no longer needing isolation (cumulative)`,
          Total.deaths = `Total deaths (cumulative)`,
          Total.vaccine = `Total vaccine doses administered`) %>% 
   select(Date,starts_with("Total.")) %>% 
@@ -186,8 +192,12 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 
 # revised on 2021-08-19
 #testReportDate = mdhDataTable[[9]]  
+
+# revised on 2021-11-01
+#testReportDate = mdhDataTable[[11]]  
+
 testReportDate = 
-  tryCatch(mdhDataTable[[9]] %>% rename(DateReport = `Date reported to MDH`,
+  tryCatch(mdhDataTable[[11]] %>% rename(DateReport = `Date reported to MDH`,
                                         MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
                                         ExternalPcr = `Completed PCR tests reported from external laboratories`,
                                         TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
@@ -216,8 +226,11 @@ testReportDate =
 #dataSpecimenDate= mdhDataTable[[12]]  
 # revised on 2021-10-11
 #dataSpecimenDate= mdhDataTable[[11]]
+# revised on 2021-11-01
+#dataSpecimenDate= mdhDataTable[[14]]
+
 dataSpecimenDate = 
-  tryCatch(mdhDataTable[[12]] %>% 
+  tryCatch(mdhDataTable[[14]] %>% 
              rename(DateReport = `Specimen collection date`,
                                          ProbableCase = starts_with("Probable"),
                                          ConfirmedCase = starts_with("Confirmed cases"),
@@ -241,8 +254,9 @@ dataSpecimenDate =
 ## Edit on 2021-03-06 DateReport is now with "year" added
 # Add on 2021-06-02
 # modified on 2021-10-29
-if(ncol(mdhDataTable[[17]])==5) {
-  hospitalData = mdhDataTable[[17]]
+# modified on 2021-11-01
+if(ncol(mdhDataTable[[25]])==5) {
+  hospitalData = mdhDataTable[[25]]
   } else {
   hospitalData = mdhDataTable[[18]]
 }
