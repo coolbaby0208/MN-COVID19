@@ -164,8 +164,14 @@ vacPpl = vacPplDataSum %>%
 # totalRecovered = mdhDataTable[[15]]
 # totalDeath = mdhDataTable[[16]]
 
+# revise 2021-11-16
+# totalTests = mdhDataTable[[10]]
+# totalPeopleTested = NA
+# totalRecovered = mdhDataTable[[18]]
+# totalDeath = mdhDataTable[[19]]
+
 mdhData =   
-  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[7]], mdhDataTable[[15]], mdhDataTable[[16]], vacData, vacPpl), 
+  tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[10]], mdhDataTable[[18]], mdhDataTable[[19]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
   rename(Variable = X1, Value = X2) %>%
   mutate(Value = Value %>% str_remove_all("[[:punct:]]") %>% as.numeric()) %>% 
@@ -205,8 +211,11 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 # revised on 2021-11-15
 #testReportDate = mdhDataTable[[8]]  
 
+# revised on 2021-11-16
+#testReportDate = mdhDataTable[[11]]  
+
 testReportDate = 
-  tryCatch(mdhDataTable[[8]] %>% rename(DateReport = `Date reported to MDH`,
+  tryCatch(mdhDataTable[[11]] %>% rename(DateReport = `Date reported to MDH`,
                                         MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
                                         ExternalPcr = `Completed PCR tests reported from external laboratories`,
                                         TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
@@ -265,8 +274,8 @@ dataSpecimenDate =
 # modified on 2021-10-29
 # modified on 2021-11-01
 # modified on 2021-11-15
-if(ncol(mdhDataTable[[22]])==5) {
-  hospitalData = mdhDataTable[[22]]
+if(ncol(mdhDataTable[[25]])==5) {
+  hospitalData = mdhDataTable[[25]]
   } else {
   hospitalData = mdhDataTable[[18]]
 }
