@@ -164,16 +164,16 @@ p2 = ggplot()+
   # geom_text_repel(data=dataLongDailyTests %>% filter(Variable %in% c("PositivePercentPlot","DeathPercentPlot","Daily.tests")) %>% filter(Date == last(Date)) %>%
   #                   mutate(Value = ifelse(Variable == "Daily.tests", Value, Value*100),
   #                          Variable = factor(Variable, levels = c("PositivePercentPlot","DeathPercentPlot","Daily.tests"))), aes(x= Date, y = Value, label = round(Value,2), color = Variable), segment.color = NA, direction = "y", box.padding = .05, nudge_x = 5, vjust = c(0,-5,-1), size = 3.5, fontface = "bold",show.legend = FALSE)+
-  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,2,3)]), label = c("Positive rate","Fatality rate","Daily tests"))+
+  scale_color_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average"), values = (RColorBrewer::brewer.pal(3, "Dark2")[c(1,2,3)]), label = c("Positive rate","Case fatality rate","Daily tests"))+
   #geom_text(aes(x = "2020-03-15" %>% as.Date, y = 15), label = "Positivity\nthreshold", vjust = -.5, color = "red", size = 3, lineheight = .8, fontface = "bold", check_overlap = TRUE)+
   annotate("label", x = "2020-03-15" %>% as.Date, y = 12, label = "High\nrisk", lineheight = .8, size = 3, label.padding = unit(0.2, "lines"), label.size = .02, color = "red", fontface = "bold")+
   annotate("rect", xmin = as.Date(today(),format='%d-%B-%Y')-7, xmax = today(), ymin = 0, ymax = Inf, alpha = .2)+
   labs(x = "", y = "Percentage (%)", title = "Daily positive rate & case fatality rate", fill = "Positive rate")+
   guides(color = guide_legend(), size = guide_legend(), fill = guide_legend())+
   scale_x_date(date_breaks = dateBreak, date_labels = "%b %Y")+
-  scale_fill_manual(name = "", label = c("Positive rate","Fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[c(1,2)]))+
+  scale_fill_manual(name = "", label = c("Positive rate","Case fatality rate \n(total death/total case)"), values = (RColorBrewer::brewer.pal(3, "Set2")[c(1,2)]))+
   #scale_linetype_manual(name = moveAvg %>% as.character() %>% paste0("-day moving average weighted by daily tests"), values = c(1,1), labels = "")+
-  scale_size_manual(values =c(1.8,1.8,1), name = moveAvg %>% as.character() %>% paste0("-day moving average"),label = c("Positive rate","Fatality rate","Daily tests"))+
+  scale_size_manual(values =c(1.8,1.8,1), name = moveAvg %>% as.character() %>% paste0("-day moving average"),label = c("Positive rate","Case fatality rate","Daily tests"))+
   scale_y_continuous(sec.axis = sec_axis(~ ./0.0005, name = "Daily tests", breaks = c(20000,40000,60000),labels = scales::label_number_si()))+
   coord_cartesian(ylim = c(0,35))+
   theme_minimal()+
@@ -411,9 +411,9 @@ p6 = ggplot(vacWkDose)+
 plot(p6)  
 
 p7 = ggplot(vacPplDataSum %>% filter(Age!="Missing"))+
-  aes(x = Age, y = People, fill = Variable, label = People)+
+  aes(x = factor(Age, levels = c("5-11","12-15","16-17","18-49","50-64","65+","Total")), y = People, fill = Variable, label = People)+
   geom_bar(position = "dodge", stat = "identity", width = .65, size = .3)+
-  labs(fill = "", 
+  labs(fill = "", x = "Age",
        y = "People", 
        title = paste("People vaccinated: reported by", format(first((vacPplData$DateReport)), "%b %d")))+
   scale_y_continuous(labels = scales::label_number_si(accuracy = 0.1))+
