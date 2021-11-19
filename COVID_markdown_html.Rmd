@@ -77,7 +77,7 @@ p5+coord_cartesian(xlim = c(Sys.Date()-zoomRange, Sys.Date()))+
   labs(subtitle = paste("Range:", zoomRange, "days"))
 ```
 
-```{r plot4, echo=FALSE, warning = FALSE, message=FALSE}
+```{r plot4, include=FALSE, warning = FALSE, message=FALSE}
 ## plots from COVID.R
 p4
 ```
