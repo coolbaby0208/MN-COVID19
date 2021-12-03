@@ -170,6 +170,12 @@ vacPpl = vacPplDataSum %>%
 # totalRecovered = mdhDataTable[[18]]
 # totalDeath = mdhDataTable[[19]]
 
+# revise 2021-11-30
+# totalTests = mdhDataTable[[7]]
+# totalPeopleTested = NA
+# totalRecovered = mdhDataTable[[15]]
+# totalDeath = mdhDataTable[[16]]
+
 mdhData =   
   tryCatch(rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[10]], mdhDataTable[[18]], mdhDataTable[[19]], vacData, vacPpl), 
            error = function(e) rbind(mdhDataTable[[1]], mdhDataTable[[2]], mdhDataTable[[5]], mdhDataTable[[7]], mdhDataTable[[11]], mdhDataTable[[12]], vacData, vacPpl)) %>%   
@@ -214,16 +220,19 @@ read.csv("MNCovidData.csv", na.strings = c("", "NA")) %>%
 # revised on 2021-11-16
 #testReportDate = mdhDataTable[[11]]  
 
+# revised on 2021-11-30
+#testReportDate = mdhDataTable[[8]]  
+
 testReportDate = 
-  tryCatch(mdhDataTable[[11]] %>% rename(DateReport = `Date reported to MDH`,
-                                        MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
-                                        ExternalPcr = `Completed PCR tests reported from external laboratories`,
+  tryCatch(mdhDataTable[[11]] %>% rename(DateReport = `Specimen collection date`,
+                                        MDHTestsByReportDate = `Completed PCR tests from the MDH Public Health Lab`,
+                                        ExternalPcr = `Completed PCR tests from external laboratories`,
                                         TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
-                                        ExternalAntigen = `Completed antigen tests reported from external laboratories`,
+                                        ExternalAntigen = `Completed antigen tests from external laboratories`,
                                         TotalAntigen = `Total approximate number of completed antigen tests (cumulative)`,
                                         TotalTestsByReportDate = `Total approximate number of completed tests (cumulative)`),
-           error = function (e) mdhDataTable[[6]] %>%   
-             rename(DateReport = `Date reported to MDH`,
+           error = function (e) mdhDataTable[[11]] %>%   
+             rename(DateReport = `Specimen collection date`,
                     MDHTestsByReportDate = `Completed PCR tests reported from the MDH Public Health Lab`,
                     ExternalPcr = `Completed PCR tests reported from external laboratories`,
                     TotalPcr = `Total approximate number of completed PCR tests (cumulative)`,
@@ -246,6 +255,8 @@ testReportDate =
 #dataSpecimenDate= mdhDataTable[[11]]
 # revised on 2021-11-01
 #dataSpecimenDate= mdhDataTable[[14]]
+# revised on 2021-11-30
+#dataSpecimenDate= mdhDataTable[[11]]
 
 dataSpecimenDate = 
   tryCatch(mdhDataTable[[14]] %>% 
@@ -277,7 +288,8 @@ dataSpecimenDate =
 if(ncol(mdhDataTable[[25]])==5) {
   hospitalData = mdhDataTable[[25]]
   } else {
-  hospitalData = mdhDataTable[[18]]
+    #modified on 2021-11-30
+  hospitalData = mdhDataTable[[22]]
 }
 # Add on 2021-05-10
 #hospitalData = mdhDataTable[[16]] 
